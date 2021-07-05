@@ -1,0 +1,27 @@
+.Frontend .Media .nav-link {
+    border-radius: 15px 15px 0 0;
+    padding: 30px 42px;
+    color: var(--border);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 0.25s;
+}
+
+.Frontend .Media .icon {
+    opacity: 0;
+    margin-right: 0;
+    width: 0;
+    transition: all 0.25s;
+}
+
+.Frontend .Media .nav-link.active {
+    background-color: var(--blue);
+    color: white;
+}
+
+.Frontend .Media .nav-link.active .icon {
+    opacity: 1;
+    margin-right: 2rem;
+    width: auto;
+}

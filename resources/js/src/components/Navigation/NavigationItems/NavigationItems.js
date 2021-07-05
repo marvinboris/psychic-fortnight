@@ -14,6 +14,7 @@ const navigationItems = ({ isAuth, name, logoutHandler, role, cartItemsNumber, n
                         <NavigationItem toggleNavbar={toggleNavbar} font={font} href="/about-us">La DGSN</NavigationItem>
                         <NavigationItem toggleNavbar={toggleNavbar} font={font} href="/services">Nos services</NavigationItem>
                         <NavigationItem toggleNavbar={toggleNavbar} font={font} href="/exams">Concours</NavigationItem>
+                        <NavigationItem toggleNavbar={toggleNavbar} font={font} href="/media">Médias</NavigationItem>
                         <NavigationItem toggleNavbar={toggleNavbar} font={font} href="/downloads">Téléchargements</NavigationItem>
                         <NavigationItem toggleNavbar={toggleNavbar} font={font} href="/contact">Contact</NavigationItem>
                     </Nav>

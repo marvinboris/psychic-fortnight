@@ -141,6 +141,9 @@ const asyncAdminVerify = asyncComponent(() => import('./containers/Auth/Admin/Ve
 
 
 // Frontend routes
+const asyncMedia = asyncComponent(() => import('./containers/Frontend/Media'));
+const asyncDownloads = asyncComponent(() => import('./containers/Frontend/Downloads'));
+const asyncServices = asyncComponent(() => import('./containers/Frontend/Services'));
 const asyncHome = asyncComponent(() => import('./containers/Frontend/Home'));
 
 class App extends Component {
@@ -180,6 +183,9 @@ class App extends Component {
                 <Route path="/">
                     <Frontend>
                         <Switch>
+                            <Route path="/media" component={asyncMedia} />
+                            <Route path="/downloads" component={asyncDownloads} />
+                            <Route path="/services" component={asyncServices} />
                             <Route path="/" component={asyncHome} />
                         </Switch>
                     </Frontend>

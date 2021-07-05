@@ -6,31 +6,20 @@ import OwlCarousel from 'react-owl-carousel2';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleRight, faArrowAltCircleRight, faIdCard, faPassport } from '@fortawesome/free-solid-svg-icons';
 
+import Block from '../../../components/UI/Police/Block';
 import Service from '../../../components/UI/Police/Service';
 import Formula from '../../../components/UI/Police/Formula';
 import Post from '../../../components/UI/Police/Post';
 
-import './Home.css';
-
-import Img1 from '../../../assets/images/furniture-store-2x1.jpg';
-
-import Post1 from '../../../assets/images/furniture-store-2x1.jpg';
-import Post2 from '../../../assets/images/IMG950335-e1525286099916.jpg';
-import Post3 from '../../../assets/images/hg-furniturestore.jpg';
-
 import { convertDate } from '../../../shared/utility';
 
-const Block = ({ style, children, full, title, color = 'white', subtitle }) => <div className={full ? "" : ("py-5 bg-" + color)} style={style}>
-    {full ? children : <div className="container text-dark">
-        <div className="text-center mb-4">
-            <div className="h2 text-blue">{title}</div>
+import './Home.css';
 
-            <div className="text-secondary">{subtitle}</div>
-        </div>
+import Img1 from '../../../assets/images/Policiers_à_vélo_au_défilé_à_Douala.png';
 
-        {children}
-    </div>}
-</div>;
+import Post1 from '../../../assets/images/Soustraction 8@2x.png';
+import Post2 from '../../../assets/images/Soustraction 9@2x.png';
+import Post3 from '../../../assets/images/Soustraction 11@2x.png';
 
 class Home extends Component {
     render() {
@@ -70,49 +59,49 @@ class Home extends Component {
         ];
         const formulae = [
             {
-                title: 'Modern furnishing projects',
+                title: "Copie Carte Nationale D’Identité",
                 description: `Simplifiez-vous la tache en consultant 
                 les formulaires administratifs dont Vous
                 avez besoin. `,
             },
             {
-                title: "Furnishing and complements",
+                title: "Certificat De Perte",
                 description: `Simplifiez-vous la tache en consultant 
                 les formulaires administratifs dont Vous
                 avez besoin. `,
             },
             {
-                title: 'Which is the best for your home',
+                title: "Certificat D’Individualité",
                 description: `Simplifiez-vous la tache en consultant 
                 les formulaires administratifs dont Vous
                 avez besoin. `,
             },
             {
-                title: 'Keeping things minimal',
+                title: "Procuration",
                 description: `Simplifiez-vous la tache en consultant 
                 les formulaires administratifs dont Vous
                 avez besoin. `,
             },
             {
-                title: 'Modern furnishing projects',
+                title: "Fiche De Renseignement",
                 description: `Simplifiez-vous la tache en consultant 
                 les formulaires administratifs dont Vous
                 avez besoin. `,
             },
             {
-                title: "Furnishing and complements",
+                title: "Certificat De Toise",
                 description: `Simplifiez-vous la tache en consultant 
                 les formulaires administratifs dont Vous
                 avez besoin. `,
             },
             {
-                title: 'Which is the best for your home',
+                title: "Certificat De Vente",
                 description: `Simplifiez-vous la tache en consultant 
                 les formulaires administratifs dont Vous
                 avez besoin. `,
             },
             {
-                title: 'Keeping things minimal',
+                title: 'Autorisation Parentale',
                 description: `Simplifiez-vous la tache en consultant 
                 les formulaires administratifs dont Vous
                 avez besoin. `,

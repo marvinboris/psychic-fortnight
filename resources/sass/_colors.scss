@@ -20,11 +20,11 @@ $white: #ffffff;
 $gray: #aaa;
 $black: #000000;
 $light: #cacaca;
-$soft: #eff0f4;
+$soft: #EFEFEF;
 $darklight: #1b223f;
 $darkhead: #292929;
 $darkfoot: #484848;
-$border: #606060;
+$border: #707070;
 $input: #28324c;
 $transparent: transparent;
 
@@ -148,6 +148,7 @@ $colors: "green" $mygreen $white, "grayblue" $grayblue $white, "lightgreen" $myl
   }
 
   .scrollbar-#{$name} {
+    overflow: auto;
     scrollbar-color: $color;
     scrollbar-width: 3px;
 
