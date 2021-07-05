@@ -6,10 +6,15 @@
 
 .UI.Post .embed-responsive {
     background-position: center;
-    background-size: cover;
+    background-size: auto 100%;
     background-repeat: no-repeat;
+    transition: all 0.25s;
 }
 
 .UI.Post > div:hover {
     background-color: white;
+}
+
+.UI.Post > div:hover .embed-responsive {
+    background-size: auto calc(100% + 6px);
 }

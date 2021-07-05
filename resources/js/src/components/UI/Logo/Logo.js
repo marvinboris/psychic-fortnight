@@ -15,7 +15,7 @@ class Logo extends Component {
         } = this.props;
 
         return <div className="Logo mb-0 text-white" >
-            <img src={big ? '/images/logo-big.png' : dark ? logo : logo} className="mw-100" style={{ height: big ? 150 : sm ? 25 : 40, objectFit: 'contain' }} />
+            <img src={big ? '/images/logo-big.png' : dark ? logo : logo} className="mw-100" style={{ height: big ? 40 : sm ? 25 : 40, objectFit: 'contain' }} />
         </div>;
     }
 }

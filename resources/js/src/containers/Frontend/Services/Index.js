@@ -22,6 +22,69 @@ class Services extends Component {
     render() {
         const { activeTab } = this.state;
 
+        const content = <div className="rounded-15 row bg-white mt-5">
+            <div className="col-lg-9 p-5 position-relative">
+                <div className="position-absolute bg-border d-none d-lg-block" style={{ height: '100%', width: .5, top: 0, right: 0, transform: 'translateX(50%)' }} />
+                <div className="position-absolute bg-blue d-none d-lg-block rounded-5" style={{ height: 104, width: 10, top: '50%', right: 0, transform: 'translate(50%,-50%)' }} />
+
+                <div className="text-35 text-700 text-blue position-relative pb-3 mb-4">
+                    Recherchez CNI
+
+                    <div className="position-absolute bg-lightblue" style={{ left: 0, bottom: 0, height: 4, width: 48 }} />
+                </div>
+
+                <div className="text-secondary text-18 mb-5">
+                    Afin de vous apporter le meilleur service, nous vous invitons à très souvent consulter cette section
+                    Pour vous renseigner d’avantage sur la disponibilité de votre CNI. Veuillez renseigner les champs
+                    suivant pour commencer.
+                </div>
+
+                <Form className="text-15 text-300 text-secondary row">
+                    <FormGroup className="col-xl-4 col-lg-5 col-md-6">
+                        <Label for="date">Date D’emission</Label>
+
+                        <Input type="date" name="date" />
+                    </FormGroup>
+
+                    <FormGroup className="col-xl-4 col-lg-5 col-md-6">
+                        <Label for="ref">Numéro du Récépissé</Label>
+
+                        <Input type="text" name="ref" />
+                    </FormGroup>
+
+                    <div className="pt-4 col-12">
+                        <Button color="blue" className="text-500" size="lg">Vérifier<FontAwesomeIcon icon={faCheckCircle} className="ml-4" /></Button>
+                    </div>
+                </Form>
+            </div>
+
+            <div className="col-lg-3 p-4 p-xxl-5">
+                <div className="p-4 p-xxl-5">
+                    <div className="mb-4">
+                        <div className="embed-responsive embed-responsive-1by1 position-relative bg-lightblue-15 rounded-15 overflow-hidden">
+                            <div className="position-absolute w-100 h-100 d-flex justify-content-center align-items-center flex-column text-center" style={{ top: 0, left: 0 }}>
+                                <div className="text-blue text-700 text-25 mb-3">Jour 5</div>
+
+                                <div className="my-2">
+                                    <FontAwesomeIcon icon={faSpinner} spin className="text-55 text-blue" />
+                                </div>
+
+                                <div className="mt-3 text-montserrat">CNI en cours de Production</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="text-700 text-25 text-blue text-truncate">YUN*****JI***BRI**N</div>
+
+                    <div className="text-500 text-secondary">
+                        CE754*********Q6MZ0<br />
+                        Delivré le: 12/02/2022<br />
+                        EXP: 12/02/2022
+                    </div>
+                </div>
+            </div>
+        </div>;
+
         const services = [
             {
                 name: 'Solliciter un passeport',
@@ -60,27 +123,32 @@ class Services extends Component {
             {
                 id: '1',
                 icon: faIdCard,
-                name: "Cartes Nationales D’Identité"
+                name: "Cartes Nationales D’Identité",
+                content
             },
             {
                 id: '2',
                 icon: faPassport,
-                name: "Passeports"
+                name: "Passeports",
+                content
             },
             {
                 id: '3',
                 icon: faIdCard,
-                name: "Cartes de séjour"
+                name: "Cartes de séjour",
+                content
             },
             {
                 id: '4',
                 icon: faIdCard,
-                name: "Cartes de Résident"
+                name: "Cartes de Résident",
+                content
             },
             {
                 id: '5',
                 icon: faIdCard,
-                name: "Cartes de Refugié"
+                name: "Cartes de Refugié",
+                content
             },
         ];
         const infos = [
@@ -102,12 +170,14 @@ class Services extends Component {
         ];
 
         const servicesContent = services.map(service => <Service key={JSON.stringify(service)} {...service} />);
-        const navItemsContent = navItems.map(navItem => <NavItem key={JSON.stringify(navItem)}>
+        const infosContent = infos.map(info => <Info key={JSON.stringify(info)} {...info} />);
+
+        const navItemsContent = navItems.map(navItem => <NavItem key={navItem.id}>
             <NavLink className={activeTab === navItem.id ? "active" : ""} onClick={() => { this.toggle(navItem.id); }}>
                 <FontAwesomeIcon icon={navItem.icon} className="icon text-28" /><span className="text-truncate">{navItem.name}</span>
             </NavLink>
         </NavItem>);
-        const infosContent = infos.map(info => <Info key={JSON.stringify(info)} {...info} />);
+        const tabPanesContent = navItems.map(navItem => <TabPane tabId={navItem.id} key={navItem.id + Math.random()}>{navItem.content}</TabPane>)
 
         return <div className="Services">
             <div className="bg-blue py-5" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5))' }}>
@@ -147,78 +217,7 @@ class Services extends Component {
                     </div>
 
                     <TabContent activeTab={activeTab}>
-                        <TabPane tabId="1">
-                            <div className="rounded-15 row bg-white mt-5">
-                                <div className="col-lg-9 p-5 position-relative">
-                                    <div className="position-absolute bg-border d-none d-lg-block" style={{ height: '100%', width: .5, top: 0, right: 0, transform: 'translateX(50%)' }} />
-                                    <div className="position-absolute bg-blue d-none d-lg-block rounded-5" style={{ height: 104, width: 10, top: '50%', right: 0, transform: 'translate(50%,-50%)' }} />
-
-                                    <div className="text-35 text-700 text-blue position-relative pb-3 mb-4">
-                                        Recherchez CNI
-
-                                        <div className="position-absolute bg-lightblue" style={{ left: 0, bottom: 0, height: 4, width: 48 }} />
-                                    </div>
-
-                                    <div className="text-secondary text-18 mb-5">
-                                        Afin de vous apporter le meilleur service, nous vous invitons à très souvent consulter cette section
-                                        Pour vous renseigner d’avantage sur la disponibilité de votre CNI. Veuillez renseigner les champs
-                                        suivant pour commencer.
-                                    </div>
-
-                                    <Form className="text-15 text-300 text-secondary row">
-                                        <FormGroup className="col-xl-4 col-lg-5 col-md-6">
-                                            <Label for="date">Date D’emission</Label>
-
-                                            <Input type="date" name="date" />
-                                        </FormGroup>
-
-                                        <FormGroup className="col-xl-4 col-lg-5 col-md-6">
-                                            <Label for="ref">Numéro du Récépissé</Label>
-
-                                            <Input type="text" name="ref" />
-                                        </FormGroup>
-
-                                        <div className="pt-4 col-12">
-                                            <Button color="blue" className="text-500" size="lg">Vérifier<FontAwesomeIcon icon={faCheckCircle} className="ml-4" /></Button>
-                                        </div>
-                                    </Form>
-                                </div>
-
-                                <div className="col-lg-3 p-4 p-xxl-5">
-                                    <div className="p-4 p-xxl-5">
-                                        <div className="mb-4">
-                                            <div className="embed-responsive embed-responsive-1by1 position-relative bg-lightblue-15 rounded-15 overflow-hidden">
-                                                <div className="position-absolute w-100 h-100 d-flex justify-content-center align-items-center flex-column text-center" style={{ top: 0, left: 0 }}>
-                                                    <div className="text-blue text-700 text-25 mb-3">Jour 5</div>
-
-                                                    <div className="my-2">
-                                                        <FontAwesomeIcon icon={faSpinner} spin className="text-55 text-blue" />
-                                                    </div>
-
-                                                    <div className="mt-3 text-montserrat">CNI en cours de Production</div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div className="text-700 text-25 text-blue text-truncate">YUN*****JI***BRI**N</div>
-
-                                        <div className="text-500 text-secondary">
-                                            CE754*********Q6MZ0<br />
-                                            Delivré le: 12/02/2022<br />
-                                            EXP: 12/02/2022
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </TabPane>
-
-                        <TabPane tabId="2"></TabPane>
-
-                        <TabPane tabId="3"></TabPane>
-
-                        <TabPane tabId="4"></TabPane>
-
-                        <TabPane tabId="5"></TabPane>
+                        {tabPanesContent}
                     </TabContent>
                 </div>
             </Block>

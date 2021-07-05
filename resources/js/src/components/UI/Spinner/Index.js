@@ -42,7 +42,7 @@ export default class Spinner extends Component {
             }
         }
 
-        setInterval(anime_icon, 250);
+        // setInterval(anime_icon, 250);
         // });
     }
 
@@ -56,25 +56,7 @@ export default class Spinner extends Component {
                 <br />
 
                 <span className="ico_container">
-                    <span className="ico_item">
-                        <FontAwesomeIcon className="text-green" icon={faHamburger} />
-                    </span>
 
-                    <span className="ico_item">
-                        <FontAwesomeIcon className="text-green" icon={faEgg} />
-                    </span>
-
-                    <span className="ico_item ico_item_now">
-                        <FontAwesomeIcon className="text-green" icon={faIceCream} />
-                    </span>
-
-                    <span className="ico_item">
-                        <FontAwesomeIcon className="text-green" icon={faPizzaSlice} />
-                    </span>
-
-                    <span className="ico_item">
-                        <FontAwesomeIcon className="text-green" icon={faPiedPiper} />
-                    </span>
                 </span>
             </span>
         </div>;

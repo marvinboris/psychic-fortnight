@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import './Service.css';
 
-export default ({ name, icon, description }) => <div className="UI Service col-xl-3 col-lg-6 col-md-6 pb-4 h-100">
+export default ({ name, icon, description }) => <div className="UI Service col-xl-3 col-lg-6 col-md-6 px-2 px-md-3 pb-4 h-100">
     <div className="block rounded-30 pb-5">
         <div className="h-100 py-4 text-center">
             <div className="mb-5">

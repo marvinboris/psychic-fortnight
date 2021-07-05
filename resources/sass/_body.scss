@@ -28,12 +28,12 @@ body {
 }
 
 .full-height-app {
-  min-height: calc(100vh - 60.5px);
+  min-height: calc(100vh - 100px);
 }
 
 @media screen and (max-width: 992px) {
   .full-height-app {
-    min-height: calc(100vh - 60.5px);
+    min-height: calc(100vh - 100px);
   }
 }
 

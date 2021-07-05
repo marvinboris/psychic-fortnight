@@ -3,7 +3,7 @@
 }
 
 .Toolbar > div {
-    height: 60.5px;
+    height: 100px;
 }
 
 .Toolbar > .fixed-top {
@@ -25,9 +25,8 @@
     box-shadow: 0 2px 4px 0 var(--black-25);
 }
 
-@media screen and (min-width: 992px) {
-    .Toolbar > .fixed-top {
-        top: -50px;
-        opacity: 0;
+@media screen and (max-width: 992px) {
+    .Toolbar > div {
+        height: 66px;
     }
 }

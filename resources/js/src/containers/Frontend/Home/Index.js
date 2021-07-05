@@ -17,6 +17,8 @@ import './Home.css';
 
 import Img1 from '../../../assets/images/Policiers_à_vélo_au_défilé_à_Douala.png';
 
+import ImgFlag from '../../../assets/images/Groupe 529@2x.png';
+
 import Post1 from '../../../assets/images/Soustraction 8@2x.png';
 import Post2 from '../../../assets/images/Soustraction 9@2x.png';
 import Post3 from '../../../assets/images/Soustraction 11@2x.png';
@@ -111,19 +113,19 @@ class Home extends Component {
             {
                 title: 'The 3 Tricks that Quickly Became Rules',
                 created_at: convertDate(new Date('2017-03-08')),
-                body: "You've finally reached this point in your life- you've bought your first home, moved into your very own apartment, moved out of the dorm room or you're finally downsizing after all of your kids have left the nest.",
+                body: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. perspiciatis unde omnis iste ",
                 photo: Post1,
             },
             {
                 title: "Decorating When You're Starting Out or Starting Over",
                 created_at: convertDate(new Date('2017-03-03')),
-                body: "You've finally reached this point in your life- you've bought your first home, moved into your very own apartment, moved out of the dorm room or you're finally downsizing after all of your kids have left the nest.",
+                body: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. perspiciatis unde omnis iste ",
                 photo: Post2,
             },
             {
                 title: 'What does your favorite dining chair say about you?',
                 created_at: convertDate(new Date('2017-03-01')),
-                body: "You've finally reached this point in your life- you've bought your first home, moved into your very own apartment, moved out of the dorm room or you're finally downsizing after all of your kids have left the nest.",
+                body: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. perspiciatis unde omnis iste ",
                 photo: Post3,
             },
         ];
@@ -133,11 +135,15 @@ class Home extends Component {
         const blogContent = posts.map(post => <Post key={JSON.stringify(post)} {...post} />);
 
         return <div className="Home">
-            <div className="full-height-app d-flex flex-column text-white" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("' + Img1 + '")', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            <div className="banner d-flex flex-column text-white" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("' + Img1 + '")', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="container flex-fill d-flex flex-column">
                     <div className="row flex-fill align-items-center">
-                        <div className="col-xxl-8 col-xl-9 col-lg-10">
-                            <div className="p-4 p-md-5 bg-black-50 rounded rounded-30">
+                        <div className="col-xxl-7 col-xl-9 col-lg-10">
+                            <div className="px-4 py-5 px-md-5 rounded rounded-30 txt-block position-relative">
+                                <div className="position-absolute d-lg-none" style={{ top: 48, left: 0 }}>
+                                    <img src={ImgFlag} alt="Drapeau" style={{ height: 80 }} />
+                                </div>
+
                                 <div className="p-md-4">
                                     <div className="text-11 d-md-none text-300">DÉLÉGATION GÉNÉRALE À LA SÛRETÉ NATIONALE</div>
                                     <div className="text-20 d-none d-md-block text-300">DÉLÉGATION GÉNÉRALE À LA SÛRETÉ NATIONALE</div>
@@ -158,13 +164,13 @@ class Home extends Component {
 
                                     <div className="d-flex">
                                         <div className="mr-2 mr-md-3">
-                                            <Input type="search" name="search" className="d-md-none" size="sm" />
-                                            <Input type="search" name="search" className="d-none d-md-block" />
+                                            <Input type="search" name="search" placeholder="Rechercher tout ici..." className="d-md-none" size="sm" />
+                                            <Input type="search" name="search" placeholder="Rechercher tout ici..." className="d-none d-md-block" size="lg" />
                                         </div>
 
                                         <div className="d-flex align-items-center">
                                             <Button color="blue" className="d-md-none" size="sm">Rechercher<FontAwesomeIcon icon={faArrowAltCircleRight} className="ml-2 ml-md-3 ml-xl-4" fixedWidth /></Button>
-                                            <Button color="blue" className="d-none d-md-inline">Rechercher<FontAwesomeIcon icon={faArrowAltCircleRight} className="ml-2 ml-md-3 ml-xl-4" fixedWidth /></Button>
+                                            <Button color="blue" className="d-none d-md-inline" size="lg">Rechercher<FontAwesomeIcon icon={faArrowAltCircleRight} className="ml-2 ml-md-3 ml-xl-4" fixedWidth /></Button>
                                         </div>
                                     </div>
                                 </div>
@@ -183,18 +189,26 @@ class Home extends Component {
                 </div>
 
                 <div className="d-lg-none">
-                    <OwlCarousel options={{ responsive: { 0: { items: 1 }, 600: { items: 2 }, 1300: { items: 4 } }, center: false, loop: true, dots: false }}>
-                        {servicesContent}
-                    </OwlCarousel>
+                    <div className="row">
+                        <div className="col-12 p-0">
+                            <OwlCarousel options={{ responsive: { 0: { items: 1, autoplay: true, stagePadding: 32, center: true }, 600: { items: 2 }, 1300: { items: 4 } }, center: false, loop: true, dots: false }}>
+                                {servicesContent}
+                            </OwlCarousel>
+                        </div>
+                    </div>
                 </div>
             </Block>
 
 
 
             <Block title="Nos Actualites" color="soft" subtitle="Consultez les dernières actualités sur notre site officiel">
-                <OwlCarousel options={{ responsive: { 0: { items: 1 }, 600: { items: 2 }, 900: { items: 3 } }, center: false, loop: true, dots: false }}>
-                    {blogContent}
-                </OwlCarousel>
+                <div className="row">
+                    <div className="col-12 p-0">
+                        <OwlCarousel options={{ responsive: { 0: { items: 1, autoplay: true, stagePadding: 32, center: true }, 600: { items: 2 }, 900: { items: 3 } }, center: false, loop: true, dots: false }}>
+                            {blogContent}
+                        </OwlCarousel>
+                    </div>
+                </div>
             </Block>
 
 
@@ -209,9 +223,13 @@ class Home extends Component {
                 </div>
 
                 <div className="d-lg-none">
-                    <OwlCarousel options={{ responsive: { 0: { items: 1 }, 800: { items: 2 }, 1000: { items: 3 }, 1800: { items: 4 } }, center: false, loop: true, dots: false }}>
-                        {formulaeContent}
-                    </OwlCarousel>
+                    <div className="row">
+                        <div className="col-12 p-0">
+                            <OwlCarousel options={{ responsive: { 0: { items: 1, autoplay: true, stagePadding: 32, center: true }, 800: { items: 2 }, 1000: { items: 3 }, 1800: { items: 4 } }, center: false, loop: true, dots: false }}>
+                                {formulaeContent}
+                            </OwlCarousel>
+                        </div>
+                    </div>
                 </div>
             </Block>
         </div>;
