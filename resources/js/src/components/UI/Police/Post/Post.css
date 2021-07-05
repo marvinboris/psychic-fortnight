@@ -1,0 +1,15 @@
+.UI.Post > div {
+    height: 100%;
+    background-color: var(--black-5);
+    transition: all 0.25s;
+}
+
+.UI.Post .embed-responsive {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.UI.Post > div:hover {
+    background-color: white;
+}

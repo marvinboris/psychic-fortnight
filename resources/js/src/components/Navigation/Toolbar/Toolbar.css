@@ -1,0 +1,29 @@
+.Toolbar {
+    top: -71px;
+}
+
+.Toolbar > .fixed-top {
+    top: 0px;
+    /* transition: all .25s; */
+}
+
+.Toolbar #main-nav {
+    top: 100%;
+    background-color: transparent;
+    box-shadow: 0 2px 4px 0 transparent;
+    background-color: var(--soft);
+    box-shadow: 0 2px 4px 0 var(--black-25);
+    transition: all 0.25s;
+}
+
+.Toolbar #main-nav.scrolled {
+    background-color: var(--soft);
+    box-shadow: 0 2px 4px 0 var(--black-25);
+}
+
+@media screen and (min-width: 992px) {
+    .Toolbar > .fixed-top {
+        top: -50px;
+        opacity: 0;
+    }
+}
