@@ -16,7 +16,7 @@ export default ({ title, description, path = "/" }) => <div className="UI Formul
         <div className="description flex-fill d-flex flex-column">
             <div className="flex-fill">{description}</div>
 
-            <div className="text-right">
+            <div className="text-right pt-3">
                 <Link to={path} className="btn btn-white text-darkblue text-12">
                     Télécharger<FontAwesomeIcon icon={faFileDownload} className="text-red ml-3 text-16" />
                 </Link>

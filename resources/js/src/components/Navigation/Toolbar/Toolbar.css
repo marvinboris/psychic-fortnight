@@ -1,5 +1,9 @@
 .Toolbar {
-    top: -71px;
+    top: 0;
+}
+
+.Toolbar > div {
+    height: 60.5px;
 }
 
 .Toolbar > .fixed-top {

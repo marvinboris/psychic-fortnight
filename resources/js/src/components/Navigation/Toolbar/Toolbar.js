@@ -44,9 +44,9 @@ export default class Toolbar extends Component {
     toggleSearch = () => this.setState(state => ({ search: !state.search, navbar: true }))
 
     render() {
-        return <div className="Toolbar sticky-top">
+        return <div className="Toolbar sticky-top w-100">
             <div className="bg-darkblue text-light">
-                <div className="container d-flex align-items-center">
+                <div className="container d-flex align-items-center h-100">
                     <div>
                         <Link to="/" className="text-decoration-none"><Logo /></Link>
                     </div>

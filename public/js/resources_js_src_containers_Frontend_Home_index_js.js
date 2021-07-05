@@ -53,7 +53,7 @@ __webpack_require__.r(__webpack_exports__);
           className: "flex-fill",
           children: description
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-          className: "text-right",
+          className: "text-right pt-3",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Link, {
             to: path,
             className: "btn btn-white text-darkblue text-12",
@@ -439,16 +439,22 @@ var Home = /*#__PURE__*/function (_Component) {
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
                 className: "col-xxl-8 col-xl-9 col-lg-10",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
-                  className: "p-5 bg-black-50 rounded rounded-30",
+                  className: "p-4 p-md-5 bg-black-50 rounded rounded-30",
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxs)("div", {
-                    className: "p-4",
+                    className: "p-md-4",
                     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
-                      className: "text-20 text-300",
+                      className: "text-11 d-md-none text-300",
+                      children: "D\xC9L\xC9GATION G\xC9N\xC9RALE \xC0 LA S\xDBRET\xC9 NATIONALE"
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
+                      className: "text-20 d-none d-md-block text-300",
                       children: "D\xC9L\xC9GATION G\xC9N\xC9RALE \xC0 LA S\xDBRET\xC9 NATIONALE"
                     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxs)("div", {
-                      className: "text-50 text-700 d-inline-block mb-4",
+                      className: "text-700 d-inline-block mb-4",
                       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
-                        className: "mb-3",
+                        className: "text-24 d-md-none mb-3",
+                        children: "POLICE CAMEROUNAISE"
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
+                        className: "text-50 d-none d-md-block mb-3",
                         children: "POLICE CAMEROUNAISE"
                       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
                         className: "position-relative bg-border-50",
@@ -475,25 +481,45 @@ var Home = /*#__PURE__*/function (_Component) {
                         })
                       })]
                     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
-                      className: "text-16 mb-5",
-                      children: "Nous vous demandons de bien vouloir parcourir notre site afin de prendre connaissance sur les Mises \xE0 jours r\xE9centes et informations concernant nos services"
+                      className: "text-9 d-md-none mb-5",
+                      children: " Nous vous demandons de bien vouloir parcourir notre site afin de prendre connaissance sur les Mises \xE0 jours r\xE9centes et informations concernant nos services."
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
+                      className: "text-16 d-none d-md-block mb-5",
+                      children: " Nous vous demandons de bien vouloir parcourir notre site afin de prendre connaissance sur les Mises \xE0 jours r\xE9centes et informations concernant nos services."
                     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxs)("div", {
                       className: "d-flex",
-                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxs)("div", {
                         className: "mr-2 mr-md-3",
-                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, {
+                        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, {
                           type: "search",
-                          name: "search"
-                        })
-                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
-                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxs)(reactstrap__WEBPACK_IMPORTED_MODULE_14__.default, {
+                          name: "search",
+                          className: "d-md-none",
+                          size: "sm"
+                        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, {
+                          type: "search",
+                          name: "search",
+                          className: "d-none d-md-block"
+                        })]
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxs)("div", {
+                        className: "d-flex align-items-center",
+                        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxs)(reactstrap__WEBPACK_IMPORTED_MODULE_14__.default, {
                           color: "blue",
+                          className: "d-md-none",
+                          size: "sm",
                           children: ["Rechercher", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, {
                             icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_12__.faArrowAltCircleRight,
                             className: "ml-2 ml-md-3 ml-xl-4",
                             fixedWidth: true
                           })]
-                        })
+                        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxs)(reactstrap__WEBPACK_IMPORTED_MODULE_14__.default, {
+                          color: "blue",
+                          className: "d-none d-md-inline",
+                          children: ["Rechercher", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, {
+                            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_12__.faArrowAltCircleRight,
+                            className: "ml-2 ml-md-3 ml-xl-4",
+                            fixedWidth: true
+                          })]
+                        })]
                       })]
                     })]
                   })
@@ -501,13 +527,34 @@ var Home = /*#__PURE__*/function (_Component) {
               })
             })
           })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(Block, {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxs)(Block, {
           title: "Nos Services",
           subtitle: "Veuillez choisir un des liens rapides pour un acc\xE8s direct",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
-            className: "row justify-content-center",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
+            className: "d-none d-lg-flex row justify-content-center",
             children: servicesContent
-          })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
+            className: "d-lg-none",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)((react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1___default()), {
+              options: {
+                responsive: {
+                  0: {
+                    items: 1
+                  },
+                  600: {
+                    items: 2
+                  },
+                  1300: {
+                    items: 4
+                  }
+                },
+                center: false,
+                loop: true,
+                dots: false
+              },
+              children: servicesContent
+            })
+          })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(Block, {
           title: "Nos Actualites",
           color: "soft",
@@ -536,14 +583,41 @@ var Home = /*#__PURE__*/function (_Component) {
           subtitle: "Simplifiez-vous la tache en consultant les formulaires administratifs dont vous avez besoin.",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
             className: "text-right mb-4",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_15__.Link, {
-              to: "/blog",
-              className: "btn btn-green",
-              children: "Liste compl\xE8te"
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_15__.Link, {
+              to: "/formulae",
+              className: "btn btn-link",
+              children: ["Liste compl\xE8te", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, {
+                icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_12__.faAngleDoubleRight,
+                className: "ml-2"
+              })]
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
-            className: "row justify-content-center",
+            className: "d-none d-lg-flex row justify-content-center",
             children: formulaeContent
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)("div", {
+            className: "d-lg-none",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)((react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1___default()), {
+              options: {
+                responsive: {
+                  0: {
+                    items: 1
+                  },
+                  800: {
+                    items: 2
+                  },
+                  1000: {
+                    items: 3
+                  },
+                  1800: {
+                    items: 4
+                  }
+                },
+                center: false,
+                loop: true,
+                dots: false
+              },
+              children: formulaeContent
+            })
           })]
         })]
       });
@@ -622,7 +696,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".UI.Service > div {\r\n    background-color: var(--lightblue-35);\r\n    border: 6px solid transparent;\r\n    height: 100%;\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n    padding-top: 42px;\r\n    padding-left: calc(3rem - 6px);\r\n    padding-right: calc(3rem - 6px);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Service > div:hover {\r\n    background-color: white;\r\n    border: 6px solid var(--soft-45);\r\n    margin-top: -16px;\r\n    margin-bottom: -16px;\r\n    padding-top: 14px;\r\n}\r\n\r\n.UI.Service .bubble {\r\n    width: 100px;\r\n    opacity: 0;\r\n    box-shadow: 0 0 0 15px var(--lightblue-15);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Service > div:hover .bubble {\r\n    width: 147px;\r\n    opacity: 1;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".UI.Service > div {\r\n    background-color: var(--lightblue-35);\r\n    border: 6px solid transparent;\r\n    height: 100%;\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n    padding-top: 42px;\r\n    padding-left: calc(3rem - 6px);\r\n    padding-right: calc(3rem - 6px);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Service > div:hover {\r\n    background-color: white;\r\n    border: 6px solid var(--soft-45);\r\n    padding-top: 4px;\r\n}\r\n\r\n.UI.Service .bubble {\r\n    width: 100px;\r\n    opacity: 0;\r\n    box-shadow: 0 0 0 15px var(--lightblue-15);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Service > div:hover .bubble {\r\n    width: 147px;\r\n    opacity: 1;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

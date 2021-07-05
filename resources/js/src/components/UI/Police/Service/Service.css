@@ -13,9 +13,7 @@
 .UI.Service > div:hover {
     background-color: white;
     border: 6px solid var(--soft-45);
-    margin-top: -16px;
-    margin-bottom: -16px;
-    padding-top: 14px;
+    padding-top: 4px;
 }
 
 .UI.Service .bubble {
