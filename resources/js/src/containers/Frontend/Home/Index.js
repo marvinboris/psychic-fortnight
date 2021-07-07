@@ -136,7 +136,7 @@ class Home extends Component {
 
         return <div className="Home">
             <div className="banner d-flex flex-column text-white" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("' + Img1 + '")', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-                <div className="container flex-fill d-flex flex-column">
+                <div className="container-xxl flex-fill d-flex flex-column">
                     <div className="row flex-fill align-items-center">
                         <div className="col-xxl-7 col-xl-9 col-lg-10">
                             <div className="px-4 py-5 px-md-5 rounded rounded-30 txt-block position-relative">
@@ -152,7 +152,7 @@ class Home extends Component {
                                         <div className="text-24 d-md-none mb-3">POLICE CAMEROUNAISE</div>
                                         <div className="text-50 d-none d-md-block mb-3">POLICE CAMEROUNAISE</div>
 
-                                        <div className="position-relative bg-border-50" style={{ height: 1 }}>
+                                        <div className="position-relative bg-white" style={{ height: .5 }}>
                                             <div className="position-absolute rounded-pill bg-white ml-5" style={{ height: 10, width: 70, top: '50%', transform: 'translateY(-50%)' }}>
                                                 <div className="bg-darkblue rounded-circle position-absolute" style={{ height: 6, width: 6, top: 2, left: 2 }} />
                                             </div>
@@ -164,12 +164,12 @@ class Home extends Component {
 
                                     <div className="d-flex">
                                         <div className="mr-2 mr-md-3">
-                                            <Input type="search" name="search" placeholder="Rechercher tout ici..." className="d-md-none" size="sm" />
-                                            <Input type="search" name="search" placeholder="Rechercher tout ici..." className="d-none d-md-block" size="lg" />
+                                            <Input type="search" name="search" placeholder="Rechercher tout ici..." className="d-md-none" bsSize="sm" />
+                                            <Input type="search" name="search" placeholder="Rechercher tout ici..." className="d-none d-md-block" bsSize="lg" />
                                         </div>
 
                                         <div className="d-flex align-items-center">
-                                            <Button color="blue" className="d-md-none" size="sm">Rechercher<FontAwesomeIcon icon={faArrowAltCircleRight} className="ml-2 ml-md-3 ml-xl-4" fixedWidth /></Button>
+                                            <Button color="blue" className="d-md-none text-truncate" size="sm">Rechercher<FontAwesomeIcon icon={faArrowAltCircleRight} className="ml-2 ml-md-3 ml-xl-4" fixedWidth /></Button>
                                             <Button color="blue" className="d-none d-md-inline" size="lg">Rechercher<FontAwesomeIcon icon={faArrowAltCircleRight} className="ml-2 ml-md-3 ml-xl-4" fixedWidth /></Button>
                                         </div>
                                     </div>
@@ -191,7 +191,16 @@ class Home extends Component {
                 <div className="d-lg-none">
                     <div className="row">
                         <div className="col-12 p-0">
-                            <OwlCarousel options={{ responsive: { 0: { items: 1, autoplay: true, stagePadding: 32, center: true }, 600: { items: 2 }, 1300: { items: 4 } }, center: false, loop: true, dots: false }}>
+                            <OwlCarousel options={{
+                                responsive: {
+                                    0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true },
+                                    600: { items: 2, autoplay: true, stagePadding: 48, margin: 20, center: false },
+                                    1300: { items: 4 }
+                                },
+                                center: false,
+                                loop: true,
+                                dots: false
+                            }}>
                                 {servicesContent}
                             </OwlCarousel>
                         </div>
@@ -204,7 +213,16 @@ class Home extends Component {
             <Block title="Nos Actualites" color="soft" subtitle="Consultez les dernières actualités sur notre site officiel">
                 <div className="row">
                     <div className="col-12 p-0">
-                        <OwlCarousel options={{ responsive: { 0: { items: 1, autoplay: true, stagePadding: 32, center: true }, 600: { items: 2 }, 900: { items: 3 } }, center: false, loop: true, dots: false }}>
+                        <OwlCarousel options={{
+                            responsive: {
+                                0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true },
+                                600: { items: 2, autoplay: true, stagePadding: 48, margin: 20, center: false },
+                                1100: { items: 3 }
+                            },
+                            center: false,
+                            loop: true,
+                            dots: false
+                        }}>
                             {blogContent}
                         </OwlCarousel>
                     </div>
@@ -225,7 +243,17 @@ class Home extends Component {
                 <div className="d-lg-none">
                     <div className="row">
                         <div className="col-12 p-0">
-                            <OwlCarousel options={{ responsive: { 0: { items: 1, autoplay: true, stagePadding: 32, center: true }, 800: { items: 2 }, 1000: { items: 3 }, 1800: { items: 4 } }, center: false, loop: true, dots: false }}>
+                            <OwlCarousel options={{
+                                responsive: {
+                                    0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true },
+                                    600: { items: 2, autoplay: true, stagePadding: 48, margin: 20, center: false },
+                                    1000: { items: 3 },
+                                    1800: { items: 4 }
+                                },
+                                center: false,
+                                loop: true,
+                                dots: false
+                            }}>
                                 {formulaeContent}
                             </OwlCarousel>
                         </div>

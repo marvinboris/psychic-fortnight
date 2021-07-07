@@ -28,7 +28,7 @@ __webpack_require__.r(__webpack_exports__);
     className: full ? "" : "py-5 bg-" + color,
     style: style,
     children: full ? children : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-      className: "container text-dark",
+      className: "container-xxl text-dark",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
         className: "text-center mb-5",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
@@ -115,7 +115,7 @@ __webpack_require__.r(__webpack_exports__);
       _ref$path = _ref.path,
       path = _ref$path === void 0 ? "/" : _ref$path;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-    className: "UI Formula col-xxl-3 col-xl-4 col-lg-4 col-md-6 px-2 px-md-3 pb-4",
+    className: "UI Formula col-xxl-3 col-xl-4 col-lg-4 px-0 px-md-3 pb-4",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
       className: "block d-flex flex-column",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
@@ -190,7 +190,7 @@ __webpack_require__.r(__webpack_exports__);
       _ref$slug = _ref.slug,
       slug = _ref$slug === void 0 ? '' : _ref$slug;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-    className: "UI Post pb-4 px-2 px-md-3 text-dark" + (simple ? " pt-4" : ""),
+    className: "UI Post pb-4 px-md-3 text-dark" + (simple ? " pt-4" : ""),
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
       className: "shadow p-3 rounded-30",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
@@ -244,7 +244,7 @@ __webpack_require__.r(__webpack_exports__);
           className: "text-blue text-14 mr-2",
           fixedWidth: true
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("span", {
-          className: "text-20 d-none d-md-block",
+          className: "text-20 d-none d-md-inline",
           children: title
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("span", {
           className: "text-14 d-md-none",
@@ -320,17 +320,17 @@ __webpack_require__.r(__webpack_exports__);
       icon = _ref.icon,
       description = _ref.description;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-    className: "UI Service col-xl-3 col-lg-6 col-md-6 px-2 px-md-3 pb-4 h-100",
+    className: "UI Service col-xl-3 col-lg-6 px-0 px-md-3 pb-4 h-100",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
       className: "block rounded-30 pb-5",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-        className: "h-100 py-4 text-center",
+        className: "h-100 pt-4 pb-md-4 text-center",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-          className: "mb-5",
+          className: "bubble-wrapper",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
             className: "d-flex justify-content-center align-items-center position-relative",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-              className: "bubble embed-responsive embed-responsive-1by1 border border-lightblue rounded-circle border-10"
+              className: "bubble embed-responsive embed-responsive-1by1 border border-lightblue bg-lightblue-15 rounded-circle border-10"
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
               icon: icon,
               className: "text-50 position-absolute text-blue",
@@ -342,11 +342,20 @@ __webpack_require__.r(__webpack_exports__);
               }
             })]
           })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+          className: "text-700 mb-2 mb-md-3 pb-3 pb-md-4 border-bottom border-border text-secondary",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "text-17 d-none d-md-block",
+            children: name
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "text-14 d-md-none",
+            children: name
+          })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-          className: "text-17 text-700 mb-3 pb-4 border-bottom border-border text-secondary",
-          children: name
+          className: "text-16 d-none d-md-block",
+          children: description
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-          className: "text-16",
+          className: "text-13 d-md-none",
           children: description
         })]
       })
@@ -529,7 +538,7 @@ var Home = /*#__PURE__*/function (_Component) {
             backgroundPosition: 'center'
           },
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
-            className: "container flex-fill d-flex flex-column",
+            className: "container-xxl flex-fill d-flex flex-column",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
               className: "row flex-fill align-items-center",
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
@@ -566,9 +575,9 @@ var Home = /*#__PURE__*/function (_Component) {
                         className: "text-50 d-none d-md-block mb-3",
                         children: "POLICE CAMEROUNAISE"
                       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
-                        className: "position-relative bg-border-50",
+                        className: "position-relative bg-white",
                         style: {
-                          height: 1
+                          height: .5
                         },
                         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
                           className: "position-absolute rounded-pill bg-white ml-5",
@@ -604,19 +613,19 @@ var Home = /*#__PURE__*/function (_Component) {
                           name: "search",
                           placeholder: "Rechercher tout ici...",
                           className: "d-md-none",
-                          size: "sm"
+                          bsSize: "sm"
                         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_16__.default, {
                           type: "search",
                           name: "search",
                           placeholder: "Rechercher tout ici...",
                           className: "d-none d-md-block",
-                          size: "lg"
+                          bsSize: "lg"
                         })]
                       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
                         className: "d-flex align-items-center",
                         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(reactstrap__WEBPACK_IMPORTED_MODULE_17__.default, {
                           color: "blue",
-                          className: "d-md-none",
+                          className: "d-md-none text-truncate",
                           size: "sm",
                           children: ["Rechercher", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, {
                             icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_15__.faArrowAltCircleRight,
@@ -658,11 +667,16 @@ var Home = /*#__PURE__*/function (_Component) {
                       0: {
                         items: 1,
                         autoplay: true,
-                        stagePadding: 32,
+                        stagePadding: 48,
+                        margin: 20,
                         center: true
                       },
                       600: {
-                        items: 2
+                        items: 2,
+                        autoplay: true,
+                        stagePadding: 48,
+                        margin: 20,
+                        center: false
                       },
                       1300: {
                         items: 4
@@ -691,13 +705,18 @@ var Home = /*#__PURE__*/function (_Component) {
                     0: {
                       items: 1,
                       autoplay: true,
-                      stagePadding: 32,
+                      stagePadding: 48,
+                      margin: 20,
                       center: true
                     },
                     600: {
-                      items: 2
+                      items: 2,
+                      autoplay: true,
+                      stagePadding: 48,
+                      margin: 20,
+                      center: false
                     },
-                    900: {
+                    1100: {
                       items: 3
                     }
                   },
@@ -737,11 +756,16 @@ var Home = /*#__PURE__*/function (_Component) {
                       0: {
                         items: 1,
                         autoplay: true,
-                        stagePadding: 32,
+                        stagePadding: 48,
+                        margin: 20,
                         center: true
                       },
-                      800: {
-                        items: 2
+                      600: {
+                        items: 2,
+                        autoplay: true,
+                        stagePadding: 48,
+                        margin: 20,
+                        center: false
                       },
                       1000: {
                         items: 3
@@ -788,7 +812,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".UI.Formula > div {\r\n    height: 100%;\r\n    background-position: center;\r\n    background-size: 100% 100%;\r\n    background-repeat: no-repeat;\r\n    background-image: url(\"/images/Soustraction 26@2x.png\");\r\n    padding-top: 2.5rem;\r\n    padding-bottom: 4rem;\r\n    padding-left: 3rem;\r\n    padding-right: 3rem;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover {\r\n    background-image: url(\"/images/Soustraction 4@2x.png\");\r\n}\r\n\r\n.UI.Formula > div .title {\r\n    color: var(--darkblue);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .title {\r\n    color: var(--soft);\r\n}\r\n\r\n.UI.Formula > div .icon {\r\n    color: var(--blue);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .icon {\r\n    color: var(--lightblue);\r\n}\r\n\r\n.UI.Formula > div > div:first {\r\n    border-color: var(--border);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover > div:first {\r\n    border-color: var(--soft);\r\n}\r\n\r\n.UI.Formula > div .description {\r\n    color: var(--border);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .description {\r\n    color: var(--soft);\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".UI.Formula > div {\r\n    height: 100%;\r\n    background-position: center;\r\n    background-size: calc(100% + 8px) calc(100% + 8px);\r\n    background-repeat: no-repeat;\r\n    background-image: url(\"/images/Soustraction 26@2x.png\");\r\n    padding-top: 2.5rem;\r\n    padding-bottom: 4rem;\r\n    padding-left: 3rem;\r\n    padding-right: 3rem;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover,\r\n.owl-item.center.active .UI.Formula > div {\r\n    background-image: url(\"/images/Soustraction 4@2x.png\");\r\n}\r\n\r\n.UI.Formula > div .title {\r\n    color: var(--darkblue);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .title,\r\n.owl-item.center.active .UI.Formula > div .title {\r\n    color: var(--soft);\r\n}\r\n\r\n.UI.Formula > div .icon {\r\n    color: var(--blue);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .icon,\r\n.owl-item.center.active .UI.Formula > div .icon {\r\n    color: var(--lightblue);\r\n}\r\n\r\n.UI.Formula > div > div:first {\r\n    border-color: var(--border);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover > div:first,\r\n.owl-item.center.active .UI.Formula > div > div:first {\r\n    border-color: var(--soft);\r\n}\r\n\r\n.UI.Formula > div .description {\r\n    color: var(--border);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .description,\r\n.owl-item.center.active .UI.Formula > div .description {\r\n    color: var(--soft);\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -812,7 +836,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".UI.Post > div {\r\n    height: 100%;\r\n    background-color: var(--black-5);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post .embed-responsive {\r\n    background-position: center;\r\n    background-size: auto 100%;\r\n    background-repeat: no-repeat;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post > div:hover {\r\n    background-color: white;\r\n}\r\n\r\n.UI.Post > div:hover .embed-responsive {\r\n    background-size: auto calc(100% + 6px);\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".UI.Post > div {\r\n    height: 100%;\r\n    background-color: var(--black-5);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post .embed-responsive {\r\n    background-position: center;\r\n    background-size: auto 100%;\r\n    background-repeat: no-repeat;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post > div:hover,\r\n.owl-item.center.active .UI.Post > div {\r\n    background-color: white;\r\n}\r\n\r\n.UI.Post > div:hover .embed-responsive,\r\n.owl-item.center.active .UI.Post > div .embed-responsive {\r\n    background-size: auto calc(100% + 6px);\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -836,7 +860,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".UI.Service > div {\r\n    background-color: var(--lightblue-35);\r\n    border: 6px solid transparent;\r\n    height: 100%;\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n    padding-top: 42px;\r\n    padding-left: calc(3rem - 6px);\r\n    padding-right: calc(3rem - 6px);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Service > div:hover {\r\n    background-color: white;\r\n    border: 6px solid var(--soft-45);\r\n    padding-top: 4px;\r\n}\r\n\r\n.UI.Service .bubble {\r\n    width: 100px;\r\n    opacity: 0;\r\n    box-shadow: 0 0 0 15px var(--lightblue-15);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Service > div:hover .bubble {\r\n    width: 147px;\r\n    opacity: 1;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".UI.Service > div {\r\n    background-color: var(--lightblue-35);\r\n    border: 6px solid transparent;\r\n    height: 100%;\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n    padding-top: 42px;\r\n    padding-left: calc(3rem - 6px);\r\n    padding-right: calc(3rem - 6px);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Service > div:hover,\r\n.owl-item.center.active .UI.Service > div {\r\n    background-color: white;\r\n    border: 6px solid var(--soft-45);\r\n    padding-top: 1rem;\r\n    margin-bottom: -20px;\r\n}\r\n\r\n.UI.Service .bubble {\r\n    width: 100px;\r\n    opacity: 0;\r\n    box-shadow: 0 0 0 15px var(--lightblue-15);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Service > div:hover .bubble,\r\n.owl-item.center.active .UI.Service > div .bubble {\r\n    width: 147px;\r\n    opacity: 1;\r\n}\r\n\r\n.UI.Service .bubble-wrapper {\r\n    margin-bottom: 3rem;\r\n}\r\n\r\n.UI.Service > div:hover .bubble-wrapper,\r\n.owl-item.center.active .UI.Service > div .bubble-wrapper {\r\n    margin-bottom: 2rem;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -860,7 +884,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".Frontend .Home .carousel-inner {\r\n    height: 100% !important;\r\n}\r\n\r\n.Frontend .Home #banner {\r\n    position: absolute;\r\n    margin: auto;\r\n    z-index: 10;\r\n    top: 50%;\r\n    left: 50%;\r\n    transform: translate(-50%, -60%) scale(1);\r\n    transform-origin: center;\r\n    padding: 0 12.5%;\r\n}\r\n\r\n.Frontend .Home .banner {\r\n    min-height: calc(100vh - 100px);\r\n}\r\n\r\n.Frontend .Home .txt-block {\r\n    background-image: url(\"/images/Groupe 574@2x.png\");\r\n    background-size: 100% 100%;\r\n    background-repeat: no-repeat;\r\n    background-position: center;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Home .owl-item {\r\n    padding: 1rem 0;\r\n}\r\n\r\n.Frontend .Home .owl-item div {\r\n    transform: scale(1);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Home .owl-item.center.active div {\r\n    transform: scale(1.02);\r\n}\r\n\r\n@media screen and (max-width: 992px) {\r\n    .Frontend .Home .banner {\r\n        min-height: auto;\r\n    }\r\n\r\n    .Frontend .Home .txt-block {\r\n        background-image: unset;\r\n    }\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".Frontend .Home .carousel-inner {\r\n    height: 100% !important;\r\n}\r\n\r\n.Frontend .Home #banner {\r\n    position: absolute;\r\n    margin: auto;\r\n    z-index: 10;\r\n    top: 50%;\r\n    left: 50%;\r\n    transform: translate(-50%, -60%) scale(1);\r\n    transform-origin: center;\r\n    padding: 0 12.5%;\r\n}\r\n\r\n.Frontend .Home .banner {\r\n    min-height: calc(100vh - 100px);\r\n}\r\n\r\n.Frontend .Home .txt-block {\r\n    background-image: url(\"/images/Groupe 574@2x.png\");\r\n    background-size: 100% 100%;\r\n    background-repeat: no-repeat;\r\n    background-position: center;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Home .owl-item {\r\n    padding: 1rem 0;\r\n}\r\n\r\n.Frontend .Home .owl-item > div {\r\n    transform: scale(1);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Home .owl-item.center.active > div {\r\n    transform: scale(1.02);\r\n}\r\n\r\n@media screen and (max-width: 992px) {\r\n    .Frontend .Home .banner {\r\n        min-height: auto;\r\n    }\r\n\r\n    .Frontend .Home .txt-block {\r\n        background-image: unset;\r\n    }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

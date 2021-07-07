@@ -1,17 +1,17 @@
-.Toolbar {
+.Frontend .Toolbar {
     top: 0;
 }
 
-.Toolbar > div {
+.Frontend .Toolbar > div {
     height: 100px;
 }
 
-.Toolbar > .fixed-top {
+.Frontend .Toolbar > .fixed-top {
     top: 0px;
     /* transition: all .25s; */
 }
 
-.Toolbar #main-nav {
+.Frontend .Toolbar #main-nav {
     top: 100%;
     background-color: transparent;
     box-shadow: 0 2px 4px 0 transparent;
@@ -20,13 +20,37 @@
     transition: all 0.25s;
 }
 
-.Toolbar #main-nav.scrolled {
+.Frontend .Toolbar #main-nav.scrolled {
     background-color: var(--soft);
     box-shadow: 0 2px 4px 0 var(--black-25);
 }
 
+.Frontend .Toolbar #progress-bar {
+    display: block;
+    width: auto;
+    height: 4px;
+    border-radius: 0px;
+    background: linear-gradient(to right, #00710d, #c41e00, #ffce00);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    transform: translateY(100%);
+    animation: coloor 2s ease-in infinite;
+}
+
+@keyframes coloor {
+    0%,
+    100% {
+        filter: hue-rotate(0deg);
+    }
+
+    50% {
+        filter: hue-rotate(360deg);
+    }
+}
+
 @media screen and (max-width: 992px) {
-    .Toolbar > div {
+    .Frontend .Toolbar > div {
         height: 66px;
     }
 }

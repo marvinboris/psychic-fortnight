@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default ({ style, children, full, title, color = 'white', subtitle }) => <div className={full ? "" : ("py-5 bg-" + color)} style={style}>
-    {full ? children : <div className="container text-dark">
+    {full ? children : <div className="container-xxl text-dark">
         <div className="text-center mb-5">
             <div className="text-700 text-blue">
                 <div className="text-35 d-none d-md-block">{title}</div>

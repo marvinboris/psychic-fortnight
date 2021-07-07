@@ -10,10 +10,12 @@
     transition: all 0.25s;
 }
 
-.UI.Service > div:hover {
+.UI.Service > div:hover,
+.owl-item.center.active .UI.Service > div {
     background-color: white;
     border: 6px solid var(--soft-45);
-    padding-top: 4px;
+    padding-top: 1rem;
+    margin-bottom: -20px;
 }
 
 .UI.Service .bubble {
@@ -23,7 +25,17 @@
     transition: all 0.25s;
 }
 
-.UI.Service > div:hover .bubble {
+.UI.Service > div:hover .bubble,
+.owl-item.center.active .UI.Service > div .bubble {
     width: 147px;
     opacity: 1;
+}
+
+.UI.Service .bubble-wrapper {
+    margin-bottom: 3rem;
+}
+
+.UI.Service > div:hover .bubble-wrapper,
+.owl-item.center.active .UI.Service > div .bubble-wrapper {
+    margin-bottom: 2rem;
 }

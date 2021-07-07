@@ -31,18 +31,30 @@ body {
   min-height: calc(100vh - 100px);
 }
 
+.container-xxl {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+
+  @extend .px-3;
+  @extend .px-md-4;
+  @extend .px-xl-5;
+  @extend .px-xxl-3;
+}
+
 @media screen and (max-width: 992px) {
   .full-height-app {
     min-height: calc(100vh - 100px);
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1700px) {
+  .container-xxl,
   .container-xl,
   .container-lg,
   .container-md,
   .container-sm,
   .container {
-    max-width: 1540px;
+    max-width: 1664px;
   }
 }

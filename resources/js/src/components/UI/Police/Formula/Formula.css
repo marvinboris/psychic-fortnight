@@ -1,7 +1,7 @@
 .UI.Formula > div {
     height: 100%;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: calc(100% + 8px) calc(100% + 8px);
     background-repeat: no-repeat;
     background-image: url("/images/Soustraction 26@2x.png");
     padding-top: 2.5rem;
@@ -11,7 +11,8 @@
     transition: all 0.25s;
 }
 
-.UI.Formula > div:hover {
+.UI.Formula > div:hover,
+.owl-item.center.active .UI.Formula > div {
     background-image: url("/images/Soustraction 4@2x.png");
 }
 
@@ -20,7 +21,8 @@
     transition: all 0.25s;
 }
 
-.UI.Formula > div:hover .title {
+.UI.Formula > div:hover .title,
+.owl-item.center.active .UI.Formula > div .title {
     color: var(--soft);
 }
 
@@ -29,7 +31,8 @@
     transition: all 0.25s;
 }
 
-.UI.Formula > div:hover .icon {
+.UI.Formula > div:hover .icon,
+.owl-item.center.active .UI.Formula > div .icon {
     color: var(--lightblue);
 }
 
@@ -38,7 +41,8 @@
     transition: all 0.25s;
 }
 
-.UI.Formula > div:hover > div:first {
+.UI.Formula > div:hover > div:first,
+.owl-item.center.active .UI.Formula > div > div:first {
     border-color: var(--soft);
 }
 
@@ -47,6 +51,7 @@
     transition: all 0.25s;
 }
 
-.UI.Formula > div:hover .description {
+.UI.Formula > div:hover .description,
+.owl-item.center.active .UI.Formula > div .description {
     color: var(--soft);
 }

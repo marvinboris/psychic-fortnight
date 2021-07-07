@@ -10,16 +10,6 @@ import Logo from '../../UI/Logo/Logo';
 
 import './Toolbar.css';
 
-
-const Notification = ({ icon, value }) => <div className="position-relative mx-1 mx-md-2">
-    <FontAwesomeIcon icon={icon} size="2x" fixedWidth />
-
-    <Badge color="red" className="position-absolute rounded-circle d-flex justify-content-center align-items-center"
-        style={{ top: 0, right: 0, transform: 'translate(50%,-50%)' }}>
-        {value}
-    </Badge>
-</div>;
-
 export default class Toolbar extends Component {
     state = {
         navbar: true,
@@ -27,8 +17,11 @@ export default class Toolbar extends Component {
     }
 
     scrollHandler = () => {
-        if (window.scrollY > 71) $('#main-nav').addClass('scrolled');
-        else $('#main-nav').removeClass('scrolled');
+        const totalHeight = document.body.scrollHeight - window.innerHeight;
+        let progress = (window.pageYOffset / totalHeight) * 100;
+        progress = Math.round(Number(progress)) + "%";
+
+        document.getElementById('progress-bar').style.width = progress;
     }
 
     componentDidMount() {
@@ -46,7 +39,7 @@ export default class Toolbar extends Component {
     render() {
         return <div className="Toolbar sticky-top w-100">
             <div className="bg-darkblue text-light">
-                <div className="container d-flex align-items-center h-100">
+                <div className="container-xxl d-flex align-items-center h-100">
                     <div>
                         <Link to="/" className="text-decoration-none"><Logo /></Link>
                     </div>
@@ -81,6 +74,8 @@ export default class Toolbar extends Component {
                         <NavigationItems font="dark" toggleNavbar={this.toggleNavbar} />
                     </Collapse>
                 </div>
+
+                <div id="progress-bar" />
             </div>
         </div >;
     }

@@ -5,7 +5,7 @@ import { faFileDownload, faInfoCircle } from '@fortawesome/free-solid-svg-icons'
 
 import './Formula.css';
 
-export default ({ title, description, path = "/" }) => <div className="UI Formula col-xxl-3 col-xl-4 col-lg-4 col-md-6 px-2 px-md-3 pb-4">
+export default ({ title, description, path = "/" }) => <div className="UI Formula col-xxl-3 col-xl-4 col-lg-4 px-0 px-md-3 pb-4">
     <div className="block d-flex flex-column">
         <div className="d-flex border-bottom pb-4 mb-4">
             <div className="title text-20 text-700 pr-5 flex-fill text-ellipsis-2" style={{ height: 60 }}>{title}</div>
