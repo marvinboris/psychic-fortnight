@@ -133,9 +133,23 @@ class Downloads extends Component {
                 </div>
 
                 <div className="d-lg-none">
-                    <OwlCarousel options={{ responsive: { 0: { items: 1 }, 800: { items: 2 }, 1000: { items: 3 }, 1800: { items: 4 } }, center: false, loop: true, dots: false }}>
-                        {formulaeContent}
-                    </OwlCarousel>
+                    <div className="row">
+                        <div className="col-12 p-0">
+                            <OwlCarousel options={{
+                                responsive: {
+                                    0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true },
+                                    600: { items: 2, autoplay: true, stagePadding: 48, margin: 20, center: false },
+                                    1000: { items: 3 },
+                                    1800: { items: 4 }
+                                },
+                                center: false,
+                                loop: true,
+                                dots: false
+                            }}>
+                                {formulaeContent}
+                            </OwlCarousel>
+                        </div>
+                    </div>
                 </div>
             </Block>
 
@@ -147,9 +161,23 @@ class Downloads extends Component {
                 </div>
 
                 <div className="d-lg-none">
-                    <OwlCarousel options={{ responsive: { 0: { items: 1 }, 800: { items: 2 }, 1000: { items: 3 }, 1800: { items: 4 } }, center: false, loop: true, dots: false }}>
-                        {othersContent}
-                    </OwlCarousel>
+                    <div className="row">
+                        <div className="col-12 p-0">
+                            <OwlCarousel options={{
+                                responsive: {
+                                    0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true },
+                                    600: { items: 2, autoplay: true, stagePadding: 48, margin: 20, center: false },
+                                    1000: { items: 3 },
+                                    1800: { items: 4 }
+                                },
+                                center: false,
+                                loop: true,
+                                dots: false
+                            }}>
+                                {othersContent}
+                            </OwlCarousel>
+                        </div>
+                    </div>
                 </div>
             </Block>
 

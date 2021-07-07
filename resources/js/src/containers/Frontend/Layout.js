@@ -10,9 +10,10 @@ import Logo from '../../components/UI/Logo/Logo';
 import './Frontend.css';
 
 const Block = ({ children, title, className }) => (
-    <div className={className}>
-        <div className="text-700 text-white text-20 position-relative pb-2 mb-3">
-            {title}
+    <div className={'pt-3 pt-md-0 ' + className}>
+        <div className="text-700 text-white position-relative pb-2 mb-3">
+            <div className="text-20 d-none d-md-block">{title}</div>
+            <div className="text-15 d-md-none">{title}</div>
 
             <div className="border-bottom border-white-20 position-absolute" style={{ width: 87, bottom: 0, left: 0 }}>
                 <FontAwesomeIcon icon={faCircle} className="text-lightblue text-xx-small position-absolute" style={{ top: 0, left: '50%', transform: 'translate(-50%, -50%)' }} />
@@ -20,7 +21,8 @@ const Block = ({ children, title, className }) => (
         </div>
 
         <div className="d-flex flex-column">
-            {children}
+            <div className="text-18 d-none d-md-block">{children}</div>
+            <div className="text-13 d-md-none">{children}</div>
         </div>
     </div>
 );
@@ -61,19 +63,19 @@ class Layout extends Component {
 
                                 <div className="col-xxl-2 col-xl-3 offset-xl-1 col-lg-4 col-md-6">
                                     <Block title="Liens Importants">
-                                        <div className="text-18 text-montserrat text-soft">
-                                            <div><span className="text-lightblue ml-3 mr-2">-</span><Link to="/downloads" className="text-reset text-decoration-none">Téléchargements</Link></div>
-                                            <div><span className="text-lightblue ml-3 mr-2">-</span><Link to="/services" className="text-reset text-decoration-none">Nos Services</Link></div>
-                                            <div><span className="text-lightblue ml-3 mr-2">-</span><Link to="/exams" className="text-reset text-decoration-none">Concours</Link></div>
-                                            <div><span className="text-lightblue ml-3 mr-2">-</span><Link to="/media" className="text-reset text-decoration-none">Médias</Link></div>
-                                            <div><span className="text-lightblue ml-3 mr-2">-</span><Link to="/gallery" className="text-reset text-decoration-none">Galerie</Link></div>
+                                        <div className="text-montserrat text-soft">
+                                            <div><span className="text-lightblue ml-2 ml-md-3 mr-1 mr-md-2">-</span><Link to="/downloads" className="text-reset text-decoration-none">Téléchargements</Link></div>
+                                            <div><span className="text-lightblue ml-2 ml-md-3 mr-1 mr-md-2">-</span><Link to="/services" className="text-reset text-decoration-none">Nos Services</Link></div>
+                                            <div><span className="text-lightblue ml-2 ml-md-3 mr-1 mr-md-2">-</span><Link to="/exams" className="text-reset text-decoration-none">Concours</Link></div>
+                                            <div><span className="text-lightblue ml-2 ml-md-3 mr-1 mr-md-2">-</span><Link to="/media" className="text-reset text-decoration-none">Médias</Link></div>
+                                            <div><span className="text-lightblue ml-2 ml-md-3 mr-1 mr-md-2">-</span><Link to="/gallery" className="text-reset text-decoration-none">Galerie</Link></div>
                                         </div>
                                     </Block>
                                 </div>
 
                                 <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6">
                                     <Block title="Phone & Email">
-                                        <div className="text-18 text-montserrat text-soft">
+                                        <div className="text-montserrat text-soft">
                                             <div><span className="text-lightblue mr-2"><FontAwesomeIcon icon={faPhoneSquare} /></span>TEL: <span className="text-white">1500</span></div>
                                             <div><span className="text-lightblue mr-2"><FontAwesomeIcon icon={faEnvelope} /></span>EMAIL: <span className="text-white">contact@dgsn.cm</span></div>
                                             <div><span className="text-lightblue mr-2"><FontAwesomeIcon icon={faHeadset} /></span>TOOL FREE: <span className="text-white">+237 453 345 345</span></div>

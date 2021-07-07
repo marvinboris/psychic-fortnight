@@ -8,8 +8,8 @@ import { convertDate, convertTime } from '../../../../shared/utility';
 import './Post.css';
 
 export default ({ title, body, created_at, photo, simple, slug = '' }) => <div className={"UI Post pb-4 px-md-3 text-dark" + (simple ? " pt-4" : "")}>
-    <div className="shadow p-3 rounded-30">
-        <div className={"embed-responsive embed-responsive-4by3 position-relative rounded-30 " + (simple ? "" : "mb-4")} style={{ backgroundImage: 'url("' + photo + '")', overflow: 'visible', transform: 'translateY(' + (simple ? '-2rem' : '0') + ')' }}>
+    <div className={"shadow p-3 rounded-" + (simple ? "14" : "30")}>
+        <div className={"embed-responsive embed-responsive-4by3 position-relative " + (simple ? "rounded-14" : "rounded-30 mb-4")} style={{ backgroundImage: 'url("' + photo + '")', overflow: 'visible', transform: 'translateY(' + (simple ? '-2rem' : '0') + ')' }}>
             {!simple && <div className="border border-6 border-white rounded-circle d-flex justify-content-center align-items-center position-absolute" style={{ right: 36, bottom: 0, transform: 'translateY(50%)' }}>
                 <Link to="/" className="btn btn-blue rounded-circle" style={{ width: 36, height: 36 }}>
                     <FontAwesomeIcon icon={faShare} />

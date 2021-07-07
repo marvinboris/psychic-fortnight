@@ -193,13 +193,14 @@ class Home extends Component {
                         <div className="col-12 p-0">
                             <OwlCarousel options={{
                                 responsive: {
-                                    0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true },
+                                    0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true, nav: true },
                                     600: { items: 2, autoplay: true, stagePadding: 48, margin: 20, center: false },
                                     1300: { items: 4 }
                                 },
                                 center: false,
                                 loop: true,
-                                dots: false
+                                dots: false,
+                                navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
                             }}>
                                 {servicesContent}
                             </OwlCarousel>
@@ -221,7 +222,8 @@ class Home extends Component {
                             },
                             center: false,
                             loop: true,
-                            dots: false
+                            dots: false,
+                            nav: true
                         }}>
                             {blogContent}
                         </OwlCarousel>
@@ -245,7 +247,7 @@ class Home extends Component {
                         <div className="col-12 p-0">
                             <OwlCarousel options={{
                                 responsive: {
-                                    0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true },
+                                    0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true, nav: true },
                                     600: { items: 2, autoplay: true, stagePadding: 48, margin: 20, center: false },
                                     1000: { items: 3 },
                                     1800: { items: 4 }

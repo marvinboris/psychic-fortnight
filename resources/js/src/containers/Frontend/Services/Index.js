@@ -202,9 +202,22 @@ class Services extends Component {
                 </div>
 
                 <div className="d-lg-none">
-                    <OwlCarousel options={{ responsive: { 0: { items: 1 }, 600: { items: 2 }, 1300: { items: 4 } }, center: false, loop: true, dots: false }}>
-                        {servicesContent}
-                    </OwlCarousel>
+                    <div className="row">
+                        <div className="col-12 p-0">
+                            <OwlCarousel options={{
+                                responsive: {
+                                    0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true, nav: true },
+                                    600: { items: 2, autoplay: true, stagePadding: 48, margin: 20, center: false },
+                                    1300: { items: 4 }
+                                },
+                                center: false,
+                                loop: true,
+                                dots: false
+                            }}>
+                                {servicesContent}
+                            </OwlCarousel>
+                        </div>
+                    </div>
                 </div>
             </Block>
 
@@ -216,7 +229,7 @@ class Services extends Component {
                         </Nav>
                     </div>
 
-                    <TabContent activeTab={activeTab}>
+                    <TabContent className="mx-3" activeTab={activeTab}>
                         {tabPanesContent}
                     </TabContent>
                 </div>

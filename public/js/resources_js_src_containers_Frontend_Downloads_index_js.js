@@ -119,34 +119,56 @@ __webpack_require__.r(__webpack_exports__);
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
       className: "block d-flex flex-column",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-        className: "d-flex border-bottom pb-4 mb-4",
+        className: "d-flex border-bottom pb-3 pb-md-4 mb-3 mb-md-4",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-          className: "title text-20 text-700 pr-5 flex-fill text-ellipsis-2",
+          className: "title text-20 text-700 pr-5 d-none d-md-block flex-fill text-ellipsis-2",
           style: {
             height: 60
           },
           children: title
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
+          className: "title text-17 text-700 pr-4 d-md-none flex-fill text-ellipsis-2",
+          style: {
+            height: 60
+          },
+          children: title
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
             icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faInfoCircle,
-            className: "icon text-23"
-          })
+            className: "icon text-23 d-none d-md-inline"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
+            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faInfoCircle,
+            className: "icon text-20 d-md-none"
+          })]
         })]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
         className: "description flex-fill d-flex flex-column",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
           className: "flex-fill",
-          children: description
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "text-16 d-none d-md-block",
+            children: description
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "text-13 d-md-none",
+            children: description
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
           className: "text-right pt-3",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Link, {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Link, {
             to: path,
-            className: "btn btn-white text-darkblue text-12",
+            className: "btn btn-white text-darkblue text-12 d-none d-md-inline",
             children: ["T\xE9l\xE9charger", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
               icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faFileDownload,
               className: "text-red ml-3 text-16"
             })]
-          })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Link, {
+            to: path,
+            className: "btn btn-white text-darkblue text-10 d-md-none",
+            children: ["T\xE9l\xE9charger", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
+              icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faFileDownload,
+              className: "text-red ml-3 text-14"
+            })]
+          })]
         })]
       })]
     })
@@ -392,27 +414,41 @@ var Downloads = /*#__PURE__*/function (_Component) {
             children: formulaeContent
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
             className: "d-lg-none",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)((react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1___default()), {
-              options: {
-                responsive: {
-                  0: {
-                    items: 1
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+              className: "row",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+                className: "col-12 p-0",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)((react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1___default()), {
+                  options: {
+                    responsive: {
+                      0: {
+                        items: 1,
+                        autoplay: true,
+                        stagePadding: 48,
+                        margin: 20,
+                        center: true
+                      },
+                      600: {
+                        items: 2,
+                        autoplay: true,
+                        stagePadding: 48,
+                        margin: 20,
+                        center: false
+                      },
+                      1000: {
+                        items: 3
+                      },
+                      1800: {
+                        items: 4
+                      }
+                    },
+                    center: false,
+                    loop: true,
+                    dots: false
                   },
-                  800: {
-                    items: 2
-                  },
-                  1000: {
-                    items: 3
-                  },
-                  1800: {
-                    items: 4
-                  }
-                },
-                center: false,
-                loop: true,
-                dots: false
-              },
-              children: formulaeContent
+                  children: formulaeContent
+                })
+              })
             })
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_2__.default, {
@@ -423,27 +459,41 @@ var Downloads = /*#__PURE__*/function (_Component) {
             children: othersContent
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
             className: "d-lg-none",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)((react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1___default()), {
-              options: {
-                responsive: {
-                  0: {
-                    items: 1
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+              className: "row",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+                className: "col-12 p-0",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)((react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1___default()), {
+                  options: {
+                    responsive: {
+                      0: {
+                        items: 1,
+                        autoplay: true,
+                        stagePadding: 48,
+                        margin: 20,
+                        center: true
+                      },
+                      600: {
+                        items: 2,
+                        autoplay: true,
+                        stagePadding: 48,
+                        margin: 20,
+                        center: false
+                      },
+                      1000: {
+                        items: 3
+                      },
+                      1800: {
+                        items: 4
+                      }
+                    },
+                    center: false,
+                    loop: true,
+                    dots: false
                   },
-                  800: {
-                    items: 2
-                  },
-                  1000: {
-                    items: 3
-                  },
-                  1800: {
-                    items: 4
-                  }
-                },
-                center: false,
-                loop: true,
-                dots: false
-              },
-              children: othersContent
+                  children: othersContent
+                })
+              })
             })
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_2__.default, {

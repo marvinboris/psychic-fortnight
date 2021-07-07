@@ -112,9 +112,24 @@ class Media extends Component {
 
 
             <Block title="Publications" color="soft" subtitle="Restez informé. Profitez des dernières infos de la Police">
-                <OwlCarousel options={{ responsive: { 0: { items: 1 }, 600: { items: 2 }, 900: { items: 3 } }, center: false, loop: true, dots: false }}>
-                    {blogContent}
-                </OwlCarousel>
+                <div className="row">
+                    <div className="col-12 p-0">
+                        <OwlCarousel options={{
+                            responsive: {
+                                0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true },
+                                600: { items: 2, autoplay: true, stagePadding: 48, margin: 20, center: false },
+                                900: { items: 3 },
+                                1300: { items: 4 },
+                            },
+                            center: false,
+                            loop: true,
+                            dots: false,
+                            nav: true
+                        }}>
+                            {blogContent}
+                        </OwlCarousel>
+                    </div>
+                </div>
             </Block>
 
 
@@ -125,9 +140,23 @@ class Media extends Component {
                 </div>
 
                 <div className="d-lg-none">
-                    <OwlCarousel options={{ responsive: { 0: { items: 1 }, 800: { items: 2 }, 1000: { items: 3 }, 1800: { items: 4 } }, center: false, loop: true, dots: false }}>
-                        {othersContent}
-                    </OwlCarousel>
+                    <div className="row">
+                        <div className="col-12 p-0">
+                            <OwlCarousel options={{
+                                responsive: {
+                                    0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true },
+                                    600: { items: 2, autoplay: true, stagePadding: 48, margin: 20, center: false },
+                                    1000: { items: 3 },
+                                    1800: { items: 4 }
+                                },
+                                center: false,
+                                loop: true,
+                                dots: false
+                            }}>
+                                {othersContent}
+                            </OwlCarousel>
+                        </div>
+                    </div>
                 </div>
             </Block>
 

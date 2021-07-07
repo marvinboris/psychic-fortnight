@@ -561,24 +561,39 @@ var Services = /*#__PURE__*/function (_Component) {
             children: servicesContent
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
             className: "d-lg-none",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)((react_owl_carousel2__WEBPACK_IMPORTED_MODULE_2___default()), {
-              options: {
-                responsive: {
-                  0: {
-                    items: 1
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
+              className: "row",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
+                className: "col-12 p-0",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)((react_owl_carousel2__WEBPACK_IMPORTED_MODULE_2___default()), {
+                  options: {
+                    responsive: {
+                      0: {
+                        items: 1,
+                        autoplay: true,
+                        stagePadding: 48,
+                        margin: 20,
+                        center: true,
+                        nav: true
+                      },
+                      600: {
+                        items: 2,
+                        autoplay: true,
+                        stagePadding: 48,
+                        margin: 20,
+                        center: false
+                      },
+                      1300: {
+                        items: 4
+                      }
+                    },
+                    center: false,
+                    loop: true,
+                    dots: false
                   },
-                  600: {
-                    items: 2
-                  },
-                  1300: {
-                    items: 4
-                  }
-                },
-                center: false,
-                loop: true,
-                dots: false
-              },
-              children: servicesContent
+                  children: servicesContent
+                })
+              })
             })
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_3__.default, {
@@ -594,6 +609,7 @@ var Services = /*#__PURE__*/function (_Component) {
                 children: navItemsContent
               })
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_18__.default, {
+              className: "mx-3",
               activeTab: activeTab,
               children: tabPanesContent
             })]
