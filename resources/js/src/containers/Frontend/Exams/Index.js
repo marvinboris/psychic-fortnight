@@ -47,7 +47,9 @@ class Exams extends Component {
             </div>
 
 
-
+            <Block title="Avis de concours" subtitle="Renseignez-vous sur les recentes publications concernant les concours" fluid>
+                
+            </Block>
 
 
             <Block title="Pour plus d'informations" subtitle="En cas de besoin, veuillez contacter les différents services aux numéros ci-dessous">
