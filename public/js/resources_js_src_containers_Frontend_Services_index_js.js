@@ -20,6 +20,7 @@ __webpack_require__.r(__webpack_exports__);
   var style = _ref.style,
       children = _ref.children,
       full = _ref.full,
+      fluid = _ref.fluid,
       title = _ref.title,
       _ref$color = _ref.color,
       color = _ref$color === void 0 ? 'white' : _ref$color,
@@ -28,7 +29,7 @@ __webpack_require__.r(__webpack_exports__);
     className: full ? "" : "py-5 bg-" + color,
     style: style,
     children: full ? children : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-      className: "container-xxl text-dark",
+      className: "container-" + (fluid ? "fluid" : "xxl") + " text-dark",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
         className: "text-center mb-5",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
@@ -460,6 +461,19 @@ var Services = /*#__PURE__*/function (_Component) {
         icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_13__.faPassport,
         description: "Check out our API integration \n                documentation here. Try it and\n                start using. Our API is very \n                secured.  "
       }];
+      var infos = [{
+        name: 'Service de renseignement',
+        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_13__.faPhone,
+        info: '+237 123 456 890'
+      }, {
+        name: 'Assistance',
+        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_13__.faEnvelope,
+        info: 'support@dgsn.cm'
+      }, {
+        name: 'Autres Besoins',
+        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_13__.faEnvelope,
+        info: 'contact@dgsn.cm'
+      }];
       var navItems = [{
         id: '1',
         icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_13__.faIdCard,
@@ -485,19 +499,6 @@ var Services = /*#__PURE__*/function (_Component) {
         icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_13__.faIdCard,
         name: "Cartes de Refugié",
         content: content
-      }];
-      var infos = [{
-        name: 'Service de renseignement',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_13__.faPhone,
-        info: '+237 123 456 890'
-      }, {
-        name: 'Assistance',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_13__.faEnvelope,
-        info: 'support@dgsn.cm'
-      }, {
-        name: 'Autres Besoins',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_13__.faEnvelope,
-        info: 'contact@dgsn.cm'
       }];
       var servicesContent = services.map(function (service) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_UI_Police_Service__WEBPACK_IMPORTED_MODULE_4__.default, _objectSpread({}, service), JSON.stringify(service));

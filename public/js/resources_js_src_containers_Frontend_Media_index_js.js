@@ -20,6 +20,7 @@ __webpack_require__.r(__webpack_exports__);
   var style = _ref.style,
       children = _ref.children,
       full = _ref.full,
+      fluid = _ref.fluid,
       title = _ref.title,
       _ref$color = _ref.color,
       color = _ref$color === void 0 ? 'white' : _ref$color,
@@ -28,7 +29,7 @@ __webpack_require__.r(__webpack_exports__);
     className: full ? "" : "py-5 bg-" + color,
     style: style,
     children: full ? children : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-      className: "container-xxl text-dark",
+      className: "container-" + (fluid ? "fluid" : "xxl") + " text-dark",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
         className: "text-center mb-5",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {

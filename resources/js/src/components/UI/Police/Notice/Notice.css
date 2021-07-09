@@ -1,0 +1,13 @@
+.UI.Notice {
+    width: 495px;
+}
+
+.UI.Notice.recent {
+    width: 541px;
+}
+
+@media (max-width: 800px) {
+    .UI.Notice {
+        width: auto;
+    }
+}

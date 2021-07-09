@@ -119,6 +119,24 @@ class Services extends Component {
                 secured.  `
             },
         ];
+        const infos = [
+            {
+                name: 'Service de renseignement',
+                icon: faPhone,
+                info: '+237 123 456 890'
+            },
+            {
+                name: 'Assistance',
+                icon: faEnvelope,
+                info: 'support@dgsn.cm'
+            },
+            {
+                name: 'Autres Besoins',
+                icon: faEnvelope,
+                info: 'contact@dgsn.cm'
+            },
+        ];
+
         const navItems = [
             {
                 id: '1',
@@ -151,23 +169,8 @@ class Services extends Component {
                 content
             },
         ];
-        const infos = [
-            {
-                name: 'Service de renseignement',
-                icon: faPhone,
-                info: '+237 123 456 890'
-            },
-            {
-                name: 'Assistance',
-                icon: faEnvelope,
-                info: 'support@dgsn.cm'
-            },
-            {
-                name: 'Autres Besoins',
-                icon: faEnvelope,
-                info: 'contact@dgsn.cm'
-            },
-        ];
+
+
 
         const servicesContent = services.map(service => <Service key={JSON.stringify(service)} {...service} />);
         const infosContent = infos.map(info => <Info key={JSON.stringify(info)} {...info} />);
@@ -177,7 +180,9 @@ class Services extends Component {
                 <FontAwesomeIcon icon={navItem.icon} className="icon text-28" /><span className="text-truncate">{navItem.name}</span>
             </NavLink>
         </NavItem>);
-        const tabPanesContent = navItems.map(navItem => <TabPane tabId={navItem.id} key={navItem.id + Math.random()}>{navItem.content}</TabPane>)
+        const tabPanesContent = navItems.map(navItem => <TabPane tabId={navItem.id} key={navItem.id + Math.random()}>{navItem.content}</TabPane>);
+
+
 
         return <div className="Services">
             <div className="bg-blue py-5" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5))' }}>

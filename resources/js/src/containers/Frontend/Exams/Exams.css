@@ -9,9 +9,8 @@
 }
 
 .Frontend .Exams .icon {
-    opacity: 0;
-    margin-right: 0;
-    width: 0;
+    color: var(--blue);
+    margin-right: 2rem;
     transition: all 0.25s;
 }
 
@@ -21,7 +20,5 @@
 }
 
 .Frontend .Exams .nav-link.active .icon {
-    opacity: 1;
-    margin-right: 2rem;
-    width: auto;
+    color: white;
 }
