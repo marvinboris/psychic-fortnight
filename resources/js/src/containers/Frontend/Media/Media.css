@@ -15,6 +15,11 @@
     transition: all 0.25s;
 }
 
+.Frontend .Media .circle {
+    opacity: 0;
+    transition: all 0.25s;
+}
+
 .Frontend .Media .nav-link.active {
     background-color: var(--blue);
     color: white;
@@ -24,4 +29,12 @@
     opacity: 1;
     margin-right: 2rem;
     width: auto;
+}
+
+.Frontend .Media .nav-link.active .circle {
+    opacity: 1;
+}
+
+.Frontend .Media .records {
+    max-height: 30rem;
 }

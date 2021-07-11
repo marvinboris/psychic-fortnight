@@ -1,6 +1,5 @@
 .Frontend .Services .nav-link {
     border-radius: 15px 15px 0 0;
-    padding: 30px 42px;
     color: var(--border);
     cursor: pointer;
     display: flex;

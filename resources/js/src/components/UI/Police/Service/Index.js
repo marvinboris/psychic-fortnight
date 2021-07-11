@@ -15,12 +15,10 @@ export default ({ name, icon, description }) => <div className="UI Service col-x
             </div>
 
             <div className="text-700 mb-2 mb-md-3 pb-3 pb-md-4 border-bottom border-border text-secondary">
-                <div className="text-17 d-none d-md-block">{name}</div>
-                <div className="text-14 d-md-none">{name}</div>
+                <div className="text-14 text-md-15 text-xxl-17">{name}</div>
             </div>
 
-            <div className="text-16 d-none d-md-block">{description}</div>
-            <div className="text-13 d-md-none">{description}</div>
+            <div className="text-13 text-md-14 text-xxl-16">{description}</div>
         </div>
     </div>
 </div>;

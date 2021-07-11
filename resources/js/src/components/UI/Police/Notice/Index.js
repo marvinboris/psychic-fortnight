@@ -7,8 +7,7 @@ export default ({ title, recent }) => <div className={"UI Notice " + (recent ? "
         {recent && <div className="position-absolute bg-green text-16 text-white rounded-8" style={{ top: 0, right: 90, padding: '12px 39px', transform: 'translateY(-50%)' }}>Récent</div>}
 
         <div className={recent ? "my-4 py-2" : "m-3"}>
-            <div className={"text-" + (recent ? "30 text-500" : "25") + " d-none d-md-block"}>{title}</div>
-            <div className={"text-" + (recent ? "20 text-500" : "18") + " d-md-none"}>{title}</div>
+            <div className={"text-" + (recent ? "20 text-md-25 text-xxl-30 text-500" : "18 text-md-21 text-xxl-25") + ""}>{title}</div>
         </div>
 
         {recent && <div className="position-absolute" style={{ top: '100%', marginTop: 8, left: '50%', transform: 'translateX(-50%)' }}>

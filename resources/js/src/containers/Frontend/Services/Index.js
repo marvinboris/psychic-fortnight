@@ -176,8 +176,8 @@ class Services extends Component {
         const infosContent = infos.map(info => <Info key={JSON.stringify(info)} {...info} />);
 
         const navItemsContent = navItems.map(navItem => <NavItem key={navItem.id}>
-            <NavLink className={activeTab === navItem.id ? "active" : ""} onClick={() => { this.toggle(navItem.id); }}>
-                <FontAwesomeIcon icon={navItem.icon} className="icon text-28" /><span className="text-truncate">{navItem.name}</span>
+            <NavLink className={"py-2 py-md-3 py-xxl-4 px-3 px-md-4 px-xxl-5 " +(activeTab === navItem.id ? "active" : "")} onClick={() => { this.toggle(navItem.id); }}>
+                <FontAwesomeIcon icon={navItem.icon} className="icon text-18 text-md-23 text-xxl-28" /><span className="text-truncate text-500 text-14 text-md-17 text-xxl-20">{navItem.name}</span>
             </NavLink>
         </NavItem>);
         const tabPanesContent = navItems.map(navItem => <TabPane tabId={navItem.id} key={navItem.id + Math.random()}>{navItem.content}</TabPane>);

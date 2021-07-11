@@ -138,19 +138,17 @@ class Home extends Component {
             <div className="banner d-flex flex-column text-white" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("' + Img1 + '")', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="container-xxl flex-fill d-flex flex-column">
                     <div className="row flex-fill align-items-center">
-                        <div className="col-xxl-7 col-xl-9 col-lg-10">
-                            <div className="px-4 py-5 px-md-5 rounded rounded-30 txt-block position-relative">
+                        <div className="col-md-7">
+                            <div className="px-4 py-5 px-xxl-5 txt-block position-relative">
                                 <div className="position-absolute d-lg-none" style={{ top: 48, left: 0 }}>
                                     <img src={ImgFlag} alt="Drapeau" style={{ height: 80 }} />
                                 </div>
 
-                                <div className="p-md-4">
-                                    <div className="text-11 d-md-none text-300">DÉLÉGATION GÉNÉRALE À LA SÛRETÉ NATIONALE</div>
-                                    <div className="text-20 d-none d-md-block text-300">DÉLÉGATION GÉNÉRALE À LA SÛRETÉ NATIONALE</div>
+                                <div className="px-md-4 py-md-3 py-xxl-4">
+                                    <div className="text-11 text-md-15 text-xxl-20 text-300">DÉLÉGATION GÉNÉRALE À LA SÛRETÉ NATIONALE</div>
 
                                     <div className="text-700 d-inline-block mb-4">
-                                        <div className="text-24 d-md-none mb-3">POLICE CAMEROUNAISE</div>
-                                        <div className="text-50 d-none d-md-block mb-3">POLICE CAMEROUNAISE</div>
+                                        <div className="text-24 text-md-37 text-xxl-50 mb-3">POLICE CAMEROUNAISE</div>
 
                                         <div className="position-relative bg-white" style={{ height: .5 }}>
                                             <div className="position-absolute rounded-pill bg-white ml-5" style={{ height: 10, width: 70, top: '50%', transform: 'translateY(-50%)' }}>
@@ -159,8 +157,7 @@ class Home extends Component {
                                         </div>
                                     </div>
 
-                                    <div className="text-9 d-md-none mb-5"> Nous vous demandons de bien vouloir parcourir notre site afin de prendre connaissance sur les Mises à jours récentes et informations concernant nos services.</div>
-                                    <div className="text-16 d-none d-md-block mb-5"> Nous vous demandons de bien vouloir parcourir notre site afin de prendre connaissance sur les Mises à jours récentes et informations concernant nos services.</div>
+                                    <div className="text-9 text-md-12 text-xxl-16 mb-5"> Nous vous demandons de bien vouloir parcourir notre site afin de prendre connaissance sur les Mises à jours récentes et informations concernant nos services.</div>
 
                                     <div className="d-flex">
                                         <div className="mr-2 mr-md-3">
@@ -169,8 +166,8 @@ class Home extends Component {
                                         </div>
 
                                         <div className="d-flex align-items-center">
-                                            <Button color="blue" className="d-md-none text-truncate" size="sm">Rechercher<FontAwesomeIcon icon={faArrowAltCircleRight} className="ml-2 ml-md-3 ml-xl-4" fixedWidth /></Button>
-                                            <Button color="blue" className="d-none d-md-inline" size="lg">Rechercher<FontAwesomeIcon icon={faArrowAltCircleRight} className="ml-2 ml-md-3 ml-xl-4" fixedWidth /></Button>
+                                            <Button color="blue" className="d-md-none text-truncate" size="sm">Rechercher<FontAwesomeIcon icon={faArrowAltCircleRight} className="ml-2 ml-md-3 ml-xxl-4" fixedWidth /></Button>
+                                            <Button color="blue" className="d-none d-md-inline" size="lg">Rechercher<FontAwesomeIcon icon={faArrowAltCircleRight} className="ml-2 ml-md-3 ml-xxl-4" fixedWidth /></Button>
                                         </div>
                                     </div>
                                 </div>

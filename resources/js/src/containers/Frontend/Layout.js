@@ -12,8 +12,7 @@ import './Frontend.css';
 const Block = ({ children, title, className }) => (
     <div className={'pt-3 pt-md-0 ' + className}>
         <div className="text-700 text-white position-relative pb-2 mb-3">
-            <div className="text-20 d-none d-md-block">{title}</div>
-            <div className="text-15 d-md-none">{title}</div>
+            <div className="text-15 text-md-17 text-xxl-20">{title}</div>
 
             <div className="border-bottom border-white-20 position-absolute" style={{ width: 87, bottom: 0, left: 0 }}>
                 <FontAwesomeIcon icon={faCircle} className="text-lightblue text-xx-small position-absolute" style={{ top: 0, left: '50%', transform: 'translate(-50%, -50%)' }} />
@@ -21,8 +20,7 @@ const Block = ({ children, title, className }) => (
         </div>
 
         <div className="d-flex flex-column">
-            <div className="text-18 d-none d-md-block">{children}</div>
-            <div className="text-13 d-md-none">{children}</div>
+            <div className="text-13 text-md-15 text-xxl-18">{children}</div>
         </div>
     </div>
 );
@@ -50,15 +48,9 @@ class Layout extends Component {
 
                             <div className="row">
                                 <div className="col-xxl-2 col-xl-3 col-lg-4 col-md-6">
-                                    <div className="text-700 text-white text-uppercase mb-3 pb-1">
-                                        <div className="text-30 d-none d-md-block">Police Camerounaise</div>
-                                        <div className="text-20 d-md-none">Police Camerounaise</div>
-                                    </div>
+                                    <div className="text-700 text-white text-uppercase mb-3 pb-1 text-20 text-md-25 text-xxl-30">Police Camerounaise</div>
 
-                                    <div className="text-500 text-soft text-uppercase">
-                                        <div className="text-20 d-none d-md-block">Délégation Générale à la Sureté Nationale</div>
-                                        <div className="text-15 d-md-none">Délégation Générale à la Sureté Nationale</div>
-                                    </div>
+                                    <div className="text-500 text-soft text-uppercase text-15 text-md-17 text-xxl-20">Délégation Générale à la Sureté Nationale</div>
                                 </div>
 
                                 <div className="col-xxl-2 col-xl-3 offset-xl-1 col-lg-4 col-md-6">
