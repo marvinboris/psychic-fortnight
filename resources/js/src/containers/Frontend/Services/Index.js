@@ -22,24 +22,24 @@ class Services extends Component {
     render() {
         const { activeTab } = this.state;
 
-        const content = <div className="rounded-15 row bg-white mt-5">
-            <div className="col-lg-9 p-5 position-relative">
+        const content = <div className="rounded-15 row bg-white mt-3 mt-md-4 mt-xxl-5">
+            <div className="col-lg-9 p-3 p-md-4 p-xxl-5 position-relative">
                 <div className="position-absolute bg-border d-none d-lg-block" style={{ height: '100%', width: .5, top: 0, right: 0, transform: 'translateX(50%)' }} />
                 <div className="position-absolute bg-blue d-none d-lg-block rounded-5" style={{ height: 104, width: 10, top: '50%', right: 0, transform: 'translate(50%,-50%)' }} />
 
-                <div className="text-35 text-700 text-blue position-relative pb-3 mb-4">
+                <div className="text-25 text-md-30 text-xxl-35 text-700 text-blue position-relative pb-2 pb-md-3 mb-2 mb-md-3 mb-xxl-4">
                     Recherchez CNI
 
                     <div className="position-absolute bg-lightblue" style={{ left: 0, bottom: 0, height: 4, width: 48 }} />
                 </div>
 
-                <div className="text-secondary text-18 mb-5">
+                <div className="text-secondary text-12 text-md-15 text-xxl-18 mb-3 mb-md-4 mb-xxl-5">
                     Afin de vous apporter le meilleur service, nous vous invitons à très souvent consulter cette section
                     Pour vous renseigner d’avantage sur la disponibilité de votre CNI. Veuillez renseigner les champs
                     suivant pour commencer.
                 </div>
 
-                <Form className="text-15 text-300 text-secondary row">
+                <Form className="text-11 text-md-13 text-xxl-15 text-300 text-secondary row">
                     <FormGroup className="col-xl-4 col-lg-5 col-md-6">
                         <Label for="date">Date D’emission</Label>
 
@@ -53,28 +53,28 @@ class Services extends Component {
                     </FormGroup>
 
                     <div className="pt-4 col-12">
-                        <Button color="blue" className="text-500" size="lg">Vérifier<FontAwesomeIcon icon={faCheckCircle} className="ml-4" /></Button>
+                        <Button color="blue" className="text-500" size="lg">Vérifier<FontAwesomeIcon icon={faCheckCircle} className="ml-2 ml-md-3 ml-xxl-4" /></Button>
                     </div>
                 </Form>
             </div>
 
-            <div className="col-lg-3 p-4 p-xxl-5">
-                <div className="p-4 p-xxl-5">
-                    <div className="mb-4">
+            <div className="col-lg-3 p-3 p-md-4 p-xxl-5">
+                <div className="p-3 p-md-4 p-xxl-5">
+                    <div className="mb-2 mb-md-3 mb-xxl-4">
                         <div className="embed-responsive embed-responsive-1by1 position-relative bg-lightblue-15 rounded-15 overflow-hidden">
                             <div className="position-absolute w-100 h-100 d-flex justify-content-center align-items-center flex-column text-center" style={{ top: 0, left: 0 }}>
-                                <div className="text-blue text-700 text-25 mb-3">Jour 5</div>
+                                <div className="text-blue text-700 text-16 text-md-20 text-xxl-25 mb-2 mb-md-3">Jour 5</div>
 
-                                <div className="my-2">
-                                    <FontAwesomeIcon icon={faSpinner} spin className="text-55 text-blue" />
+                                <div className="my-1 my-md-2">
+                                    <FontAwesomeIcon icon={faSpinner} spin className="text-35 text-md-45 text-xxl-55 text-blue" />
                                 </div>
 
-                                <div className="mt-3 text-montserrat">CNI en cours de Production</div>
+                                <div className="mt-2 mt-md-3 text-montserrat">CNI en cours de Production</div>
                             </div>
                         </div>
                     </div>
 
-                    <div className="text-700 text-25 text-blue text-truncate">YUN*****JI***BRI**N</div>
+                    <div className="text-700 text-16 text-md-20 text-xxl-25 text-blue text-truncate">YUN*****JI***BRI**N</div>
 
                     <div className="text-500 text-secondary">
                         CE754*********Q6MZ0<br />
@@ -176,7 +176,7 @@ class Services extends Component {
         const infosContent = infos.map(info => <Info key={JSON.stringify(info)} {...info} />);
 
         const navItemsContent = navItems.map(navItem => <NavItem key={navItem.id}>
-            <NavLink className={"py-2 py-md-3 py-xxl-4 px-3 px-md-4 px-xxl-5 " +(activeTab === navItem.id ? "active" : "")} onClick={() => { this.toggle(navItem.id); }}>
+            <NavLink className={"py-2 py-md-3 py-xxl-4 px-3 px-md-4 px-xxl-5 " + (activeTab === navItem.id ? "active" : "")} onClick={() => { this.toggle(navItem.id); }}>
                 <FontAwesomeIcon icon={navItem.icon} className="icon text-18 text-md-23 text-xxl-28" /><span className="text-truncate text-500 text-14 text-md-17 text-xxl-20">{navItem.name}</span>
             </NavLink>
         </NavItem>);

@@ -21,6 +21,18 @@
 
 .Frontend .Services .nav-link.active .icon {
     opacity: 1;
-    margin-right: 2rem;
+    margin-right: 0.5rem;
     width: auto;
+}
+
+@media (min-width: 800px) {
+    .Frontend .Services .nav-link.active .icon {
+        margin-right: 1rem;
+    }
+}
+
+@media (min-width: 1900px) {
+    .Frontend .Services .nav-link.active .icon {
+        margin-right: 2rem;
+    }
 }

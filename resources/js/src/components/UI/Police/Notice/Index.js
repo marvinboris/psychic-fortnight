@@ -2,11 +2,11 @@ import React from 'react';
 
 import './Notice.css';
 
-export default ({ title, recent }) => <div className={"UI Notice " + (recent ? "recent" : "") + " px-md-2 pt-5"} style={recent && { height: 412 }}>
-    <div className={"position-relative rounded-15 bg-" + (recent ? "white border border-8 border-lightblue shadow-sm" : "lightblue-35") + " py-5 px-4 text-center d-flex justify-content-center align-items-center"} style={recent && { top: -32 }}>
-        {recent && <div className="position-absolute bg-green text-16 text-white rounded-8" style={{ top: 0, right: 90, padding: '12px 39px', transform: 'translateY(-50%)' }}>Récent</div>}
+export default ({ title, recent }) => <div className={"UI Notice " + (recent ? "recent" : "") + " px-md-2 pt-3 pt-md-4 pt-xxl-5"}>
+    <div className={"position-relative rounded-15 bg-" + (recent ? "white border border-8 border-lightblue shadow-sm" : "lightblue-35") + " py-3 py-md-4 py-xxl-5 px-2 px-md-3 px-xxl-4 text-center d-flex justify-content-center align-items-center"}>
+        {recent && <div className="position-absolute recent-badge bg-green text-16 text-white rounded-8" style={{ top: 0, transform: 'translateY(-50%)' }}>Récent</div>}
 
-        <div className={recent ? "my-4 py-2" : "m-3"}>
+        <div className={recent ? "my-2 my-md-3 my-xxl-4 py-1 py-md-2" : "m-2 m-md-3"}>
             <div className={"text-" + (recent ? "20 text-md-25 text-xxl-30 text-500" : "18 text-md-21 text-xxl-25") + ""}>{title}</div>
         </div>
 

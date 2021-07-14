@@ -250,7 +250,7 @@ __webpack_require__.r(__webpack_exports__);
           left: 0
         },
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-          className: "d-flex pb-4 mb-4 border-bottom border-border position-relative",
+          className: "d-flex pb-2 pb-md-3 mb-2 mb-md-3 border-bottom border-orange-50 position-relative",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
             className: "position-absolute ml-5",
             style: {
@@ -716,7 +716,7 @@ var Media = /*#__PURE__*/function (_Component) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
           className: "d-flex align-items-center text-secondary",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
-            className: "text-700 text-20 text-md-25 text-xxl-30 mr-1 mr-md-2 mr-xxl-3",
+            className: "text-700 text-20 text-md-25 text-xxl-30 mr-1 mr-md-2 mr-xxl-3 text-right",
             style: {
               width: '3rem'
             },
@@ -1270,7 +1270,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".Frontend .Media .nav-link {\r\n    border-radius: 15px 15px 0 0;\r\n    padding: 30px 42px;\r\n    color: var(--border);\r\n    cursor: pointer;\r\n    display: flex;\r\n    align-items: center;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Media .icon {\r\n    opacity: 0;\r\n    margin-right: 0;\r\n    width: 0;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Media .circle {\r\n    opacity: 0;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Media .nav-link.active {\r\n    background-color: var(--blue);\r\n    color: white;\r\n}\r\n\r\n.Frontend .Media .nav-link.active .icon {\r\n    opacity: 1;\r\n    margin-right: 2rem;\r\n    width: auto;\r\n}\r\n\r\n.Frontend .Media .nav-link.active .circle {\r\n    opacity: 1;\r\n}\r\n\r\n.Frontend .Media .records {\r\n    max-height: 30rem;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".Frontend .Media .nav-link {\r\n    border-radius: 15px 15px 0 0;\r\n    padding: 30px 42px;\r\n    color: var(--border);\r\n    cursor: pointer;\r\n    display: flex;\r\n    align-items: center;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Media .icon {\r\n    opacity: 0;\r\n    margin-right: 0;\r\n    width: 0;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Media .circle {\r\n    opacity: 0;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Media .nav-link.active {\r\n    background-color: var(--blue);\r\n    color: white;\r\n}\r\n\r\n.Frontend .Media .nav-link.active .icon {\r\n    opacity: 1;\r\n    margin-right: 0.5rem;\r\n    width: auto;\r\n}\r\n\r\n.Frontend .Media .nav-link.active .circle {\r\n    opacity: 1;\r\n}\r\n\r\n.Frontend .Media .records {\r\n    max-height: 30rem;\r\n}\r\n\r\n@media (min-width: 800px) {\r\n    .Frontend .Media .nav-link.active .icon {\r\n        margin-right: 1rem;\r\n    }\r\n}\r\n\r\n@media (min-width: 1900px) {\r\n    .Frontend .Media .nav-link.active .icon {\r\n        margin-right: 2rem;\r\n    }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

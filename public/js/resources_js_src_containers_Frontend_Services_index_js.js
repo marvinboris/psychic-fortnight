@@ -308,9 +308,9 @@ var Services = /*#__PURE__*/function (_Component) {
       var activeTab = this.state.activeTab;
 
       var content = /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
-        className: "rounded-15 row bg-white mt-5",
+        className: "rounded-15 row bg-white mt-3 mt-md-4 mt-xxl-5",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
-          className: "col-lg-9 p-5 position-relative",
+          className: "col-lg-9 p-3 p-md-4 p-xxl-5 position-relative",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
             className: "position-absolute bg-border d-none d-lg-block",
             style: {
@@ -330,7 +330,7 @@ var Services = /*#__PURE__*/function (_Component) {
               transform: 'translate(50%,-50%)'
             }
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
-            className: "text-35 text-700 text-blue position-relative pb-3 mb-4",
+            className: "text-25 text-md-30 text-xxl-35 text-700 text-blue position-relative pb-2 pb-md-3 mb-2 mb-md-3 mb-xxl-4",
             children: ["Recherchez CNI", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
               className: "position-absolute bg-lightblue",
               style: {
@@ -341,10 +341,10 @@ var Services = /*#__PURE__*/function (_Component) {
               }
             })]
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
-            className: "text-secondary text-18 mb-5",
+            className: "text-secondary text-12 text-md-15 text-xxl-18 mb-3 mb-md-4 mb-xxl-5",
             children: "Afin de vous apporter le meilleur service, nous vous invitons \xE0 tr\xE8s souvent consulter cette section Pour vous renseigner d\u2019avantage sur la disponibilit\xE9 de votre CNI. Veuillez renseigner les champs suivant pour commencer."
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)(reactstrap__WEBPACK_IMPORTED_MODULE_8__.default, {
-            className: "text-15 text-300 text-secondary row",
+            className: "text-11 text-md-13 text-xxl-15 text-300 text-secondary row",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)(reactstrap__WEBPACK_IMPORTED_MODULE_9__.default, {
               className: "col-xl-4 col-lg-5 col-md-6",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_10__.default, {
@@ -371,17 +371,17 @@ var Services = /*#__PURE__*/function (_Component) {
                 size: "lg",
                 children: ["V\xE9rifier", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
                   icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_13__.faCheckCircle,
-                  className: "ml-4"
+                  className: "ml-2 ml-md-3 ml-xxl-4"
                 })]
               })
             })]
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
-          className: "col-lg-3 p-4 p-xxl-5",
+          className: "col-lg-3 p-3 p-md-4 p-xxl-5",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
-            className: "p-4 p-xxl-5",
+            className: "p-3 p-md-4 p-xxl-5",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
-              className: "mb-4",
+              className: "mb-2 mb-md-3 mb-xxl-4",
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
                 className: "embed-responsive embed-responsive-1by1 position-relative bg-lightblue-15 rounded-15 overflow-hidden",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
@@ -391,23 +391,23 @@ var Services = /*#__PURE__*/function (_Component) {
                     left: 0
                   },
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
-                    className: "text-blue text-700 text-25 mb-3",
+                    className: "text-blue text-700 text-16 text-md-20 text-xxl-25 mb-2 mb-md-3",
                     children: "Jour 5"
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
-                    className: "my-2",
+                    className: "my-1 my-md-2",
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
                       icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_13__.faSpinner,
                       spin: true,
-                      className: "text-55 text-blue"
+                      className: "text-35 text-md-45 text-xxl-55 text-blue"
                     })
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
-                    className: "mt-3 text-montserrat",
+                    className: "mt-2 mt-md-3 text-montserrat",
                     children: "CNI en cours de Production"
                   })]
                 })
               })
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
-              className: "text-700 text-25 text-blue text-truncate",
+              className: "text-700 text-16 text-md-20 text-xxl-25 text-blue text-truncate",
               children: "YUN*****JI***BRI**N"
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
               className: "text-500 text-secondary",
@@ -686,7 +686,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".Frontend .Services .nav-link {\r\n    border-radius: 15px 15px 0 0;\r\n    color: var(--border);\r\n    cursor: pointer;\r\n    display: flex;\r\n    align-items: center;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Services .icon {\r\n    opacity: 0;\r\n    margin-right: 0;\r\n    width: 0;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Services .nav-link.active {\r\n    background-color: var(--blue);\r\n    color: white;\r\n}\r\n\r\n.Frontend .Services .nav-link.active .icon {\r\n    opacity: 1;\r\n    margin-right: 2rem;\r\n    width: auto;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".Frontend .Services .nav-link {\r\n    border-radius: 15px 15px 0 0;\r\n    color: var(--border);\r\n    cursor: pointer;\r\n    display: flex;\r\n    align-items: center;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Services .icon {\r\n    opacity: 0;\r\n    margin-right: 0;\r\n    width: 0;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Services .nav-link.active {\r\n    background-color: var(--blue);\r\n    color: white;\r\n}\r\n\r\n.Frontend .Services .nav-link.active .icon {\r\n    opacity: 1;\r\n    margin-right: 0.5rem;\r\n    width: auto;\r\n}\r\n\r\n@media (min-width: 800px) {\r\n    .Frontend .Services .nav-link.active .icon {\r\n        margin-right: 1rem;\r\n    }\r\n}\r\n\r\n@media (min-width: 1900px) {\r\n    .Frontend .Services .nav-link.active .icon {\r\n        margin-right: 2rem;\r\n    }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

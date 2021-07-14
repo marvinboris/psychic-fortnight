@@ -10,7 +10,7 @@ export default ({ title, photo, description }) => <div className="UI Picture col
         <div className="position-absolute w-100 h-100 background" style={{ backgroundImage: `url("${photo}")` }} />
 
         <div className="position-absolute w-100 bg-black-50 px-4 pt-4 pb-5" style={{ bottom: 0, left: 0 }}>
-            <div className="d-flex pb-4 mb-4 border-bottom border-border position-relative">
+            <div className="d-flex pb-2 pb-md-3 mb-2 mb-md-3 border-bottom border-orange-50 position-relative">
                 <div className="position-absolute ml-5" style={{ bottom: 0, transform: 'translateY(50%)' }}>
                     <FontAwesomeIcon icon={faCircle} className="text-orange" />
                 </div>

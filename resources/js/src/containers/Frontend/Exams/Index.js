@@ -15,7 +15,7 @@ import { convertDate, updateObject } from '../../../shared/utility';
 import './Exams.css';
 
 const Condition = ({ children }) => <div className="d-flex align-items-center">
-    <div className="text-16"><FontAwesomeIcon icon={faCheckDouble} className="text-green mr-3" />{children}</div>
+    <div className="text-10 text-md-13 text-xxl-16"><FontAwesomeIcon icon={faCheckDouble} className="text-green mr-3" />{children}</div>
 </div>;
 
 class Exams extends Component {
@@ -42,67 +42,53 @@ class Exams extends Component {
         const noticesTabContent = <div className="row">
             <div className="col-12 bg-lightblue-30 py-5">
                 <div className="container-xxl d-flex justify-content-between align-items-center my-3">
-                    <div className="d-flex align-items-center">
-                        <div className="d-flex align-items-center mr-4 mr-md-5 pr-4 pr-md-5">
+                    <div className="d-xxl-flex align-items-center">
+                        <div className="d-flex align-items-center mr-4 mr-md-5 pr-4 pr-md-5 pb-3 pb-md-4 pb-xxl-0">
                             <div className="mr-2 mr-md-3 text-blue">
-                                <FontAwesomeIcon icon={faCalendar} className="text-28" />
+                                <FontAwesomeIcon icon={faCalendar} className="text-20 text-md-24 text-xxl-28" />
                             </div>
 
-                            <div className="text-500 text-secondary mr-3 mr-md-4">
-                                <div className="text-20">Date de publication :</div>
-                            </div>
+                            <div className="text-500 text-secondary mr-3 mr-md-4 text-14 text-md-17 text-xxl-20">Date de publication :</div>
 
-                            <div className="text-700 text-blue">
-                                <div className="text-20">{convertDate(new Date())}</div>
-                            </div>
+                            <div className="text-700 text-blue text-14 text-md-17 text-xxl-20">{convertDate(new Date())}</div>
                         </div>
 
                         <div className="d-flex align-items-center">
                             <div className="mr-2 mr-md-3 text-orange">
-                                <FontAwesomeIcon icon={faCalendar} className="text-28" />
+                                <FontAwesomeIcon icon={faCalendar} className="text-20 text-md-24 text-xxl-28" />
                             </div>
 
-                            <div className="text-500 text-secondary mr-3 mr-md-4">
-                                <div className="text-20">Délai de publication :</div>
-                            </div>
+                            <div className="text-500 text-secondary mr-3 mr-md-4 text-14 text-md-17 text-xxl-20">Délai de publication :</div>
 
-                            <div className="text-700 text-orange">
-                                <div className="text-20">{convertDate(new Date())}</div>
-                            </div>
+                            <div className="text-700 text-orange text-14 text-md-17 text-xxl-20">{convertDate(new Date())}</div>
                         </div>
                     </div>
 
-                    <div className="d-flex">
-                        <div className="mr-md-5">
-                            <a href="#" className="btn btn-orange py-3 pl-3 pr-5 d-flex align-items-center">
+                    <div className="d-xl-flex">
+                        <div className="mr-xl-5 pb-3 pb-md-4 pb-xl-0">
+                            <a href="#" className="btn btn-orange py-2 py-md-3 pl-2 pl-md-3 pr-3 pr-md-4 pr-xxl-5 d-flex align-items-center">
                                 <div className="text-darkblue mr-2 mr-md-3">
-                                    <FontAwesomeIcon icon={faCloudDownloadAlt} className="text-24" />
+                                    <FontAwesomeIcon icon={faCloudDownloadAlt} className="text-16 text-md-20 text-xxl-24" />
                                 </div>
 
-                                <div className="text-500">
-                                    <div className="text-20">Télécharger L'offre</div>
-                                </div>
+                                <div className="text-500 text-14 text-md-17 text-xxl-20">Télécharger L'offre</div>
                             </a>
                         </div>
 
                         <div>
-                            <a href="#" className="btn btn-blue py-3 px-5 d-flex align-items-center">
-                                <div className="text-500">
-                                    <div className="text-20">Postuler</div>
-                                </div>
-                            </a>
+                            <a href="#" className="btn btn-blue btn-block py-2 py-md-3 px-3 px-md-4 px-xxl-5 text-500 text-14 text-md-17 text-xxl-20">Postuler</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="col-12 pt-md-5 text-secondary">
+            <div className="col-12 pt-4 pt-md-5 text-secondary">
                 <div className="container-xxl">
-                    <p className="text-18">Pour en savoir d’avantage sur l’offre, nous vous  prions de télécharger le document ci-dessous</p>
+                    <p className="text-12 text-md-15 text-xxl-18">Pour en savoir d’avantage sur l’offre, nous vous  prions de télécharger le document ci-dessous</p>
 
-                    <p className="text-18">Afin de poursuivre, veuillez consulter les conditions d’adhésion ci-dessous.</p>
+                    <p className="text-12 text-md-15 text-xxl-18">Afin de poursuivre, veuillez consulter les conditions d’adhésion ci-dessous.</p>
 
-                    <div className="pt-5 mt-3 pl-5 ml-5">
+                    <div className="pt-3 pt-md-4 pt-xxl-5 mt-2 mt-md-3 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5">
                         <Condition>Nom complet, adresse, sexe, nom et lieu naissance</Condition>
                         <Condition>Region et division d’origine</Condition>
                         <Condition>Examination competitive choisie</Condition>
@@ -205,46 +191,48 @@ class Exams extends Component {
             return <tr className="align-middle" key={index + 1}>{inside}</tr>;
         });
         const resultsTabContent = <div>
-            <div className="d-flex align-items-center justify-content-between mb-4 pb-3">
-                <div>
-                    <div className={`d-flex align-items-center text-secondary rounded-4`}>
-                        <div className="border-right border-border-50">
-                            <div className={`px-3 py-2 text-300 h-100 rounded-left-4 bg-lightblue`}>
-                                <div className="text-25">{"Afficher"}</div>
+            <div className="mb-3 mb-md-4 pb-2 pb-md-3">
+                <div className="d-flex align-items-center justify-content-between">
+                    <div>
+                        <div className={`d-flex align-items-center text-secondary rounded-4`}>
+                            <div className="border-right border-border-50">
+                                <div className="px-2 px-md-3 py-1 py-md-2 text-300 h-100 rounded-left-4 bg-lightblue text-16 text-md-20 text-xxl-25">{"Afficher"}</div>
                             </div>
+
+                            <Input type="select" name="show" className={`text-16 text-md-20 text-xxl-25 px-2 px-md-3 py-1 py-md-2 text-center rounded-left-0 rounded-right-4 h-100 d-block text-reset border border-2 border-lightblue bg-lightblue`} style={{ width: '6rem' }}>
+                                <option value="10">10</option>
+                                <option value="25">25</option>
+                                <option value="50">50</option>
+                                <option value="100">100</option>
+                                <option value="All">{"Tout"}</option>
+                            </Input>
+                        </div>
+                    </div>
+
+                    <div className="d-flex align-items-center">
+                        <div className="d-none d-sm-block pr-sm-4 pr-xxl-5">
+                            <Input type="text" name="ref" placeholder="ID Exam" className="text-secondary text-16 text-md-20 text-xxl-25 rounded-10 border-0 bg-soft py-2 py-md-3 px-3 px-md-4 px-xxl-5" />
                         </div>
 
-                        <Input type="select" name="show" className={`text-25 px-3 py-2 text-center rounded-left-0 rounded-right-4 h-100 d-block text-reset border border-2 border-lightblue bg-lightblue`} style={{ width: '6rem' }}>
-                            <option value="10">10</option>
-                            <option value="25">25</option>
-                            <option value="50">50</option>
-                            <option value="100">100</option>
-                            <option value="All">{"Tout"}</option>
-                        </Input>
+                        <div>
+                            <a href="#" className="btn btn-orange py-1 py-md-2 py-xxl-3 pl-1 pl-md-2 pl-xxl-3 pr-3 pr-md-4 pr-xxl-5 d-flex align-items-center">
+                                <div className="text-white mr-2 mr-md-3">
+                                    <FontAwesomeIcon icon={faCloudDownloadAlt} className="text-16 text-md-20 text-xxl-25" />
+                                </div>
+
+                                <div className="text-500 text-16 text-md-20 text-xxl-25">Exporter</div>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <div className="d-flex align-items-center">
-                    <div className="pr-5">
-                        <Input type="text" name="ref" placeholder="ID Exam" className="text-secondary text-25 rounded-10 border-0 bg-soft py-3 px-5" />
-                    </div>
-
-                    <div>
-                        <a href="#" className="btn btn-orange py-3 pl-3 pr-5 d-flex align-items-center">
-                            <div className="text-white mr-2 mr-md-3">
-                                <FontAwesomeIcon icon={faCloudDownloadAlt} className="text-24" />
-                            </div>
-
-                            <div className="text-500">
-                                <div className="text-25">Exporter</div>
-                            </div>
-                        </a>
-                    </div>
+                <div className="d-sm-none pt-3">
+                    <Input type="text" name="ref" placeholder="ID Exam" className="text-secondary text-16 text-md-20 text-xxl-25 rounded-10 border-0 bg-soft py-2 py-md-3 px-3 px-md-4 px-xxl-5" />
                 </div>
             </div>
 
-            <div>
-                <Table bordered hover className={`bg-lightblue-15 rounded-10`}>
+            <div className="table-responsive scrollbar-blue">
+                <Table bordered hover className={`bg-lightblue-15 rounded-10 text-12 text-md-13 text-xxl-14`}>
                     <thead className={"text-secondary"}>
                         <tr>{titles}</tr>
                     </thead>
@@ -354,15 +342,15 @@ class Exams extends Component {
         const infosContent = infos.map(info => <Info key={JSON.stringify(info)} {...info} />);
 
         const noticesNavItemsContent = noticesNavItems.map(navItem => <NavItem key={navItem.id}>
-            <NavLink className={noticesActiveTab === navItem.id ? "active" : ""} onClick={() => { this.noticesToggle(navItem.id); }}>
-                <FontAwesomeIcon icon={navItem.icon} className="icon text-28" /><span className="text-truncate">{navItem.name}</span>
+            <NavLink className={"py-2 py-md-3 py-xxl-4 px-3 px-md-4 px-xxl-5 " + (noticesActiveTab === navItem.id ? "active" : "")} onClick={() => { this.noticesToggle(navItem.id); }}>
+                <FontAwesomeIcon icon={navItem.icon} className="icon text-18 text-md-23 text-xxl-28" /><span className="text-truncate">{navItem.name}</span>
             </NavLink>
         </NavItem>);
         const noticesTabPanesContent = noticesNavItems.map(navItem => <TabPane tabId={navItem.id} key={navItem.id + Math.random()}>{navItem.content}</TabPane>);
 
         const resultsNavItemsContent = resultsNavItems.map(navItem => <NavItem key={navItem.id}>
-            <NavLink className={resultsActiveTab === navItem.id ? "active" : ""} onClick={() => { this.resultsToggle(navItem.id); }}>
-                <FontAwesomeIcon icon={navItem.icon} className="icon text-28" /><span className="text-truncate">{navItem.name}</span>
+            <NavLink className={"py-2 py-md-3 py-xxl-4 px-3 px-md-4 px-xxl-5 " + (resultsActiveTab === navItem.id ? "active" : "")} onClick={() => { this.resultsToggle(navItem.id); }}>
+                <FontAwesomeIcon icon={navItem.icon} className="icon text-18 text-md-23 text-xxl-28" /><span className="text-truncate">{navItem.name}</span>
             </NavLink>
         </NavItem>);
         const resultsTabPanesContent = resultsNavItems.map(navItem => <TabPane tabId={navItem.id} key={navItem.id + Math.random()}>{navItem.content}</TabPane>);
@@ -389,8 +377,8 @@ class Exams extends Component {
                 <div>
                     <OwlCarousel options={{
                         responsive: {
-                            0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true, nav: true },
-                            600: { items: 2, autoplay: true, stagePadding: 48, margin: 20, center: false },
+                            0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true, nav: true, autoWidth: false },
+                            600: { items: 2, autoplay: true, stagePadding: 48, margin: 20, center: false, autoWidth: false },
                             1000: { items: 3 },
                             1800: { items: 4 }
                         },
@@ -421,11 +409,9 @@ class Exams extends Component {
 
 
 
-            <Block title="Résultats  de concours" subtitle="Consultez le statut de votre concours.">
-                <div className="py-5 bg-lightblue-30 text-secondary text-center">
-                    <div className="my-4">
-                        <div className="text-25">Veuillez renseigner le champ ID Exam ci-dessous pour une vérification plus rapide</div>
-                    </div>
+            <Block title="Résultats de concours" subtitle="Consultez le statut de votre concours.">
+                <div className="py-3 py-md-4 py-xxl-5 bg-lightblue-30 text-secondary text-center">
+                    <div className="my-2 my-md-3 my-xxl-4 text-16 text-md-20 text-xxl-25">Veuillez renseigner le champ ID Exam ci-dessous pour une vérification plus rapide</div>
                 </div>
 
                 <div className="container-xxl">

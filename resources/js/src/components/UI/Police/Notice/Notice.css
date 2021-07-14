@@ -1,13 +1,44 @@
-.UI.Notice {
-    width: 495px;
-}
-
+.UI.Notice,
 .UI.Notice.recent {
-    width: 541px;
+    width: auto;
 }
 
-@media (max-width: 800px) {
+.UI.Notice.recent > div {
+    top: 0;
+}
+
+.UI.Notice.recent .recent-badge {
+    right: 50px;
+    padding: 8px 31px;
+}
+
+@media (min-width: 800px) {
     .UI.Notice {
-        width: auto;
+        width: 495px;
+    }
+
+    .UI.Notice.recent {
+        width: 541px;
+        height: 412px;
+    }
+
+    .UI.Notice.recent > div {
+        top: -8px;
+    }
+
+    .UI.Notice.recent .recent-badge {
+        right: 70px;
+        padding: 10px 35px;
+    }
+}
+
+@media (min-width: 1900px) {
+    .UI.Notice.recent > div {
+        top: -32px;
+    }
+
+    .UI.Notice.recent .recent-badge {
+        right: 90px;
+        padding: 12px 39px;
     }
 }

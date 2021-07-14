@@ -1,6 +1,5 @@
 .Frontend .Exams .nav-link {
     border-radius: 15px 15px 0 0;
-    padding: 30px 42px;
     color: var(--border);
     cursor: pointer;
     display: flex;
@@ -10,7 +9,7 @@
 
 .Frontend .Exams .icon {
     color: var(--blue);
-    margin-right: 2rem;
+    margin-right: 0.5rem;
     transition: all 0.25s;
 }
 
@@ -21,4 +20,16 @@
 
 .Frontend .Exams .nav-link.active .icon {
     color: white;
+}
+
+@media (min-width: 800px) {
+    .Frontend .Exams .icon {
+        margin-right: 1rem;
+    }
+}
+
+@media (min-width: 1900px) {
+    .Frontend .Exams .icon {
+        margin-right: 2rem;
+    }
 }

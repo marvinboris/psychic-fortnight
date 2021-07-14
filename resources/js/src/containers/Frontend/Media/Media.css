@@ -27,7 +27,7 @@
 
 .Frontend .Media .nav-link.active .icon {
     opacity: 1;
-    margin-right: 2rem;
+    margin-right: 0.5rem;
     width: auto;
 }
 
@@ -37,4 +37,16 @@
 
 .Frontend .Media .records {
     max-height: 30rem;
+}
+
+@media (min-width: 800px) {
+    .Frontend .Media .nav-link.active .icon {
+        margin-right: 1rem;
+    }
+}
+
+@media (min-width: 1900px) {
+    .Frontend .Media .nav-link.active .icon {
+        margin-right: 2rem;
+    }
 }
