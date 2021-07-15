@@ -1,16 +1,15 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import './Service.css';
 
-export default ({ name, icon, description }) => <div className="UI Service col-xl-3 col-lg-6 px-0 px-md-3 pb-4 h-100">
+export default ({ name, icon, description }) => <div className="UI Service col-xl-3 col-lg-6 px-0 px-md-3 pb-4 h-100 bg-white">
     <div className="block rounded-30 pb-5">
         <div className="h-100 pt-4 pb-md-4 text-center">
             <div className="bubble-wrapper">
                 <div className="d-flex justify-content-center align-items-center position-relative">
                     <div className="bubble embed-responsive embed-responsive-1by1 border border-lightblue bg-lightblue-15 rounded-circle border-10" />
 
-                    <FontAwesomeIcon icon={icon} className="text-50 position-absolute text-blue" size="2x" style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }} />
+                    <i className={icon + " text-50 position-absolute text-blue"} size="2x" style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }} />
                 </div>
             </div>
 

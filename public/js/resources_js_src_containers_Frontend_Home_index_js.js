@@ -12,12 +12,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _shared_utility__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../shared/utility */ "./resources/js/src/shared/utility.js");
+/* harmony import */ var _assets_images_white_bg_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../assets/images/white-bg.png */ "./resources/js/src/assets/images/white-bg.png");
+/* harmony import */ var _assets_images_gray_bg_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../assets/images/gray-bg.png */ "./resources/js/src/assets/images/gray-bg.png");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
 
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (function (_ref) {
-  var style = _ref.style,
+  var _ref$style = _ref.style,
+      style = _ref$style === void 0 ? {} : _ref$style,
       children = _ref.children,
       full = _ref.full,
       fluid = _ref.fluid,
@@ -25,39 +32,47 @@ __webpack_require__.r(__webpack_exports__);
       _ref$color = _ref.color,
       color = _ref$color === void 0 ? 'white' : _ref$color,
       subtitle = _ref.subtitle;
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-    className: full ? "" : "py-5 bg-" + color,
-    style: style,
-    children: full ? children : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+    className: full ? "" : "py-5",
+    style: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_1__.updateObject)(style, {
+      backgroundPosition: 'top',
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
+      backgroundImage: 'url("' + {
+        white: _assets_images_white_bg_png__WEBPACK_IMPORTED_MODULE_2__.default,
+        soft: _assets_images_gray_bg_png__WEBPACK_IMPORTED_MODULE_3__.default
+      }[color] + '")'
+    }),
+    children: full ? children : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
       className: "container-" + (fluid ? "fluid" : "xxl") + " text-dark",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
         className: "text-center mb-5",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
           className: "text-700 text-blue",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
             className: "text-16 text-md-25 text-xxl-35",
             children: title
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
             className: "d-flex justify-content-center align-items-center",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                 className: "bg-border",
                 style: {
                   height: .5,
                   width: 40
                 }
               })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
               className: "px-2",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                 className: "rounded-circle border border-blue",
                 style: {
                   height: 8,
                   width: 8
                 }
               })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                 className: "bg-border",
                 style: {
                   height: .5,
@@ -66,9 +81,9 @@ __webpack_require__.r(__webpack_exports__);
               })
             })]
           })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
           className: "text-secondary row justify-content-center",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
             className: "col-md-10 text-16 text-md-20 text-xxl-25 col-lg-8",
             children: subtitle
           })
@@ -110,7 +125,7 @@ __webpack_require__.r(__webpack_exports__);
       _ref$path = _ref.path,
       path = _ref$path === void 0 ? "/" : _ref$path;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-    className: "UI Formula col-xxl-3 col-xl-4 col-lg-4 px-0 px-md-3 pb-4",
+    className: "UI Formula bg-white col-xxl-3 col-xl-4 col-lg-4 px-0 px-md-3 pb-4",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
       className: "block d-flex flex-column",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
@@ -139,10 +154,10 @@ __webpack_require__.r(__webpack_exports__);
           className: "text-right pt-3",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Link, {
             to: path,
-            className: "btn btn-white text-darkblue text-10 text-md-11 text-xxl-12",
+            className: "btn text-10 text-md-11 text-xxl-12",
             children: ["T\xE9l\xE9charger", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
               icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faFileDownload,
-              className: "text-red ml-2 ml-xxl-3 text-14 text-md-15 text-xxl-16"
+              className: "btn-icon ml-2 ml-xxl-3 text-14 text-md-15 text-xxl-16"
             })]
           })
         })]
@@ -213,7 +228,7 @@ __webpack_require__.r(__webpack_exports__);
               height: 36
             },
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-              icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_6__.faShare
+              icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_6__.faShareAlt
             })
           })
         })
@@ -296,10 +311,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
-/* harmony import */ var _Service_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Service.css */ "./resources/js/src/components/UI/Police/Service/Service.css");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
+/* harmony import */ var _Service_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Service.css */ "./resources/js/src/components/UI/Police/Service/Service.css");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
 
@@ -308,21 +321,20 @@ __webpack_require__.r(__webpack_exports__);
   var name = _ref.name,
       icon = _ref.icon,
       description = _ref.description;
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-    className: "UI Service col-xl-3 col-lg-6 px-0 px-md-3 pb-4 h-100",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+    className: "UI Service col-xl-3 col-lg-6 px-0 px-md-3 pb-4 h-100 bg-white",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
       className: "block rounded-30 pb-5",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
         className: "h-100 pt-4 pb-md-4 text-center",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
           className: "bubble-wrapper",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
             className: "d-flex justify-content-center align-items-center position-relative",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
               className: "bubble embed-responsive embed-responsive-1by1 border border-lightblue bg-lightblue-15 rounded-circle border-10"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-              icon: icon,
-              className: "text-50 position-absolute text-blue",
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+              className: icon + " text-50 position-absolute text-blue",
               size: "2x",
               style: {
                 top: '50%',
@@ -331,13 +343,13 @@ __webpack_require__.r(__webpack_exports__);
               }
             })]
           })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
           className: "text-700 mb-2 mb-md-3 pb-3 pb-md-4 border-bottom border-border text-secondary",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
             className: "text-14 text-md-15 text-xxl-17",
             children: name
           })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
           className: "text-13 text-md-14 text-xxl-16",
           children: description
         })]
@@ -361,13 +373,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/esm/react-router.js");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Input.js");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Button.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Input.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Button.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-owl-carousel2 */ "./node_modules/react-owl-carousel2/lib/OwlCarousel.js");
 /* harmony import */ var react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
-/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js");
+/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js");
 /* harmony import */ var _components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/UI/Police/Block */ "./resources/js/src/components/UI/Police/Block/index.js");
 /* harmony import */ var _components_UI_Police_Service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/UI/Police/Service */ "./resources/js/src/components/UI/Police/Service/index.js");
 /* harmony import */ var _components_UI_Police_Formula__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/UI/Police/Formula */ "./resources/js/src/components/UI/Police/Formula/index.js");
@@ -445,19 +457,19 @@ var Home = /*#__PURE__*/function (_Component) {
     value: function render() {
       var services = [{
         name: 'Solliciter un passeport',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_15__.faPassport,
+        icon: "fad fa-passport",
         description: "Check out our API integration \n                documentation here. Try it and\n                start using. Our API is very \n                secured.  "
       }, {
         name: 'Vérifier un passeport',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_15__.faPassport,
+        icon: "fad fa-passport",
         description: "Check out our API integration \n                documentation here. Try it and\n                start using. Our API is very \n                secured.  "
       }, {
         name: 'Titres identitaires disponibles',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_15__.faIdCard,
+        icon: "fad fa-id-card",
         description: "Check out our API integration \n                documentation here. Try it and\n                start using. Our API is very \n                secured.  "
       }, {
         name: 'Solliciter un passport',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_15__.faPassport,
+        icon: "fad fa-passport",
         description: "Check out our API integration \n                documentation here. Try it and\n                start using. Our API is very \n                secured.  "
       }];
       var formulae = [{
@@ -582,13 +594,13 @@ var Home = /*#__PURE__*/function (_Component) {
                       className: "d-flex",
                       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
                         className: "mr-2 mr-md-3",
-                        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_16__.default, {
+                        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_15__.default, {
                           type: "search",
                           name: "search",
                           placeholder: "Rechercher tout ici...",
                           className: "d-md-none",
                           bsSize: "sm"
-                        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_16__.default, {
+                        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_15__.default, {
                           type: "search",
                           name: "search",
                           placeholder: "Rechercher tout ici...",
@@ -597,21 +609,21 @@ var Home = /*#__PURE__*/function (_Component) {
                         })]
                       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
                         className: "d-flex align-items-center",
-                        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(reactstrap__WEBPACK_IMPORTED_MODULE_17__.default, {
+                        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(reactstrap__WEBPACK_IMPORTED_MODULE_16__.default, {
                           color: "blue",
                           className: "d-md-none text-truncate",
                           size: "sm",
                           children: ["Rechercher", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, {
-                            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_15__.faArrowAltCircleRight,
+                            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_17__.faArrowAltCircleRight,
                             className: "ml-2 ml-md-3 ml-xxl-4",
                             fixedWidth: true
                           })]
-                        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(reactstrap__WEBPACK_IMPORTED_MODULE_17__.default, {
+                        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(reactstrap__WEBPACK_IMPORTED_MODULE_16__.default, {
                           color: "blue",
                           className: "d-none d-md-inline",
                           size: "lg",
                           children: ["Rechercher", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, {
-                            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_15__.faArrowAltCircleRight,
+                            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_17__.faArrowAltCircleRight,
                             className: "ml-2 ml-md-3 ml-xxl-4",
                             fixedWidth: true
                           })]
@@ -660,7 +672,7 @@ var Home = /*#__PURE__*/function (_Component) {
                     center: false,
                     loop: true,
                     dots: false,
-                    navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
+                    navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
                   },
                   children: servicesContent
                 })
@@ -699,7 +711,8 @@ var Home = /*#__PURE__*/function (_Component) {
                   center: false,
                   loop: true,
                   dots: false,
-                  nav: true
+                  nav: true,
+                  navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
                 },
                 children: blogContent
               })
@@ -712,9 +725,9 @@ var Home = /*#__PURE__*/function (_Component) {
             className: "text-right mb-4",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_18__.Link, {
               to: "/formulae",
-              className: "btn btn-link",
+              className: "btn btn-link text-yellow",
               children: ["Liste compl\xE8te", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, {
-                icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_15__.faAngleDoubleRight,
+                icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_17__.faAngleDoubleRight,
                 className: "ml-2"
               })]
             })
@@ -754,7 +767,8 @@ var Home = /*#__PURE__*/function (_Component) {
                     },
                     center: false,
                     loop: true,
-                    dots: false
+                    dots: false,
+                    navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
                   },
                   children: formulaeContent
                 })
@@ -790,7 +804,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".UI.Formula > div {\r\n    height: 100%;\r\n    background-position: center;\r\n    background-size: calc(100% + 8px) calc(100% + 8px);\r\n    background-repeat: no-repeat;\r\n    background-image: url(\"/images/Soustraction 26@2x.png\");\r\n    padding-top: 2.5rem;\r\n    padding-bottom: 4rem;\r\n    padding-left: 3rem;\r\n    padding-right: 3rem;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover,\r\n.owl-item.center.active .UI.Formula > div {\r\n    background-image: url(\"/images/Soustraction 4@2x.png\");\r\n}\r\n\r\n.UI.Formula > div .title {\r\n    color: var(--darkblue);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .title,\r\n.owl-item.center.active .UI.Formula > div .title {\r\n    color: var(--soft);\r\n}\r\n\r\n.UI.Formula > div .icon {\r\n    color: var(--blue);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .icon,\r\n.owl-item.center.active .UI.Formula > div .icon {\r\n    color: var(--lightblue);\r\n}\r\n\r\n.UI.Formula > div > div:first {\r\n    border-color: var(--border);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover > div:first,\r\n.owl-item.center.active .UI.Formula > div > div:first {\r\n    border-color: var(--soft);\r\n}\r\n\r\n.UI.Formula > div .description {\r\n    color: var(--border);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .description,\r\n.owl-item.center.active .UI.Formula > div .description {\r\n    color: var(--soft);\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".UI.Formula > div {\r\n    height: 100%;\r\n    background-position: center;\r\n    background-size: calc(100% + 8px) calc(100% + 8px);\r\n    background-repeat: no-repeat;\r\n    background-image: url(\"/images/Soustraction 28@2x.png\");\r\n    padding-top: 2.5rem;\r\n    padding-bottom: 4rem;\r\n    padding-left: 3rem;\r\n    padding-right: 3rem;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover,\r\n.owl-item.center.active .UI.Formula > div {\r\n    background-image: url(\"/images/Soustraction 4@2x.png\");\r\n}\r\n\r\n.UI.Formula > div .title {\r\n    color: var(--darkblue);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .title,\r\n.owl-item.center.active .UI.Formula > div .title {\r\n    color: var(--soft);\r\n}\r\n\r\n.UI.Formula > div .icon {\r\n    color: var(--blue);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .icon,\r\n.owl-item.center.active .UI.Formula > div .icon {\r\n    color: var(--lightblue);\r\n}\r\n\r\n.UI.Formula > div > div:first {\r\n    border-color: var(--border);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover > div:first,\r\n.owl-item.center.active .UI.Formula > div > div:first {\r\n    border-color: var(--soft);\r\n}\r\n\r\n.UI.Formula > div .description {\r\n    color: var(--border);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .description,\r\n.owl-item.center.active .UI.Formula > div .description {\r\n    color: var(--soft);\r\n}\r\n\r\n.UI.Formula > div .btn {\r\n    background: var(--blue);\r\n    color: white;\r\n}\r\n\r\n.UI.Formula > div .btn-icon {\r\n    color: white;\r\n}\r\n\r\n.UI.Formula > div:hover .btn,\r\n.owl-item.center.active .UI.Formula > div .btn {\r\n    background: white;\r\n    color: var(--darkblue);\r\n}\r\n\r\n.UI.Formula > div:hover .btn-icon,\r\n.owl-item.center.active .UI.Formula > div .btn-icon {\r\n    color: var(--red);\r\n}\r\n\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -814,7 +828,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".UI.Post > div {\r\n    height: 100%;\r\n    background-color: var(--black-5);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post .embed-responsive {\r\n    background-position: center;\r\n    background-size: auto 100%;\r\n    background-repeat: no-repeat;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post > div:hover,\r\n.owl-item.center.active .UI.Post > div {\r\n    background-color: white;\r\n}\r\n\r\n.UI.Post > div:hover .embed-responsive,\r\n.owl-item.center.active .UI.Post > div .embed-responsive {\r\n    background-size: auto calc(100% + 6px);\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".UI.Post > div {\r\n    height: 100%;\r\n    background-color: var(--lightblue-25);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post .embed-responsive {\r\n    background-position: center;\r\n    background-size: auto 100%;\r\n    background-repeat: no-repeat;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post > div:hover,\r\n.owl-item.center.active .UI.Post > div {\r\n    background-color: white;\r\n}\r\n\r\n.UI.Post > div:hover .embed-responsive,\r\n.owl-item.center.active .UI.Post > div .embed-responsive {\r\n    background-size: auto calc(100% + 6px);\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -941,6 +955,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/Soustraction 9@2x.png?9a266d338283b2a3166dc2560bb55864");
+
+/***/ }),
+
+/***/ "./resources/js/src/assets/images/gray-bg.png":
+/*!****************************************************!*\
+  !*** ./resources/js/src/assets/images/gray-bg.png ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/gray-bg.png?9abfdfcebcc36b6ad5c6303b6fc45465");
+
+/***/ }),
+
+/***/ "./resources/js/src/assets/images/white-bg.png":
+/*!*****************************************************!*\
+  !*** ./resources/js/src/assets/images/white-bg.png ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/white-bg.png?401401932722f558a46672bf4b138f2a");
 
 /***/ }),
 

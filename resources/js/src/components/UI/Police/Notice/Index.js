@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Notice.css';
 
-export default ({ title, recent }) => <div className={"UI Notice " + (recent ? "recent" : "") + " px-md-2 pt-3 pt-md-4 pt-xxl-5"}>
+export default ({ title, recent }) => <div className={"UI Notice bg-white " + (recent ? "recent" : "") + " px-md-2 pt-3 pt-md-4 pt-xxl-5"}>
     <div className={"position-relative rounded-15 bg-" + (recent ? "white border border-8 border-lightblue shadow-sm" : "lightblue-35") + " py-3 py-md-4 py-xxl-5 px-2 px-md-3 px-xxl-4 text-center d-flex justify-content-center align-items-center"}>
         {recent && <div className="position-absolute recent-badge bg-green text-16 text-white rounded-8" style={{ top: 0, transform: 'translateY(-50%)' }}>Récent</div>}
 

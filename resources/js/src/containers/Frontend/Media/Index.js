@@ -140,17 +140,17 @@ class Media extends Component {
         const infos = [
             {
                 name: 'Service de renseignement',
-                icon: faPhone,
+                icon: "fad fa-phone-office",
                 info: '+237 123 456 890'
             },
             {
                 name: 'Assistance',
-                icon: faEnvelope,
+                icon: "fad fa-envelope",
                 info: 'support@dgsn.cm'
             },
             {
                 name: 'Autres Besoins',
-                icon: faEnvelope,
+                icon: "fad fa-envelope",
                 info: 'contact@dgsn.cm'
             },
         ];
@@ -252,20 +252,25 @@ class Media extends Component {
         const publishmentsContent = <div className="row bg-soft py-3 py-md-4 py-xxl-5">
             <div className="col-12 px-0 my-3 my-md-4 my-xxl-5">
                 <div className="container-xxl">
-                    <OwlCarousel options={{
-                        responsive: {
-                            0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true },
-                            600: { items: 2, autoplay: true, stagePadding: 48, margin: 20, center: false },
-                            900: { items: 3 },
-                            1300: { items: 4 },
-                        },
-                        center: false,
-                        loop: true,
-                        dots: false,
-                        nav: true
-                    }}>
-                        {blogContent}
-                    </OwlCarousel>
+                    <div className="row">
+                        <div className="col-12 px-0">
+                            <OwlCarousel options={{
+                                responsive: {
+                                    0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true },
+                                    600: { items: 2, autoplay: true, stagePadding: 48, margin: 20, center: false },
+                                    900: { items: 3 },
+                                    1300: { items: 4 },
+                                },
+                                center: false,
+                                loop: true,
+                                dots: false,
+                                nav: true,
+                                navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
+                            }}>
+                                {blogContent}
+                            </OwlCarousel>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>;
@@ -311,7 +316,9 @@ class Media extends Component {
                             },
                             center: false,
                             loop: true,
-                            dots: false
+                            dots: false,
+                            nav: true,
+                            navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
                         }}>
                             {picturesContent}
                         </OwlCarousel>
@@ -354,16 +361,16 @@ class Media extends Component {
                 <span className="text-truncate text-500 text-14 text-md-17 text-xxl-20">{navItem.name}</span>
 
                 <div className="position-absolute mr-1 mr-md-2 mr-xxl-3" style={{ top: '50%', right: 0, transform: 'translateY(-50%)' }}>
-                    <FontAwesomeIcon icon={faCircle} className="circle text-white text-10" />
+                    <FontAwesomeIcon icon={faCircle} className="circle text-white text-6 text-md-8 text-xxl-10" />
                 </div>
             </NavLink>
         </NavItem>);
         const galleryTabPanesContent = galleryNavItems.map(navItem => <TabPane tabId={navItem.id} key={navItem.id + Math.random()}>{navItem.content}</TabPane>);
 
         const recordsContent = <div className="row bg-lightblue-15 py-3 py-md-4 py-xxl-5">
-            <div className="col-12 px-0 my-3 my-md-4 my-xxl-5">
+            <div className="col-12 my-3 my-md-4 my-xxl-5">
                 <div className="container-xxl">
-                    <div className="row bg-blue rounded-15">
+                    <div className="row bg-blue rounded-15 overflow-hidden">
                         <div className="col-xxl-4 col-md-6 px-3 px-md-4 px-xxl-5 py-2 py-md-3 py-xxl-4">
                             <div className="text-right mb-2 mb-md-3 mb-xxl-4">
                                 <FontAwesomeIcon icon={faCloudDownloadAlt} className="text-lightblue text-15 text-md-20 text-xxl-25" />
@@ -373,8 +380,8 @@ class Media extends Component {
                                 <div className="position-absolute w-100 h-100 rounded-15 bg-black-50 d-flex flex-column justify-content-center align-items-center" style={{ top: 0, left: 0 }}>
                                     <div className="text-white text-15 text-md-20 text-xxl-25 pb-3 pb-md-4 pb-xxl-5">Titre de l'émission ici</div>
 
-                                    <div className="text-blue text-25 text-md-30 text-xxl-35">
-                                        <FontAwesomeIcon icon={faBroadcastTower} />
+                                    <div className="text-blue text-50 text-md-60 text-xxl-70">
+                                        <i className="fas fa-radio" />
                                     </div>
                                 </div>
                             </div>
@@ -384,7 +391,7 @@ class Media extends Component {
 
                         <div className="col-xxl-8 col-md-6 bg-white rounded-top-left-30 px-0 pb-3 pb-md-4 pb-xxl-5">
                             <div className="pl-3 pl-md-4 pl-xxl-5 d-flex flex-column">
-                                <div className="bg-blue rounded-15 py-2 py-md-3 py-xxl-4 px-3 px-md-4 px-xxl-5 mb-2 mb-md-3 mb-xxl-4 d-flex align-items-center">
+                                <div className="bg-blue rounded-bottom-15 rounded-top-left-15 py-2 py-md-3 py-xxl-4 px-3 px-md-4 px-xxl-5 mb-2 mb-md-3 mb-xxl-4 d-flex align-items-center">
                                     <div className="text-yellow text-20 text-md-25 text-xxl-30 mr-2 mr-md-3">
                                         <FontAwesomeIcon icon={faListAlt} />
                                     </div>
@@ -503,14 +510,15 @@ class Media extends Component {
                         <div className="col-12 p-0">
                             <OwlCarousel options={{
                                 responsive: {
-                                    0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true },
+                                    0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true, nav: true },
                                     600: { items: 2, autoplay: true, stagePadding: 48, margin: 20, center: false },
                                     1000: { items: 3 },
                                     1800: { items: 4 }
                                 },
                                 center: false,
                                 loop: true,
-                                dots: false
+                                dots: false,
+                                navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
                             }}>
                                 {othersContent}
                             </OwlCarousel>

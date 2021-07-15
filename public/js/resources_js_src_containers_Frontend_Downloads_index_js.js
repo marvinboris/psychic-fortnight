@@ -12,12 +12,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _shared_utility__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../shared/utility */ "./resources/js/src/shared/utility.js");
+/* harmony import */ var _assets_images_white_bg_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../assets/images/white-bg.png */ "./resources/js/src/assets/images/white-bg.png");
+/* harmony import */ var _assets_images_gray_bg_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../assets/images/gray-bg.png */ "./resources/js/src/assets/images/gray-bg.png");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
 
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (function (_ref) {
-  var style = _ref.style,
+  var _ref$style = _ref.style,
+      style = _ref$style === void 0 ? {} : _ref$style,
       children = _ref.children,
       full = _ref.full,
       fluid = _ref.fluid,
@@ -25,39 +32,47 @@ __webpack_require__.r(__webpack_exports__);
       _ref$color = _ref.color,
       color = _ref$color === void 0 ? 'white' : _ref$color,
       subtitle = _ref.subtitle;
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-    className: full ? "" : "py-5 bg-" + color,
-    style: style,
-    children: full ? children : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+    className: full ? "" : "py-5",
+    style: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_1__.updateObject)(style, {
+      backgroundPosition: 'top',
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
+      backgroundImage: 'url("' + {
+        white: _assets_images_white_bg_png__WEBPACK_IMPORTED_MODULE_2__.default,
+        soft: _assets_images_gray_bg_png__WEBPACK_IMPORTED_MODULE_3__.default
+      }[color] + '")'
+    }),
+    children: full ? children : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
       className: "container-" + (fluid ? "fluid" : "xxl") + " text-dark",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
         className: "text-center mb-5",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
           className: "text-700 text-blue",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
             className: "text-16 text-md-25 text-xxl-35",
             children: title
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
             className: "d-flex justify-content-center align-items-center",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                 className: "bg-border",
                 style: {
                   height: .5,
                   width: 40
                 }
               })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
               className: "px-2",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                 className: "rounded-circle border border-blue",
                 style: {
                   height: 8,
                   width: 8
                 }
               })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                 className: "bg-border",
                 style: {
                   height: .5,
@@ -66,9 +81,9 @@ __webpack_require__.r(__webpack_exports__);
               })
             })]
           })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
           className: "text-secondary row justify-content-center",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
             className: "col-md-10 text-16 text-md-20 text-xxl-25 col-lg-8",
             children: subtitle
           })
@@ -110,7 +125,7 @@ __webpack_require__.r(__webpack_exports__);
       _ref$path = _ref.path,
       path = _ref$path === void 0 ? "/" : _ref$path;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-    className: "UI Formula col-xxl-3 col-xl-4 col-lg-4 px-0 px-md-3 pb-4",
+    className: "UI Formula bg-white col-xxl-3 col-xl-4 col-lg-4 px-0 px-md-3 pb-4",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
       className: "block d-flex flex-column",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
@@ -139,10 +154,10 @@ __webpack_require__.r(__webpack_exports__);
           className: "text-right pt-3",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Link, {
             to: path,
-            className: "btn btn-white text-darkblue text-10 text-md-11 text-xxl-12",
+            className: "btn text-10 text-md-11 text-xxl-12",
             children: ["T\xE9l\xE9charger", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
               icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faFileDownload,
-              className: "text-red ml-2 ml-xxl-3 text-14 text-md-15 text-xxl-16"
+              className: "btn-icon ml-2 ml-xxl-3 text-14 text-md-15 text-xxl-16"
             })]
           })
         })]
@@ -165,10 +180,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
-/* harmony import */ var _Info_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Info.css */ "./resources/js/src/components/UI/Police/Info/Info.css");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
+/* harmony import */ var _Info_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Info.css */ "./resources/js/src/components/UI/Police/Info/Info.css");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
 
@@ -177,23 +190,22 @@ __webpack_require__.r(__webpack_exports__);
   var name = _ref.name,
       icon = _ref.icon,
       info = _ref.info;
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-    className: "UI Info col-lg-4 col-md-6 pb-4",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+    className: "UI Info col-lg-4 col-md-6 pb-4 bg-white",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
       className: "h-100 bg-lightblue-15 rounded-15",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
         className: "mx-auto d-flex flex-column h-100 pb-3 block-container",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
           className: "rounded-bottom-15 text-white bg-blue text-center py-3 py-lg-4 px-3 w-100 text-truncate text-12 text-md-15 text-xxl-18",
           children: name
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
           className: "flex-fill d-flex flex-column justify-content-center py-4 py-lg-5 text-blue",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
             className: "text-20 text-md-25 text-xxl-30",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-              icon: icon,
-              className: "mr-2 mr-md-3 mr-xxl-4"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+              className: icon + " mr-2 mr-md-3 mr-xxl-4"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
               className: "text-700 text-16 text-md-20 text-xxl-25",
               children: info
             })]
@@ -218,8 +230,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/esm/react-router.js");
-/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js");
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/esm/react-router.js");
 /* harmony import */ var react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-owl-carousel2 */ "./node_modules/react-owl-carousel2/lib/OwlCarousel.js");
 /* harmony import */ var react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/UI/Police/Block */ "./resources/js/src/components/UI/Police/Block/index.js");
@@ -321,15 +332,15 @@ var Downloads = /*#__PURE__*/function (_Component) {
       }];
       var infos = [{
         name: 'Service de renseignement',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_7__.faPhone,
+        icon: "fad fa-phone-office",
         info: '+237 123 456 890'
       }, {
         name: 'Assistance',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_7__.faEnvelope,
+        icon: "fad fa-envelope",
         info: 'support@dgsn.cm'
       }, {
         name: 'Autres Besoins',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_7__.faEnvelope,
+        icon: "fad fa-envelope",
         info: 'contact@dgsn.cm'
       }];
       var formulaeContent = formulae.map(function (formula) {
@@ -401,7 +412,8 @@ var Downloads = /*#__PURE__*/function (_Component) {
                         autoplay: true,
                         stagePadding: 48,
                         margin: 20,
-                        center: true
+                        center: true,
+                        nav: true
                       },
                       600: {
                         items: 2,
@@ -419,7 +431,8 @@ var Downloads = /*#__PURE__*/function (_Component) {
                     },
                     center: false,
                     loop: true,
-                    dots: false
+                    dots: false,
+                    navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
                   },
                   children: formulaeContent
                 })
@@ -446,7 +459,8 @@ var Downloads = /*#__PURE__*/function (_Component) {
                         autoplay: true,
                         stagePadding: 48,
                         margin: 20,
-                        center: true
+                        center: true,
+                        nav: true
                       },
                       600: {
                         items: 2,
@@ -464,7 +478,8 @@ var Downloads = /*#__PURE__*/function (_Component) {
                     },
                     center: false,
                     loop: true,
-                    dots: false
+                    dots: false,
+                    navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
                   },
                   children: othersContent
                 })
@@ -486,7 +501,7 @@ var Downloads = /*#__PURE__*/function (_Component) {
   return Downloads;
 }(react__WEBPACK_IMPORTED_MODULE_0__.Component);
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_router__WEBPACK_IMPORTED_MODULE_8__.withRouter)(Downloads));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_router__WEBPACK_IMPORTED_MODULE_7__.withRouter)(Downloads));
 
 /***/ }),
 
@@ -507,7 +522,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".UI.Formula > div {\r\n    height: 100%;\r\n    background-position: center;\r\n    background-size: calc(100% + 8px) calc(100% + 8px);\r\n    background-repeat: no-repeat;\r\n    background-image: url(\"/images/Soustraction 26@2x.png\");\r\n    padding-top: 2.5rem;\r\n    padding-bottom: 4rem;\r\n    padding-left: 3rem;\r\n    padding-right: 3rem;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover,\r\n.owl-item.center.active .UI.Formula > div {\r\n    background-image: url(\"/images/Soustraction 4@2x.png\");\r\n}\r\n\r\n.UI.Formula > div .title {\r\n    color: var(--darkblue);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .title,\r\n.owl-item.center.active .UI.Formula > div .title {\r\n    color: var(--soft);\r\n}\r\n\r\n.UI.Formula > div .icon {\r\n    color: var(--blue);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .icon,\r\n.owl-item.center.active .UI.Formula > div .icon {\r\n    color: var(--lightblue);\r\n}\r\n\r\n.UI.Formula > div > div:first {\r\n    border-color: var(--border);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover > div:first,\r\n.owl-item.center.active .UI.Formula > div > div:first {\r\n    border-color: var(--soft);\r\n}\r\n\r\n.UI.Formula > div .description {\r\n    color: var(--border);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .description,\r\n.owl-item.center.active .UI.Formula > div .description {\r\n    color: var(--soft);\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".UI.Formula > div {\r\n    height: 100%;\r\n    background-position: center;\r\n    background-size: calc(100% + 8px) calc(100% + 8px);\r\n    background-repeat: no-repeat;\r\n    background-image: url(\"/images/Soustraction 28@2x.png\");\r\n    padding-top: 2.5rem;\r\n    padding-bottom: 4rem;\r\n    padding-left: 3rem;\r\n    padding-right: 3rem;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover,\r\n.owl-item.center.active .UI.Formula > div {\r\n    background-image: url(\"/images/Soustraction 4@2x.png\");\r\n}\r\n\r\n.UI.Formula > div .title {\r\n    color: var(--darkblue);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .title,\r\n.owl-item.center.active .UI.Formula > div .title {\r\n    color: var(--soft);\r\n}\r\n\r\n.UI.Formula > div .icon {\r\n    color: var(--blue);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .icon,\r\n.owl-item.center.active .UI.Formula > div .icon {\r\n    color: var(--lightblue);\r\n}\r\n\r\n.UI.Formula > div > div:first {\r\n    border-color: var(--border);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover > div:first,\r\n.owl-item.center.active .UI.Formula > div > div:first {\r\n    border-color: var(--soft);\r\n}\r\n\r\n.UI.Formula > div .description {\r\n    color: var(--border);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .description,\r\n.owl-item.center.active .UI.Formula > div .description {\r\n    color: var(--soft);\r\n}\r\n\r\n.UI.Formula > div .btn {\r\n    background: var(--blue);\r\n    color: white;\r\n}\r\n\r\n.UI.Formula > div .btn-icon {\r\n    color: white;\r\n}\r\n\r\n.UI.Formula > div:hover .btn,\r\n.owl-item.center.active .UI.Formula > div .btn {\r\n    background: white;\r\n    color: var(--darkblue);\r\n}\r\n\r\n.UI.Formula > div:hover .btn-icon,\r\n.owl-item.center.active .UI.Formula > div .btn-icon {\r\n    color: var(--red);\r\n}\r\n\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -559,6 +574,36 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".Frontend .Downloads .nav-link {\r\n  
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
+
+/***/ }),
+
+/***/ "./resources/js/src/assets/images/gray-bg.png":
+/*!****************************************************!*\
+  !*** ./resources/js/src/assets/images/gray-bg.png ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/gray-bg.png?9abfdfcebcc36b6ad5c6303b6fc45465");
+
+/***/ }),
+
+/***/ "./resources/js/src/assets/images/white-bg.png":
+/*!*****************************************************!*\
+  !*** ./resources/js/src/assets/images/white-bg.png ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/white-bg.png?401401932722f558a46672bf4b138f2a");
 
 /***/ }),
 

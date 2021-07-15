@@ -28,7 +28,7 @@ class Home extends Component {
         const services = [
             {
                 name: 'Solliciter un passeport',
-                icon: faPassport,
+                icon: "fad fa-passport",
                 description: `Check out our API integration 
                 documentation here. Try it and
                 start using. Our API is very 
@@ -36,7 +36,7 @@ class Home extends Component {
             },
             {
                 name: 'Vérifier un passeport',
-                icon: faPassport,
+                icon: "fad fa-passport",
                 description: `Check out our API integration 
                 documentation here. Try it and
                 start using. Our API is very 
@@ -44,7 +44,7 @@ class Home extends Component {
             },
             {
                 name: 'Titres identitaires disponibles',
-                icon: faIdCard,
+                icon: "fad fa-id-card",
                 description: `Check out our API integration 
                 documentation here. Try it and
                 start using. Our API is very 
@@ -52,7 +52,7 @@ class Home extends Component {
             },
             {
                 name: 'Solliciter un passport',
-                icon: faPassport,
+                icon: "fad fa-passport",
                 description: `Check out our API integration 
                 documentation here. Try it and
                 start using. Our API is very 
@@ -197,7 +197,7 @@ class Home extends Component {
                                 center: false,
                                 loop: true,
                                 dots: false,
-                                navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
+                                navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
                             }}>
                                 {servicesContent}
                             </OwlCarousel>
@@ -220,7 +220,8 @@ class Home extends Component {
                             center: false,
                             loop: true,
                             dots: false,
-                            nav: true
+                            nav: true,
+                            navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
                         }}>
                             {blogContent}
                         </OwlCarousel>
@@ -232,7 +233,7 @@ class Home extends Component {
 
             <Block title="Formulaires Administratifs" subtitle="Simplifiez-vous la tache en consultant les formulaires administratifs dont vous avez besoin.">
                 <div className="text-right mb-4">
-                    <Link to="/formulae" className="btn btn-link">Liste complète<FontAwesomeIcon icon={faAngleDoubleRight} className="ml-2" /></Link>
+                    <Link to="/formulae" className="btn btn-link text-yellow">Liste complète<FontAwesomeIcon icon={faAngleDoubleRight} className="ml-2" /></Link>
                 </div>
 
                 <div className="d-none d-lg-flex row justify-content-center">
@@ -251,7 +252,8 @@ class Home extends Component {
                                 },
                                 center: false,
                                 loop: true,
-                                dots: false
+                                dots: false,
+                                navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
                             }}>
                                 {formulaeContent}
                             </OwlCarousel>

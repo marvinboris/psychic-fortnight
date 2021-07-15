@@ -5,7 +5,7 @@ import { faFileDownload, faInfoCircle } from '@fortawesome/free-solid-svg-icons'
 
 import './Formula.css';
 
-export default ({ title, description, path = "/" }) => <div className="UI Formula col-xxl-3 col-xl-4 col-lg-4 px-0 px-md-3 pb-4">
+export default ({ title, description, path = "/" }) => <div className="UI Formula bg-white col-xxl-3 col-xl-4 col-lg-4 px-0 px-md-3 pb-4">
     <div className="block d-flex flex-column">
         <div className="d-flex border-bottom pb-3 pb-md-4 mb-3 mb-md-4">
             <div className="title text-17 text-md-18 text-xxl-20 text-700 pr-3 pr-md-4 pr-xxl-5 flex-fill text-ellipsis-2" style={{ height: 60 }}>{title}</div>
@@ -21,7 +21,7 @@ export default ({ title, description, path = "/" }) => <div className="UI Formul
             </div>
 
             <div className="text-right pt-3">
-                <Link to={path} className="btn btn-white text-darkblue text-10 text-md-11 text-xxl-12">Télécharger<FontAwesomeIcon icon={faFileDownload} className="text-red ml-2 ml-xxl-3 text-14 text-md-15 text-xxl-16" /></Link>
+                <Link to={path} className="btn text-10 text-md-11 text-xxl-12">Télécharger<FontAwesomeIcon icon={faFileDownload} className="btn-icon ml-2 ml-xxl-3 text-14 text-md-15 text-xxl-16" /></Link>
             </div>
         </div>
     </div>

@@ -3,7 +3,7 @@
     background-position: center;
     background-size: calc(100% + 8px) calc(100% + 8px);
     background-repeat: no-repeat;
-    background-image: url("/images/Soustraction 26@2x.png");
+    background-image: url("/images/Soustraction 28@2x.png");
     padding-top: 2.5rem;
     padding-bottom: 4rem;
     padding-left: 3rem;
@@ -55,3 +55,25 @@
 .owl-item.center.active .UI.Formula > div .description {
     color: var(--soft);
 }
+
+.UI.Formula > div .btn {
+    background: var(--blue);
+    color: white;
+}
+
+.UI.Formula > div .btn-icon {
+    color: white;
+}
+
+.UI.Formula > div:hover .btn,
+.owl-item.center.active .UI.Formula > div .btn {
+    background: white;
+    color: var(--darkblue);
+}
+
+.UI.Formula > div:hover .btn-icon,
+.owl-item.center.active .UI.Formula > div .btn-icon {
+    color: var(--red);
+}
+
+

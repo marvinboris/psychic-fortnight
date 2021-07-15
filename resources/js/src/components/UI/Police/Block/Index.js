@@ -1,6 +1,19 @@
 import React from 'react';
 
-export default ({ style, children, full, fluid, title, color = 'white', subtitle }) => <div className={full ? "" : ("py-5 bg-" + color)} style={style}>
+import { updateObject } from '../../../../shared/utility';
+
+import WhiteBg from '../../../../assets/images/white-bg.png';
+import GrayBg from '../../../../assets/images/gray-bg.png';
+
+export default ({ style = {}, children, full, fluid, title, color = 'white', subtitle }) => <div className={full ? "" : "py-5"} style={updateObject(style, {
+    backgroundPosition: 'top',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    backgroundImage: 'url("' + ({
+        white: WhiteBg,
+        soft: GrayBg,
+    }[color]) + '")'
+})}>
     {full ? children : <div className={"container-" + (fluid ? "fluid" : "xxl") + " text-dark"}>
         <div className="text-center mb-5">
             <div className="text-700 text-blue">

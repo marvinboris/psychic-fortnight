@@ -91,17 +91,17 @@ class Downloads extends Component {
         const infos = [
             {
                 name: 'Service de renseignement',
-                icon: faPhone,
+                icon: "fad fa-phone-office",
                 info: '+237 123 456 890'
             },
             {
                 name: 'Assistance',
-                icon: faEnvelope,
+                icon: "fad fa-envelope",
                 info: 'support@dgsn.cm'
             },
             {
                 name: 'Autres Besoins',
-                icon: faEnvelope,
+                icon: "fad fa-envelope",
                 info: 'contact@dgsn.cm'
             },
         ];
@@ -137,14 +137,15 @@ class Downloads extends Component {
                         <div className="col-12 p-0">
                             <OwlCarousel options={{
                                 responsive: {
-                                    0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true },
+                                    0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true, nav: true },
                                     600: { items: 2, autoplay: true, stagePadding: 48, margin: 20, center: false },
                                     1000: { items: 3 },
                                     1800: { items: 4 }
                                 },
                                 center: false,
                                 loop: true,
-                                dots: false
+                                dots: false,
+                                navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
                             }}>
                                 {formulaeContent}
                             </OwlCarousel>
@@ -165,14 +166,15 @@ class Downloads extends Component {
                         <div className="col-12 p-0">
                             <OwlCarousel options={{
                                 responsive: {
-                                    0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true },
+                                    0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true, nav: true },
                                     600: { items: 2, autoplay: true, stagePadding: 48, margin: 20, center: false },
                                     1000: { items: 3 },
                                     1800: { items: 4 }
                                 },
                                 center: false,
                                 loop: true,
-                                dots: false
+                                dots: false,
+                                navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
                             }}>
                                 {othersContent}
                             </OwlCarousel>

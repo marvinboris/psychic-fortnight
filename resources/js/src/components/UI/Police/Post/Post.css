@@ -1,6 +1,6 @@
 .UI.Post > div {
     height: 100%;
-    background-color: var(--black-5);
+    background-color: var(--lightblue-25);
     transition: all 0.25s;
 }
 

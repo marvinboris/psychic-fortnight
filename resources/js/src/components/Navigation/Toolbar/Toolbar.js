@@ -39,14 +39,22 @@ export default class Toolbar extends Component {
     render() {
         return <div className="Toolbar sticky-top w-100">
             <div className="bg-darkblue text-light">
-                <div className="container-xxl d-flex align-items-center h-100">
+                <div className="container-xxl d-flex justify-content-between align-items-center h-100">
                     <div>
                         <Link to="/" className="text-decoration-none"><Logo /></Link>
                     </div>
 
-                    <div className="d-flex justify-content-between align-items-center ml-auto">
+                    <div className="pl-xl-5">
+                        <a href="tel:1500" className="btn btn-white text-green d-inline-flex align-items-center ml-xl-5 pl-2 pl-md-3 pr-3 pr-md-4 py-1 py-md-2">
+                            <div className="pr-2 pr-xl-3 mr-2 mr-xl-3 py-0 py-xl-1 border-right border-green-50"><i className="fad fa-phone-plus text-10 text-md-14 text-xxl-19" /></div>
+
+                            <div className="text-montserrat text-700 text-7 text-md-11 text-xxl-16">1500</div>
+                        </a>
+                    </div>
+
+                    <div className="d-flex justify-content-between align-items-center">
                         <div className="d-none d-xl-block mr-4">
-                            <NavigationItems font="light" toggleNavbar={this.toggleNavbar} />
+                            <NavigationItems font="white" toggleNavbar={this.toggleNavbar} />
                         </div>
 
                         <div className="mx-2 mx-md-3 d-xl-none">

@@ -2,7 +2,7 @@ import React from 'react';
 import { Component } from 'react';
 import { withRouter } from 'react-router';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheckCircle, faEnvelope, faIdCard, faPassport, faPhone, faSpinner } from '@fortawesome/free-solid-svg-icons';
+import { faIdCard, faPassport } from '@fortawesome/free-solid-svg-icons';
 import OwlCarousel from 'react-owl-carousel2';
 import { Nav, NavItem, NavLink, TabContent, TabPane, Form, FormGroup, Input, Button, Label } from 'reactstrap';
 
@@ -53,7 +53,7 @@ class Services extends Component {
                     </FormGroup>
 
                     <div className="pt-4 col-12">
-                        <Button color="blue" className="text-500" size="lg">Vérifier<FontAwesomeIcon icon={faCheckCircle} className="ml-2 ml-md-3 ml-xxl-4" /></Button>
+                        <Button color="blue" className="text-500" size="lg">Vérifier<i className="fad fa-check-circle ml-2 ml-md-3 ml-xxl-4" /></Button>
                     </div>
                 </Form>
             </div>
@@ -66,7 +66,7 @@ class Services extends Component {
                                 <div className="text-blue text-700 text-16 text-md-20 text-xxl-25 mb-2 mb-md-3">Jour 5</div>
 
                                 <div className="my-1 my-md-2">
-                                    <FontAwesomeIcon icon={faSpinner} spin className="text-35 text-md-45 text-xxl-55 text-blue" />
+                                    <i className="fad fa-spinner fa-spin text-35 text-md-45 text-xxl-55 text-blue" />
                                 </div>
 
                                 <div className="mt-2 mt-md-3 text-montserrat">CNI en cours de Production</div>
@@ -88,51 +88,51 @@ class Services extends Component {
         const services = [
             {
                 name: 'Solliciter un passeport',
-                icon: faPassport,
+                icon: "fad fa-passport",
                 description: `Check out our API integration 
-                documentation here. Try it and
-                start using. Our API is very 
-                secured.  `
+        documentation here. Try it and
+        start using. Our API is very 
+        secured.  `
             },
             {
                 name: 'Vérifier un passeport',
-                icon: faPassport,
+                icon: "fad fa-passport",
                 description: `Check out our API integration 
-                documentation here. Try it and
-                start using. Our API is very 
-                secured.  `
+        documentation here. Try it and
+        start using. Our API is very 
+        secured.  `
             },
             {
                 name: 'Titres identitaires disponibles',
-                icon: faIdCard,
+                icon: "fad fa-id-card",
                 description: `Check out our API integration 
-                documentation here. Try it and
-                start using. Our API is very 
-                secured.  `
+        documentation here. Try it and
+        start using. Our API is very 
+        secured.  `
             },
             {
                 name: 'Solliciter un passport',
-                icon: faPassport,
+                icon: "fad fa-passport",
                 description: `Check out our API integration 
-                documentation here. Try it and
-                start using. Our API is very 
-                secured.  `
+        documentation here. Try it and
+        start using. Our API is very 
+        secured.  `
             },
         ];
         const infos = [
             {
                 name: 'Service de renseignement',
-                icon: faPhone,
+                icon: "fad fa-phone-office",
                 info: '+237 123 456 890'
             },
             {
                 name: 'Assistance',
-                icon: faEnvelope,
+                icon: "fad fa-envelope",
                 info: 'support@dgsn.cm'
             },
             {
                 name: 'Autres Besoins',
-                icon: faEnvelope,
+                icon: "fad fa-envelope",
                 info: 'contact@dgsn.cm'
             },
         ];
@@ -217,7 +217,8 @@ class Services extends Component {
                                 },
                                 center: false,
                                 loop: true,
-                                dots: false
+                                dots: false,
+                                navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
                             }}>
                                 {servicesContent}
                             </OwlCarousel>

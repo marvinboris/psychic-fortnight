@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendar, faClock, faNewspaper, faShare } from '@fortawesome/free-solid-svg-icons';
+import { faCalendar, faClock, faNewspaper, faShareAlt } from '@fortawesome/free-solid-svg-icons';
 
 import { convertDate, convertTime } from '../../../../shared/utility';
 
@@ -12,7 +12,7 @@ export default ({ title, body, created_at, photo, simple, slug = '' }) => <div c
         <div className={"embed-responsive embed-responsive-4by3 position-relative " + (simple ? "rounded-14" : "rounded-30 mb-4")} style={{ backgroundImage: 'url("' + photo + '")', overflow: 'visible', transform: 'translateY(' + (simple ? '-2rem' : '0') + ')' }}>
             {!simple && <div className="border border-6 border-white rounded-circle d-flex justify-content-center align-items-center position-absolute" style={{ right: 36, bottom: 0, transform: 'translateY(50%)' }}>
                 <Link to="/" className="btn btn-blue rounded-circle" style={{ width: 36, height: 36 }}>
-                    <FontAwesomeIcon icon={faShare} />
+                    <FontAwesomeIcon icon={faShareAlt} />
                 </Link>
             </div>}
         </div>

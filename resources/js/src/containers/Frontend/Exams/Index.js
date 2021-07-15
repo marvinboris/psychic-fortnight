@@ -41,11 +41,11 @@ class Exams extends Component {
 
         const noticesTabContent = <div className="row">
             <div className="col-12 bg-lightblue-30 py-5">
-                <div className="container-xxl d-flex justify-content-between align-items-center my-3">
-                    <div className="d-xxl-flex align-items-center">
+                <div className="container-xxl d-sm-flex justify-content-between align-items-center text-right my-3">
+                    <div className="d-xxl-flex text-center align-items-center pb-3 pb-sm-0">
                         <div className="d-flex align-items-center mr-4 mr-md-5 pr-4 pr-md-5 pb-3 pb-md-4 pb-xxl-0">
                             <div className="mr-2 mr-md-3 text-blue">
-                                <FontAwesomeIcon icon={faCalendar} className="text-20 text-md-24 text-xxl-28" />
+                                <i className="fad fa-calendar-alt text-20 text-md-24 text-xxl-28" />
                             </div>
 
                             <div className="text-500 text-secondary mr-3 mr-md-4 text-14 text-md-17 text-xxl-20">Date de publication :</div>
@@ -55,7 +55,7 @@ class Exams extends Component {
 
                         <div className="d-flex align-items-center">
                             <div className="mr-2 mr-md-3 text-orange">
-                                <FontAwesomeIcon icon={faCalendar} className="text-20 text-md-24 text-xxl-28" />
+                                <i className="fad fa-calendar-alt text-20 text-md-24 text-xxl-28" />
                             </div>
 
                             <div className="text-500 text-secondary mr-3 mr-md-4 text-14 text-md-17 text-xxl-20">Délai de publication :</div>
@@ -64,11 +64,11 @@ class Exams extends Component {
                         </div>
                     </div>
 
-                    <div className="d-xl-flex">
+                    <div className="d-inline-block d-xl-flex">
                         <div className="mr-xl-5 pb-3 pb-md-4 pb-xl-0">
                             <a href="#" className="btn btn-orange py-2 py-md-3 pl-2 pl-md-3 pr-3 pr-md-4 pr-xxl-5 d-flex align-items-center">
                                 <div className="text-darkblue mr-2 mr-md-3">
-                                    <FontAwesomeIcon icon={faCloudDownloadAlt} className="text-16 text-md-20 text-xxl-24" />
+                                    <i className="fad fa-cloud-download-alt text-16 text-md-20 text-xxl-24" />
                                 </div>
 
                                 <div className="text-500 text-14 text-md-17 text-xxl-20">Télécharger L'offre</div>
@@ -217,7 +217,7 @@ class Exams extends Component {
                         <div>
                             <a href="#" className="btn btn-orange py-1 py-md-2 py-xxl-3 pl-1 pl-md-2 pl-xxl-3 pr-3 pr-md-4 pr-xxl-5 d-flex align-items-center">
                                 <div className="text-white mr-2 mr-md-3">
-                                    <FontAwesomeIcon icon={faCloudDownloadAlt} className="text-16 text-md-20 text-xxl-25" />
+                                    <i className="fad fa-cloud-download-alt text-16 text-md-20 text-xxl-25" />
                                 </div>
 
                                 <div className="text-500 text-16 text-md-20 text-xxl-25">Exporter</div>
@@ -268,17 +268,17 @@ class Exams extends Component {
         const infos = [
             {
                 name: 'Service de renseignement',
-                icon: faPhone,
+                icon: "fad fa-phone-office",
                 info: '+237 123 456 890'
             },
             {
                 name: 'Assistance',
-                icon: faEnvelope,
+                icon: "fad fa-envelope",
                 info: 'support@dgsn.cm'
             },
             {
                 name: 'Autres Besoins',
-                icon: faEnvelope,
+                icon: "fad fa-envelope",
                 info: 'contact@dgsn.cm'
             },
         ];
@@ -286,19 +286,19 @@ class Exams extends Component {
         const noticesNavItems = [
             {
                 id: '1',
-                icon: faMusic,
+                icon: "fad fa-music",
                 name: "Musiciens",
                 content: noticesTabContent,
             },
             {
                 id: '2',
-                icon: faCar,
+                icon: "fad fa-car",
                 name: "Conducteurs Automobiles",
                 content: noticesTabContent,
             },
             {
                 id: '3',
-                icon: faBoxOpen,
+                icon: "fad fa-box-open",
                 name: "Service Général",
                 content: noticesTabContent,
             },
@@ -306,31 +306,31 @@ class Exams extends Component {
         const resultsNavItems = [
             {
                 id: '1',
-                icon: faMusic,
+                icon: "fad fa-music",
                 name: "Musiciens",
                 content: resultsTabContent,
             },
             {
                 id: '2',
-                icon: faCar,
+                icon: "fad fa-car",
                 name: "Conducteurs Automobiles",
                 content: resultsTabContent,
             },
             {
                 id: '3',
-                icon: faBoxOpen,
+                icon: "fad fa-box-open",
                 name: "Service Général",
                 content: resultsTabContent,
             },
             {
                 id: '4',
-                icon: faUserMd,
+                icon: "fad fa-user-md",
                 name: "Aide Soignants",
                 content: resultsTabContent,
             },
             {
                 id: '5',
-                icon: faTools,
+                icon: "fad fa-tools",
                 name: "Ingénieur Travaux électro-méta",
                 content: resultsTabContent,
             },
@@ -386,6 +386,7 @@ class Exams extends Component {
                         loop: true,
                         dots: false,
                         autoWidth: true,
+                        navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
                     }}>
                         {noticesContent}
                     </OwlCarousel>

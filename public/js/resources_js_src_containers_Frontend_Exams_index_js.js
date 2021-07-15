@@ -12,12 +12,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _shared_utility__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../shared/utility */ "./resources/js/src/shared/utility.js");
+/* harmony import */ var _assets_images_white_bg_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../assets/images/white-bg.png */ "./resources/js/src/assets/images/white-bg.png");
+/* harmony import */ var _assets_images_gray_bg_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../assets/images/gray-bg.png */ "./resources/js/src/assets/images/gray-bg.png");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
 
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (function (_ref) {
-  var style = _ref.style,
+  var _ref$style = _ref.style,
+      style = _ref$style === void 0 ? {} : _ref$style,
       children = _ref.children,
       full = _ref.full,
       fluid = _ref.fluid,
@@ -25,39 +32,47 @@ __webpack_require__.r(__webpack_exports__);
       _ref$color = _ref.color,
       color = _ref$color === void 0 ? 'white' : _ref$color,
       subtitle = _ref.subtitle;
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-    className: full ? "" : "py-5 bg-" + color,
-    style: style,
-    children: full ? children : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+    className: full ? "" : "py-5",
+    style: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_1__.updateObject)(style, {
+      backgroundPosition: 'top',
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
+      backgroundImage: 'url("' + {
+        white: _assets_images_white_bg_png__WEBPACK_IMPORTED_MODULE_2__.default,
+        soft: _assets_images_gray_bg_png__WEBPACK_IMPORTED_MODULE_3__.default
+      }[color] + '")'
+    }),
+    children: full ? children : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
       className: "container-" + (fluid ? "fluid" : "xxl") + " text-dark",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
         className: "text-center mb-5",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
           className: "text-700 text-blue",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
             className: "text-16 text-md-25 text-xxl-35",
             children: title
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
             className: "d-flex justify-content-center align-items-center",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                 className: "bg-border",
                 style: {
                   height: .5,
                   width: 40
                 }
               })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
               className: "px-2",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                 className: "rounded-circle border border-blue",
                 style: {
                   height: 8,
                   width: 8
                 }
               })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                 className: "bg-border",
                 style: {
                   height: .5,
@@ -66,9 +81,9 @@ __webpack_require__.r(__webpack_exports__);
               })
             })]
           })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
           className: "text-secondary row justify-content-center",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
             className: "col-md-10 text-16 text-md-20 text-xxl-25 col-lg-8",
             children: subtitle
           })
@@ -92,10 +107,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
-/* harmony import */ var _Info_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Info.css */ "./resources/js/src/components/UI/Police/Info/Info.css");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
+/* harmony import */ var _Info_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Info.css */ "./resources/js/src/components/UI/Police/Info/Info.css");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
 
@@ -104,23 +117,22 @@ __webpack_require__.r(__webpack_exports__);
   var name = _ref.name,
       icon = _ref.icon,
       info = _ref.info;
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-    className: "UI Info col-lg-4 col-md-6 pb-4",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+    className: "UI Info col-lg-4 col-md-6 pb-4 bg-white",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
       className: "h-100 bg-lightblue-15 rounded-15",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
         className: "mx-auto d-flex flex-column h-100 pb-3 block-container",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
           className: "rounded-bottom-15 text-white bg-blue text-center py-3 py-lg-4 px-3 w-100 text-truncate text-12 text-md-15 text-xxl-18",
           children: name
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
           className: "flex-fill d-flex flex-column justify-content-center py-4 py-lg-5 text-blue",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
             className: "text-20 text-md-25 text-xxl-30",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-              icon: icon,
-              className: "mr-2 mr-md-3 mr-xxl-4"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+              className: icon + " mr-2 mr-md-3 mr-xxl-4"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
               className: "text-700 text-16 text-md-20 text-xxl-25",
               children: info
             })]
@@ -155,7 +167,7 @@ __webpack_require__.r(__webpack_exports__);
   var title = _ref.title,
       recent = _ref.recent;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-    className: "UI Notice " + (recent ? "recent" : "") + " px-md-2 pt-3 pt-md-4 pt-xxl-5",
+    className: "UI Notice bg-white " + (recent ? "recent" : "") + " px-md-2 pt-3 pt-md-4 pt-xxl-5",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
       className: "position-relative rounded-15 bg-" + (recent ? "white border border-8 border-lightblue shadow-sm" : "lightblue-35") + " py-3 py-md-4 py-xxl-5 px-2 px-md-3 px-xxl-4 text-center d-flex justify-content-center align-items-center",
       children: [recent && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
@@ -353,16 +365,15 @@ var Exams = /*#__PURE__*/function (_Component) {
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
           className: "col-12 bg-lightblue-30 py-5",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-            className: "container-xxl d-flex justify-content-between align-items-center my-3",
+            className: "container-xxl d-sm-flex justify-content-between align-items-center text-right my-3",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-              className: "d-xxl-flex align-items-center",
+              className: "d-xxl-flex text-center align-items-center pb-3 pb-sm-0",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
                 className: "d-flex align-items-center mr-4 mr-md-5 pr-4 pr-md-5 pb-3 pb-md-4 pb-xxl-0",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
                   className: "mr-2 mr-md-3 text-blue",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-                    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_9__.faCalendar,
-                    className: "text-20 text-md-24 text-xxl-28"
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("i", {
+                    className: "fad fa-calendar-alt text-20 text-md-24 text-xxl-28"
                   })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
                   className: "text-500 text-secondary mr-3 mr-md-4 text-14 text-md-17 text-xxl-20",
@@ -375,9 +386,8 @@ var Exams = /*#__PURE__*/function (_Component) {
                 className: "d-flex align-items-center",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
                   className: "mr-2 mr-md-3 text-orange",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-                    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_9__.faCalendar,
-                    className: "text-20 text-md-24 text-xxl-28"
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("i", {
+                    className: "fad fa-calendar-alt text-20 text-md-24 text-xxl-28"
                   })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
                   className: "text-500 text-secondary mr-3 mr-md-4 text-14 text-md-17 text-xxl-20",
@@ -388,7 +398,7 @@ var Exams = /*#__PURE__*/function (_Component) {
                 })]
               })]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-              className: "d-xl-flex",
+              className: "d-inline-block d-xl-flex",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
                 className: "mr-xl-5 pb-3 pb-md-4 pb-xl-0",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("a", {
@@ -396,9 +406,8 @@ var Exams = /*#__PURE__*/function (_Component) {
                   className: "btn btn-orange py-2 py-md-3 pl-2 pl-md-3 pr-3 pr-md-4 pr-xxl-5 d-flex align-items-center",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
                     className: "text-darkblue mr-2 mr-md-3",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-                      icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_9__.faCloudDownloadAlt,
-                      className: "text-16 text-md-20 text-xxl-24"
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("i", {
+                      className: "fad fa-cloud-download-alt text-16 text-md-20 text-xxl-24"
                     })
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
                     className: "text-500 text-14 text-md-17 text-xxl-20",
@@ -670,9 +679,8 @@ var Exams = /*#__PURE__*/function (_Component) {
                   className: "btn btn-orange py-1 py-md-2 py-xxl-3 pl-1 pl-md-2 pl-xxl-3 pr-3 pr-md-4 pr-xxl-5 d-flex align-items-center",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
                     className: "text-white mr-2 mr-md-3",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-                      icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_9__.faCloudDownloadAlt,
-                      className: "text-16 text-md-20 text-xxl-25"
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("i", {
+                      className: "fad fa-cloud-download-alt text-16 text-md-20 text-xxl-25"
                     })
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
                     className: "text-500 text-16 text-md-20 text-xxl-25",
@@ -725,56 +733,56 @@ var Exams = /*#__PURE__*/function (_Component) {
       }];
       var infos = [{
         name: 'Service de renseignement',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_9__.faPhone,
+        icon: "fad fa-phone-office",
         info: '+237 123 456 890'
       }, {
         name: 'Assistance',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_9__.faEnvelope,
+        icon: "fad fa-envelope",
         info: 'support@dgsn.cm'
       }, {
         name: 'Autres Besoins',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_9__.faEnvelope,
+        icon: "fad fa-envelope",
         info: 'contact@dgsn.cm'
       }];
       var noticesNavItems = [{
         id: '1',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_9__.faMusic,
+        icon: "fad fa-music",
         name: "Musiciens",
         content: noticesTabContent
       }, {
         id: '2',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_9__.faCar,
+        icon: "fad fa-car",
         name: "Conducteurs Automobiles",
         content: noticesTabContent
       }, {
         id: '3',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_9__.faBoxOpen,
+        icon: "fad fa-box-open",
         name: "Service Général",
         content: noticesTabContent
       }];
       var resultsNavItems = [{
         id: '1',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_9__.faMusic,
+        icon: "fad fa-music",
         name: "Musiciens",
         content: resultsTabContent
       }, {
         id: '2',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_9__.faCar,
+        icon: "fad fa-car",
         name: "Conducteurs Automobiles",
         content: resultsTabContent
       }, {
         id: '3',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_9__.faBoxOpen,
+        icon: "fad fa-box-open",
         name: "Service Général",
         content: resultsTabContent
       }, {
         id: '4',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_9__.faUserMd,
+        icon: "fad fa-user-md",
         name: "Aide Soignants",
         content: resultsTabContent
       }, {
         id: '5',
-        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_9__.faTools,
+        icon: "fad fa-tools",
         name: "Ingénieur Travaux électro-méta",
         content: resultsTabContent
       }];
@@ -904,7 +912,8 @@ var Exams = /*#__PURE__*/function (_Component) {
                 center: false,
                 loop: true,
                 dots: false,
-                autoWidth: true
+                autoWidth: true,
+                navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
               },
               children: noticesContent
             })
@@ -1037,6 +1046,36 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".Frontend .Exams .nav-link {\r\n    bo
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
+
+/***/ }),
+
+/***/ "./resources/js/src/assets/images/gray-bg.png":
+/*!****************************************************!*\
+  !*** ./resources/js/src/assets/images/gray-bg.png ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/gray-bg.png?9abfdfcebcc36b6ad5c6303b6fc45465");
+
+/***/ }),
+
+/***/ "./resources/js/src/assets/images/white-bg.png":
+/*!*****************************************************!*\
+  !*** ./resources/js/src/assets/images/white-bg.png ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/white-bg.png?401401932722f558a46672bf4b138f2a");
 
 /***/ }),
 
