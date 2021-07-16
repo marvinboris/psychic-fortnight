@@ -9,7 +9,7 @@ export default ({ name, icon, description }) => <div className="UI Service col-x
                 <div className="d-flex justify-content-center align-items-center position-relative">
                     <div className="bubble embed-responsive embed-responsive-1by1 border border-lightblue bg-lightblue-15 rounded-circle border-10" />
 
-                    <i className={icon + " text-50 position-absolute text-blue"} size="2x" style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }} />
+                    <i className={icon + " text-56 text-md-64 text-xxl-72 position-absolute icon"} size="2x" style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }} />
                 </div>
             </div>
 

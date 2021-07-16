@@ -7,7 +7,7 @@
     transition: all 0.25s;
 }
 
-.Frontend .Services .icon {
+.Frontend .Services .nav-link .icon {
     opacity: 0;
     margin-right: 0;
     width: 0;

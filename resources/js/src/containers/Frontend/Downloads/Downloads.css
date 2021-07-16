@@ -8,7 +8,7 @@
     transition: all 0.25s;
 }
 
-.Frontend .Downloads .icon {
+.Frontend .Downloads .nav-link .icon {
     opacity: 0;
     margin-right: 0;
     width: 0;

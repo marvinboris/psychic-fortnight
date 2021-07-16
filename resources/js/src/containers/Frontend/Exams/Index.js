@@ -6,6 +6,8 @@ import { faBoxOpen, faCalendar, faCar, faCheckCircle, faCheckDouble, faCloudDown
 import OwlCarousel from 'react-owl-carousel2';
 import { Input, Table, Nav, NavItem, NavLink, TabContent, TabPane } from 'reactstrap';
 
+import Chevrons from '../../../components/UI/Chevrons';
+
 import Block from '../../../components/UI/Police/Block';
 import Notice from '../../../components/UI/Police/Notice';
 import Info from '../../../components/UI/Police/Info';
@@ -343,14 +345,14 @@ class Exams extends Component {
 
         const noticesNavItemsContent = noticesNavItems.map(navItem => <NavItem key={navItem.id}>
             <NavLink className={"py-2 py-md-3 py-xxl-4 px-3 px-md-4 px-xxl-5 " + (noticesActiveTab === navItem.id ? "active" : "")} onClick={() => { this.noticesToggle(navItem.id); }}>
-                <FontAwesomeIcon icon={navItem.icon} className="icon text-18 text-md-23 text-xxl-28" /><span className="text-truncate">{navItem.name}</span>
+                <i className={navItem.icon + " icon text-18 text-md-23 text-xxl-28"} /><span className="text-truncate">{navItem.name}</span>
             </NavLink>
         </NavItem>);
         const noticesTabPanesContent = noticesNavItems.map(navItem => <TabPane tabId={navItem.id} key={navItem.id + Math.random()}>{navItem.content}</TabPane>);
 
         const resultsNavItemsContent = resultsNavItems.map(navItem => <NavItem key={navItem.id}>
             <NavLink className={"py-2 py-md-3 py-xxl-4 px-3 px-md-4 px-xxl-5 " + (resultsActiveTab === navItem.id ? "active" : "")} onClick={() => { this.resultsToggle(navItem.id); }}>
-                <FontAwesomeIcon icon={navItem.icon} className="icon text-18 text-md-23 text-xxl-28" /><span className="text-truncate">{navItem.name}</span>
+                <i className={navItem.icon + " icon text-18 text-md-23 text-xxl-28"} /><span className="text-truncate">{navItem.name}</span>
             </NavLink>
         </NavItem>);
         const resultsTabPanesContent = resultsNavItems.map(navItem => <TabPane tabId={navItem.id} key={navItem.id + Math.random()}>{navItem.content}</TabPane>);
@@ -373,7 +375,7 @@ class Exams extends Component {
             </div>
 
 
-            <Block title="Avis de concours" subtitle="Renseignez-vous sur les recentes publications concernant les concours" fluid>
+            <Block color="soft" title="Avis de concours" subtitle="Renseignez-vous sur les recentes publications concernant les concours" fluid>
                 <div>
                     <OwlCarousel options={{
                         responsive: {
@@ -395,10 +397,14 @@ class Exams extends Component {
 
                 <div className="mt-4">
                     <div className="container-xxl">
-                        <div className="w-100 scrollbar-lightblue">
-                            <Nav tabs className="border-bottom flex-nowrap w-100">
-                                {noticesNavItemsContent}
-                            </Nav>
+                        <div className="d-flex border-bottom align-items-center">
+                            <div id="notices" className="scrollbar-hidden flex-fill">
+                                <Nav tabs className="border-0 flex-nowrap">
+                                    {noticesNavItemsContent}
+                                </Nav>
+                            </div>
+
+                            <Chevrons id="notices" />
                         </div>
                     </div>
 
@@ -410,16 +416,20 @@ class Exams extends Component {
 
 
 
-            <Block title="Résultats de concours" subtitle="Consultez le statut de votre concours.">
+            <Block color="transparent" title="Résultats de concours" subtitle="Consultez le statut de votre concours.">
                 <div className="py-3 py-md-4 py-xxl-5 bg-lightblue-30 text-secondary text-center">
                     <div className="my-2 my-md-3 my-xxl-4 text-16 text-md-20 text-xxl-25">Veuillez renseigner le champ ID Exam ci-dessous pour une vérification plus rapide</div>
                 </div>
 
                 <div className="container-xxl">
-                    <div className="w-100 scrollbar-lightblue mb-5 mt-5 pt-3">
-                        <Nav tabs className="border-bottom flex-nowrap w-100">
-                            {resultsNavItemsContent}
-                        </Nav>
+                    <div className="d-flex border-bottom align-items-center mb-5 mt-5 pt-3">
+                        <div id="results" className="scrollbar-hidden flex-fill">
+                            <Nav tabs className="border-0 flex-nowrap">
+                                {resultsNavItemsContent}
+                            </Nav>
+                        </div>
+
+                        <Chevrons id="results" />
                     </div>
 
                     <TabContent activeTab={resultsActiveTab} className="mt-5">
@@ -430,7 +440,7 @@ class Exams extends Component {
 
 
 
-            <Block title="Pour plus d'informations" subtitle="En cas de besoin, veuillez contacter les différents services aux numéros ci-dessous">
+            <Block color="transparent" title="Pour plus d'informations" subtitle="En cas de besoin, veuillez contacter les différents services aux numéros ci-dessous">
                 <div className="my-5 row">
                     {infosContent}
                 </div>

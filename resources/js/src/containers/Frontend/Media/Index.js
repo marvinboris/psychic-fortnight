@@ -4,11 +4,12 @@ import { withRouter } from 'react-router';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Nav, NavItem, NavLink, TabContent, TabPane } from 'reactstrap';
 import { faListAlt } from '@fortawesome/free-regular-svg-icons';
-import { faBroadcastTower, faCircle, faCloudDownloadAlt, faEnvelope, faPhone, faVideo } from '@fortawesome/free-solid-svg-icons';
+import { faCircle, faCloudDownloadAlt, faVideo } from '@fortawesome/free-solid-svg-icons';
 import OwlCarousel from 'react-owl-carousel2';
 
+import Chevrons from '../../../components/UI/Chevrons';
+
 import Block from '../../../components/UI/Police/Block';
-import Formula from '../../../components/UI/Police/Formula';
 import Picture from '../../../components/UI/Police/Picture';
 import Post from '../../../components/UI/Police/Post';
 import Info from '../../../components/UI/Police/Info';
@@ -109,32 +110,6 @@ class Media extends Component {
                 title: "Photo Title goes here",
                 description: "Never go on a trip without ceibaCoin, you are almost welcome to book your rooms from our ceibaWallet",
                 photo: Post1,
-            },
-        ];
-        const others = [
-            {
-                title: "Certificat CMR.crl",
-                description: `Simplifiez-vous la tache en consultant 
-                les formulaires administratifs dont Vous
-                avez besoin. `,
-            },
-            {
-                title: "Certificat CamCSCA",
-                description: `Simplifiez-vous la tache en consultant 
-                les formulaires administratifs dont Vous
-                avez besoin. `,
-            },
-            {
-                title: 'Communiqué N0123',
-                description: `Simplifiez-vous la tache en consultant 
-                les formulaires administratifs dont Vous
-                avez besoin. `,
-            },
-            {
-                title: 'Communiqué N4332',
-                description: `Simplifiez-vous la tache en consultant 
-                les formulaires administratifs dont Vous
-                avez besoin. `,
             },
         ];
         const infos = [
@@ -239,7 +214,6 @@ class Media extends Component {
 
         const blogContent = posts.map(post => <Post simple key={Math.random() + JSON.stringify(post)} {...post} />);
         const picturesContent = pictures.map(picture => <Picture key={Math.random() + JSON.stringify(picture)} {...picture} />);
-        const othersContent = others.map(other => <Formula key={Math.random() + JSON.stringify(other)} {...other} />);
         const infosContent = infos.map(info => <Info key={Math.random() + JSON.stringify(info)} {...info} />);
         const recordsList = records.map((record, index) => <div key={Math.random() + JSON.stringify(record)} className="d-flex align-items-center text-secondary">
             <div className="text-700 text-20 text-md-25 text-xxl-30 mr-1 mr-md-2 mr-xxl-3 text-right" style={{ width: '3rem' }}>{index + 1}.</div>
@@ -448,10 +422,14 @@ class Media extends Component {
 
             <Block title="Publications" fluid subtitle="Restez informé. Profitez des dernières infos de la Police">
                 <div className="container-xxl">
-                    <div className="w-100 scrollbar-lightblue">
-                        <Nav tabs className="border-bottom flex-nowrap w-100">
-                            {publishmentsNavItemsContent}
-                        </Nav>
+                    <div className="d-flex border-bottom align-items-center">
+                        <div id="publishments" className="scrollbar-hidden flex-fill">
+                            <Nav tabs className="border-0 flex-nowrap">
+                                {publishmentsNavItemsContent}
+                            </Nav>
+                        </div>
+
+                        <Chevrons id="publishments" />
                     </div>
                 </div>
 
@@ -464,12 +442,16 @@ class Media extends Component {
 
 
 
-            <Block title="Galérie" subtitle="Vous n’avez pas trouvé le document que vous recherchez ? Vérifiez ici">
+            <Block color="transparent" title="Galérie" subtitle="Vous n’avez pas trouvé le document que vous recherchez ? Vérifiez ici">
                 <div className="container-xxl">
-                    <div className="w-100 scrollbar-lightblue mb-3 mb-md-4 mb-xxl-5">
-                        <Nav tabs className="flex-nowrap w-100 border-transparent">
-                            {galleryNavItemsContent}
-                        </Nav>
+                    <div className="d-flex border-bottom align-items-center mb-3 mb-md-4 mb-xxl-5">
+                        <div id="gallery" className="scrollbar-hidden flex-fill">
+                            <Nav tabs className="border-0 flex-nowrap">
+                                {galleryNavItemsContent}
+                            </Nav>
+                        </div>
+
+                        <Chevrons id="gallery" />
                     </div>
                 </div>
 
@@ -482,12 +464,16 @@ class Media extends Component {
 
 
 
-            <Block title="Emissions Radio" fluid subtitle="Toutes nos émissions radio en Replay">
+            <Block color="transparent" title="Emissions Radio" fluid subtitle="Toutes nos émissions radio en Replay">
                 <div className="container-xxl">
-                    <div className="w-100 scrollbar-lightblue">
-                        <Nav tabs className="border-bottom flex-nowrap w-100">
-                            {recordsNavItemsContent}
-                        </Nav>
+                    <div className="d-flex border-bottom align-items-center">
+                        <div id="records" className="scrollbar-hidden flex-fill">
+                            <Nav tabs className="border-0 flex-nowrap">
+                                {recordsNavItemsContent}
+                            </Nav>
+                        </div>
+
+                        <Chevrons id="records" />
                     </div>
                 </div>
 
@@ -499,36 +485,7 @@ class Media extends Component {
             </Block>
 
 
-
-            <Block title="Autres Documents" subtitle="Vous n’avez pas trouvé le document que vous recherchez ? Vérifiez ici">
-                <div className="d-none d-lg-flex row justify-content-center">
-                    {othersContent}
-                </div>
-
-                <div className="d-lg-none">
-                    <div className="row">
-                        <div className="col-12 p-0">
-                            <OwlCarousel options={{
-                                responsive: {
-                                    0: { items: 1, autoplay: true, stagePadding: 48, margin: 20, center: true, nav: true },
-                                    600: { items: 2, autoplay: true, stagePadding: 48, margin: 20, center: false },
-                                    1000: { items: 3 },
-                                    1800: { items: 4 }
-                                },
-                                center: false,
-                                loop: true,
-                                dots: false,
-                                navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
-                            }}>
-                                {othersContent}
-                            </OwlCarousel>
-                        </div>
-                    </div>
-                </div>
-            </Block>
-
-
-            <Block title="Pour plus d'informations" subtitle="En cas de besoin, veuillez contacter les différents services aux numéros ci-dessous">
+            <Block color="transparent" title="Pour plus d'informations" subtitle="En cas de besoin, veuillez contacter les différents services aux numéros ci-dessous">
                 <div className="my-5 row">
                     {infosContent}
                 </div>

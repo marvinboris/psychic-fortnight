@@ -7,7 +7,7 @@
     transition: all 0.25s;
 }
 
-.Frontend .Exams .icon {
+.Frontend .Exams .nav-link .icon {
     color: var(--blue);
     margin-right: 0.5rem;
     transition: all 0.25s;
@@ -23,13 +23,13 @@
 }
 
 @media (min-width: 800px) {
-    .Frontend .Exams .icon {
+    .Frontend .Exams .nav-link .icon {
         margin-right: 1rem;
     }
 }
 
 @media (min-width: 1900px) {
-    .Frontend .Exams .icon {
+    .Frontend .Exams .nav-link .icon {
         margin-right: 2rem;
     }
 }

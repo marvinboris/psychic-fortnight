@@ -5,7 +5,7 @@ import { updateObject } from '../../../../shared/utility';
 import WhiteBg from '../../../../assets/images/white-bg.png';
 import GrayBg from '../../../../assets/images/gray-bg.png';
 
-export default ({ style = {}, children, full, fluid, title, color = 'white', subtitle }) => <div className={full ? "" : "py-5"} style={updateObject(style, {
+export default ({ style = {}, children, full, fluid, title, color = 'white', subtitle }) => <div className={full ? "" : "py-3 py-md-4 py-xxl-5"} style={updateObject(style, {
     backgroundPosition: 'top',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
@@ -14,8 +14,8 @@ export default ({ style = {}, children, full, fluid, title, color = 'white', sub
         soft: GrayBg,
     }[color]) + '")'
 })}>
-    {full ? children : <div className={"container-" + (fluid ? "fluid" : "xxl") + " text-dark"}>
-        <div className="text-center mb-5">
+    {full ? children : <div className={"container-" + (fluid ? "fluid" : "xxl") + " py-3 py-md-4 py-xxl-5 text-dark"}>
+        <div className="text-center mb-3 mb-md-4 mb-xxl-5 pb-3 pb-md-4 pb-xxl-5">
             <div className="text-700 text-blue">
                 <div className="text-16 text-md-25 text-xxl-35">{title}</div>
 

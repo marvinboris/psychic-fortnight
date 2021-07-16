@@ -6,6 +6,8 @@ import { faIdCard, faPassport } from '@fortawesome/free-solid-svg-icons';
 import OwlCarousel from 'react-owl-carousel2';
 import { Nav, NavItem, NavLink, TabContent, TabPane, Form, FormGroup, Input, Button, Label } from 'reactstrap';
 
+import Chevrons from '../../../components/UI/Chevrons';
+
 import Block from '../../../components/UI/Police/Block';
 import Service from '../../../components/UI/Police/Service';
 import Info from '../../../components/UI/Police/Info';
@@ -90,33 +92,33 @@ class Services extends Component {
                 name: 'Solliciter un passeport',
                 icon: "fad fa-passport",
                 description: `Check out our API integration 
-        documentation here. Try it and
-        start using. Our API is very 
-        secured.  `
+                documentation here. Try it and
+                start using. Our API is very 
+                secured.  `
             },
             {
                 name: 'Vérifier un passeport',
                 icon: "fad fa-passport",
                 description: `Check out our API integration 
-        documentation here. Try it and
-        start using. Our API is very 
-        secured.  `
+                documentation here. Try it and
+                start using. Our API is very 
+                secured.  `
             },
             {
                 name: 'Titres identitaires disponibles',
                 icon: "fad fa-id-card",
                 description: `Check out our API integration 
-        documentation here. Try it and
-        start using. Our API is very 
-        secured.  `
+                documentation here. Try it and
+                start using. Our API is very 
+                secured.  `
             },
             {
                 name: 'Solliciter un passport',
                 icon: "fad fa-passport",
                 description: `Check out our API integration 
-        documentation here. Try it and
-        start using. Our API is very 
-        secured.  `
+                documentation here. Try it and
+                start using. Our API is very 
+                secured.  `
             },
         ];
         const infos = [
@@ -229,10 +231,14 @@ class Services extends Component {
 
             <Block color="soft" title="Vérification des documents" subtitle="Vérifiez la disponibilité de vos documents ici.">
                 <div>
-                    <div className="w-100 scrollbar-lightblue">
-                        <Nav tabs className="border-bottom flex-nowrap w-100">
-                            {navItemsContent}
-                        </Nav>
+                    <div className="d-flex border-bottom align-items-center">
+                        <div id="verification" className="scrollbar-hidden flex-fill">
+                            <Nav tabs className="border-0 flex-nowrap">
+                                {navItemsContent}
+                            </Nav>
+                        </div>
+
+                        <Chevrons id="verification" />
                     </div>
 
                     <TabContent className="mx-3" activeTab={activeTab}>
@@ -241,7 +247,7 @@ class Services extends Component {
                 </div>
             </Block>
 
-            <Block title="Pour plus d'informations" subtitle="En cas de besoin, veuillez contacter les différents services aux numéros ci-dessous">
+            <Block color="transparent" title="Pour plus d'informations" subtitle="En cas de besoin, veuillez contacter les différents services aux numéros ci-dessous">
                 <div className="my-5 row">
                     {infosContent}
                 </div>

@@ -1,6 +1,7 @@
 .UI.Service > div {
     background-color: var(--lightblue-35);
     border: 6px solid transparent;
+    box-shadow: 0 0 10px 0 transparent;
     height: 100%;
     margin-top: 0;
     margin-bottom: 0;
@@ -14,8 +15,18 @@
 .owl-item.center.active .UI.Service > div {
     background-color: white;
     border: 6px solid var(--soft-45);
+    box-shadow: 0 0 20px 0 var(--black-10);
     padding-top: 1rem;
     margin-bottom: -20px;
+}
+
+.UI.Service .icon {
+    color: var(--blue);
+}
+
+.UI.Service > div:hover .icon,
+.owl-item.center.active .UI.Service > div .icon {
+    color: var(--darkblue);
 }
 
 .UI.Service .bubble {

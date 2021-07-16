@@ -8,14 +8,14 @@
     transition: all 0.25s;
 }
 
-.Frontend .Media .icon {
+.Frontend .Media .nav-link .icon {
     opacity: 0;
     margin-right: 0;
     width: 0;
     transition: all 0.25s;
 }
 
-.Frontend .Media .circle {
+.Frontend .Media .nav-link .circle {
     opacity: 0;
     transition: all 0.25s;
 }
@@ -35,7 +35,7 @@
     opacity: 1;
 }
 
-.Frontend .Media .records {
+.Frontend .Media .nav-link .records {
     max-height: 30rem;
 }
 

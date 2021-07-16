@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDown, faBars, faEnvelope, faPhone, faSearch, faShoppingBasket } from '@fortawesome/free-solid-svg-icons';
-import { faHeart } from '@fortawesome/free-regular-svg-icons';
-import { Badge, Collapse, Input, InputGroup, InputGroupAddon, InputGroupText } from 'reactstrap';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { Collapse, Input, InputGroup, InputGroupAddon, InputGroupText } from 'reactstrap';
 
 import NavigationItems from '../NavigationItems/NavigationItems';
 import Logo from '../../UI/Logo/Logo';
@@ -58,7 +57,7 @@ export default class Toolbar extends Component {
                         </div>
 
                         <div className="mx-2 mx-md-3 d-xl-none">
-                            <FontAwesomeIcon icon={faBars} onClick={this.toggleNavbar} className="text-x-large" cursor="pointer" />
+                            <i onClick={this.toggleNavbar} className="fad fa-bars text-18 text-md-40" style={{ cursor: 'pointer' }} />
                         </div>
                     </div>
                 </div>

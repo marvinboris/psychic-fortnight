@@ -106,7 +106,7 @@ class Downloads extends Component {
             },
         ];
 
-        const formulaeContent = formulae.map(formula => <Formula key={JSON.stringify(formula)} {...formula} />);
+        const formulaeContent = formulae.map(formula => <Formula key={JSON.stringify(formula)} {...formula} color="transparent" />);
         const othersContent = others.map(other => <Formula key={JSON.stringify(other)} {...other} />);
         const infosContent = infos.map(info => <Info key={JSON.stringify(info)} {...info} />);
 
@@ -156,7 +156,7 @@ class Downloads extends Component {
 
 
 
-            <Block title="Autres Documents" subtitle="Vous n’avez pas trouvé le document que vous recherchez ? Vérifiez ici">
+            <Block color="transparent" title="Autres Documents" subtitle="Vous n’avez pas trouvé le document que vous recherchez ? Vérifiez ici">
                 <div className="d-none d-lg-flex row justify-content-center">
                     {othersContent}
                 </div>
@@ -184,7 +184,7 @@ class Downloads extends Component {
             </Block>
 
 
-            <Block title="Pour plus d'informations" subtitle="En cas de besoin, veuillez contacter les différents services aux numéros ci-dessous">
+            <Block color="transparent" title="Pour plus d'informations" subtitle="En cas de besoin, veuillez contacter les différents services aux numéros ci-dessous">
                 <div className="my-5 row">
                     {infosContent}
                 </div>
