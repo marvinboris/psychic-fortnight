@@ -8,6 +8,7 @@ import { Input, Table, Nav, NavItem, NavLink, TabContent, TabPane } from 'reacts
 
 import Chevrons from '../../../components/UI/Chevrons';
 
+import Title from '../../../components/UI/Police/Title';
 import Block from '../../../components/UI/Police/Block';
 import Notice from '../../../components/UI/Police/Notice';
 import Info from '../../../components/UI/Police/Info';
@@ -360,19 +361,7 @@ class Exams extends Component {
 
 
         return <div className="Exams">
-            <div className="bg-blue py-5" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5))' }}>
-                <div className="container py-5 my-4 text-40 text-700 text-white text-center">
-                    Concours
-
-                    <div className="d-flex justify-content-center align-items-center">
-                        <div><div className="bg-white" style={{ height: .5, width: 40 }} /></div>
-
-                        <div className="px-2"><div className="rounded-circle bg-white" style={{ height: 8, width: 8 }} /></div>
-
-                        <div><div className="bg-white" style={{ height: .5, width: 40 }} /></div>
-                    </div>
-                </div>
-            </div>
+            <Title>Concours</Title>
 
 
             <Block color="soft" title="Avis de concours" subtitle="Renseignez-vous sur les recentes publications concernant les concours" fluid>

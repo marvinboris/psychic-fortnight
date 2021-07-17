@@ -7,21 +7,22 @@ import { faListAlt } from '@fortawesome/free-regular-svg-icons';
 import { faCircle, faCloudDownloadAlt, faVideo } from '@fortawesome/free-solid-svg-icons';
 import OwlCarousel from 'react-owl-carousel2';
 
-import Chevrons from '../../../components/UI/Chevrons';
+import Chevrons from '../../../../components/UI/Chevrons';
 
-import Block from '../../../components/UI/Police/Block';
-import Picture from '../../../components/UI/Police/Picture';
-import Post from '../../../components/UI/Police/Post';
-import Info from '../../../components/UI/Police/Info';
+import Title from '../../../../components/UI/Police/Title';
+import Block from '../../../../components/UI/Police/Block';
+import Picture from '../../../../components/UI/Police/Picture';
+import Post from '../../../../components/UI/Police/Post';
+import Info from '../../../../components/UI/Police/Info';
 
-import { convertDate, convertTime } from '../../../shared/utility';
+import { convertDate, convertTime } from '../../../../shared/utility';
 
 import './Media.css';
 
-import Post1 from '../../../assets/images/president@2x.png';
-import Post2 from '../../../assets/images/Soustraction 9@2x.png';
-import Post3 from '../../../assets/images/un-policier-promu@2x.png';
-import Post4 from '../../../assets/images/drc-police@2x.png';
+import Post1 from '../../../../assets/images/president@2x.png';
+import Post2 from '../../../../assets/images/Soustraction 9@2x.png';
+import Post3 from '../../../../assets/images/un-policier-promu@2x.png';
+import Post4 from '../../../../assets/images/drc-police@2x.png';
 
 class Media extends Component {
     state = {
@@ -404,19 +405,7 @@ class Media extends Component {
         const recordsTabPanesContent = recordsNavItems.map(navItem => <TabPane tabId={navItem.id} key={navItem.id + Math.random()}>{navItem.content}</TabPane>);
 
         return <div className="Media">
-            <div className="bg-blue py-5" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5))' }}>
-                <div className="container py-5 my-4 text-40 text-700 text-white text-center">
-                    Médias
-
-                    <div className="d-flex justify-content-center align-items-center">
-                        <div><div className="bg-white" style={{ height: .5, width: 40 }} /></div>
-
-                        <div className="px-2"><div className="rounded-circle bg-white" style={{ height: 8, width: 8 }} /></div>
-
-                        <div><div className="bg-white" style={{ height: .5, width: 40 }} /></div>
-                    </div>
-                </div>
-            </div>
+            <Title>Médias</Title>
 
 
 

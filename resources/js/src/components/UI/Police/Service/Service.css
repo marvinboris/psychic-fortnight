@@ -26,7 +26,7 @@
 
 .UI.Service > div:hover .icon,
 .owl-item.center.active .UI.Service > div .icon {
-    color: var(--darkblue);
+    color: var(--nightblue);
 }
 
 .UI.Service .bubble {

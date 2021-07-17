@@ -101,6 +101,7 @@ __webpack_require__.r(__webpack_exports__);
       style = _ref$style === void 0 ? {} : _ref$style,
       children = _ref.children,
       full = _ref.full,
+      left = _ref.left,
       fluid = _ref.fluid,
       title = _ref.title,
       _ref$color = _ref.color,
@@ -119,7 +120,16 @@ __webpack_require__.r(__webpack_exports__);
     }),
     children: full ? children : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
       className: "container-" + (fluid ? "fluid" : "xxl") + " py-3 py-md-4 py-xxl-5 text-dark",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+      children: [left ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+        className: "mb-3 mb-md-4 mb-xxl-5 pb-3 pb-md-4 pb-xxl-5 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+          className: "text-700 text-nightblue text-16 text-md-25 text-xxl-35",
+          children: title
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+          className: "text-300 text-secondary text-16 text-md-20 text-xxl-25 text-uppercase",
+          children: subtitle
+        })]
+      }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
         className: "text-center mb-3 mb-md-4 mb-xxl-5 pb-3 pb-md-4 pb-xxl-5",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
           className: "text-700 text-blue",
@@ -344,21 +354,24 @@ __webpack_require__.r(__webpack_exports__);
           transform: 'translateY(' + (simple ? '-2rem' : '0') + ')'
         },
         children: !simple && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-          className: "border border-6 border-white rounded-circle d-flex justify-content-center align-items-center position-absolute",
+          className: "position-absolute rounded-circle bg-white",
           style: {
             right: 36,
             bottom: 0,
             transform: 'translateY(50%)'
           },
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Link, {
-            to: "/",
-            className: "btn btn-blue rounded-circle",
-            style: {
-              width: 36,
-              height: 36
-            },
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-              icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_6__.faShareAlt
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+            className: "border border-6 share-border rounded-circle d-flex justify-content-center align-items-center",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Link, {
+              to: "/",
+              className: "btn btn-blue rounded-circle",
+              style: {
+                width: 36,
+                height: 36
+              },
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
+                icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_6__.faShareAlt
+              })
             })
           })
         })
@@ -1228,7 +1241,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".UI.Post > div {\r\n    height: 100%;\r\n    background-color: var(--lightblue-25);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post .embed-responsive {\r\n    background-position: center;\r\n    background-size: auto 100%;\r\n    background-repeat: no-repeat;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post > div:hover,\r\n.owl-item.center.active .UI.Post > div {\r\n    background-color: white;\r\n}\r\n\r\n.UI.Post > div:hover .embed-responsive,\r\n.owl-item.center.active .UI.Post > div .embed-responsive {\r\n    background-size: auto calc(100% + 6px);\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".UI.Post > div {\r\n    height: 100%;\r\n    background-color: var(--lightblue-25);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post .embed-responsive {\r\n    background-position: center;\r\n    background-size: auto 100%;\r\n    background-repeat: no-repeat;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post .share-border {\r\n    border-color: var(--lightblue-25) !important;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post > div:hover,\r\n.owl-item.center.active .UI.Post > div {\r\n    background-color: white;\r\n}\r\n\r\n.UI.Post > div:hover .embed-responsive,\r\n.owl-item.center.active .UI.Post > div .embed-responsive {\r\n    background-size: auto calc(100% + 6px);\r\n}\r\n\r\n.UI.Post > div:hover .share-border,\r\n.owl-item.center.active .UI.Post > div .share-border {\r\n    border-color: white !important;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

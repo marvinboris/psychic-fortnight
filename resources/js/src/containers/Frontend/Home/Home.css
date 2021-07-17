@@ -13,10 +13,6 @@
     padding: 0 12.5%;
 }
 
-.Frontend .Home .banner {
-    min-height: calc(100vh - 100px);
-}
-
 .Frontend .Home .txt-block {
     background-image: url("/images/Groupe 574@2x.png");
     background-size: 100% 100%;

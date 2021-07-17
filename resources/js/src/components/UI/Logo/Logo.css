@@ -1,0 +1,40 @@
+.UI.Logo img {
+    height: 16px;
+    object-fit: contain;
+}
+
+.UI.Logo img.big {
+    height: 36px;
+}
+
+.UI.Logo img.sm {
+    height: 10px;
+}
+
+@media (min-width: 800px) {
+    .UI.Logo img {
+        height: 28px;
+    }
+
+    .UI.Logo img.big {
+        height: 62px;
+    }
+
+    .UI.Logo img.sm {
+        height: 17.5px;
+    }
+}
+
+@media (min-width: 1900px) {
+    .UI.Logo img {
+        height: 40px;
+    }
+
+    .UI.Logo img.big {
+        height: 90px;
+    }
+
+    .UI.Logo img.sm {
+        height: 25px;
+    }
+}

@@ -3,7 +3,8 @@
 }
 
 .Frontend .Toolbar > div {
-    height: 100px;
+    height: 66px;
+    background: var(--nightblue);
 }
 
 .Frontend .Toolbar > .fixed-top {
@@ -49,8 +50,15 @@
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 800px) {
     .Frontend .Toolbar > div {
-        height: 66px;
+        height: 87px;
+        background: var(--darkblue);
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .Frontend .Toolbar > div {
+        height: 100px;
     }
 }

@@ -14,8 +14,8 @@ class Logo extends Component {
             }
         } = this.props;
 
-        return <div className="Logo mb-0 text-white" >
-            <img src={big ? '/images/logo-big.png' : dark ? logo : logo} className="mw-100" style={{ height: big ? 96 : sm ? 25 : 40, objectFit: 'contain' }} />
+        return <div className="UI Logo mb-0 text-white" >
+            <img src={big ? '/images/logo-big.png' : dark ? logo : logo} className={"mw-100" + (big ? " big " : "") + (sm ? " sm " : "") + (dark ? " dark" : "")} />
         </div>;
     }
 }

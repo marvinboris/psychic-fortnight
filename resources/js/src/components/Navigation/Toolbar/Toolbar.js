@@ -1,18 +1,26 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { Collapse, Input, InputGroup, InputGroupAddon, InputGroupText } from 'reactstrap';
 
-import NavigationItems from '../NavigationItems/NavigationItems';
 import Logo from '../../UI/Logo/Logo';
+
+import Languages from './Languages';
+
+import NavigationItems from '../NavigationItems/NavigationItems';
 
 import './Toolbar.css';
 
-export default class Toolbar extends Component {
+class Toolbar extends Component {
     state = {
         navbar: true,
         search: true,
+
+        selectedItem: '',
+
+        language: null,
     }
 
     scrollHandler = () => {
@@ -25,6 +33,11 @@ export default class Toolbar extends Component {
 
     componentDidMount() {
         window.addEventListener('scroll', this.scrollHandler);
+        this.setState({ language: this.props.content.languages.find(l => l.abbr === localStorage.getItem('lang')) });
+    }
+
+    componentDidUpdate(prevProps) {
+        if (JSON.stringify(prevProps.content.cms) !== JSON.stringify(this.props.content.cms)) this.setState({ language: this.props.content.languages.find(l => l.abbr === localStorage.getItem('lang')) });
     }
 
     componentWillUnmount() {
@@ -35,29 +48,64 @@ export default class Toolbar extends Component {
 
     toggleSearch = () => this.setState(state => ({ search: !state.search, navbar: true }))
 
+    selectItem = item => this.setState({ selectedItem: item })
+
+    setLanguage = id => {
+        this.props.set(id);
+    }
+
     render() {
+        const { selectedItem, language } = this.state;
+        const {
+            content: { languages },
+        } = this.props;
+
         return <div className="Toolbar sticky-top w-100">
-            <div className="bg-darkblue text-light">
+            <div className="text-white">
                 <div className="container-xxl d-flex justify-content-between align-items-center h-100">
                     <div>
                         <Link to="/" className="text-decoration-none"><Logo /></Link>
                     </div>
 
-                    <div className="pl-xl-5">
-                        <a href="tel:1500" className="btn btn-white text-green d-inline-flex align-items-center ml-xl-5 pl-2 pl-md-3 pr-3 pr-md-4 py-1 py-md-2">
-                            <div className="pr-2 pr-xl-3 mr-2 mr-xl-3 py-0 py-xl-1 border-right border-green-50"><i className="fad fa-phone-plus text-10 text-md-14 text-xxl-19" /></div>
+                    <div className="pl-3 d-flex align-items-center d-md-none">
+                        <a href="tel:1500" className="btn btn-green d-inline-flex align-items-center ml-xl-5 pl-2 pl-md-3 pr-3 pr-md-4 py-1 py-md-2">
+                            <div className="pr-2 pr-xl-3 mr-2 mr-xl-3 py-0 py-xl-1 border-right border-soft-50"><i className="fad fa-phone-plus text-18 text-md-24 text-xxl-30" /></div>
 
-                            <div className="text-montserrat text-700 text-7 text-md-11 text-xxl-16">1500</div>
+                            <div className="text-montserrat text-700 text-19 text-md-22 text-xxl-25">1500</div>
                         </a>
+
+                        <div className="pl-3 d-md-none">
+                            <Languages languages={languages} set={this.setLanguage} language={language} />
+                        </div>
+
+                        <div className="pl-3">
+                            <i className="fad fa-search text-21 text-md-35 text-lightblue" />
+                        </div>
+                    </div>
+
+                    <div className="pl-3 h-100 d-none d-md-flex align-items-center">
+                        <a href="tel:1500" className="h-100 bg-nightblue text-white d-inline-flex align-items-center ml-xl-5 pl-2 pl-md-3 pr-3 pr-md-4 py-1 py-md-2">
+                            <div className="pr-2 pr-xl-3 mr-2 mr-xl-3 py-0 py-xl-1 border-right border-soft-50"><i className="fad fa-phone-plus text-18 text-md-24 text-xxl-30" /></div>
+
+                            <div className="text-montserrat text-700 text-15 text-md-20 text-xxl-25">1500</div>
+                        </a>
+
+                        <div className="pl-5">
+                            <i className="fad fa-search text-21 text-md-35 text-lightblue" />
+                        </div>
                     </div>
 
                     <div className="d-flex justify-content-between align-items-center">
-                        <div className="d-none d-xl-block mr-4">
-                            <NavigationItems font="white" toggleNavbar={this.toggleNavbar} />
+                        <div className="d-none d-xl-block">
+                            <NavigationItems font="white" toggleNavbar={this.toggleNavbar} selectItem={this.selectItem} selectedItem={selectedItem} />
                         </div>
 
                         <div className="mx-2 mx-md-3 d-xl-none">
-                            <i onClick={this.toggleNavbar} className="fad fa-bars text-18 text-md-40" style={{ cursor: 'pointer' }} />
+                            <i onClick={this.toggleNavbar} className="fad fa-th-large text-21 text-md-40" style={{ cursor: 'pointer' }} />
+                        </div>
+
+                        <div className="pl-3 d-none d-xl-block">
+                            <Languages languages={languages} set={this.setLanguage} language={language} />
                         </div>
                     </div>
                 </div>
@@ -78,7 +126,7 @@ export default class Toolbar extends Component {
 
                 <div className="d-xl-none">
                     <Collapse isOpen={!this.state.navbar} navbar className="bg-white shadow-sm position-absolute w-100" style={{ top: '100%' }}>
-                        <NavigationItems font="dark" toggleNavbar={this.toggleNavbar} />
+                        <NavigationItems font="dark" toggleNavbar={this.toggleNavbar} selectItem={this.selectItem} selectedItem={selectedItem} />
                     </Collapse>
                 </div>
 
@@ -87,3 +135,7 @@ export default class Toolbar extends Component {
         </div >;
     }
 }
+
+const mapStateToProps = state => ({ ...state });
+
+export default connect(mapStateToProps)(Toolbar);

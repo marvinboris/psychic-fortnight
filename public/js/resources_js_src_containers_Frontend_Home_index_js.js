@@ -27,6 +27,7 @@ __webpack_require__.r(__webpack_exports__);
       style = _ref$style === void 0 ? {} : _ref$style,
       children = _ref.children,
       full = _ref.full,
+      left = _ref.left,
       fluid = _ref.fluid,
       title = _ref.title,
       _ref$color = _ref.color,
@@ -45,7 +46,16 @@ __webpack_require__.r(__webpack_exports__);
     }),
     children: full ? children : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
       className: "container-" + (fluid ? "fluid" : "xxl") + " py-3 py-md-4 py-xxl-5 text-dark",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+      children: [left ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+        className: "mb-3 mb-md-4 mb-xxl-5 pb-3 pb-md-4 pb-xxl-5 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+          className: "text-700 text-nightblue text-16 text-md-25 text-xxl-35",
+          children: title
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+          className: "text-300 text-secondary text-16 text-md-20 text-xxl-25 text-uppercase",
+          children: subtitle
+        })]
+      }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
         className: "text-center mb-3 mb-md-4 mb-xxl-5 pb-3 pb-md-4 pb-xxl-5",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
           className: "text-700 text-blue",
@@ -216,21 +226,24 @@ __webpack_require__.r(__webpack_exports__);
           transform: 'translateY(' + (simple ? '-2rem' : '0') + ')'
         },
         children: !simple && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-          className: "border border-6 border-white rounded-circle d-flex justify-content-center align-items-center position-absolute",
+          className: "position-absolute rounded-circle bg-white",
           style: {
             right: 36,
             bottom: 0,
             transform: 'translateY(50%)'
           },
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Link, {
-            to: "/",
-            className: "btn btn-blue rounded-circle",
-            style: {
-              width: 36,
-              height: 36
-            },
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-              icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_6__.faShareAlt
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+            className: "border border-6 share-border rounded-circle d-flex justify-content-center align-items-center",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Link, {
+              to: "/",
+              className: "btn btn-blue rounded-circle",
+              style: {
+                width: 36,
+                height: 36
+              },
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
+                icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_6__.faShareAlt
+              })
             })
           })
         })
@@ -527,7 +540,7 @@ var Home = /*#__PURE__*/function (_Component) {
       return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
         className: "Home",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
-          className: "banner d-flex flex-column text-white",
+          className: "banner full-height-app d-flex flex-column text-white",
           style: {
             backgroundImage: 'linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("' + _assets_images_Policiers_a_ve_lo_au_de_file_a_Douala_png__WEBPACK_IMPORTED_MODULE_9__.default + '")',
             backgroundRepeat: 'no-repeat',
@@ -830,7 +843,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".UI.Post > div {\r\n    height: 100%;\r\n    background-color: var(--lightblue-25);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post .embed-responsive {\r\n    background-position: center;\r\n    background-size: auto 100%;\r\n    background-repeat: no-repeat;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post > div:hover,\r\n.owl-item.center.active .UI.Post > div {\r\n    background-color: white;\r\n}\r\n\r\n.UI.Post > div:hover .embed-responsive,\r\n.owl-item.center.active .UI.Post > div .embed-responsive {\r\n    background-size: auto calc(100% + 6px);\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".UI.Post > div {\r\n    height: 100%;\r\n    background-color: var(--lightblue-25);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post .embed-responsive {\r\n    background-position: center;\r\n    background-size: auto 100%;\r\n    background-repeat: no-repeat;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post .share-border {\r\n    border-color: var(--lightblue-25) !important;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post > div:hover,\r\n.owl-item.center.active .UI.Post > div {\r\n    background-color: white;\r\n}\r\n\r\n.UI.Post > div:hover .embed-responsive,\r\n.owl-item.center.active .UI.Post > div .embed-responsive {\r\n    background-size: auto calc(100% + 6px);\r\n}\r\n\r\n.UI.Post > div:hover .share-border,\r\n.owl-item.center.active .UI.Post > div .share-border {\r\n    border-color: white !important;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -854,7 +867,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".UI.Service > div {\r\n    background-color: var(--lightblue-35);\r\n    border: 6px solid transparent;\r\n    box-shadow: 0 0 10px 0 transparent;\r\n    height: 100%;\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n    padding-top: 42px;\r\n    padding-left: calc(3rem - 6px);\r\n    padding-right: calc(3rem - 6px);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Service > div:hover,\r\n.owl-item.center.active .UI.Service > div {\r\n    background-color: white;\r\n    border: 6px solid var(--soft-45);\r\n    box-shadow: 0 0 20px 0 var(--black-10);\r\n    padding-top: 1rem;\r\n    margin-bottom: -20px;\r\n}\r\n\r\n.UI.Service .icon {\r\n    color: var(--blue);\r\n}\r\n\r\n.UI.Service > div:hover .icon,\r\n.owl-item.center.active .UI.Service > div .icon {\r\n    color: var(--darkblue);\r\n}\r\n\r\n.UI.Service .bubble {\r\n    width: 100px;\r\n    opacity: 0;\r\n    box-shadow: 0 0 0 15px var(--lightblue-15);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Service > div:hover .bubble,\r\n.owl-item.center.active .UI.Service > div .bubble {\r\n    width: 147px;\r\n    opacity: 1;\r\n}\r\n\r\n.UI.Service .bubble-wrapper {\r\n    margin-bottom: 3rem;\r\n}\r\n\r\n.UI.Service > div:hover .bubble-wrapper,\r\n.owl-item.center.active .UI.Service > div .bubble-wrapper {\r\n    margin-bottom: 2rem;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".UI.Service > div {\r\n    background-color: var(--lightblue-35);\r\n    border: 6px solid transparent;\r\n    box-shadow: 0 0 10px 0 transparent;\r\n    height: 100%;\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n    padding-top: 42px;\r\n    padding-left: calc(3rem - 6px);\r\n    padding-right: calc(3rem - 6px);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Service > div:hover,\r\n.owl-item.center.active .UI.Service > div {\r\n    background-color: white;\r\n    border: 6px solid var(--soft-45);\r\n    box-shadow: 0 0 20px 0 var(--black-10);\r\n    padding-top: 1rem;\r\n    margin-bottom: -20px;\r\n}\r\n\r\n.UI.Service .icon {\r\n    color: var(--blue);\r\n}\r\n\r\n.UI.Service > div:hover .icon,\r\n.owl-item.center.active .UI.Service > div .icon {\r\n    color: var(--nightblue);\r\n}\r\n\r\n.UI.Service .bubble {\r\n    width: 100px;\r\n    opacity: 0;\r\n    box-shadow: 0 0 0 15px var(--lightblue-15);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Service > div:hover .bubble,\r\n.owl-item.center.active .UI.Service > div .bubble {\r\n    width: 147px;\r\n    opacity: 1;\r\n}\r\n\r\n.UI.Service .bubble-wrapper {\r\n    margin-bottom: 3rem;\r\n}\r\n\r\n.UI.Service > div:hover .bubble-wrapper,\r\n.owl-item.center.active .UI.Service > div .bubble-wrapper {\r\n    margin-bottom: 2rem;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -878,7 +891,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".Frontend .Home .carousel-inner {\r\n    height: 100% !important;\r\n}\r\n\r\n.Frontend .Home #banner {\r\n    position: absolute;\r\n    margin: auto;\r\n    z-index: 10;\r\n    top: 50%;\r\n    left: 50%;\r\n    transform: translate(-50%, -60%) scale(1);\r\n    transform-origin: center;\r\n    padding: 0 12.5%;\r\n}\r\n\r\n.Frontend .Home .banner {\r\n    min-height: calc(100vh - 100px);\r\n}\r\n\r\n.Frontend .Home .txt-block {\r\n    background-image: url(\"/images/Groupe 574@2x.png\");\r\n    background-size: 100% 100%;\r\n    background-repeat: no-repeat;\r\n    background-position: center;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Home .owl-item {\r\n    padding: 1rem 0;\r\n}\r\n\r\n.Frontend .Home .owl-item > div {\r\n    transform: scale(1);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Home .owl-item.center.active > div {\r\n    transform: scale(1.02);\r\n}\r\n\r\n@media screen and (max-width: 992px) {\r\n    .Frontend .Home .banner {\r\n        min-height: auto;\r\n    }\r\n\r\n    .Frontend .Home .txt-block {\r\n        background-image: unset;\r\n    }\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".Frontend .Home .carousel-inner {\r\n    height: 100% !important;\r\n}\r\n\r\n.Frontend .Home #banner {\r\n    position: absolute;\r\n    margin: auto;\r\n    z-index: 10;\r\n    top: 50%;\r\n    left: 50%;\r\n    transform: translate(-50%, -60%) scale(1);\r\n    transform-origin: center;\r\n    padding: 0 12.5%;\r\n}\r\n\r\n.Frontend .Home .txt-block {\r\n    background-image: url(\"/images/Groupe 574@2x.png\");\r\n    background-size: 100% 100%;\r\n    background-repeat: no-repeat;\r\n    background-position: center;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Home .owl-item {\r\n    padding: 1rem 0;\r\n}\r\n\r\n.Frontend .Home .owl-item > div {\r\n    transform: scale(1);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Home .owl-item.center.active > div {\r\n    transform: scale(1.02);\r\n}\r\n\r\n@media screen and (max-width: 992px) {\r\n    .Frontend .Home .banner {\r\n        min-height: auto;\r\n    }\r\n\r\n    .Frontend .Home .txt-block {\r\n        background-image: unset;\r\n    }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

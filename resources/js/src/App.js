@@ -141,8 +141,14 @@ const asyncAdminVerify = asyncComponent(() => import('./containers/Auth/Admin/Ve
 
 
 // Frontend routes
+const asyncAboutOrganization = asyncComponent(() => import('./containers/Frontend/About/Organization'));
+const asyncAboutMedia = asyncComponent(() => import('./containers/Frontend/About/Media'));
+const asyncAboutJobs = asyncComponent(() => import('./containers/Frontend/About/Jobs'));
+const asyncAboutActions = asyncComponent(() => import('./containers/Frontend/About/Actions'));
+const asyncAboutMissions = asyncComponent(() => import('./containers/Frontend/About/Missions'));
+const asyncAboutGenesis = asyncComponent(() => import('./containers/Frontend/About/Genesis'));
+
 const asyncExams = asyncComponent(() => import('./containers/Frontend/Exams'));
-const asyncMedia = asyncComponent(() => import('./containers/Frontend/Media'));
 const asyncDownloads = asyncComponent(() => import('./containers/Frontend/Downloads'));
 const asyncServices = asyncComponent(() => import('./containers/Frontend/Services'));
 const asyncHome = asyncComponent(() => import('./containers/Frontend/Home'));
@@ -184,8 +190,18 @@ class App extends Component {
                 <Route path="/">
                     <Frontend>
                         <Switch>
+                            <Route path="/about">
+                                <Switch>
+                                    <Route path="/about/organization" component={asyncAboutOrganization} />
+                                    <Route path="/about/media" component={asyncAboutMedia} />
+                                    <Route path="/about/jobs" component={asyncAboutJobs} />
+                                    <Route path="/about/actions" component={asyncAboutActions} />
+                                    <Route path="/about/missions" component={asyncAboutMissions} />
+                                    <Route path="/about/genesis" component={asyncAboutGenesis} />
+                                </Switch>
+                            </Route>
+
                             <Route path="/exams" component={asyncExams} />
-                            <Route path="/media" component={asyncMedia} />
                             <Route path="/downloads" component={asyncDownloads} />
                             <Route path="/services" component={asyncServices} />
                             <Route path="/" component={asyncHome} />

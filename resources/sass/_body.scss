@@ -28,7 +28,7 @@ body {
 }
 
 .full-height-app {
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 66px);
 }
 
 .owl-nav .owl-prev,
@@ -48,7 +48,13 @@ body {
   @extend .px-xxl-3;
 }
 
-@media screen and (max-width: 992px) {
+@media (min-width: 800px) {
+  .full-height-app {
+    min-height: calc(100vh - 87px);
+  }
+}
+
+@media (min-width: 1900px) {
   .full-height-app {
     min-height: calc(100vh - 100px);
   }

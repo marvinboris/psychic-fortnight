@@ -135,7 +135,7 @@ class Home extends Component {
         const blogContent = posts.map(post => <Post key={JSON.stringify(post)} {...post} />);
 
         return <div className="Home">
-            <div className="banner d-flex flex-column text-white" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("' + Img1 + '")', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            <div className="banner full-height-app d-flex flex-column text-white" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("' + Img1 + '")', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="container-xxl flex-fill d-flex flex-column">
                     <div className="row flex-fill align-items-center">
                         <div className="col-md-7">
