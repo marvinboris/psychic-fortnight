@@ -84,7 +84,7 @@ class Toolbar extends Component {
                     </div>
 
                     <div className="pl-3 h-100 d-none d-md-flex align-items-center">
-                        <a href="tel:1500" className="h-100 bg-nightblue text-white d-inline-flex align-items-center ml-xl-5 pl-2 pl-md-3 pr-3 pr-md-4 py-1 py-md-2">
+                        <a href="tel:1500" className="h-100 bg-green text-white d-inline-flex align-items-center ml-xl-5 pl-2 pl-md-3 pr-3 pr-md-4 py-1 py-md-2">
                             <div className="pr-2 pr-xl-3 mr-2 mr-xl-3 py-0 py-xl-1 border-right border-soft-50"><i className="fad fa-phone-plus text-18 text-md-24 text-xxl-30" /></div>
 
                             <div className="text-montserrat text-700 text-15 text-md-20 text-xxl-25">1500</div>

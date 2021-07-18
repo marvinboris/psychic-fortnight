@@ -48,18 +48,18 @@ export default ({ light = false, font, toggleNavbar, selectItem, selectedItem })
                             <div className="d-none d-md-block container-xxl">
                                 <div className="row justify-content-end text-white">
                                     <div className="col-md-8 col-xxl-6">
-                                        <div className="p-3 p-md-4 p-xxl-5 bg-black-80 rounded-bottom-30">{contentAbout}</div>
+                                        <div className="p-3 p-md-4 p-xxl-5 bg-black-85 rounded-bottom-30">{contentAbout}</div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="d-md-none fixed-top w-100 h-100 bg-black-80 p-3">
+                            <div className="d-md-none fixed-top w-100 h-100 bg-black-85 p-3">
                                 {contentAbout}
                             </div>
                         </>}>La DGSN</NavigationItem>
                         <NavigationItem toggleNavbar={toggleNavbar} font={font} href="/services">Nos services</NavigationItem>
                         <NavigationItem toggleNavbar={toggleNavbar} font={font} href="/exams">Concours</NavigationItem>
-                        <NavigationItem toggleNavbar={toggleNavbar} font={font} href="/downloads">Téléchargements</NavigationItem>
+                        <NavigationItem toggleNavbar={toggleNavbar} font={font} href="/news">Actualités</NavigationItem>
                         <NavigationItem toggleNavbar={toggleNavbar} font={font} href="/contact">Contacts</NavigationItem>
                     </Nav>
                 </Collapse>

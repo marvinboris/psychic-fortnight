@@ -37,9 +37,17 @@ class Jobs extends Component {
             <Block left title="Police Camerounaise" subtitle="Un corps de métier accessible à tous">
                 <div className="row">
                     <div className="col-xl-8 text-10 text-md-13 text-xxl-16 text-secondary">
-                        <p>Quam quidem partem accusationis admiratus sum et moleste tuli potissimum esse Atratino datam. Neque enim decebat neque aetas illa postulabat neque, id quod animadvertere poteratis, pudor patiebatur optimi adulescentis in tali illum oratione versari. Vellem aliquis ex vobis robustioribus hunc male dicendi locum suscepisset; aliquanto liberius et fortius et magis more nostro refutaremus istam male dicendi licentiam. Tecum, Atratine, agam lenius, quod et pudor tuus moderatur orationi meae et meum erga te parentemque tuum beneficium tueri debeo.</p>
+                        <p>
+                            Il n’est pas un secret de souligner que depuis quelques années déjà, la Police camerounaise qui est résolument tournée vers la modernité, essaie autant que faire ce peu, dans son organisation comme dans son fonctionnement, d’évoluer selon les normes et standards internationaux. La Délégation Générale à la Sûreté Nationale a, dans le cadre des  derniers recrutements, que ce soit au niveau de l’Ecole nationale Supérieure de Police de Yaoundé ou du Centre d’Instruction et d’Application de la police de Mutengene, ouvert les concours aux jeunes qualifiés dans divers domaines. C’est le cas des recrues ayant des bases dans les domaines aussi riches que variés tels que la médecine et les soins infirmiers ; l’ingénierie ; la Communication ; les télécommunications ; la mécanique ; l’électromécanique ; le génie civil ; l’hôtellerie et la restauration ; l’industrie d’habillement ; les métiers du bois ; les métiers du froid et climatisations ; la musique ; etc…
+                        </p>
 
-                        <p>Quare hoc quidem praeceptum, cuiuscumque est, ad tollendam amicitiam valet; illud potius praecipiendum fuit, ut eam diligentiam adhiberemus in amicitiis comparandis, ut ne quando amare inciperemus eum, quem aliquando odisse possemus. Quin etiam si minus felices in diligendo fuissemus, ferendum id Scipio potius quam inimicitiarum tempus cogitandum putabat.</p>
+                        <p>
+                            Il s’agit véritablement d’une Police de métiers dont les missions devraient couvrir tous les aspects socio-professionnels et ceux liés aux préoccupations étatiques. Le but recherché dans l’esprit du Chef de Corps de la Sûreté Nationale est de faire de notre Police, une structure avant-gardiste, toujours à la pointe des NTIC et prête à servir, à protéger les personnes et leurs biens dans le strict respect des libertés publiques et des droits de l’Homme. Mais également dans l’observation stricte des règles d’éthique et de déontologie.
+                        </p>
+
+                        <p>
+                            Du point de vue pratique, il est question de faire de la Police, un Corps plus proche des populations pour lesquelles elle est au service avec loyalisme et dévouement. Il s’agit d’une Police plus citoyenne au service des Institutions Républicaines ainsi que des personnes qui les incarnent.
+                        </p>
                     </div>
 
                     <div className="col-xl-4 d-flex justify-content-between flex-column h-100">

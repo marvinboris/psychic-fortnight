@@ -3,10 +3,10 @@ import { Component } from 'react';
 import { withRouter } from 'react-router';
 import OwlCarousel from 'react-owl-carousel2';
 
-import Title from '../../../components/UI/Police/Title';
-import Block from '../../../components/UI/Police/Block';
-import Formula from '../../../components/UI/Police/Formula';
-import Info from '../../../components/UI/Police/Info';
+import Title from '../../../../components/UI/Police/Title';
+import Block from '../../../../components/UI/Police/Block';
+import Formula from '../../../../components/UI/Police/Formula';
+import Info from '../../../../components/UI/Police/Info';
 
 import './Downloads.css';
 
@@ -137,7 +137,7 @@ class Downloads extends Component {
         const docsContent = docs.map(doc => <Formula key={JSON.stringify(doc)} {...doc} />);
         const infosContent = infos.map(info => <Info key={JSON.stringify(info)} {...info} />);
 
-        return <div className="Downloads">
+        return <div className="About Downloads">
             <Title>Téléchargements</Title>
 
 

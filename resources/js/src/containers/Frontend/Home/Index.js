@@ -157,19 +157,7 @@ class Home extends Component {
                                         </div>
                                     </div>
 
-                                    <div className="text-9 text-md-12 text-xxl-16 mb-5"> Nous vous demandons de bien vouloir parcourir notre site afin de prendre connaissance sur les Mises à jours récentes et informations concernant nos services.</div>
-
-                                    <div className="d-flex">
-                                        <div className="mr-2 mr-md-3">
-                                            <Input type="search" name="search" placeholder="Rechercher tout ici..." className="d-md-none" bsSize="sm" />
-                                            <Input type="search" name="search" placeholder="Rechercher tout ici..." className="d-none d-md-block" bsSize="lg" />
-                                        </div>
-
-                                        <div className="d-flex align-items-center">
-                                            <Button color="blue" className="d-md-none text-truncate" size="sm">Rechercher<FontAwesomeIcon icon={faArrowAltCircleRight} className="ml-2 ml-md-3 ml-xxl-4" fixedWidth /></Button>
-                                            <Button color="blue" className="d-none d-md-inline" size="lg">Rechercher<FontAwesomeIcon icon={faArrowAltCircleRight} className="ml-2 ml-md-3 ml-xxl-4" fixedWidth /></Button>
-                                        </div>
-                                    </div>
+                                    <div className="text-12 text-md-18 text-xxl-25"> Nous vous demandons de bien vouloir parcourir notre site afin de prendre connaissance sur les Mises à jours récentes et informations concernant nos services.</div>
                                 </div>
                             </div>
                         </div>

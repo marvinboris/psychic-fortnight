@@ -1,4 +1,4 @@
-(self["webpackChunk"] = self["webpackChunk"] || []).push([["resources_js_src_containers_Frontend_About_Organization_index_js"],{
+(self["webpackChunk"] = self["webpackChunk"] || []).push([["resources_js_src_containers_Frontend_About_Downloads_index_js"],{
 
 /***/ "./resources/js/src/components/UI/Police/Block/index.js":
 /*!**************************************************************!*\
@@ -105,6 +105,81 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/src/components/UI/Police/Formula/index.js":
+/*!****************************************************************!*\
+  !*** ./resources/js/src/components/UI/Police/Formula/index.js ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js");
+/* harmony import */ var _Formula_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Formula.css */ "./resources/js/src/components/UI/Police/Formula/Formula.css");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (function (_ref) {
+  var title = _ref.title,
+      description = _ref.description,
+      _ref$path = _ref.path,
+      path = _ref$path === void 0 ? "/" : _ref$path,
+      _ref$color = _ref.color,
+      color = _ref$color === void 0 ? "white" : _ref$color;
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+    className: "UI Formula bg-" + color + " col-xxl-3 col-xl-4 col-lg-4 px-0 px-md-3 pb-4",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+      className: "block d-flex flex-column",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+        className: "d-flex border-bottom pb-3 pb-md-4 mb-3 mb-md-4",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          className: "title text-17 text-md-18 text-xxl-20 text-700 pr-3 pr-md-4 pr-xxl-5 flex-fill text-ellipsis-2",
+          style: {
+            height: 60
+          },
+          children: title
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
+            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faInfoCircle,
+            className: "icon text-20 text-md-21 text-xxl-23"
+          })
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+        className: "description flex-fill d-flex flex-column",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          className: "flex-fill",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "text-13 text-md-14 text-xxl-16",
+            children: description
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          className: "text-right pt-3",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Link, {
+            to: path,
+            className: "btn text-10 text-md-11 text-xxl-12",
+            children: ["T\xE9l\xE9charger", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
+              icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faFileDownload,
+              className: "btn-icon ml-2 ml-xxl-3 text-14 text-md-15 text-xxl-16"
+            })]
+          })
+        })]
+      })]
+    })
+  });
+});
+
+/***/ }),
+
 /***/ "./resources/js/src/components/UI/Police/Info/index.js":
 /*!*************************************************************!*\
   !*** ./resources/js/src/components/UI/Police/Info/index.js ***!
@@ -149,57 +224,6 @@ __webpack_require__.r(__webpack_exports__);
           })
         })]
       })
-    })
-  });
-});
-
-/***/ }),
-
-/***/ "./resources/js/src/components/UI/Police/Member/index.js":
-/*!***************************************************************!*\
-  !*** ./resources/js/src/components/UI/Police/Member/index.js ***!
-  \***************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _Member_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Member.css */ "./resources/js/src/components/UI/Police/Member/Member.css");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (function (_ref) {
-  var title = _ref.title,
-      description = _ref.description,
-      rank = _ref.rank;
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-    className: "UI Member px-0 px-md-2 pb-4",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-      className: "rounded-15 shadow-sm",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-        className: "rank py-3 px-3 text-50 text-700",
-        children: [rank, "."]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-        className: "title px-3 text-12 text-700",
-        style: {
-          height: 60
-        },
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-          className: "row align-items-center h-100",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-            className: "col-7",
-            children: title
-          })
-        })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-        className: "py-4 px-3 text-secondary text-300 text-10",
-        children: description
-      })]
     })
   });
 });
@@ -266,10 +290,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/src/containers/Frontend/About/Organization/index.js":
-/*!**************************************************************************!*\
-  !*** ./resources/js/src/containers/Frontend/About/Organization/index.js ***!
-  \**************************************************************************/
+/***/ "./resources/js/src/containers/Frontend/About/Downloads/index.js":
+/*!***********************************************************************!*\
+  !*** ./resources/js/src/containers/Frontend/About/Downloads/index.js ***!
+  \***********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -278,18 +302,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/esm/react-router.js");
 /* harmony import */ var react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-owl-carousel2 */ "./node_modules/react-owl-carousel2/lib/OwlCarousel.js");
 /* harmony import */ var react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_UI_Police_Title__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/UI/Police/Title */ "./resources/js/src/components/UI/Police/Title/index.js");
 /* harmony import */ var _components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/UI/Police/Block */ "./resources/js/src/components/UI/Police/Block/index.js");
-/* harmony import */ var _components_UI_Police_Info__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/UI/Police/Info */ "./resources/js/src/components/UI/Police/Info/index.js");
-/* harmony import */ var _components_UI_Police_Member__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/UI/Police/Member */ "./resources/js/src/components/UI/Police/Member/index.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _components_UI_Police_Formula__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/UI/Police/Formula */ "./resources/js/src/components/UI/Police/Formula/index.js");
+/* harmony import */ var _components_UI_Police_Info__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/UI/Police/Info */ "./resources/js/src/components/UI/Police/Info/index.js");
+/* harmony import */ var _Downloads_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Downloads.css */ "./resources/js/src/containers/Frontend/About/Downloads/Downloads.css");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -311,7 +339,6 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
@@ -323,72 +350,71 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-var Organization = /*#__PURE__*/function (_Component) {
-  _inherits(Organization, _Component);
 
-  var _super = _createSuper(Organization);
+var Downloads = /*#__PURE__*/function (_Component) {
+  _inherits(Downloads, _Component);
 
-  function Organization() {
-    var _this;
+  var _super = _createSuper(Downloads);
 
-    _classCallCheck(this, Organization);
+  function Downloads() {
+    _classCallCheck(this, Downloads);
 
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = _super.call.apply(_super, [this].concat(args));
-
-    _defineProperty(_assertThisInitialized(_this), "twoDigits", function (number) {
-      return number < 10 ? "0" + number : number;
-    });
-
-    return _this;
+    return _super.apply(this, arguments);
   }
 
-  _createClass(Organization, [{
+  _createClass(Downloads, [{
     key: "render",
     value: function render() {
-      var _this2 = this;
-
-      var cabinet = [{
-        title: 'Le Secrétaire particulier',
-        description: "Plac\xE9 sous l\u2019autorit\xE9 du Chef de Secr\xE9tariat \n                Particulier ayant rang de chef de service de \n                l\u2019Administration Centrale, le Secr\xE9tariat \n                Particulier est  charg\xE9 des affaires r\xE9serv\xE9es \n                du D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale."
+      var formulae = [{
+        title: "Copie Carte Nationale D’Identité",
+        description: "Simplifiez-vous la tache en consultant \n                les formulaires administratifs dont Vous\n                avez besoin. "
       }, {
-        title: 'La Cellule du Courrier et de la Traduction',
-        description: "Plac\xE9 sous l\u2019autorit\xE9 du Chef de Secr\xE9tariat \n                Particulier ayant rang de chef de service de \n                l\u2019Administration Centrale, le Secr\xE9tariat \n                Particulier est  charg\xE9 des affaires r\xE9serv\xE9es \n                du D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale."
+        title: "Certificat De Perte",
+        description: "Simplifiez-vous la tache en consultant \n                les formulaires administratifs dont Vous\n                avez besoin. "
       }, {
-        title: "L'Inspection Générale de la Sûreté Nationale",
-        description: "Plac\xE9 sous l\u2019autorit\xE9 du Chef de Secr\xE9tariat \n                Particulier ayant rang de chef de service de \n                l\u2019Administration Centrale, le Secr\xE9tariat \n                Particulier est  charg\xE9 des affaires r\xE9serv\xE9es \n                du D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale."
+        title: "Certificat D’Individualité",
+        description: "Simplifiez-vous la tache en consultant \n                les formulaires administratifs dont Vous\n                avez besoin. "
       }, {
-        title: "L'Inspection Générale de la Sûreté Nationale",
-        description: "Plac\xE9 sous l\u2019autorit\xE9 du Chef de Secr\xE9tariat \n                Particulier ayant rang de chef de service de \n                l\u2019Administration Centrale, le Secr\xE9tariat \n                Particulier est  charg\xE9 des affaires r\xE9serv\xE9es \n                du D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale."
+        title: "Procuration",
+        description: "Simplifiez-vous la tache en consultant \n                les formulaires administratifs dont Vous\n                avez besoin. "
+      }, {
+        title: "Fiche De Renseignement",
+        description: "Simplifiez-vous la tache en consultant \n                les formulaires administratifs dont Vous\n                avez besoin. "
+      }, {
+        title: "Certificat De Toise",
+        description: "Simplifiez-vous la tache en consultant \n                les formulaires administratifs dont Vous\n                avez besoin. "
+      }, {
+        title: "Certificat De Vente",
+        description: "Simplifiez-vous la tache en consultant \n                les formulaires administratifs dont Vous\n                avez besoin. "
+      }, {
+        title: 'Autorisation Parentale',
+        description: "Simplifiez-vous la tache en consultant \n                les formulaires administratifs dont Vous\n                avez besoin. "
       }];
-      var centralAdministration = [{
-        title: 'Le Secrétaire particulier',
-        description: "Plac\xE9 sous l\u2019autorit\xE9 du Chef de Secr\xE9tariat \n                Particulier ayant rang de chef de service de \n                l\u2019Administration Centrale, le Secr\xE9tariat \n                Particulier est  charg\xE9 des affaires r\xE9serv\xE9es \n                du D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale."
+      var others = [{
+        title: "Certificat CMR.crl",
+        description: "Simplifiez-vous la tache en consultant \n                les formulaires administratifs dont Vous\n                avez besoin. "
       }, {
-        title: 'La Cellule du Courrier et de la Traduction',
-        description: "Plac\xE9 sous l\u2019autorit\xE9 du Chef de Secr\xE9tariat \n                Particulier ayant rang de chef de service de \n                l\u2019Administration Centrale, le Secr\xE9tariat \n                Particulier est  charg\xE9 des affaires r\xE9serv\xE9es \n                du D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale."
+        title: "Certificat CamCSCA",
+        description: "Simplifiez-vous la tache en consultant \n                les formulaires administratifs dont Vous\n                avez besoin. "
       }, {
-        title: "L'Inspection Générale de la Sûreté Nationale",
-        description: "Plac\xE9 sous l\u2019autorit\xE9 du Chef de Secr\xE9tariat \n                Particulier ayant rang de chef de service de \n                l\u2019Administration Centrale, le Secr\xE9tariat \n                Particulier est  charg\xE9 des affaires r\xE9serv\xE9es \n                du D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale."
+        title: 'Communiqué N0123',
+        description: "Simplifiez-vous la tache en consultant \n                les formulaires administratifs dont Vous\n                avez besoin. "
       }, {
-        title: "L'Inspection Générale de la Sûreté Nationale",
-        description: "Plac\xE9 sous l\u2019autorit\xE9 du Chef de Secr\xE9tariat \n                Particulier ayant rang de chef de service de \n                l\u2019Administration Centrale, le Secr\xE9tariat \n                Particulier est  charg\xE9 des affaires r\xE9serv\xE9es \n                du D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale."
+        title: 'Communiqué N4332',
+        description: "Simplifiez-vous la tache en consultant \n                les formulaires administratifs dont Vous\n                avez besoin. "
       }];
-      var decentralizedServices = [{
-        title: 'Le Secrétaire particulier',
-        description: "Plac\xE9 sous l\u2019autorit\xE9 du Chef de Secr\xE9tariat \n                Particulier ayant rang de chef de service de \n                l\u2019Administration Centrale, le Secr\xE9tariat \n                Particulier est  charg\xE9 des affaires r\xE9serv\xE9es \n                du D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale."
+      var docs = [{
+        title: "Certificat CMR.crl",
+        description: "Simplifiez-vous la tache en consultant \n                les formulaires administratifs dont Vous\n                avez besoin. "
       }, {
-        title: 'La Cellule du Courrier et de la Traduction',
-        description: "Plac\xE9 sous l\u2019autorit\xE9 du Chef de Secr\xE9tariat \n                Particulier ayant rang de chef de service de \n                l\u2019Administration Centrale, le Secr\xE9tariat \n                Particulier est  charg\xE9 des affaires r\xE9serv\xE9es \n                du D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale."
+        title: "Certificat CamCSCA",
+        description: "Simplifiez-vous la tache en consultant \n                les formulaires administratifs dont Vous\n                avez besoin. "
       }, {
-        title: "L'Inspection Générale de la Sûreté Nationale",
-        description: "Plac\xE9 sous l\u2019autorit\xE9 du Chef de Secr\xE9tariat \n                Particulier ayant rang de chef de service de \n                l\u2019Administration Centrale, le Secr\xE9tariat \n                Particulier est  charg\xE9 des affaires r\xE9serv\xE9es \n                du D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale."
+        title: 'Communiqué N0123',
+        description: "Simplifiez-vous la tache en consultant \n                les formulaires administratifs dont Vous\n                avez besoin. "
       }, {
-        title: "L'Inspection Générale de la Sûreté Nationale",
-        description: "Plac\xE9 sous l\u2019autorit\xE9 du Chef de Secr\xE9tariat \n                Particulier ayant rang de chef de service de \n                l\u2019Administration Centrale, le Secr\xE9tariat \n                Particulier est  charg\xE9 des affaires r\xE9serv\xE9es \n                du D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale."
+        title: 'Communiqué N4332',
+        description: "Simplifiez-vous la tache en consultant \n                les formulaires administratifs dont Vous\n                avez besoin. "
       }];
       var infos = [{
         name: 'Service de renseignement',
@@ -403,158 +429,173 @@ var Organization = /*#__PURE__*/function (_Component) {
         icon: "fad fa-envelope",
         info: 'contact@dgsn.cm'
       }];
-      var cabinetContent = cabinet.map(function (member, index) {
-        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_UI_Police_Member__WEBPACK_IMPORTED_MODULE_5__.default, _objectSpread({
-          rank: _this2.twoDigits(index + 1)
-        }, member), Math.random() + JSON.stringify(member));
+      var formulaeContent = formulae.map(function (formula) {
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_UI_Police_Formula__WEBPACK_IMPORTED_MODULE_4__.default, _objectSpread(_objectSpread({}, formula), {}, {
+          color: "transparent"
+        }), JSON.stringify(formula));
       });
-      var centralAdministrationContent = centralAdministration.map(function (member, index) {
-        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_UI_Police_Member__WEBPACK_IMPORTED_MODULE_5__.default, _objectSpread({
-          rank: _this2.twoDigits(index + 1)
-        }, member), Math.random() + JSON.stringify(member));
+      var othersContent = others.map(function (other) {
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_UI_Police_Formula__WEBPACK_IMPORTED_MODULE_4__.default, _objectSpread({}, other), JSON.stringify(other));
       });
-      var decentralizedServicesContent = decentralizedServices.map(function (member, index) {
-        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_UI_Police_Member__WEBPACK_IMPORTED_MODULE_5__.default, _objectSpread({
-          rank: _this2.twoDigits(index + 1)
-        }, member), Math.random() + JSON.stringify(member));
+      var docsContent = docs.map(function (doc) {
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_UI_Police_Formula__WEBPACK_IMPORTED_MODULE_4__.default, _objectSpread({}, doc), JSON.stringify(doc));
       });
       var infosContent = infos.map(function (info) {
-        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_UI_Police_Info__WEBPACK_IMPORTED_MODULE_4__.default, _objectSpread({}, info), JSON.stringify(info));
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_UI_Police_Info__WEBPACK_IMPORTED_MODULE_5__.default, _objectSpread({}, info), JSON.stringify(info));
       });
-      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
-        className: "About Organization",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_UI_Police_Title__WEBPACK_IMPORTED_MODULE_2__.default, {
-          children: "Organisation de la DGSN"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_3__.default, {
-          title: "Cabinet de la DGSN",
-          subtitle: "Le Cabinet du D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
-            className: "row",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
-              className: "col-12 px-0",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)((react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1___default()), {
-                options: {
-                  responsive: {
-                    0: {
-                      items: 1,
-                      autoplay: true,
-                      stagePadding: 48,
-                      margin: 20,
-                      center: true
-                    },
-                    600: {
-                      items: 2,
-                      autoplay: true,
-                      stagePadding: 48,
-                      margin: 20,
-                      center: false
-                    },
-                    900: {
-                      items: 3
-                    },
-                    1300: {
-                      items: 4
-                    }
-                  },
-                  center: false,
-                  loop: true,
-                  dots: false,
-                  nav: true,
-                  navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
-                },
-                children: cabinetContent
-              })
-            })
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_3__.default, {
+      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+        className: "About Downloads",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_UI_Police_Title__WEBPACK_IMPORTED_MODULE_2__.default, {
+          children: "T\xE9l\xE9chargements"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_3__.default, {
+          title: "Formulaires Administratifs",
           color: "soft",
-          title: "L'Administration Centrale",
-          subtitle: "Le Cabinet du D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
-            className: "row",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
-              className: "col-12 px-0",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)((react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1___default()), {
-                options: {
-                  responsive: {
-                    0: {
-                      items: 1,
-                      autoplay: true,
-                      stagePadding: 48,
-                      margin: 20,
-                      center: true
+          subtitle: "Trouvez ci-joint le formulaires n\xE9cessaires pour vous servir de guide",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
+            className: "d-none d-lg-flex row justify-content-center",
+            children: formulaeContent
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
+            className: "d-lg-none",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
+              className: "row",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
+                className: "col-12 p-0",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)((react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1___default()), {
+                  options: {
+                    responsive: {
+                      0: {
+                        items: 1,
+                        autoplay: true,
+                        stagePadding: 48,
+                        margin: 20,
+                        center: true,
+                        nav: true
+                      },
+                      600: {
+                        items: 2,
+                        autoplay: true,
+                        stagePadding: 48,
+                        margin: 20,
+                        center: false
+                      },
+                      1000: {
+                        items: 3
+                      },
+                      1800: {
+                        items: 4
+                      }
                     },
-                    600: {
-                      items: 2,
-                      autoplay: true,
-                      stagePadding: 48,
-                      margin: 20,
-                      center: false
-                    },
-                    900: {
-                      items: 3
-                    },
-                    1300: {
-                      items: 4
-                    }
+                    center: false,
+                    loop: true,
+                    dots: false,
+                    navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
                   },
-                  center: false,
-                  loop: true,
-                  dots: false,
-                  nav: true,
-                  navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
-                },
-                children: centralAdministrationContent
+                  children: formulaeContent
+                })
               })
             })
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_3__.default, {
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_3__.default, {
           color: "transparent",
-          title: "Les Services D\xE9concentr\xE9s",
-          subtitle: "Les Services D\xE9concentr\xE9s comprennent",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
-            className: "row",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
-              className: "col-12 px-0",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)((react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1___default()), {
-                options: {
-                  responsive: {
-                    0: {
-                      items: 1,
-                      autoplay: true,
-                      stagePadding: 48,
-                      margin: 20,
-                      center: true
+          title: "Autres Documents",
+          subtitle: "Vous n\u2019avez pas trouv\xE9 le document que vous recherchez ? V\xE9rifiez ici",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
+            className: "d-none d-lg-flex row justify-content-center",
+            children: othersContent
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
+            className: "d-lg-none",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
+              className: "row",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
+                className: "col-12 p-0",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)((react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1___default()), {
+                  options: {
+                    responsive: {
+                      0: {
+                        items: 1,
+                        autoplay: true,
+                        stagePadding: 48,
+                        margin: 20,
+                        center: true,
+                        nav: true
+                      },
+                      600: {
+                        items: 2,
+                        autoplay: true,
+                        stagePadding: 48,
+                        margin: 20,
+                        center: false
+                      },
+                      1000: {
+                        items: 3
+                      },
+                      1800: {
+                        items: 4
+                      }
                     },
-                    600: {
-                      items: 2,
-                      autoplay: true,
-                      stagePadding: 48,
-                      margin: 20,
-                      center: false
-                    },
-                    900: {
-                      items: 3
-                    },
-                    1300: {
-                      items: 4
-                    }
+                    center: false,
+                    loop: true,
+                    dots: false,
+                    navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
                   },
-                  center: false,
-                  loop: true,
-                  dots: false,
-                  nav: true,
-                  navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
-                },
-                children: decentralizedServicesContent
+                  children: othersContent
+                })
               })
             })
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_3__.default, {
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_3__.default, {
+          color: "transparent",
+          title: "Documentation",
+          subtitle: "V\xE9rifiez autres documents ici",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
+            className: "d-none d-lg-flex row justify-content-center",
+            children: docsContent
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
+            className: "d-lg-none",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
+              className: "row",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
+                className: "col-12 p-0",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)((react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1___default()), {
+                  options: {
+                    responsive: {
+                      0: {
+                        items: 1,
+                        autoplay: true,
+                        stagePadding: 48,
+                        margin: 20,
+                        center: true,
+                        nav: true
+                      },
+                      600: {
+                        items: 2,
+                        autoplay: true,
+                        stagePadding: 48,
+                        margin: 20,
+                        center: false
+                      },
+                      1000: {
+                        items: 3
+                      },
+                      1800: {
+                        items: 4
+                      }
+                    },
+                    center: false,
+                    loop: true,
+                    dots: false,
+                    navText: ['<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-left text-blue"></i>', '<i class="fas text-20 text-md-25 text-xxl-30 fa-chevron-circle-right text-blue"></i>']
+                  },
+                  children: docsContent
+                })
+              })
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_3__.default, {
           color: "transparent",
           title: "Pour plus d'informations",
           subtitle: "En cas de besoin, veuillez contacter les diff\xE9rents services aux num\xE9ros ci-dessous",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
             className: "my-5 row",
             children: infosContent
           })
@@ -563,10 +604,34 @@ var Organization = /*#__PURE__*/function (_Component) {
     }
   }]);
 
-  return Organization;
+  return Downloads;
 }(react__WEBPACK_IMPORTED_MODULE_0__.Component);
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Organization);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_router__WEBPACK_IMPORTED_MODULE_8__.withRouter)(Downloads));
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/components/UI/Police/Formula/Formula.css":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/components/UI/Police/Formula/Formula.css ***!
+  \*****************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".UI.Formula > div {\r\n    height: 100%;\r\n    background-position: center;\r\n    background-size: calc(100% + 8px) calc(100% + 8px);\r\n    background-repeat: no-repeat;\r\n    background-image: url(\"/images/Soustraction 28@2x.png\");\r\n    padding-top: 2.5rem;\r\n    padding-bottom: 4rem;\r\n    padding-left: 3rem;\r\n    padding-right: 3rem;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover,\r\n.owl-item.center.active .UI.Formula > div {\r\n    background-image: url(\"/images/Soustraction 4@2x.png\");\r\n}\r\n\r\n.UI.Formula > div .title {\r\n    color: var(--darkblue);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .title,\r\n.owl-item.center.active .UI.Formula > div .title {\r\n    color: var(--soft);\r\n}\r\n\r\n.UI.Formula > div .icon {\r\n    color: var(--blue);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .icon,\r\n.owl-item.center.active .UI.Formula > div .icon {\r\n    color: var(--lightblue);\r\n}\r\n\r\n.UI.Formula > div > div:first {\r\n    border-color: var(--border);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover > div:first,\r\n.owl-item.center.active .UI.Formula > div > div:first {\r\n    border-color: var(--soft);\r\n}\r\n\r\n.UI.Formula > div .description {\r\n    color: var(--border);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Formula > div:hover .description,\r\n.owl-item.center.active .UI.Formula > div .description {\r\n    color: var(--soft);\r\n}\r\n\r\n.UI.Formula > div .btn {\r\n    background: var(--blue);\r\n    color: white;\r\n}\r\n\r\n.UI.Formula > div .btn-icon {\r\n    color: white;\r\n}\r\n\r\n.UI.Formula > div:hover .btn,\r\n.owl-item.center.active .UI.Formula > div .btn {\r\n    background: white;\r\n    color: var(--darkblue);\r\n}\r\n\r\n.UI.Formula > div:hover .btn-icon,\r\n.owl-item.center.active .UI.Formula > div .btn-icon {\r\n    color: var(--red);\r\n}\r\n\r\n\r\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
 
 /***/ }),
 
@@ -594,10 +659,10 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".UI.Info .block-container {\r\n    wid
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/components/UI/Police/Member/Member.css":
-/*!***************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/components/UI/Police/Member/Member.css ***!
-  \***************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/containers/Frontend/About/Downloads/Downloads.css":
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/containers/Frontend/About/Downloads/Downloads.css ***!
+  \**************************************************************************************************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -611,7 +676,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".UI.Member > div {\r\n    background-color: white;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Member > div .rank {\r\n    color: var(--soft);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Member > div .title {\r\n    background-color: transparent;\r\n    color: var(--border);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Member > div:hover,\r\n.owl-item.center.active .UI.Member > div {\r\n    background-color: var(--lightblue-35);\r\n}\r\n\r\n.UI.Member > div:hover .rank,\r\n.owl-item.center.active .UI.Member > div .rank {\r\n    color: var(--blue);\r\n}\r\n\r\n.UI.Member > div:hover .title,\r\n.owl-item.center.active .UI.Member > div .title {\r\n    background-color: var(--blue);\r\n    color: white;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".Frontend .About.Downloads .nav-link {\r\n    border-radius: 15px 15px 0 0;\r\n    padding: 30px 42px;\r\n    color: var(--border);\r\n    cursor: pointer;\r\n    display: flex;\r\n    align-items: center;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .About.Downloads .nav-link .icon {\r\n    opacity: 0;\r\n    margin-right: 0;\r\n    width: 0;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .About.Downloads .nav-link.active {\r\n    background-color: var(--blue);\r\n    color: white;\r\n}\r\n\r\n.Frontend .About.Downloads .nav-link.active .icon {\r\n    opacity: 1;\r\n    margin-right: 0.5rem;\r\n    width: auto;\r\n}\r\n\r\n@media (min-width: 800px) {\r\n    .Frontend .About.Downloads .nav-link.active .icon {\r\n        margin-right: 1rem;\r\n    }\r\n}\r\n\r\n@media (min-width: 1900px) {\r\n    .Frontend .About.Downloads .nav-link.active .icon {\r\n        margin-right: 2rem;\r\n    }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -744,6 +809,36 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ }),
 
+/***/ "./resources/js/src/components/UI/Police/Formula/Formula.css":
+/*!*******************************************************************!*\
+  !*** ./resources/js/src/components/UI/Police/Formula/Formula.css ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Formula_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!../../../../../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./Formula.css */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/components/UI/Police/Formula/Formula.css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Formula_css__WEBPACK_IMPORTED_MODULE_1__.default, options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Formula_css__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
 /***/ "./resources/js/src/components/UI/Police/Info/Info.css":
 /*!*************************************************************!*\
   !*** ./resources/js/src/components/UI/Police/Info/Info.css ***!
@@ -774,10 +869,10 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
-/***/ "./resources/js/src/components/UI/Police/Member/Member.css":
-/*!*****************************************************************!*\
-  !*** ./resources/js/src/components/UI/Police/Member/Member.css ***!
-  \*****************************************************************/
+/***/ "./resources/js/src/containers/Frontend/About/Downloads/Downloads.css":
+/*!****************************************************************************!*\
+  !*** ./resources/js/src/containers/Frontend/About/Downloads/Downloads.css ***!
+  \****************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -787,7 +882,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Member_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!../../../../../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./Member.css */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/components/UI/Police/Member/Member.css");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Downloads_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!../../../../../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./Downloads.css */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/containers/Frontend/About/Downloads/Downloads.css");
 
             
 
@@ -796,11 +891,11 @@ var options = {};
 options.insert = "head";
 options.singleton = false;
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Member_css__WEBPACK_IMPORTED_MODULE_1__.default, options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Downloads_css__WEBPACK_IMPORTED_MODULE_1__.default, options);
 
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Member_css__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Downloads_css__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
 
 /***/ })
 

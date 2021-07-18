@@ -1,4 +1,4 @@
-.Frontend .Downloads .nav-link {
+.Frontend .About.Downloads .nav-link {
     border-radius: 15px 15px 0 0;
     padding: 30px 42px;
     color: var(--border);
@@ -8,32 +8,32 @@
     transition: all 0.25s;
 }
 
-.Frontend .Downloads .nav-link .icon {
+.Frontend .About.Downloads .nav-link .icon {
     opacity: 0;
     margin-right: 0;
     width: 0;
     transition: all 0.25s;
 }
 
-.Frontend .Downloads .nav-link.active {
+.Frontend .About.Downloads .nav-link.active {
     background-color: var(--blue);
     color: white;
 }
 
-.Frontend .Downloads .nav-link.active .icon {
+.Frontend .About.Downloads .nav-link.active .icon {
     opacity: 1;
     margin-right: 0.5rem;
     width: auto;
 }
 
 @media (min-width: 800px) {
-    .Frontend .Downloads .nav-link.active .icon {
+    .Frontend .About.Downloads .nav-link.active .icon {
         margin-right: 1rem;
     }
 }
 
 @media (min-width: 1900px) {
-    .Frontend .Downloads .nav-link.active .icon {
+    .Frontend .About.Downloads .nav-link.active .icon {
         margin-right: 2rem;
     }
 }

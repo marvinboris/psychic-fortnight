@@ -271,13 +271,15 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 var Condition = function Condition(_ref) {
   var children = _ref.children;
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-    className: "d-flex align-items-center",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("i", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+    className: "d-flex",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("i", {
         className: "fad fa-check-circle text-blue mr-3 text-15 text-md-20 text-xxl-25"
-      }), children]
-    })
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+      children: children
+    })]
   });
 };
 
@@ -323,34 +325,34 @@ var Actions = /*#__PURE__*/function (_Component) {
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
               className: "col-xl-8 text-10 text-md-13 text-xxl-16 text-secondary",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "Quare hoc quidem praeceptum, cuiuscumque est, ad tollendam amicitiam valet; illud potius praecipiendum fuit, ut eam diligentiam adhiberemus in amicitiis comparandis, ut ne quando amare inciperemus eum, quem aliquando odisse possemus. Quin etiam si minus felices in diligendo fuissemus, ferendum id Scipio potius quam inimicitiarum tempus cogitandum putabat."
+                children: "Monsieur Martin  MBARGA NGUELE est le D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale depuis le 31 Ao\xFBt  2010. Policier de carri\xE8re, il conna\xEEt parfaitement la fonction puisque c\u2019est son deuxi\xE8me passage \xE0 cette charge apr\xE8s celui de 1983-1984. Sa longue carri\xE8re dans la diplomatie, lui a procur\xE9 une exp\xE9rience du v\xE9cu qui fait de lui un acteur averti et exp\xE9riment\xE9."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "Quare hoc quidem praeceptum, cuiuscumque est, ad tollendam amicitiam valet; illud potius praecipiendum fuit, ut eam diligentiam adhiberemus in amicitiis comparandis, ut ne quando amare inciperemus eum, quem aliquando odisse possemus. Quin etiam si minus felices in diligendo fuissemus, ferendum id Scipio potius quam inimicitiarum tempus cogitandum putabat."
+                children: "Pour \xAB Redonner ses lettres de noblesses \xE0 la Police, son discours a toujours \xE9t\xE9 constant : la rigueur et l\u2019abn\xE9gation dans le travail, le respect de la discipline, l\u2019int\xE9grit\xE9, l\u2019obligation de r\xE9serve, le professionnalisme et le m\xE9rite avec insistance ces derniers temps."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "Quare hoc quidem praeceptum, cuiuscumque est, ad tollendam amicitiam valet; illud potius praecipiendum fuit, ut eam diligentiam adhiberemus in amicitiis comparandis, ut ne quando amare inciperemus eum, quem aliquando odisse possemus. Quin etiam si minus felices in diligendo fuissemus, ferendum id Scipio potius quam inimicitiarum tempus cogitandum putabat."
+                children: "Monsieur le D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale, Martin MBARGA NGUELE travaille et fait travailler ses collaborateurs. La m\xE9thode appropri\xE9e est le pr\xEAche par l\u2019exemple. Une telle d\xE9bauche d\u2019\xE9nergie a suffi par convaincre les r\xE9fractaires et les brebis galeuses \xE0 se rallier \xE0 l\u2019\xE9quipe qui gagne."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "Duplexque isdem diebus acciderat malum, quod et Theophilum insontem atrox interceperat casus, et Serenianus dignus exsecratione cunctorum, innoxius, modo non reclamante publico vigore, discessit."
+                children: "Ce qui a d\u2019ailleurs permis au Chef de Corps de red\xE9finir les r\xF4les apr\xE8s la distribution des cartes par le Chef de l\u2019Etat, Son Excellence le Pr\xE9sident Paul BIYA le 28 janvier 2014."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "Duplexque isdem diebus acciderat malum, quod et Theophilum insontem atrox interceperat casus, et Serenianus dignus exsecratione cunctorum, innoxius, modo non reclamante publico vigore, discessit."
+                children: "En cinq ans, il a donn\xE9 un autre visage \xE0 la Police. Une Police r\xE9concili\xE9e avec elle-m\xEAme et, surtout avec les populations pour lesquelles elle est au service.  Les policiers actuels sont soucieux des droits de l\u2019Homme et des libert\xE9s individuelles ; des contingences logistiques ; de l\u2019environnement dans lequel ils \xE9voluent  et surtout du respect scrupuleux des lois en vigueur."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
                 className: "py-3 py-md-4 py-xxl-5 my-2 my-md-3 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
-                  children: "Nom complet, adresse, sexe, nom et lieu naissance"
+                  children: "De la s\xE9curit\xE9 int\xE9rieure et ext\xE9rieure de l\u2019Etat ;"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
-                  children: "Region et division d\u2019origine"
+                  children: "De la recherche, de la constatation des infractions aux lois p\xE9nales et de la conduite de leurs auteurs devant les juridictions r\xE9pressives ;"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
-                  children: "Examination competitive choisie"
+                  children: "Du maintien de l\u2019ordre et de la paix publics, de la protection, de la s\xE9curit\xE9 et de la salubrit\xE9 publiques, plus particuli\xE8rement dans les agglom\xE9rations urbaines ;"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
-                  children: "Centre d\u2019examen"
+                  children: "De la lutte contre la criminalit\xE9 nationale, internationale et transnationale ;"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
-                  children: "Langue d\u2019examination"
+                  children: "De la recherche du renseignement ;"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
-                  children: "Num\xE9ro CNI"
+                  children: "Des missions d\u2019information, de s\xE9curit\xE9, de protection et d\u2019intervention comportant des contacts avec les populations, dans le cadre de la D\xE9fense Nationale."
                 })]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "Quam quidem partem accusationis admiratus sum et moleste tuli potissimum esse Atratino datam. Neque enim decebat neque aetas illa postulabat neque, id quod animadvertere poteratis, pudor patiebatur optimi adulescentis in tali illum oratione versari. Vellem aliquis ex vobis robustioribus hunc male dicendi locum suscepisset; aliquanto liberius et fortius et magis more nostro refutaremus istam male dicendi licentiam. Tecum, Atratine, agam lenius, quod et pudor tuus moderatur orationi meae et meum erga te parentemque tuum beneficium tueri debeo."
+                children: "De 1984 \xE0 1989 et de 1991 \xE0 1996, la D\xE9l\xE9gation G\xE9n\xE9rale \xE0 la S\xFBret\xE9 Nationale sera transform\xE9e en Secr\xE9tariat d\u2019Etat \xE0 la S\xE9curit\xE9 Int\xE9rieure dirig\xE9 respectivement par Messieurs Denis EKANI et Jean FOCHIVE. C\u2019est le D\xE9cret n\xB096/034 du 1er Mars 1996 portant \xAB cr\xE9ation de la D\xE9l\xE9gation G\xE9n\xE9rale \xE0 la S\xFBret\xE9 Nationale \xBB et sign\xE9 du Pr\xE9sident de la R\xE9publique, Son  Excellence Paul BIYA, qui lui conf\xE8re sa derni\xE8re appellation. Depuis le 30 ao\xFBt 2010, elle a \xE0 sa t\xEAte, Martin MBARGA NGUELE qui, il faut le mentionner, est \xE0 son deuxi\xE8me passage comme D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale apr\xE8s celui du 22 ao\xFBt 1983 au 04 ao\xFBt 1984. Malgr\xE9 toutes ces multiples mutations dans la forme, le fond est toujours rest\xE9 le m\xEAme, les missions \xE9galement. Notamment, la protection des institutions et la s\xE9curisation des personnes et de leurs biens."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "Quam quidem partem accusationis admiratus sum et moleste tuli potissimum esse Atratino datam. Neque enim decebat neque aetas illa postulabat neque, id quod animadvertere poteratis, pudor patiebatur optimi adulescentis in tali illum oratione versari. Vellem aliquis ex vobis robustioribus hunc male dicendi locum suscepisset; aliquanto liberius et fortius et magis more nostro refutaremus istam male dicendi licentiam. Tecum, Atratine, agam lenius, quod et pudor tuus moderatur orationi meae et meum erga te parentemque tuum beneficium tueri debeo."
+                children: "De 1984 \xE0 1989 et de 1991 \xE0 1996, la D\xE9l\xE9gation G\xE9n\xE9rale \xE0 la S\xFBret\xE9 Nationale sera transform\xE9e en Secr\xE9tariat d\u2019Etat \xE0 la S\xE9curit\xE9 Int\xE9rieure dirig\xE9 respectivement par Messieurs Denis EKANI et Jean FOCHIVE. C\u2019est le D\xE9cret n\xB096/034 du 1er Mars 1996 portant \xAB cr\xE9ation de la D\xE9l\xE9gation G\xE9n\xE9rale \xE0 la S\xFBret\xE9 Nationale \xBB et sign\xE9 du Pr\xE9sident de la R\xE9publique, Son  Excellence Paul BIYA, qui lui conf\xE8re sa derni\xE8re appellation. Depuis le 30 ao\xFBt 2010, elle a \xE0 sa t\xEAte, Martin MBARGA NGUELE qui, il faut le mentionner, est \xE0 son deuxi\xE8me passage comme D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale apr\xE8s celui du 22 ao\xFBt 1983 au 04 ao\xFBt 1984. Malgr\xE9 toutes ces multiples mutations dans la forme, le fond est toujours rest\xE9 le m\xEAme, les missions \xE9galement. Notamment, la protection des institutions et la s\xE9curisation des personnes et de leurs biens."
               })]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
               className: "col-xl-4 d-flex justify-content-between flex-column h-100",

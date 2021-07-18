@@ -14,55 +14,103 @@ class Organization extends Component {
         const cabinet = [
             {
                 title: 'Le Secrétaire particulier',
-                description: `Sed cautela nimia in peiores haeserat plagas, ut narrabimus postea, aemulis consarcinantibus insidias graves apud Constantium, cetera medium principem sed siquid auribus eius huius modi quivis infudisset ignotus, acerbum et inplacabilem et in hoc causarum titulo dissimilem sui.`,
+                description: `Placé sous l’autorité du Chef de Secrétariat 
+                Particulier ayant rang de chef de service de 
+                l’Administration Centrale, le Secrétariat 
+                Particulier est  chargé des affaires réservées 
+                du Délégué Général à la Sûreté Nationale.`,
             },
             {
                 title: 'La Cellule du Courrier et de la Traduction',
-                description: `Sed cautela nimia in peiores haeserat plagas, ut narrabimus postea, aemulis consarcinantibus insidias graves apud Constantium, cetera medium principem sed siquid auribus eius huius modi quivis infudisset ignotus, acerbum et inplacabilem et in hoc causarum titulo dissimilem sui.`,
+                description: `Placé sous l’autorité du Chef de Secrétariat 
+                Particulier ayant rang de chef de service de 
+                l’Administration Centrale, le Secrétariat 
+                Particulier est  chargé des affaires réservées 
+                du Délégué Général à la Sûreté Nationale.`,
             },
             {
                 title: "L'Inspection Générale de la Sûreté Nationale",
-                description: `Sed cautela nimia in peiores haeserat plagas, ut narrabimus postea, aemulis consarcinantibus insidias graves apud Constantium, cetera medium principem sed siquid auribus eius huius modi quivis infudisset ignotus, acerbum et inplacabilem et in hoc causarum titulo dissimilem sui.`,
+                description: `Placé sous l’autorité du Chef de Secrétariat 
+                Particulier ayant rang de chef de service de 
+                l’Administration Centrale, le Secrétariat 
+                Particulier est  chargé des affaires réservées 
+                du Délégué Général à la Sûreté Nationale.`,
             },
             {
                 title: "L'Inspection Générale de la Sûreté Nationale",
-                description: `Sed cautela nimia in peiores haeserat plagas, ut narrabimus postea, aemulis consarcinantibus insidias graves apud Constantium, cetera medium principem sed siquid auribus eius huius modi quivis infudisset ignotus, acerbum et inplacabilem et in hoc causarum titulo dissimilem sui.`,
+                description: `Placé sous l’autorité du Chef de Secrétariat 
+                Particulier ayant rang de chef de service de 
+                l’Administration Centrale, le Secrétariat 
+                Particulier est  chargé des affaires réservées 
+                du Délégué Général à la Sûreté Nationale.`,
             },
         ];
         const centralAdministration = [
             {
                 title: 'Le Secrétaire particulier',
-                description: `Sed cautela nimia in peiores haeserat plagas, ut narrabimus postea, aemulis consarcinantibus insidias graves apud Constantium, cetera medium principem sed siquid auribus eius huius modi quivis infudisset ignotus, acerbum et inplacabilem et in hoc causarum titulo dissimilem sui.`,
+                description: `Placé sous l’autorité du Chef de Secrétariat 
+                Particulier ayant rang de chef de service de 
+                l’Administration Centrale, le Secrétariat 
+                Particulier est  chargé des affaires réservées 
+                du Délégué Général à la Sûreté Nationale.`,
             },
             {
                 title: 'La Cellule du Courrier et de la Traduction',
-                description: `Sed cautela nimia in peiores haeserat plagas, ut narrabimus postea, aemulis consarcinantibus insidias graves apud Constantium, cetera medium principem sed siquid auribus eius huius modi quivis infudisset ignotus, acerbum et inplacabilem et in hoc causarum titulo dissimilem sui.`,
+                description: `Placé sous l’autorité du Chef de Secrétariat 
+                Particulier ayant rang de chef de service de 
+                l’Administration Centrale, le Secrétariat 
+                Particulier est  chargé des affaires réservées 
+                du Délégué Général à la Sûreté Nationale.`,
             },
             {
                 title: "L'Inspection Générale de la Sûreté Nationale",
-                description: `Sed cautela nimia in peiores haeserat plagas, ut narrabimus postea, aemulis consarcinantibus insidias graves apud Constantium, cetera medium principem sed siquid auribus eius huius modi quivis infudisset ignotus, acerbum et inplacabilem et in hoc causarum titulo dissimilem sui.`,
+                description: `Placé sous l’autorité du Chef de Secrétariat 
+                Particulier ayant rang de chef de service de 
+                l’Administration Centrale, le Secrétariat 
+                Particulier est  chargé des affaires réservées 
+                du Délégué Général à la Sûreté Nationale.`,
             },
             {
                 title: "L'Inspection Générale de la Sûreté Nationale",
-                description: `Sed cautela nimia in peiores haeserat plagas, ut narrabimus postea, aemulis consarcinantibus insidias graves apud Constantium, cetera medium principem sed siquid auribus eius huius modi quivis infudisset ignotus, acerbum et inplacabilem et in hoc causarum titulo dissimilem sui.`,
+                description: `Placé sous l’autorité du Chef de Secrétariat 
+                Particulier ayant rang de chef de service de 
+                l’Administration Centrale, le Secrétariat 
+                Particulier est  chargé des affaires réservées 
+                du Délégué Général à la Sûreté Nationale.`,
             },
         ];
         const decentralizedServices = [
             {
                 title: 'Le Secrétaire particulier',
-                description: `Sed cautela nimia in peiores haeserat plagas, ut narrabimus postea, aemulis consarcinantibus insidias graves apud Constantium, cetera medium principem sed siquid auribus eius huius modi quivis infudisset ignotus, acerbum et inplacabilem et in hoc causarum titulo dissimilem sui.`,
+                description: `Placé sous l’autorité du Chef de Secrétariat 
+                Particulier ayant rang de chef de service de 
+                l’Administration Centrale, le Secrétariat 
+                Particulier est  chargé des affaires réservées 
+                du Délégué Général à la Sûreté Nationale.`,
             },
             {
                 title: 'La Cellule du Courrier et de la Traduction',
-                description: `Sed cautela nimia in peiores haeserat plagas, ut narrabimus postea, aemulis consarcinantibus insidias graves apud Constantium, cetera medium principem sed siquid auribus eius huius modi quivis infudisset ignotus, acerbum et inplacabilem et in hoc causarum titulo dissimilem sui.`,
+                description: `Placé sous l’autorité du Chef de Secrétariat 
+                Particulier ayant rang de chef de service de 
+                l’Administration Centrale, le Secrétariat 
+                Particulier est  chargé des affaires réservées 
+                du Délégué Général à la Sûreté Nationale.`,
             },
             {
                 title: "L'Inspection Générale de la Sûreté Nationale",
-                description: `Sed cautela nimia in peiores haeserat plagas, ut narrabimus postea, aemulis consarcinantibus insidias graves apud Constantium, cetera medium principem sed siquid auribus eius huius modi quivis infudisset ignotus, acerbum et inplacabilem et in hoc causarum titulo dissimilem sui.`,
+                description: `Placé sous l’autorité du Chef de Secrétariat 
+                Particulier ayant rang de chef de service de 
+                l’Administration Centrale, le Secrétariat 
+                Particulier est  chargé des affaires réservées 
+                du Délégué Général à la Sûreté Nationale.`,
             },
             {
                 title: "L'Inspection Générale de la Sûreté Nationale",
-                description: `Sed cautela nimia in peiores haeserat plagas, ut narrabimus postea, aemulis consarcinantibus insidias graves apud Constantium, cetera medium principem sed siquid auribus eius huius modi quivis infudisset ignotus, acerbum et inplacabilem et in hoc causarum titulo dissimilem sui.`,
+                description: `Placé sous l’autorité du Chef de Secrétariat 
+                Particulier ayant rang de chef de service de 
+                l’Administration Centrale, le Secrétariat 
+                Particulier est  chargé des affaires réservées 
+                du Délégué Général à la Sûreté Nationale.`,
             },
         ];
         const infos = [

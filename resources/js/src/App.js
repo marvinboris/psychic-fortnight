@@ -143,13 +143,14 @@ const asyncAdminVerify = asyncComponent(() => import('./containers/Auth/Admin/Ve
 // Frontend routes
 const asyncAboutOrganization = asyncComponent(() => import('./containers/Frontend/About/Organization'));
 const asyncAboutMedia = asyncComponent(() => import('./containers/Frontend/About/Media'));
+const asyncAboutDownloads = asyncComponent(() => import('./containers/Frontend/About/Downloads'));
 const asyncAboutJobs = asyncComponent(() => import('./containers/Frontend/About/Jobs'));
 const asyncAboutActions = asyncComponent(() => import('./containers/Frontend/About/Actions'));
 const asyncAboutMissions = asyncComponent(() => import('./containers/Frontend/About/Missions'));
 const asyncAboutGenesis = asyncComponent(() => import('./containers/Frontend/About/Genesis'));
 
+const asyncContact = asyncComponent(() => import('./containers/Frontend/Contact'));
 const asyncExams = asyncComponent(() => import('./containers/Frontend/Exams'));
-const asyncDownloads = asyncComponent(() => import('./containers/Frontend/Downloads'));
 const asyncServices = asyncComponent(() => import('./containers/Frontend/Services'));
 const asyncHome = asyncComponent(() => import('./containers/Frontend/Home'));
 
@@ -194,6 +195,7 @@ class App extends Component {
                                 <Switch>
                                     <Route path="/about/organization" component={asyncAboutOrganization} />
                                     <Route path="/about/media" component={asyncAboutMedia} />
+                                    <Route path="/about/downloads" component={asyncAboutDownloads} />
                                     <Route path="/about/jobs" component={asyncAboutJobs} />
                                     <Route path="/about/actions" component={asyncAboutActions} />
                                     <Route path="/about/missions" component={asyncAboutMissions} />
@@ -201,8 +203,8 @@ class App extends Component {
                                 </Switch>
                             </Route>
 
+                            <Route path="/contact" component={asyncContact} />
                             <Route path="/exams" component={asyncExams} />
-                            <Route path="/downloads" component={asyncDownloads} />
                             <Route path="/services" component={asyncServices} />
                             <Route path="/" component={asyncHome} />
                         </Switch>

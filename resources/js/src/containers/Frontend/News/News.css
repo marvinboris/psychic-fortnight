@@ -1,0 +1,35 @@
+.Frontend .News .nav-link {
+    border-radius: 15px 15px 0 0;
+    color: var(--border);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 0.25s;
+}
+
+.Frontend .News .nav-link .icon {
+    color: var(--blue);
+    margin-right: 0.5rem;
+    transition: all 0.25s;
+}
+
+.Frontend .News .nav-link.active {
+    background-color: var(--blue);
+    color: white;
+}
+
+.Frontend .News .nav-link.active .icon {
+    color: white;
+}
+
+@media (min-width: 800px) {
+    .Frontend .News .nav-link .icon {
+        margin-right: 1rem;
+    }
+}
+
+@media (min-width: 1900px) {
+    .Frontend .News .nav-link .icon {
+        margin-right: 2rem;
+    }
+}

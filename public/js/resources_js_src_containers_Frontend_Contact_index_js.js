@@ -1,4 +1,4 @@
-(self["webpackChunk"] = self["webpackChunk"] || []).push([["resources_js_src_containers_Frontend_About_Jobs_index_js"],{
+(self["webpackChunk"] = self["webpackChunk"] || []).push([["resources_js_src_containers_Frontend_Contact_index_js"],{
 
 /***/ "./resources/js/src/components/UI/Police/Block/index.js":
 /*!**************************************************************!*\
@@ -105,10 +105,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/src/components/UI/Police/Info/index.js":
-/*!*************************************************************!*\
-  !*** ./resources/js/src/components/UI/Police/Info/index.js ***!
-  \*************************************************************/
+/***/ "./resources/js/src/components/UI/Police/Region/index.js":
+/*!***************************************************************!*\
+  !*** ./resources/js/src/components/UI/Police/Region/index.js ***!
+  \***************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -117,35 +117,50 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _Info_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Info.css */ "./resources/js/src/components/UI/Police/Info/Info.css");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (function (_ref) {
   var name = _ref.name,
-      icon = _ref.icon,
       info = _ref.info;
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-    className: "UI Info col-lg-4 col-md-6 pb-4 bg-white",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-      className: "h-100 bg-lightblue-15 rounded-15",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-        className: "mx-auto d-flex flex-column h-100 pb-3 block-container",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-          className: "rounded-bottom-15 text-white bg-blue text-center py-3 py-lg-4 px-3 w-100 text-truncate text-12 text-md-15 text-xxl-18",
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+    className: "UI Region col-xl-4 col-md-6 pb-4",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "bg-white h-100 rounded-15 overflow-hidden",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        className: "bg-lightblue-15 h-100 d-flex flex-column pt-5 px-4 pb-4",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          className: "text-700 text-nightblue text-16 text-md-20 text-xxl-25 text-uppercase mb-2",
           children: name
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-          className: "flex-fill d-flex flex-column justify-content-center py-4 py-lg-5 text-blue",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-            className: "text-20 text-md-25 text-xxl-30",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
-              className: icon + " mr-2 mr-md-3 mr-xxl-4"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
-              className: "text-700 text-16 text-md-20 text-xxl-25 text-montserrat",
-              children: info
-            })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          className: "text-secondary text-12 text-md-15 text-xxl-18 flex-fill mb-4",
+          dangerouslySetInnerHTML: {
+            __html: info
+          }
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          className: "bg-lightblue rounded-15 d-flex align-items-center py-3 px-4",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "mr-4",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+              className: "rounded-pill bg-white py-1 pl-1 pr-4 d-flex align-items-center",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                className: "mr-2",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                  className: "bg-blue rounded-circle d-flex justify-content-center align-items-center text-white",
+                  style: {
+                    width: 40,
+                    height: 40
+                  },
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
+                    className: "fad fa-phone-plus text-10 text-md-12 text-xxl-14"
+                  })
+                })
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                className: "text-secondary text-11 text-md-13 text-xxl-15",
+                children: "Appeler"
+              })]
+            })
           })
         })]
       })
@@ -215,10 +230,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/src/containers/Frontend/About/Jobs/index.js":
-/*!******************************************************************!*\
-  !*** ./resources/js/src/containers/Frontend/About/Jobs/index.js ***!
-  \******************************************************************/
+/***/ "./resources/js/src/containers/Frontend/Contact/index.js":
+/*!***************************************************************!*\
+  !*** ./resources/js/src/containers/Frontend/Contact/index.js ***!
+  \***************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -227,10 +242,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _components_UI_Police_Title__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/UI/Police/Title */ "./resources/js/src/components/UI/Police/Title/index.js");
-/* harmony import */ var _components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/UI/Police/Block */ "./resources/js/src/components/UI/Police/Block/index.js");
-/* harmony import */ var _components_UI_Police_Info__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/UI/Police/Info */ "./resources/js/src/components/UI/Police/Info/index.js");
-/* harmony import */ var _assets_images_drc_police_2x_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../assets/images/drc-police@2x.png */ "./resources/js/src/assets/images/drc-police@2x.png");
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/esm/react-router.js");
+/* harmony import */ var _components_UI_Police_Title__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/UI/Police/Title */ "./resources/js/src/components/UI/Police/Title/index.js");
+/* harmony import */ var _components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/UI/Police/Block */ "./resources/js/src/components/UI/Police/Block/index.js");
+/* harmony import */ var _components_UI_Police_Region__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/UI/Police/Region */ "./resources/js/src/components/UI/Police/Region/index.js");
+/* harmony import */ var _Contact_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Contact.css */ "./resources/js/src/containers/Frontend/Contact/Contact.css");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -269,99 +285,163 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
-var Jobs = /*#__PURE__*/function (_Component) {
-  _inherits(Jobs, _Component);
 
-  var _super = _createSuper(Jobs);
+var Contact = /*#__PURE__*/function (_Component) {
+  _inherits(Contact, _Component);
 
-  function Jobs() {
-    _classCallCheck(this, Jobs);
+  var _super = _createSuper(Contact);
+
+  function Contact() {
+    _classCallCheck(this, Contact);
 
     return _super.apply(this, arguments);
   }
 
-  _createClass(Jobs, [{
+  _createClass(Contact, [{
     key: "render",
     value: function render() {
-      var infos = [{
-        name: 'Service de renseignement',
-        icon: "fad fa-phone-office",
-        info: '+237 123 456 890'
+      var regions = [{
+        name: 'Centre',
+        info: "D\xE9l\xE9gation R\xE9gionale de la S\xFBret\xE9 Nationale : <strong>222 23 26 53</strong><br />\n                Division R\xE9gionale de la Police Judiciaire : <strong>222 23 04 22</strong><br />\n                Groupement Mobile d\u2019Intervention N\xB001 : <strong>222 21 24 04</strong><br />\n                A\xE9roport International de Yaound\xE9 Nsimalen : <strong>222 23 36 02</strong>"
       }, {
-        name: 'Assistance',
-        icon: "fad fa-envelope",
-        info: 'support@dgsn.cm'
+        name: 'LITTORAL',
+        info: "D\xE9l\xE9gation R\xE9gionale de la S\xFBret\xE9 Nationale : <strong>233 43 77 32</strong><br /> \n                Division R\xE9gionale de la Police Judiciaire : <strong>233 42 19 99 </strong><br />\n                Groupement Mobile d\u2019intervention N\xB002 : <strong>233 42 00 99 </strong><br />\n                A\xE9roport International de Douala : <strong>233 42 37 58</strong>"
       }, {
-        name: 'Autres Besoins',
-        icon: "fad fa-envelope",
-        info: 'contact@dgsn.cm'
+        name: 'ADAMAOUA',
+        info: "D\xE9l\xE9gation R\xE9gionale de la S\xFBret\xE9 Nationale : <strong>222 25 14 83</strong><br /> \n                Division R\xE9gionale de la Police Judiciaire : <strong>222 25 23 59 </strong><br />\n                Commissariat Central : <strong>222 25 12 49 </strong><br />\n                Groupement Mobile d\u2019interventions : <strong>222 25 10 87</strong>"
+      }, {
+        name: 'EST',
+        info: "D\xE9l\xE9gation R\xE9gionale de la S\xFBret\xE9 Nationale : <strong>222 24 15 36</strong><br /> \n                Division R\xE9gionale de la Police Judiciaire : <strong>222 24 16 37 </strong><br />\n                Commissariat Central : <strong>222 24 11 60 </strong><br />\n                Groupement Mobile d\u2019interventions : <strong>222 24 12 90</strong>"
+      }, {
+        name: 'EXTRÊME - NORD​',
+        info: "D\xE9l\xE9gation R\xE9gionale de la S\xFBret\xE9 Nationale :  <strong>222 29 15 01 </strong><br />\n                Division R\xE9gionale de la Police Judiciaire : <strong>222 29 32 82 </strong><br />\n                Commissariat Central : <strong>222 29 25 99 </strong><br />\n                Groupement Mobile d\u2019interventions : <strong>222 29 12 02</strong>"
+      }, {
+        name: 'NORD',
+        info: "D\xE9l\xE9gation R\xE9gionale de la S\xFBret\xE9 Nationale : <strong>222 27 22 65</strong><br />\n                Division R\xE9gionale de la Police Judiciaire : <strong>222 27 14 11</strong><br />\n                Commissariat Central : <strong>222 27 14 11</strong><br />\n                Groupement Mobile d\u2019interventions : <strong>222 27 20 88</strong>"
+      }, {
+        name: 'NORD - OUEST​',
+        info: "D\xE9l\xE9gation R\xE9gionale de la S\xFBret\xE9 Nationale : <strong>233 36 11 86  </strong><br />\n                Division R\xE9gionale de la Police Judiciaire : <strong>233 36 12 57 </strong><br />\n                Commissariat Central : <strong>233 36 11 44 </strong><br />\n                Groupement Mobile d\u2019interventions : <strong>233 36 12 14</strong>"
+      }, {
+        name: 'OUEST',
+        info: "D\xE9l\xE9gation R\xE9gionale de la S\xFBret\xE9 Nationale : <strong>233 44 14 19 </strong><br />\n                Division R\xE9gionale de la Police Judiciaire : <strong>233 44 12 24 </strong><br />\n                Commissariat Central : <strong>233 44 14 09 </strong><br />\n                Groupement Mobile d\u2019interventions : <strong>233 44 14 97</strong>"
+      }, {
+        name: 'SUD',
+        info: "D\xE9l\xE9gation R\xE9gionale de la S\xFBret\xE9 Nationale : <strong>222 28 33 92</strong><br />\n                Division R\xE9gionale de la Police Judiciaire : <strong>222 28 35 24</strong>"
+      }, {
+        name: 'SUD - OUEST​',
+        info: "D\xE9l\xE9gation R\xE9gionale de la S\xFBret\xE9 Nationale : <strong>222 24 15 36 </strong><br />\n                Division R\xE9gionale de la Police Judiciaire : <strong>222 24 16 37 </strong><br />\n                Commissariat Central : <strong>222 24 11 60 </strong><br />\n                Groupement Mobile d\u2019interventions : <strong>222 24 12 90</strong>"
       }];
-      var infosContent = infos.map(function (info) {
-        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_UI_Police_Info__WEBPACK_IMPORTED_MODULE_3__.default, _objectSpread({}, info), JSON.stringify(info));
+      var regionsContent = regions.map(function (region) {
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_UI_Police_Region__WEBPACK_IMPORTED_MODULE_3__.default, _objectSpread({}, region), Math.random() + JSON.stringify(region));
       });
       return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-        className: "About Jobs",
+        className: "Contact",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_UI_Police_Title__WEBPACK_IMPORTED_MODULE_1__.default, {
-          children: "Nos M\xE9tiers"
+          children: "Contacts"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_2__.default, {
-          left: true,
-          title: "Police Camerounaise",
-          subtitle: "Un corps de m\xE9tier accessible \xE0 tous",
+          title: "Contact DGSN",
+          subtitle: "Direction G\xE9n\xE9rale",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-            className: "row",
+            className: "rounded-15 bg-white overflow-hidden",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-              className: "col-xl-8 text-10 text-md-13 text-xxl-16 text-secondary",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "Il n\u2019est pas un secret de souligner que depuis quelques ann\xE9es d\xE9j\xE0, la Police camerounaise qui est r\xE9solument tourn\xE9e vers la modernit\xE9, essaie autant que faire ce peu, dans son organisation comme dans son fonctionnement, d\u2019\xE9voluer selon les normes et standards internationaux. La D\xE9l\xE9gation G\xE9n\xE9rale \xE0 la S\xFBret\xE9 Nationale a, dans le cadre des  derniers recrutements, que ce soit au niveau de l\u2019Ecole nationale Sup\xE9rieure de Police de Yaound\xE9 ou du Centre d\u2019Instruction et d\u2019Application de la police de Mutengene, ouvert les concours aux jeunes qualifi\xE9s dans divers domaines. C\u2019est le cas des recrues ayant des bases dans les domaines aussi riches que vari\xE9s tels que la m\xE9decine et les soins infirmiers ; l\u2019ing\xE9nierie ; la Communication ; les t\xE9l\xE9communications ; la m\xE9canique ; l\u2019\xE9lectrom\xE9canique ; le g\xE9nie civil ; l\u2019h\xF4tellerie et la restauration ; l\u2019industrie d\u2019habillement ; les m\xE9tiers du bois ; les m\xE9tiers du froid et climatisations ; la musique ; etc\u2026"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "Il s\u2019agit v\xE9ritablement d\u2019une Police de m\xE9tiers dont les missions devraient couvrir tous les aspects socio-professionnels et ceux li\xE9s aux pr\xE9occupations \xE9tatiques. Le but recherch\xE9 dans l\u2019esprit du Chef de Corps de la S\xFBret\xE9 Nationale est de faire de notre Police, une structure avant-gardiste, toujours \xE0 la pointe des NTIC et pr\xEAte \xE0 servir, \xE0 prot\xE9ger les personnes et leurs biens dans le strict respect des libert\xE9s publiques et des droits de l\u2019Homme. Mais \xE9galement dans l\u2019observation stricte des r\xE8gles d\u2019\xE9thique et de d\xE9ontologie."
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "Du point de vue pratique, il est question de faire de la Police, un Corps plus proche des populations pour lesquelles elle est au service avec loyalisme et d\xE9vouement. Il s\u2019agit d\u2019une Police plus citoyenne au service des Institutions R\xE9publicaines ainsi que des personnes qui les incarnent."
+              className: "bg-lightblue-50 py-2 py-md-3 py-xxl-4 px-3 px-md-4 px-xxl-5",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+                className: "text-nightblue text-700 text-16 text-md-20 text-xxl-25 text-uppercase",
+                children: "TEL:"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+                className: "row text-secondary text-12 text-md-16 text-xxl-20",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+                  className: "col-md-6",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+                    children: ["Direction de la Police Judiciaire (DPJ) :  ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("strong", {
+                      children: "222 23 24 11"
+                    })]
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+                    children: ["Groupement Sp\xE9cial d\u2019op\xE9rations (GSO) : ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("strong", {
+                      children: "222 30 65 15"
+                    })]
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+                    children: ["Num\xE9ro d\u2019utilit\xE9 publique de la DGSN : ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("strong", {
+                      children: "1 500"
+                    })]
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+                  className: "col-md-6",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+                    children: ["\xC9quipes Sp\xE9ciales d\u2019interventions Rapides (ESIR) : ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("strong", {
+                      children: "117"
+                    }), " ou ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("strong", {
+                      children: "17"
+                    })]
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+                    children: ["Compagnie de S\xE9curisation des Diplomates :  (CSD) : ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("strong", {
+                      children: "120"
+                    })]
+                  })]
+                })]
               })]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-              className: "col-xl-4 d-flex justify-content-between flex-column h-100",
+              className: "embed-responsive embed-responsive-21by9 d-none d-sm-block position-relative",
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-                  className: "embed-responsive embed-responsive-4by3 position-relative overflow-hidden rounded-15",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-                    className: "position-absolute w-100 h-100",
-                    style: {
-                      top: 0,
-                      left: 0,
-                      backgroundImage: 'url("' + _assets_images_drc_police_2x_png__WEBPACK_IMPORTED_MODULE_4__.default + '")',
-                      backgroundPosition: 'center',
-                      backgroundRepeat: 'no-repeat',
-                      backgroundSize: 'cover'
-                    }
-                  })
+                className: "position-absolute w-100 h-100",
+                style: {
+                  top: 0,
+                  left: 0
+                },
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("iframe", {
+                  width: "100%",
+                  height: "100%",
+                  src: "//maps.google.com/maps?width=700&height=150&hl=en&q=La%20maison%20du%20bitcoin+(Auto-%C3%A9cole%20Universit%C3%A9)&ie=UTF8&t=&z=17&iwloc=B&output=embed",
+                  frameBorder: "0",
+                  scrolling: "no",
+                  marginHeight: "0",
+                  marginWidth: "0"
+                })
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+              className: "embed-responsive embed-responsive-4by3 d-sm-none position-relative",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+                className: "position-absolute w-100 h-100",
+                style: {
+                  top: 0,
+                  left: 0
+                },
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("iframe", {
+                  width: "100%",
+                  height: "100%",
+                  src: "//maps.google.com/maps?width=700&height=150&hl=en&q=La%20maison%20du%20bitcoin+(Auto-%C3%A9cole%20Universit%C3%A9)&ie=UTF8&t=&z=17&iwloc=B&output=embed",
+                  frameBorder: "0",
+                  scrolling: "no",
+                  marginHeight: "0",
+                  marginWidth: "0"
                 })
               })
             })]
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_2__.default, {
           color: "transparent",
-          title: "Pour plus d'informations",
-          subtitle: "En cas de besoin, veuillez contacter les diff\xE9rents services aux num\xE9ros ci-dessous",
+          title: "Nous Contacter par R\xE9gion",
+          subtitle: "Autres repr\xE9sentations de la DGSN",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-            className: "my-5 row",
-            children: infosContent
+            className: "row",
+            children: regionsContent
           })
         })]
       });
     }
   }]);
 
-  return Jobs;
+  return Contact;
 }(react__WEBPACK_IMPORTED_MODULE_0__.Component);
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Jobs);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_router__WEBPACK_IMPORTED_MODULE_6__.withRouter)(Contact));
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/components/UI/Police/Info/Info.css":
-/*!***********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/components/UI/Police/Info/Info.css ***!
-  \***********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/containers/Frontend/Contact/Contact.css":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/containers/Frontend/Contact/Contact.css ***!
+  \****************************************************************************************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -369,31 +449,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".UI.Info .block-container {\r\n    width: 240px;\r\n}\r\n\r\n@media (min-width: 800px) {\r\n    .UI.Info .block-container {\r\n        width: 300px;\r\n    }\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".Frontend .Contact .nav-link {\r\n    border-radius: 15px 15px 0 0;\r\n    color: var(--border);\r\n    cursor: pointer;\r\n    display: flex;\r\n    align-items: center;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Contact .nav-link .icon {\r\n    color: var(--blue);\r\n    margin-right: 0.5rem;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Contact .nav-link.active {\r\n    background-color: var(--blue);\r\n    color: white;\r\n}\r\n\r\n.Frontend .Contact .nav-link.active .icon {\r\n    color: white;\r\n}\r\n\r\n@media (min-width: 800px) {\r\n    .Frontend .Contact .nav-link .icon {\r\n        margin-right: 1rem;\r\n    }\r\n}\r\n\r\n@media (min-width: 1900px) {\r\n    .Frontend .Contact .nav-link .icon {\r\n        margin-right: 2rem;\r\n    }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
-
-/***/ }),
-
-/***/ "./resources/js/src/assets/images/drc-police@2x.png":
-/*!**********************************************************!*\
-  !*** ./resources/js/src/assets/images/drc-police@2x.png ***!
-  \**********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/drc-police@2x.png?90f483a14a86afb85e951b1dac099a6f");
 
 /***/ }),
 
@@ -427,10 +492,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/src/components/UI/Police/Info/Info.css":
-/*!*************************************************************!*\
-  !*** ./resources/js/src/components/UI/Police/Info/Info.css ***!
-  \*************************************************************/
+/***/ "./resources/js/src/containers/Frontend/Contact/Contact.css":
+/*!******************************************************************!*\
+  !*** ./resources/js/src/containers/Frontend/Contact/Contact.css ***!
+  \******************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -438,9 +503,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Info_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!../../../../../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./Info.css */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/components/UI/Police/Info/Info.css");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Contact_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!../../../../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./Contact.css */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/containers/Frontend/Contact/Contact.css");
 
             
 
@@ -449,11 +514,11 @@ var options = {};
 options.insert = "head";
 options.singleton = false;
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Info_css__WEBPACK_IMPORTED_MODULE_1__.default, options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Contact_css__WEBPACK_IMPORTED_MODULE_1__.default, options);
 
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Info_css__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Contact_css__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
 
 /***/ })
 
