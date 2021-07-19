@@ -42,9 +42,9 @@ class Actions extends Component {
 
             <Block left title="Le Délégué Général">
                 <div className="row">
-                    <div className="col-xl-8 text-10 text-md-13 text-xxl-16 text-secondary">
+                    <div className="col-xl-8">
                         <p>
-                            Monsieur Martin  MBARGA NGUELE est le Délégué Général à la Sûreté Nationale depuis le 31 Août  2010. Policier de carrière, il connaît parfaitement la fonction puisque c’est son deuxième passage à cette charge après celui de 1983-1984. Sa longue carrière dans la diplomatie, lui a procuré une expérience du vécu qui fait de lui un acteur averti et expérimenté.
+                            Monsieur <strong>Martin  MBARGA NGUELE</strong> est le <strong>Délégué Général à la Sûreté Nationale depuis le 31 Août  2010</strong>. Policier de carrière, il connaît parfaitement la fonction puisque c’est son deuxième passage à cette charge après celui de 1983-1984. Sa longue carrière dans la diplomatie, lui a procuré une expérience du vécu qui fait de lui un acteur averti et expérimenté.
                         </p>
 
                         <p>
@@ -63,21 +63,8 @@ class Actions extends Component {
                             En cinq ans, il a donné un autre visage à la Police. Une Police réconciliée avec elle-même et, surtout avec les populations pour lesquelles elle est au service.  Les policiers actuels sont soucieux des droits de l’Homme et des libertés individuelles ; des contingences logistiques ; de l’environnement dans lequel ils évoluent  et surtout du respect scrupuleux des lois en vigueur.
                         </p>
 
-                        <div className="py-3 py-md-4 py-xxl-5 my-2 my-md-3 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5">
-                            <Condition>De la sécurité intérieure et extérieure de l’Etat ;</Condition>
-                            <Condition>De la recherche, de la constatation des infractions aux lois pénales et de la conduite de leurs auteurs devant les juridictions répressives ;</Condition>
-                            <Condition>Du maintien de l’ordre et de la paix publics, de la protection, de la sécurité et de la salubrité publiques, plus particulièrement dans les agglomérations urbaines ;</Condition>
-                            <Condition>De la lutte contre la criminalité nationale, internationale et transnationale ;</Condition>
-                            <Condition>De la recherche du renseignement ;</Condition>
-                            <Condition>Des missions d’information, de sécurité, de protection et d’intervention comportant des contacts avec les populations, dans le cadre de la Défense Nationale.</Condition>
-                        </div>
-
                         <p>
-                            De 1984 à 1989 et de 1991 à 1996, la Délégation Générale à la Sûreté Nationale sera transformée en Secrétariat d’Etat à la Sécurité Intérieure dirigé respectivement par Messieurs Denis EKANI et Jean FOCHIVE. C’est le Décret n°96/034 du 1er Mars 1996 portant « création de la Délégation Générale à la Sûreté Nationale » et signé du Président de la République, Son  Excellence Paul BIYA, qui lui confère sa dernière appellation. Depuis le 30 août 2010, elle a à sa tête, Martin MBARGA NGUELE qui, il faut le mentionner, est à son deuxième passage comme Délégué Général à la Sûreté Nationale après celui du 22 août 1983 au 04 août 1984. Malgré toutes ces multiples mutations dans la forme, le fond est toujours resté le même, les missions également. Notamment, la protection des institutions et la sécurisation des personnes et de leurs biens.
-                        </p>
-
-                        <p>
-                            De 1984 à 1989 et de 1991 à 1996, la Délégation Générale à la Sûreté Nationale sera transformée en Secrétariat d’Etat à la Sécurité Intérieure dirigé respectivement par Messieurs Denis EKANI et Jean FOCHIVE. C’est le Décret n°96/034 du 1er Mars 1996 portant « création de la Délégation Générale à la Sûreté Nationale » et signé du Président de la République, Son  Excellence Paul BIYA, qui lui confère sa dernière appellation. Depuis le 30 août 2010, elle a à sa tête, Martin MBARGA NGUELE qui, il faut le mentionner, est à son deuxième passage comme Délégué Général à la Sûreté Nationale après celui du 22 août 1983 au 04 août 1984. Malgré toutes ces multiples mutations dans la forme, le fond est toujours resté le même, les missions également. Notamment, la protection des institutions et la sécurisation des personnes et de leurs biens.
+                            Bref une Police résolument tournée vers sa population. Le moins que l’on puisse dire, c’est que sous l’ère Martin MBARGA NGUELE, les choses changent positivement et les populations témoignent leur satisfaction.
                         </p>
                     </div>
 
@@ -101,6 +88,59 @@ class Actions extends Component {
                         </div>
                     </div>
                 </div>
+            </Block>
+
+
+
+            <Block left color="soft" title="L’orientation stratégique et opérationnelle de la Police Camerounaise">
+                <p>
+                    Force régulière chargée concurremment avec d’autres Forces, d’assurer le respect et la protection des institutions, des libertés, des personnes et des biens ; du maintien de l’ordre public et de la paix sociale ; de la lutte contre la criminalité nationale, internationale et transnationale ; de la recherche du renseignement ; de la surveillance des frontières et de la sécurisation  de la nationalité camerounaise,
+                </p>
+
+                <p>
+                    <strong>La Sûreté Nationale est à l’avant-garde de la lutte contre la criminalité transfrontalière. Sous la Très Haute impulsion du Chef de l’Etat, implémenté par Le Délégué Général à la Sûreté Nationale,  l’action policière connaît depuis 2012, une nouvelle orientation stratégique et opérationnelle pour permettre à ce Corps d’élite de se mouvoir d’une manière efficace.  </strong>
+                </p>
+
+                <p>
+                    A cet égard, il convient de relever parmi ce train de mesures :
+                </p>
+
+                <p>
+                    <strong className="text-blue">Au plan stratégique:</strong>
+                </p>
+
+                <div className="py-3 py-md-4 py-xxl-5 my-2 my-md-3 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5">
+                    <Condition>Le renforcement de la couverture sécuritaire nationale par la création de nouvelles unités de Police dans les localités frontalières du Cameroun. Ainsi, 25 nouveaux postes-frontières ont été créés dans les Régions de l’Adamaoua, de l’Est, de l’Extrême-Nord, du Nord et du Sud. De même, plusieurs postes-frontières ont été érigés en unités de sécurité publique ;</Condition>
+                    <Condition>La mise en expérimentation d’un système de vidéo surveillance, pour mieux surveiller nos frontières (Garoua-Boulaï, Kousseri, Waza et Kye-Ossi) ; et veiller davantage sur les populations urbaines des villes de Yaoundé et Douala pour ne citer que celles-là ;</Condition>
+                    <Condition>La mise en place des numéros gratuits d’utilité publique pour : favoriser les dénonciations aux tracasseries policières ; donner les informations capitales ; renseigner utile ; appeler à l’aide. Ces numéros sont le 117, le 120 et le 1500 qui est directement supervisé par le Délégué Général en personne ;</Condition>
+                    <Condition>La création du Cours Supérieur de Sécurité Intérieure du Cameroun (CSSIC) en vue de renforcer les capacités des fonctionnaires de la Sûreté Nationale dans la maîtrise des défis sécuritaires contemporains ;</Condition>
+                    <Condition>L’ajustement technique de la carte nationale d’identité en vue d’une meilleure sécurisation de la nationalité camerounaise ;</Condition>
+                    <Condition>La politique de constitution des unités mixtes pour lutter contre certaines formes de criminalité internationale, avec la création par décret n° 2014/413 du 22 octobre 2014, des Cellules Aéroportuaires Anti-Trafics (CAAT) dans les aéroports internationaux du Cameroun ;</Condition>
+                    <Condition>Le renforcement de la coopération bilatérale avec les Etats limitrophes par la signature des accords de coopération policière.</Condition>
+                </div>
+
+                <p>
+                    <strong className="text-blue">Au plan opérationnel:</strong>
+                </p>
+
+                <div className="py-3 py-md-4 py-xxl-5 my-2 my-md-3 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5">
+                    <Condition>Le renforcement des capacités opérationnelles par la dotation récente des moyens d’intervention avec l’acquisition des véhicules adéquats à toutes les unités du territoire national ;</Condition>
+                    <Condition>Le renforcement des capacités d’intervention du (GSO) Groupement Spécial d’Opérations par la dotation des « combinaisons Robocops de déminage » ;</Condition>
+                    <Condition>La dotation du matériel à la technologie de pointe de dernière génération à la Division des Transmissions pour les réseaux de Communication et de Télécommunication ;</Condition>
+                    <Condition>Le recrutement plus de 10.000 policiers. Un recrutement encadré par le mérite qui vise le rajeunissement et le renforcement considérable des effectifs de la Sûreté Nationale ;</Condition>
+                    <Condition>L’informatisation de ce processus est une grande première dans les concours administratifs. Cette informatisation vise à garantir l’égalité de chance pour tous ;</Condition>
+                    <Condition>L’extension des bases de données criminelles d’INTERPOL dans les postes-frontières afin de permettre le contrôle en temps réel par les agents de première ligne ;</Condition>
+                    <Condition>L’adhésion du Cameroun au programme INTERPOL de gestion des frontières afin de renforcer, par une formation appropriée et des opérations de police, les capacités des services nationaux chargés de l’application de la loi dans la sécurisation des frontières nationales ;</Condition>
+                    <Condition>L’acquisition des équipements sophistiqués de lutte contre le terrorisme et la criminalité ;</Condition>
+                    <Condition>L’effectivité du fonctionnement du système intelligent de vidéosurveillance qui est un outil moderne de surveillance en zone urbaine et frontalière et de facilitation des investigations criminelles ;</Condition>
+                    <Condition>Les hôtels de Police dont les travaux sont achevés pour certains et en cours pours d’autres, permettront d’améliorer considérablement le cadre et le confort de travail des fonctionnaires de Police ;</Condition>
+                    <Condition>La réhabilitation de plusieurs unités de Police qui se poursuit sur toute l’étendue du territoire national ;</Condition>
+                    <Condition>La mise à la disposition progressive des unités opérationnelles, des moyens roulants afin d’accroitre leur rendement.</Condition>
+                </div>
+
+                <p>
+                    Voilà autant de mesures, développées aussi bien au plan national qu’international, qui consacrent l’adaptation stratégique et opérationnelle de la Police Camerounaise face à la criminalité transfrontalière.
+                </p>
             </Block>
 
 

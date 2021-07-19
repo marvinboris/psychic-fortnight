@@ -34,7 +34,7 @@ __webpack_require__.r(__webpack_exports__);
       color = _ref$color === void 0 ? 'white' : _ref$color,
       subtitle = _ref.subtitle;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-    className: full ? "" : "py-3 py-md-4 py-xxl-5",
+    className: "text-10 text-md-13 text-xxl-16 text-secondary " + (full ? "" : "py-3 py-md-4 py-xxl-5"),
     style: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_1__.updateObject)(style, {
       backgroundPosition: 'top',
       backgroundRepeat: 'no-repeat',
@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
       }[color] + '")'
     }),
     children: full ? children : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-      className: "container-" + (fluid ? "fluid" : "xxl") + " py-3 py-md-4 py-xxl-5 text-dark",
+      className: "container-" + (fluid ? "fluid" : "xxl") + " py-3 py-md-4 py-xxl-5",
       children: [left ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
         className: "mb-3 mb-md-4 mb-xxl-5 pb-3 pb-md-4 pb-xxl-5 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
@@ -323,9 +323,13 @@ var Actions = /*#__PURE__*/function (_Component) {
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
             className: "row",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-              className: "col-xl-8 text-10 text-md-13 text-xxl-16 text-secondary",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "Monsieur Martin  MBARGA NGUELE est le D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale depuis le 31 Ao\xFBt  2010. Policier de carri\xE8re, il conna\xEEt parfaitement la fonction puisque c\u2019est son deuxi\xE8me passage \xE0 cette charge apr\xE8s celui de 1983-1984. Sa longue carri\xE8re dans la diplomatie, lui a procur\xE9 une exp\xE9rience du v\xE9cu qui fait de lui un acteur averti et exp\xE9riment\xE9."
+              className: "col-xl-8",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("p", {
+                children: ["Monsieur ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("strong", {
+                  children: "Martin  MBARGA NGUELE"
+                }), " est le ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("strong", {
+                  children: "D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale depuis le 31 Ao\xFBt  2010"
+                }), ". Policier de carri\xE8re, il conna\xEEt parfaitement la fonction puisque c\u2019est son deuxi\xE8me passage \xE0 cette charge apr\xE8s celui de 1983-1984. Sa longue carri\xE8re dans la diplomatie, lui a procur\xE9 une exp\xE9rience du v\xE9cu qui fait de lui un acteur averti et exp\xE9riment\xE9."]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
                 children: "Pour \xAB Redonner ses lettres de noblesses \xE0 la Police, son discours a toujours \xE9t\xE9 constant : la rigueur et l\u2019abn\xE9gation dans le travail, le respect de la discipline, l\u2019int\xE9grit\xE9, l\u2019obligation de r\xE9serve, le professionnalisme et le m\xE9rite avec insistance ces derniers temps."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
@@ -334,25 +338,8 @@ var Actions = /*#__PURE__*/function (_Component) {
                 children: "Ce qui a d\u2019ailleurs permis au Chef de Corps de red\xE9finir les r\xF4les apr\xE8s la distribution des cartes par le Chef de l\u2019Etat, Son Excellence le Pr\xE9sident Paul BIYA le 28 janvier 2014."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
                 children: "En cinq ans, il a donn\xE9 un autre visage \xE0 la Police. Une Police r\xE9concili\xE9e avec elle-m\xEAme et, surtout avec les populations pour lesquelles elle est au service.  Les policiers actuels sont soucieux des droits de l\u2019Homme et des libert\xE9s individuelles ; des contingences logistiques ; de l\u2019environnement dans lequel ils \xE9voluent  et surtout du respect scrupuleux des lois en vigueur."
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-                className: "py-3 py-md-4 py-xxl-5 my-2 my-md-3 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
-                  children: "De la s\xE9curit\xE9 int\xE9rieure et ext\xE9rieure de l\u2019Etat ;"
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
-                  children: "De la recherche, de la constatation des infractions aux lois p\xE9nales et de la conduite de leurs auteurs devant les juridictions r\xE9pressives ;"
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
-                  children: "Du maintien de l\u2019ordre et de la paix publics, de la protection, de la s\xE9curit\xE9 et de la salubrit\xE9 publiques, plus particuli\xE8rement dans les agglom\xE9rations urbaines ;"
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
-                  children: "De la lutte contre la criminalit\xE9 nationale, internationale et transnationale ;"
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
-                  children: "De la recherche du renseignement ;"
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
-                  children: "Des missions d\u2019information, de s\xE9curit\xE9, de protection et d\u2019intervention comportant des contacts avec les populations, dans le cadre de la D\xE9fense Nationale."
-                })]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "De 1984 \xE0 1989 et de 1991 \xE0 1996, la D\xE9l\xE9gation G\xE9n\xE9rale \xE0 la S\xFBret\xE9 Nationale sera transform\xE9e en Secr\xE9tariat d\u2019Etat \xE0 la S\xE9curit\xE9 Int\xE9rieure dirig\xE9 respectivement par Messieurs Denis EKANI et Jean FOCHIVE. C\u2019est le D\xE9cret n\xB096/034 du 1er Mars 1996 portant \xAB cr\xE9ation de la D\xE9l\xE9gation G\xE9n\xE9rale \xE0 la S\xFBret\xE9 Nationale \xBB et sign\xE9 du Pr\xE9sident de la R\xE9publique, Son  Excellence Paul BIYA, qui lui conf\xE8re sa derni\xE8re appellation. Depuis le 30 ao\xFBt 2010, elle a \xE0 sa t\xEAte, Martin MBARGA NGUELE qui, il faut le mentionner, est \xE0 son deuxi\xE8me passage comme D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale apr\xE8s celui du 22 ao\xFBt 1983 au 04 ao\xFBt 1984. Malgr\xE9 toutes ces multiples mutations dans la forme, le fond est toujours rest\xE9 le m\xEAme, les missions \xE9galement. Notamment, la protection des institutions et la s\xE9curisation des personnes et de leurs biens."
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "De 1984 \xE0 1989 et de 1991 \xE0 1996, la D\xE9l\xE9gation G\xE9n\xE9rale \xE0 la S\xFBret\xE9 Nationale sera transform\xE9e en Secr\xE9tariat d\u2019Etat \xE0 la S\xE9curit\xE9 Int\xE9rieure dirig\xE9 respectivement par Messieurs Denis EKANI et Jean FOCHIVE. C\u2019est le D\xE9cret n\xB096/034 du 1er Mars 1996 portant \xAB cr\xE9ation de la D\xE9l\xE9gation G\xE9n\xE9rale \xE0 la S\xFBret\xE9 Nationale \xBB et sign\xE9 du Pr\xE9sident de la R\xE9publique, Son  Excellence Paul BIYA, qui lui conf\xE8re sa derni\xE8re appellation. Depuis le 30 ao\xFBt 2010, elle a \xE0 sa t\xEAte, Martin MBARGA NGUELE qui, il faut le mentionner, est \xE0 son deuxi\xE8me passage comme D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale apr\xE8s celui du 22 ao\xFBt 1983 au 04 ao\xFBt 1984. Malgr\xE9 toutes ces multiples mutations dans la forme, le fond est toujours rest\xE9 le m\xEAme, les missions \xE9galement. Notamment, la protection des institutions et la s\xE9curisation des personnes et de leurs biens."
+                children: "Bref une Police r\xE9solument tourn\xE9e vers sa population. Le moins que l\u2019on puisse dire, c\u2019est que sous l\u2019\xE8re Martin MBARGA NGUELE, les choses changent positivement et les populations t\xE9moignent leur satisfaction."
               })]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
               className: "col-xl-4 d-flex justify-content-between flex-column h-100",
@@ -406,6 +393,75 @@ var Actions = /*#__PURE__*/function (_Component) {
               })]
             })]
           })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_2__.default, {
+          left: true,
+          color: "soft",
+          title: "L\u2019orientation strat\xE9gique et op\xE9rationnelle de la Police Camerounaise",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+            children: "Force r\xE9guli\xE8re charg\xE9e concurremment avec d\u2019autres Forces, d\u2019assurer le respect et la protection des institutions, des libert\xE9s, des personnes et des biens ; du maintien de l\u2019ordre public et de la paix sociale ; de la lutte contre la criminalit\xE9 nationale, internationale et transnationale ; de la recherche du renseignement ; de la surveillance des fronti\xE8res et de la s\xE9curisation  de la nationalit\xE9 camerounaise,"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("strong", {
+              children: "La S\xFBret\xE9 Nationale est \xE0 l\u2019avant-garde de la lutte contre la criminalit\xE9 transfrontali\xE8re. Sous la Tr\xE8s Haute impulsion du Chef de l\u2019Etat, impl\xE9ment\xE9 par Le D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale,  l\u2019action polici\xE8re conna\xEEt depuis 2012, une nouvelle orientation strat\xE9gique et op\xE9rationnelle pour permettre \xE0 ce Corps d\u2019\xE9lite de se mouvoir d\u2019une mani\xE8re efficace.  "
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+            children: "A cet \xE9gard, il convient de relever parmi ce train de mesures :"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("strong", {
+              className: "text-blue",
+              children: "Au plan strat\xE9gique:"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+            className: "py-3 py-md-4 py-xxl-5 my-2 my-md-3 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+              children: "Le renforcement de la couverture s\xE9curitaire nationale par la cr\xE9ation de nouvelles unit\xE9s de Police dans les localit\xE9s frontali\xE8res du Cameroun. Ainsi, 25 nouveaux postes-fronti\xE8res ont \xE9t\xE9 cr\xE9\xE9s dans les R\xE9gions de l\u2019Adamaoua, de l\u2019Est, de l\u2019Extr\xEAme-Nord, du Nord et du Sud. De m\xEAme, plusieurs postes-fronti\xE8res ont \xE9t\xE9 \xE9rig\xE9s en unit\xE9s de s\xE9curit\xE9 publique ;"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+              children: "La mise en exp\xE9rimentation d\u2019un syst\xE8me de vid\xE9o surveillance, pour mieux surveiller nos fronti\xE8res (Garoua-Boula\xEF, Kousseri, Waza et Kye-Ossi) ; et veiller davantage sur les populations urbaines des villes de Yaound\xE9 et Douala pour ne citer que celles-l\xE0 ;"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+              children: "La mise en place des num\xE9ros gratuits d\u2019utilit\xE9 publique pour : favoriser les d\xE9nonciations aux tracasseries polici\xE8res ; donner les informations capitales ; renseigner utile ; appeler \xE0 l\u2019aide. Ces num\xE9ros sont le 117, le 120 et le 1500 qui est directement supervis\xE9 par le D\xE9l\xE9gu\xE9 G\xE9n\xE9ral en personne ;"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+              children: "La cr\xE9ation du Cours Sup\xE9rieur de S\xE9curit\xE9 Int\xE9rieure du Cameroun (CSSIC) en vue de renforcer les capacit\xE9s des fonctionnaires de la S\xFBret\xE9 Nationale dans la ma\xEEtrise des d\xE9fis s\xE9curitaires contemporains ;"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+              children: "L\u2019ajustement technique de la carte nationale d\u2019identit\xE9 en vue d\u2019une meilleure s\xE9curisation de la nationalit\xE9 camerounaise ;"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+              children: "La politique de constitution des unit\xE9s mixtes pour lutter contre certaines formes de criminalit\xE9 internationale, avec la cr\xE9ation par d\xE9cret n\xB0 2014/413 du 22 octobre 2014, des Cellules A\xE9roportuaires Anti-Trafics (CAAT) dans les a\xE9roports internationaux du Cameroun ;"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+              children: "Le renforcement de la coop\xE9ration bilat\xE9rale avec les Etats limitrophes par la signature des accords de coop\xE9ration polici\xE8re."
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("strong", {
+              className: "text-blue",
+              children: "Au plan op\xE9rationnel:"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+            className: "py-3 py-md-4 py-xxl-5 my-2 my-md-3 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+              children: "Le renforcement des capacit\xE9s op\xE9rationnelles par la dotation r\xE9cente des moyens d\u2019intervention avec l\u2019acquisition des v\xE9hicules ad\xE9quats \xE0 toutes les unit\xE9s du territoire national ;"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+              children: "Le renforcement des capacit\xE9s d\u2019intervention du (GSO) Groupement Sp\xE9cial d\u2019Op\xE9rations par la dotation des \xAB combinaisons Robocops de d\xE9minage \xBB ;"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+              children: "La dotation du mat\xE9riel \xE0 la technologie de pointe de derni\xE8re g\xE9n\xE9ration \xE0 la Division des Transmissions pour les r\xE9seaux de Communication et de T\xE9l\xE9communication ;"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+              children: "Le recrutement plus de 10.000 policiers. Un recrutement encadr\xE9 par le m\xE9rite qui vise le rajeunissement et le renforcement consid\xE9rable des effectifs de la S\xFBret\xE9 Nationale ;"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+              children: "L\u2019informatisation de ce processus est une grande premi\xE8re dans les concours administratifs. Cette informatisation vise \xE0 garantir l\u2019\xE9galit\xE9 de chance pour tous ;"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+              children: "L\u2019extension des bases de donn\xE9es criminelles d\u2019INTERPOL dans les postes-fronti\xE8res afin de permettre le contr\xF4le en temps r\xE9el par les agents de premi\xE8re ligne ;"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+              children: "L\u2019adh\xE9sion du Cameroun au programme INTERPOL de gestion des fronti\xE8res afin de renforcer, par une formation appropri\xE9e et des op\xE9rations de police, les capacit\xE9s des services nationaux charg\xE9s de l\u2019application de la loi dans la s\xE9curisation des fronti\xE8res nationales ;"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+              children: "L\u2019acquisition des \xE9quipements sophistiqu\xE9s de lutte contre le terrorisme et la criminalit\xE9 ;"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+              children: "L\u2019effectivit\xE9 du fonctionnement du syst\xE8me intelligent de vid\xE9osurveillance qui est un outil moderne de surveillance en zone urbaine et frontali\xE8re et de facilitation des investigations criminelles ;"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+              children: "Les h\xF4tels de Police dont les travaux sont achev\xE9s pour certains et en cours pours d\u2019autres, permettront d\u2019am\xE9liorer consid\xE9rablement le cadre et le confort de travail des fonctionnaires de Police ;"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+              children: "La r\xE9habilitation de plusieurs unit\xE9s de Police qui se poursuit sur toute l\u2019\xE9tendue du territoire national ;"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+              children: "La mise \xE0 la disposition progressive des unit\xE9s op\xE9rationnelles, des moyens roulants afin d\u2019accroitre leur rendement."
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+            children: "Voil\xE0 autant de mesures, d\xE9velopp\xE9es aussi bien au plan national qu\u2019international, qui consacrent l\u2019adaptation strat\xE9gique et op\xE9rationnelle de la Police Camerounaise face \xE0 la criminalit\xE9 transfrontali\xE8re."
+          })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_2__.default, {
           color: "transparent",
           title: "Pour plus d'informations",

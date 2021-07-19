@@ -34,7 +34,7 @@ __webpack_require__.r(__webpack_exports__);
       color = _ref$color === void 0 ? 'white' : _ref$color,
       subtitle = _ref.subtitle;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-    className: full ? "" : "py-3 py-md-4 py-xxl-5",
+    className: "text-10 text-md-13 text-xxl-16 text-secondary " + (full ? "" : "py-3 py-md-4 py-xxl-5"),
     style: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_1__.updateObject)(style, {
       backgroundPosition: 'top',
       backgroundRepeat: 'no-repeat',
@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
       }[color] + '")'
     }),
     children: full ? children : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-      className: "container-" + (fluid ? "fluid" : "xxl") + " py-3 py-md-4 py-xxl-5 text-dark",
+      className: "container-" + (fluid ? "fluid" : "xxl") + " py-3 py-md-4 py-xxl-5",
       children: [left ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
         className: "mb-3 mb-md-4 mb-xxl-5 pb-3 pb-md-4 pb-xxl-5 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
@@ -324,20 +324,27 @@ var Missions = /*#__PURE__*/function (_Component) {
             className: "row",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
               className: "col-xl-8 text-10 text-md-13 text-xxl-16 text-secondary",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "Apr\xE8s un Arr\xEAt\xE9 du Haut Commissaire du Cameroun, les premiers Services de Police de notre pays ont vu le jour en 1925, avec la cr\xE9ation du Commissariat de Douala. Par la suite, le Haut-Commissariat de la R\xE9publique Fran\xE7aise a sign\xE9 le 1er Juin 1946, un Arr\xEAt\xE9 \xAB portant r\xE9organisation de la S\xFBret\xE9 Nationale dans les territoires du Cameroun \xBB. Le 31 Ao\xFBt de la m\xEAme ann\xE9e, un autre Arr\xEAt\xE9 \xAB portant transformation du Corps de la Police indig\xE8ne\u2026, en Corps de Gardiens de la Paix et de la S\xE9curit\xE9 Publique \xBB est sign\xE9. Ce dernier texte constitue l\u2019acte de naissance de notre Police en uniforme. C\u2019est en 1947 que survient la cr\xE9ation de la Direction de la S\xFBret\xE9, coupl\xE9e avec l\u2019organisation d\u2019un service sp\xE9cialis\xE9. Il convient de pr\xE9ciser qu\u2019avant 1959, la Police Camerounaise \xE9tait divis\xE9e en deux principales entit\xE9s, celle du Cameroun Occidental d\xE9nomm\xE9e \xAB West Cameroon Police Force \xBB, avec pour quartier g\xE9n\xE9ral Buea et celle du Cameroun Oriental bas\xE9e \xE0 Yaound\xE9. La \xAB West Cameroon Police Force \xBB \xE9tait calqu\xE9e sur le mod\xE8le Britannique."
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "C\u2019est avec la nomination de Jean Marie EVINA EDJO\u2019O comme Directeur de la S\xE9curit\xE9 que les deux Polices vont fusionner, ceci bien avant le R\xE9f\xE9rendum du 11 F\xE9vrier 1961. C\u2019est ainsi que de 1959 \xE0 1969, on conna\xEEtra une p\xE9riode transitoire au cours de laquelle les polices des deux Etats f\xE9d\xE9r\xE9s \xE9taient dirig\xE9es par le Premier Ministre ou le Ministre de l\u2019Int\xE9rieur."
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "Le 03 Mai 1969, un D\xE9cret Pr\xE9sidentiel portant cr\xE9ation de la D\xE9l\xE9gation G\xE9n\xE9rale \xE0 la S\xFBret\xE9 Nationale r\xE9organisera les forces de Police avec comme premier Chef de Corps Paul PONDI. Toutefois, il faut relever qu\u2019il existe \xE0 cette p\xE9riode, une Police en tenue charg\xE9e du Maintien de l\u2019Ordre et, celle en civil \u0153uvrant en mati\xE8re de Police Judiciaire et de Renseignements. Ces deux branches vont fusionner en 1979."
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "De 1984 \xE0 1989 et de 1991 \xE0 1996, la D\xE9l\xE9gation G\xE9n\xE9rale \xE0 la S\xFBret\xE9 Nationale sera transform\xE9e en Secr\xE9tariat d\u2019Etat \xE0 la S\xE9curit\xE9 Int\xE9rieure dirig\xE9 respectivement par Messieurs Denis EKANI et Jean FOCHIVE."
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "C\u2019est le D\xE9cret n\xB096/034 du 1er Mars 1996 portant \xAB cr\xE9ation de la D\xE9l\xE9gation G\xE9n\xE9rale \xE0 la S\xFBret\xE9 Nationale \xBB et sign\xE9 du Pr\xE9sident de la R\xE9publique, Son  Excellence Paul BIYA, qui lui conf\xE8re sa derni\xE8re appellation."
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "Depuis le 30 ao\xFBt 2010, elle a \xE0 sa t\xEAte, Martin MBARGA NGUELE qui, il faut le mentionner, est \xE0 son deuxi\xE8me passage comme D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale apr\xE8s celui du 22 ao\xFBt 1983 au 04 ao\xFBt 1984."
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "Malgr\xE9 toutes ces multiples mutations dans la forme, le fond est toujours rest\xE9 le m\xEAme, les missions \xE9galement. Notamment, la protection des institutions et la s\xE9curisation des personnes et de leurs biens."
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("p", {
+                children: ["Sous l\u2019autorit\xE9 du Pr\xE9sident de la R\xE9publique, Chef Supr\xEAme des Forces de Police, la S\xFBret\xE9 Nationale se d\xE9finit comme un Corps de Commandement et d\u2019Administration. Elle est compos\xE9e d\u2019unit\xE9s territoriales (Postes et Commissariats de S\xE9curit\xE9 Publique, Commissariats Centraux) qui sont des forces de premi\xE8re cat\xE9gorie et des unit\xE9s sp\xE9cialis\xE9es telles que le Commandement Central des Groupements Mobiles d\u2019Intervention (CCGMI), le Groupement Sp\xE9cial d\u2019Op\xE9rations (GSO) et les Groupements Mobiles d\u2019Intervention (GMI) qui constituent des forces de deuxi\xE8me cat\xE9gorie. Elle assure des missions sp\xE9cifiques, d\xE9clin\xE9es dans ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("strong", {
+                  children: "l\u2019article 3"
+                }), " du D\xE9cret ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("strong", {
+                  children: "n\xB02012/540 du 19 Novembre 2012"
+                }), " portant organisation de la D\xE9l\xE9gation G\xE9n\xE9rale \xE0 la S\xFBret\xE9 Nationale de la mani\xE8re suivante :"]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+                className: "py-3 py-md-4 py-xxl-5 my-2 my-md-3 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+                  children: "La S\xFBret\xE9 Nationale a pour mission fondamentale d\u2019assurer le respect et la protection des institutions, des libert\xE9s publiques, des personnes et des biens ;"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+                  children: "Elle assure le respect de l\u2019ex\xE9cution des lois et r\xE8glements ;"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+                  children: "Elle concourt \xE0 l\u2019exercice de la Police administrative et de la Police judiciaire ;"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+                  children: "Elle concourt en outre \xE0 la D\xE9fense Nationale."
+                })]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("p", {
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("strong", {
+                  children: "L\u2019article 4"
+                }), " de ce m\xEAme D\xE9cret dispose que la S\xFBret\xE9 Nationale est charg\xE9e :"]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
                 className: "py-3 py-md-4 py-xxl-5 my-2 my-md-3 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
@@ -351,10 +358,10 @@ var Missions = /*#__PURE__*/function (_Component) {
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
                   children: "De la recherche du renseignement ;"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
-                  children: "Des missions d\u2019information, de s\xE9curit\xE9, de protection et d\u2019intervention comportant des contacts avec les populations, dans le cadre de la D\xE9fense Nationale."
+                  children: "Des missions d\u2019information, de s\xE9curit\xE9, de protection et d\u2019intervention comportant des contacts avec les populations, dans le cadre de la D\xE9fense Nationale ;"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+                  children: "De la s\xE9curisation de la nationalit\xE9 camerounaise."
                 })]
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-                children: "De 1984 \xE0 1989 et de 1991 \xE0 1996, la D\xE9l\xE9gation G\xE9n\xE9rale \xE0 la S\xFBret\xE9 Nationale sera transform\xE9e en Secr\xE9tariat d\u2019Etat \xE0 la S\xE9curit\xE9 Int\xE9rieure dirig\xE9 respectivement par Messieurs Denis EKANI et Jean FOCHIVE. C\u2019est le D\xE9cret n\xB096/034 du 1er Mars 1996 portant \xAB cr\xE9ation de la D\xE9l\xE9gation G\xE9n\xE9rale \xE0 la S\xFBret\xE9 Nationale \xBB et sign\xE9 du Pr\xE9sident de la R\xE9publique, Son  Excellence Paul BIYA, qui lui conf\xE8re sa derni\xE8re appellation. Depuis le 30 ao\xFBt 2010, elle a \xE0 sa t\xEAte, Martin MBARGA NGUELE qui, il faut le mentionner, est \xE0 son deuxi\xE8me passage comme D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale apr\xE8s celui du 22 ao\xFBt 1983 au 04 ao\xFBt 1984. Malgr\xE9 toutes ces multiples mutations dans la forme, le fond est toujours rest\xE9 le m\xEAme, les missions \xE9galement. Notamment, la protection des institutions et la s\xE9curisation des personnes et de leurs biens."
               })]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
               className: "col-xl-4 d-flex justify-content-between flex-column",
