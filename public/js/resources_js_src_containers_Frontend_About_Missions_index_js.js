@@ -52,7 +52,7 @@ __webpack_require__.r(__webpack_exports__);
           className: "text-700 text-nightblue text-16 text-md-25 text-xxl-35",
           children: title
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-          className: "text-300 text-secondary text-16 text-md-20 text-xxl-25 text-uppercase",
+          className: "text-300 text-secondary text-16 text-md-20 text-xxl-25",
           children: subtitle
         })]
       }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
@@ -357,7 +357,7 @@ var Missions = /*#__PURE__*/function (_Component) {
                 children: "De 1984 \xE0 1989 et de 1991 \xE0 1996, la D\xE9l\xE9gation G\xE9n\xE9rale \xE0 la S\xFBret\xE9 Nationale sera transform\xE9e en Secr\xE9tariat d\u2019Etat \xE0 la S\xE9curit\xE9 Int\xE9rieure dirig\xE9 respectivement par Messieurs Denis EKANI et Jean FOCHIVE. C\u2019est le D\xE9cret n\xB096/034 du 1er Mars 1996 portant \xAB cr\xE9ation de la D\xE9l\xE9gation G\xE9n\xE9rale \xE0 la S\xFBret\xE9 Nationale \xBB et sign\xE9 du Pr\xE9sident de la R\xE9publique, Son  Excellence Paul BIYA, qui lui conf\xE8re sa derni\xE8re appellation. Depuis le 30 ao\xFBt 2010, elle a \xE0 sa t\xEAte, Martin MBARGA NGUELE qui, il faut le mentionner, est \xE0 son deuxi\xE8me passage comme D\xE9l\xE9gu\xE9 G\xE9n\xE9ral \xE0 la S\xFBret\xE9 Nationale apr\xE8s celui du 22 ao\xFBt 1983 au 04 ao\xFBt 1984. Malgr\xE9 toutes ces multiples mutations dans la forme, le fond est toujours rest\xE9 le m\xEAme, les missions \xE9galement. Notamment, la protection des institutions et la s\xE9curisation des personnes et de leurs biens."
               })]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-              className: "col-xl-4 d-flex justify-content-between flex-column h-100",
+              className: "col-xl-4 d-flex justify-content-between flex-column",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
                 className: "mb-3 mb-md-4 mb-xxl-5",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {

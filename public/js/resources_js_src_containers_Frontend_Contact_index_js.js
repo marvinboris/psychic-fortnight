@@ -52,7 +52,7 @@ __webpack_require__.r(__webpack_exports__);
           className: "text-700 text-nightblue text-16 text-md-25 text-xxl-35",
           children: title
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-          className: "text-300 text-secondary text-16 text-md-20 text-xxl-25 text-uppercase",
+          className: "text-300 text-secondary text-16 text-md-20 text-xxl-25",
           children: subtitle
         })]
       }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
@@ -391,7 +391,7 @@ var Contact = /*#__PURE__*/function (_Component) {
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("iframe", {
                   width: "100%",
                   height: "100%",
-                  src: "//maps.google.com/maps?width=700&height=150&hl=en&q=La%20maison%20du%20bitcoin+(Auto-%C3%A9cole%20Universit%C3%A9)&ie=UTF8&t=&z=17&iwloc=B&output=embed",
+                  src: "//maps.google.com/maps?width=700&height=150&hl=en&q=D\xE9l\xE9gation+G\xE9n\xE9rale+\xE0+la+S\xFBret\xE9+Nationale+(DGSN)&ie=UTF8&t=&z=17&iwloc=B&output=embed",
                   frameBorder: "0",
                   scrolling: "no",
                   marginHeight: "0",
@@ -409,7 +409,7 @@ var Contact = /*#__PURE__*/function (_Component) {
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("iframe", {
                   width: "100%",
                   height: "100%",
-                  src: "//maps.google.com/maps?width=700&height=150&hl=en&q=La%20maison%20du%20bitcoin+(Auto-%C3%A9cole%20Universit%C3%A9)&ie=UTF8&t=&z=17&iwloc=B&output=embed",
+                  src: "//maps.google.com/maps?width=700&height=150&hl=en&q=D\xE9l\xE9gation+G\xE9n\xE9rale+\xE0+la+S\xFBret\xE9+Nationale+(DGSN)&ie=UTF8&t=&z=17&iwloc=B&output=embed",
                   frameBorder: "0",
                   scrolling: "no",
                   marginHeight: "0",

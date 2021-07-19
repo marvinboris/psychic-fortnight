@@ -126,7 +126,7 @@ __webpack_require__.r(__webpack_exports__);
           className: "text-700 text-nightblue text-16 text-md-25 text-xxl-35",
           children: title
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-          className: "text-300 text-secondary text-16 text-md-20 text-xxl-25 text-uppercase",
+          className: "text-300 text-secondary text-16 text-md-20 text-xxl-25",
           children: subtitle
         })]
       }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {

@@ -7,12 +7,12 @@ import { convertDate, convertTime } from '../../../../shared/utility';
 
 import './Post.css';
 
-export default ({ title, body, created_at, photo, simple, slug = '' }) => <div className={"UI Post pb-4 px-md-3 text-dark" + (simple ? " pt-4" : "")}>
-    <div className={"shadow p-3 rounded-" + (simple ? "14 bg-white" : "30")}>
+export default ({ title, body, created_at, photo, simple, soft, menu, slug = 'slug' }) => <div className={"UI Post" + (menu ? "" : " pb-4 px-md-3") + " text-dark" + (simple ? " pt-4" : "")}>
+    <div className={"shadow p-3" + (soft ? " soft" : "") + " rounded-" + (simple ? "14 bg-white" : "30")}>
         <div className={"embed-responsive embed-responsive-4by3 position-relative " + (simple ? "rounded-14" : "rounded-30 mb-4")} style={{ backgroundImage: 'url("' + photo + '")', overflow: 'visible', transform: 'translateY(' + (simple ? '-2rem' : '0') + ')' }}>
             {!simple && <div className="position-absolute rounded-circle bg-white" style={{ right: 36, bottom: 0, transform: 'translateY(50%)' }}>
                 <div className="border border-6 share-border rounded-circle d-flex justify-content-center align-items-center">
-                    <Link to="/" className="btn btn-blue rounded-circle" style={{ width: 36, height: 36 }}>
+                    <Link to={"/posts/" + slug} className="btn btn-blue rounded-circle" style={{ width: 36, height: 36 }}>
                         <FontAwesomeIcon icon={faShareAlt} />
                     </Link>
                 </div>

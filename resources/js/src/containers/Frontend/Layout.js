@@ -79,7 +79,7 @@ class Layout extends Component {
 
                         <div className="d-md-flex justify-content-center text-center border-top border-border-50 py-4">
                             <div>
-                                © Copyrights {(new Date()).getFullYear()} <span className="text-700 text-lightblue">DGSN</span>. All rights reserved. <span className="text-700">by <a href="//briluce.com" target="_blank" className="text-orange">Briluce</a></span>
+                                © Copyrights {(new Date()).getFullYear()} <span className="text-700 text-lightblue">DGSN</span>.
                             </div>
                         </div>
                     </div>

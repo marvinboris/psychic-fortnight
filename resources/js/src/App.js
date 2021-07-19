@@ -150,6 +150,8 @@ const asyncAboutMissions = asyncComponent(() => import('./containers/Frontend/Ab
 const asyncAboutGenesis = asyncComponent(() => import('./containers/Frontend/About/Genesis'));
 
 const asyncContact = asyncComponent(() => import('./containers/Frontend/Contact'));
+const asyncPostsShow = asyncComponent(() => import('./containers/Frontend/Posts/Show'));
+const asyncPosts = asyncComponent(() => import('./containers/Frontend/Posts'));
 const asyncExams = asyncComponent(() => import('./containers/Frontend/Exams'));
 const asyncServices = asyncComponent(() => import('./containers/Frontend/Services'));
 const asyncHome = asyncComponent(() => import('./containers/Frontend/Home'));
@@ -204,6 +206,8 @@ class App extends Component {
                             </Route>
 
                             <Route path="/contact" component={asyncContact} />
+                            <Route path="/posts/:slug" component={asyncPostsShow} />
+                            <Route path="/posts" component={asyncPosts} />
                             <Route path="/exams" component={asyncExams} />
                             <Route path="/services" component={asyncServices} />
                             <Route path="/" component={asyncHome} />

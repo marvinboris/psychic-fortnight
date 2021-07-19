@@ -4,6 +4,10 @@
     transition: all 0.25s;
 }
 
+.UI.Post > div.soft {
+    background-color: var(--soft);
+}
+
 .UI.Post .embed-responsive {
     background-position: center;
     background-size: auto 100%;
@@ -14,6 +18,10 @@
 .UI.Post .share-border {
     border-color: var(--lightblue-25) !important;
     transition: all 0.25s;
+}
+
+.UI.Post > div.soft .share-border {
+    border-color: var(--soft) !important;
 }
 
 .UI.Post > div:hover,

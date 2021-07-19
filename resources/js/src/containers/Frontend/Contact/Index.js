@@ -110,13 +110,13 @@ class Contact extends Component {
 
                     <div className="embed-responsive embed-responsive-21by9 d-none d-sm-block position-relative">
                         <div className="position-absolute w-100 h-100" style={{ top: 0, left: 0 }}>
-                            <iframe width="100%" height="100%" src="//maps.google.com/maps?width=700&amp;height=150&amp;hl=en&amp;q=La%20maison%20du%20bitcoin+(Auto-%C3%A9cole%20Universit%C3%A9)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
+                            <iframe width="100%" height="100%" src="//maps.google.com/maps?width=700&amp;height=150&amp;hl=en&amp;q=Délégation+Générale+à+la+Sûreté+Nationale+(DGSN)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
                         </div>
                     </div>
 
                     <div className="embed-responsive embed-responsive-4by3 d-sm-none position-relative">
                         <div className="position-absolute w-100 h-100" style={{ top: 0, left: 0 }}>
-                            <iframe width="100%" height="100%" src="//maps.google.com/maps?width=700&amp;height=150&amp;hl=en&amp;q=La%20maison%20du%20bitcoin+(Auto-%C3%A9cole%20Universit%C3%A9)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
+                            <iframe width="100%" height="100%" src="//maps.google.com/maps?width=700&amp;height=150&amp;hl=en&amp;q=Délégation+Générale+à+la+Sûreté+Nationale+(DGSN)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
                         </div>
                     </div>
                 </div>

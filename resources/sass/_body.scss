@@ -13,6 +13,12 @@ body {
   --flex-container-height: 650px;
 }
 
+.bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .badge-block {
   display: block !important;
   width: 80%;

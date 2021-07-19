@@ -59,7 +59,7 @@ export default ({ light = false, font, toggleNavbar, selectItem, selectedItem })
                         </>}>La DGSN</NavigationItem>
                         <NavigationItem toggleNavbar={toggleNavbar} font={font} href="/services">Nos services</NavigationItem>
                         <NavigationItem toggleNavbar={toggleNavbar} font={font} href="/exams">Concours</NavigationItem>
-                        <NavigationItem toggleNavbar={toggleNavbar} font={font} href="/news">Actualités</NavigationItem>
+                        <NavigationItem toggleNavbar={toggleNavbar} font={font} href="/posts">Actualités</NavigationItem>
                         <NavigationItem toggleNavbar={toggleNavbar} font={font} href="/contact">Contacts</NavigationItem>
                     </Nav>
                 </Collapse>

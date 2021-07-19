@@ -18,7 +18,7 @@ export default ({ style = {}, children, full, left, fluid, title, color = 'white
         {left ? <div className="mb-3 mb-md-4 mb-xxl-5 pb-3 pb-md-4 pb-xxl-5 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5">
             <div className="text-700 text-nightblue text-16 text-md-25 text-xxl-35">{title}</div>
 
-            <div className="text-300 text-secondary text-16 text-md-20 text-xxl-25 text-uppercase">{subtitle}</div>
+            <div className="text-300 text-secondary text-16 text-md-20 text-xxl-25">{subtitle}</div>
         </div> : <div className="text-center mb-3 mb-md-4 mb-xxl-5 pb-3 pb-md-4 pb-xxl-5">
             <div className="text-700 text-blue">
                 <div className="text-16 text-md-25 text-xxl-35">{title}</div>

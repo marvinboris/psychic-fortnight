@@ -126,7 +126,7 @@ __webpack_require__.r(__webpack_exports__);
           className: "text-700 text-nightblue text-16 text-md-25 text-xxl-35",
           children: title
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-          className: "text-300 text-secondary text-16 text-md-20 text-xxl-25 text-uppercase",
+          className: "text-300 text-secondary text-16 text-md-20 text-xxl-25",
           children: subtitle
         })]
       }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
@@ -340,12 +340,14 @@ __webpack_require__.r(__webpack_exports__);
       created_at = _ref.created_at,
       photo = _ref.photo,
       simple = _ref.simple,
+      soft = _ref.soft,
+      menu = _ref.menu,
       _ref$slug = _ref.slug,
-      slug = _ref$slug === void 0 ? '' : _ref$slug;
+      slug = _ref$slug === void 0 ? 'slug' : _ref$slug;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-    className: "UI Post pb-4 px-md-3 text-dark" + (simple ? " pt-4" : ""),
+    className: "UI Post" + (menu ? "" : " pb-4 px-md-3") + " text-dark" + (simple ? " pt-4" : ""),
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-      className: "shadow p-3 rounded-" + (simple ? "14 bg-white" : "30"),
+      className: "shadow p-3" + (soft ? " soft" : "") + " rounded-" + (simple ? "14 bg-white" : "30"),
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
         className: "embed-responsive embed-responsive-4by3 position-relative " + (simple ? "rounded-14" : "rounded-30 mb-4"),
         style: {
@@ -363,7 +365,7 @@ __webpack_require__.r(__webpack_exports__);
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
             className: "border border-6 share-border rounded-circle d-flex justify-content-center align-items-center",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Link, {
-              to: "/",
+              to: "/posts/" + slug,
               className: "btn btn-blue rounded-circle",
               style: {
                 width: 36,
@@ -1268,7 +1270,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".UI.Post > div {\r\n    height: 100%;\r\n    background-color: var(--lightblue-25);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post .embed-responsive {\r\n    background-position: center;\r\n    background-size: auto 100%;\r\n    background-repeat: no-repeat;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post .share-border {\r\n    border-color: var(--lightblue-25) !important;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post > div:hover,\r\n.owl-item.center.active .UI.Post > div {\r\n    background-color: white;\r\n}\r\n\r\n.UI.Post > div:hover .embed-responsive,\r\n.owl-item.center.active .UI.Post > div .embed-responsive {\r\n    background-size: auto calc(100% + 6px);\r\n}\r\n\r\n.UI.Post > div:hover .share-border,\r\n.owl-item.center.active .UI.Post > div .share-border {\r\n    border-color: white !important;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".UI.Post > div {\r\n    height: 100%;\r\n    background-color: var(--lightblue-25);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post > div.soft {\r\n    background-color: var(--soft);\r\n}\r\n\r\n.UI.Post .embed-responsive {\r\n    background-position: center;\r\n    background-size: auto 100%;\r\n    background-repeat: no-repeat;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post .share-border {\r\n    border-color: var(--lightblue-25) !important;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Post > div.soft .share-border {\r\n    border-color: var(--soft) !important;\r\n}\r\n\r\n.UI.Post > div:hover,\r\n.owl-item.center.active .UI.Post > div {\r\n    background-color: white;\r\n}\r\n\r\n.UI.Post > div:hover .embed-responsive,\r\n.owl-item.center.active .UI.Post > div .embed-responsive {\r\n    background-size: auto calc(100% + 6px);\r\n}\r\n\r\n.UI.Post > div:hover .share-border,\r\n.owl-item.center.active .UI.Post > div .share-border {\r\n    border-color: white !important;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
