@@ -34,7 +34,7 @@ __webpack_require__.r(__webpack_exports__);
       color = _ref$color === void 0 ? 'white' : _ref$color,
       subtitle = _ref.subtitle;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-    className: "text-10 text-md-13 text-xxl-16 text-secondary " + (full ? "" : "py-3 py-md-4 py-xxl-5"),
+    className: "text-14 text-md-15 text-xxl-16 text-secondary text-justify " + (full ? "" : "py-3 py-md-4 py-xxl-5"),
     style: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_1__.updateObject)(style, {
       backgroundPosition: 'top',
       backgroundRepeat: 'no-repeat',
@@ -47,9 +47,9 @@ __webpack_require__.r(__webpack_exports__);
     children: full ? children : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
       className: "container-" + (fluid ? "fluid" : "xxl") + " py-3 py-md-4 py-xxl-5",
       children: [left ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-        className: "mb-3 mb-md-4 mb-xxl-5 pb-3 pb-md-4 pb-xxl-5 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5",
+        className: "text-center text-md-left mb-3 mb-md-4 mb-xxl-5 pb-3 pb-md-4 pb-xxl-5 pl-md-4 pl-xxl-5 ml-md-4 ml-xxl-5",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-          className: "text-700 text-nightblue text-16 text-md-25 text-xxl-35",
+          className: "text-700 text-nightblue text-21 text-md-28 text-xxl-35",
           children: title
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
           className: "text-300 text-secondary text-16 text-md-20 text-xxl-25",
@@ -435,7 +435,7 @@ var Genesis = /*#__PURE__*/function (_Component) {
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
             className: "row",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-              className: "col-xl-8 text-10 text-md-13 text-xxl-16 text-secondary",
+              className: "col-xl-8 text-secondary",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("p", {
                 children: "Apr\xE8s un Arr\xEAt\xE9 du Haut Commissaire du Cameroun, les premiers Services de Police de notre pays ont vu le jour en 1925, avec la cr\xE9ation du Commissariat de Douala. Par la suite, le Haut-Commissariat de la R\xE9publique Fran\xE7aise a sign\xE9 le 1er Juin 1946, un Arr\xEAt\xE9 \xAB portant r\xE9organisation de la S\xFBret\xE9 Nationale dans les territoires du Cameroun \xBB. Le 31 Ao\xFBt de la m\xEAme ann\xE9e, un autre Arr\xEAt\xE9 \xAB portant transformation du Corps de la Police indig\xE8ne\u2026, en Corps de Gardiens de la Paix et de la S\xE9curit\xE9 Publique \xBB est sign\xE9. Ce dernier texte constitue l\u2019acte de naissance de notre Police en uniforme. C\u2019est en 1947 que survient la cr\xE9ation de la Direction de la S\xFBret\xE9, coupl\xE9e avec l\u2019organisation d\u2019un service sp\xE9cialis\xE9. Il convient de pr\xE9ciser qu\u2019avant 1959, la Police Camerounaise \xE9tait divis\xE9e en deux principales entit\xE9s, celle du Cameroun Occidental d\xE9nomm\xE9e \xAB West Cameroon Police Force \xBB, avec pour quartier g\xE9n\xE9ral Buea et celle du Cameroun Oriental bas\xE9e \xE0 Yaound\xE9. La \xAB West Cameroon Police Force \xBB \xE9tait calqu\xE9e sur le mod\xE8le Britannique."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("p", {

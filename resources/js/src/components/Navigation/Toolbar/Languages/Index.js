@@ -10,7 +10,8 @@ export default ({ languages, language, set }) => {
         <DropdownToggle className="position-relative d-flex justify-content-around align-items-center rounded-pill p-0 bg-transparent border-0 m-0" style={{ boxShadow: 'none' }} caret>
             <div className="border-right border-white-50 mr-2 pr-2">
                 <span className="language-flag shadow-lg overflow-hidden d-flex justify-content-center align-items-center position-relative">
-                    <span className={`flag-icon position-absolute flag-icon-${language && language.flag.toLowerCase()}`} />
+                    <span className={`fad position-absolute fa-globe-africa text-secondary`} />
+                    {/* <span className={`flag-icon position-absolute flag-icon-${language && language.flag.toLowerCase()}`} /> */}
                 </span>
             </div>
 

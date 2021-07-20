@@ -90,6 +90,22 @@ class Services extends Component {
 
         const services = [
             {
+                name: 'Titres identitaires',
+                icon: "fad fa-id-card",
+                description: `Check out our API integration 
+                documentation here. Try it and
+                start using. Our API is very 
+                secured.  `
+            },
+            {
+                name: 'Vérifier un document',
+                icon: "fad fa-file-check",
+                description: `Check out our API integration 
+                documentation here. Try it and
+                start using. Our API is very 
+                secured.  `
+            },
+            {
                 name: 'Solliciter un passeport',
                 icon: "fad fa-passport",
                 description: `Check out our API integration 
@@ -98,24 +114,8 @@ class Services extends Component {
                 secured.  `
             },
             {
-                name: 'Vérifier un passeport',
-                icon: "fad fa-passport",
-                description: `Check out our API integration 
-                documentation here. Try it and
-                start using. Our API is very 
-                secured.  `
-            },
-            {
-                name: 'Titres identitaires disponibles',
-                icon: "fad fa-id-card",
-                description: `Check out our API integration 
-                documentation here. Try it and
-                start using. Our API is very 
-                secured.  `
-            },
-            {
-                name: 'Solliciter un passport',
-                icon: "fad fa-passport",
+                name: 'Solliciter un visa',
+                icon: "fad fa-stamp",
                 description: `Check out our API integration 
                 documentation here. Try it and
                 start using. Our API is very 

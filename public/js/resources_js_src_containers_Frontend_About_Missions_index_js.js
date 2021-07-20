@@ -34,7 +34,7 @@ __webpack_require__.r(__webpack_exports__);
       color = _ref$color === void 0 ? 'white' : _ref$color,
       subtitle = _ref.subtitle;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-    className: "text-10 text-md-13 text-xxl-16 text-secondary " + (full ? "" : "py-3 py-md-4 py-xxl-5"),
+    className: "text-14 text-md-15 text-xxl-16 text-secondary text-justify " + (full ? "" : "py-3 py-md-4 py-xxl-5"),
     style: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_1__.updateObject)(style, {
       backgroundPosition: 'top',
       backgroundRepeat: 'no-repeat',
@@ -47,9 +47,9 @@ __webpack_require__.r(__webpack_exports__);
     children: full ? children : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
       className: "container-" + (fluid ? "fluid" : "xxl") + " py-3 py-md-4 py-xxl-5",
       children: [left ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-        className: "mb-3 mb-md-4 mb-xxl-5 pb-3 pb-md-4 pb-xxl-5 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5",
+        className: "text-center text-md-left mb-3 mb-md-4 mb-xxl-5 pb-3 pb-md-4 pb-xxl-5 pl-md-4 pl-xxl-5 ml-md-4 ml-xxl-5",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-          className: "text-700 text-nightblue text-16 text-md-25 text-xxl-35",
+          className: "text-700 text-nightblue text-21 text-md-28 text-xxl-35",
           children: title
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
           className: "text-300 text-secondary text-16 text-md-20 text-xxl-25",
@@ -323,7 +323,7 @@ var Missions = /*#__PURE__*/function (_Component) {
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
             className: "row",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-              className: "col-xl-8 text-10 text-md-13 text-xxl-16 text-secondary",
+              className: "col-xl-8 text-secondary",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("p", {
                 children: ["Sous l\u2019autorit\xE9 du Pr\xE9sident de la R\xE9publique, Chef Supr\xEAme des Forces de Police, la S\xFBret\xE9 Nationale se d\xE9finit comme un Corps de Commandement et d\u2019Administration. Elle est compos\xE9e d\u2019unit\xE9s territoriales (Postes et Commissariats de S\xE9curit\xE9 Publique, Commissariats Centraux) qui sont des forces de premi\xE8re cat\xE9gorie et des unit\xE9s sp\xE9cialis\xE9es telles que le Commandement Central des Groupements Mobiles d\u2019Intervention (CCGMI), le Groupement Sp\xE9cial d\u2019Op\xE9rations (GSO) et les Groupements Mobiles d\u2019Intervention (GMI) qui constituent des forces de deuxi\xE8me cat\xE9gorie. Elle assure des missions sp\xE9cifiques, d\xE9clin\xE9es dans ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("strong", {
                   children: "l\u2019article 3"

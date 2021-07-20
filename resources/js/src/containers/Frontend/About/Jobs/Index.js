@@ -36,7 +36,7 @@ class Jobs extends Component {
 
             <Block left title="Police Camerounaise" subtitle="Un corps de métier accessible à tous">
                 <div className="row">
-                    <div className="col-xl-8 text-10 text-md-13 text-xxl-16 text-secondary">
+                    <div className="col-xl-8 text-secondary">
                         <p>
                             Il n’est pas un secret de souligner que depuis quelques années déjà, la Police camerounaise qui est résolument tournée vers la modernité, essaie autant que faire ce peu, dans son organisation comme dans son fonctionnement, d’évoluer selon les normes et standards internationaux. La Délégation Générale à la Sûreté Nationale a, dans le cadre des  derniers recrutements, que ce soit au niveau de l’Ecole nationale Supérieure de Police de Yaoundé ou du Centre d’Instruction et d’Application de la police de Mutengene, ouvert les concours aux jeunes qualifiés dans divers domaines. C’est le cas des recrues ayant des bases dans les domaines aussi riches que variés tels que la médecine et les soins infirmiers ; l’ingénierie ; la Communication ; les télécommunications ; la mécanique ; l’électromécanique ; le génie civil ; l’hôtellerie et la restauration ; l’industrie d’habillement ; les métiers du bois ; les métiers du froid et climatisations ; la musique ; etc…
                         </p>

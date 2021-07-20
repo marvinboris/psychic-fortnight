@@ -72,7 +72,7 @@ class Genesis extends Component {
 
             <Block left title="La Genèse de la DGSN">
                 <div className="row">
-                    <div className="col-xl-8 text-10 text-md-13 text-xxl-16 text-secondary">
+                    <div className="col-xl-8 text-secondary">
                         <p>
                             Après un Arrêté du Haut Commissaire du Cameroun, les premiers Services de Police de notre pays ont vu le jour en 1925, avec la création du Commissariat de Douala. Par la suite, le Haut-Commissariat de la République Française a signé le 1er Juin 1946, un Arrêté « portant réorganisation de la Sûreté Nationale dans les territoires du Cameroun ». Le 31 Août de la même année, un autre Arrêté « portant transformation du Corps de la Police indigène…, en Corps de Gardiens de la Paix et de la Sécurité Publique » est signé. Ce dernier texte constitue l’acte de naissance de notre Police en uniforme. C’est en 1947 que survient la création de la Direction de la Sûreté, couplée avec l’organisation d’un service spécialisé.
                             Il convient de préciser qu’avant 1959, la Police Camerounaise était divisée en deux principales entités, celle du Cameroun Occidental dénommée « West Cameroon Police Force », avec pour quartier général Buea et celle du Cameroun Oriental basée à Yaoundé. La « West Cameroon Police Force » était calquée sur le modèle Britannique.

@@ -42,7 +42,7 @@ class Missions extends Component {
 
             <Block left title="Missions de la DGSN">
                 <div className="row">
-                    <div className="col-xl-8 text-10 text-md-13 text-xxl-16 text-secondary">
+                    <div className="col-xl-8 text-secondary">
                         <p>
                             Sous l’autorité du Président de la République, Chef Suprême des Forces de Police, la Sûreté Nationale se définit comme un Corps de Commandement et d’Administration. Elle est composée d’unités territoriales (Postes et Commissariats de Sécurité Publique, Commissariats Centraux) qui sont des forces de première catégorie et des unités spécialisées telles que le Commandement Central des Groupements Mobiles d’Intervention (CCGMI), le Groupement Spécial d’Opérations (GSO) et les Groupements Mobiles d’Intervention (GMI) qui constituent des forces de deuxième catégorie. Elle assure des missions spécifiques, déclinées dans <strong>l’article 3</strong> du Décret <strong>n°2012/540 du 19 Novembre 2012</strong> portant organisation de la Délégation Générale à la Sûreté Nationale de la manière suivante :
                         </p>

@@ -32,7 +32,7 @@ export default ({ title, body, created_at, photo, simple, soft, menu, slug = 'sl
         </div>}
 
         {!simple && <div className="text-300 text-secondary mb-3">
-            <div className="text-12 text-md-13 text-xxl-14">{body}</div>
+            <div className="text-14 text-md-15 text-xxl-16">{body}</div>
         </div>}
 
         <div className={"d-flex mb-4 justify-content-" + (simple ? "center" : "start")}>

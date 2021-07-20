@@ -125,8 +125,16 @@ class Toolbar extends Component {
                 </div>
 
                 <div className="d-xl-none">
-                    <Collapse isOpen={!this.state.navbar} navbar className="bg-white shadow-sm position-absolute w-100" style={{ top: '100%' }}>
-                        <NavigationItems font="dark" toggleNavbar={this.toggleNavbar} selectItem={this.selectItem} selectedItem={selectedItem} />
+                    <Collapse isOpen={!this.state.navbar} navbar>
+                        <div className="fixed-top w-100 h-100 bg-black-85 d-flex flex-column justify-content-center align-items-center p-3">
+                            <div className="position-absolute pt-3 pr-3" style={{ top: 0, right: 0, zIndex: 10 }}>
+                                <i className="fad fa-times text-25" style={{ cursor: 'pointer' }} onClick={this.toggleNavbar} />
+                            </div>
+
+                            <div className="p-3">
+                                <NavigationItems font="white" toggleNavbar={this.toggleNavbar} selectItem={this.selectItem} selectedItem={selectedItem} />
+                            </div>
+                        </div>
                     </Collapse>
                 </div>
 

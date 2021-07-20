@@ -34,7 +34,7 @@ __webpack_require__.r(__webpack_exports__);
       color = _ref$color === void 0 ? 'white' : _ref$color,
       subtitle = _ref.subtitle;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-    className: "text-10 text-md-13 text-xxl-16 text-secondary " + (full ? "" : "py-3 py-md-4 py-xxl-5"),
+    className: "text-14 text-md-15 text-xxl-16 text-secondary text-justify " + (full ? "" : "py-3 py-md-4 py-xxl-5"),
     style: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_1__.updateObject)(style, {
       backgroundPosition: 'top',
       backgroundRepeat: 'no-repeat',
@@ -47,9 +47,9 @@ __webpack_require__.r(__webpack_exports__);
     children: full ? children : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
       className: "container-" + (fluid ? "fluid" : "xxl") + " py-3 py-md-4 py-xxl-5",
       children: [left ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-        className: "mb-3 mb-md-4 mb-xxl-5 pb-3 pb-md-4 pb-xxl-5 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5",
+        className: "text-center text-md-left mb-3 mb-md-4 mb-xxl-5 pb-3 pb-md-4 pb-xxl-5 pl-md-4 pl-xxl-5 ml-md-4 ml-xxl-5",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-          className: "text-700 text-nightblue text-16 text-md-25 text-xxl-35",
+          className: "text-700 text-nightblue text-21 text-md-28 text-xxl-35",
           children: title
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
           className: "text-300 text-secondary text-16 text-md-20 text-xxl-25",
@@ -310,7 +310,7 @@ var Jobs = /*#__PURE__*/function (_Component) {
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
             className: "row",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-              className: "col-xl-8 text-10 text-md-13 text-xxl-16 text-secondary",
+              className: "col-xl-8 text-secondary",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
                 children: "Il n\u2019est pas un secret de souligner que depuis quelques ann\xE9es d\xE9j\xE0, la Police camerounaise qui est r\xE9solument tourn\xE9e vers la modernit\xE9, essaie autant que faire ce peu, dans son organisation comme dans son fonctionnement, d\u2019\xE9voluer selon les normes et standards internationaux. La D\xE9l\xE9gation G\xE9n\xE9rale \xE0 la S\xFBret\xE9 Nationale a, dans le cadre des  derniers recrutements, que ce soit au niveau de l\u2019Ecole nationale Sup\xE9rieure de Police de Yaound\xE9 ou du Centre d\u2019Instruction et d\u2019Application de la police de Mutengene, ouvert les concours aux jeunes qualifi\xE9s dans divers domaines. C\u2019est le cas des recrues ayant des bases dans les domaines aussi riches que vari\xE9s tels que la m\xE9decine et les soins infirmiers ; l\u2019ing\xE9nierie ; la Communication ; les t\xE9l\xE9communications ; la m\xE9canique ; l\u2019\xE9lectrom\xE9canique ; le g\xE9nie civil ; l\u2019h\xF4tellerie et la restauration ; l\u2019industrie d\u2019habillement ; les m\xE9tiers du bois ; les m\xE9tiers du froid et climatisations ; la musique ; etc\u2026"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
