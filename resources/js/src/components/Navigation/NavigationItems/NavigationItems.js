@@ -8,11 +8,7 @@ export default ({ light = false, font, toggleNavbar, selectItem, selectedItem })
     const [isOpenAbout, setIsOpenAbout] = useState(false);
     const toggleAbout = () => setIsOpenAbout(!isOpenAbout);
     const dropdownItemAbout = (text, href, dropdown = false, path = null, items = null) => <DropdownItem navToggle={toggleNavbar} parentToggle={toggleAbout} select={selectItem} selected={selectedItem} href={href && ("/about" + href)} path={path && ("/about" + path)} dropdown={dropdown} id={text} items={items}>{text}</DropdownItem>;
-    const contentAbout = <div className="row position-relative p-5 p-md-0">
-        <div className="position-absolute d-md-none mr-3" style={{ top: 0, right: 0, zIndex: 10 }}>
-            <i className="fad fa-times text-25" style={{ cursor: 'pointer' }} onClick={toggleAbout} />
-        </div>
-
+    const contentAbout = <div className="row position-relative">
         <div className="col-md-4">
             {dropdownItemAbout("Genèse", "/genesis")}
             {dropdownItemAbout("Missions de la DGSN", "/missions")}
@@ -53,7 +49,7 @@ export default ({ light = false, font, toggleNavbar, selectItem, selectedItem })
                                 </div>
                             </div>
 
-                            <div className="d-md-none fixed-top w-100 h-100 bg-black-85 p-3">
+                            <div className="d-md-none">
                                 {contentAbout}
                             </div>
                         </>}>La DGSN</NavigationItem>

@@ -143,7 +143,7 @@ __webpack_require__.r(__webpack_exports__);
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
         className: "d-flex border-bottom pb-3 pb-md-4 mb-3 mb-md-4",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-          className: "title text-17 text-md-18 text-xxl-20 text-700 pr-3 pr-md-4 pr-xxl-5 flex-fill text-ellipsis-2",
+          className: "title text-17 text-md-18 text-xxl-20 text-left text-700 pr-3 pr-md-4 pr-xxl-5 flex-fill text-ellipsis-2",
           style: {
             height: 60
           },
@@ -402,7 +402,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _shared_utility__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../shared/utility */ "./resources/js/src/shared/utility.js");
 /* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Home.css */ "./resources/js/src/containers/Frontend/Home/Home.css");
 /* harmony import */ var _assets_images_Policiers_a_ve_lo_au_de_file_a_Douala_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../assets/images/Policiers_à_vélo_au_défilé_à_Douala.png */ "./resources/js/src/assets/images/Policiers_à_vélo_au_défilé_à_Douala.png");
-/* harmony import */ var _assets_images_Groupe_529_2x_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../assets/images/Groupe 529@2x.png */ "./resources/js/src/assets/images/Groupe 529@2x.png");
+/* harmony import */ var _assets_images_Groupe_35_2x_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../assets/images/Groupe 35@2x.png */ "./resources/js/src/assets/images/Groupe 35@2x.png");
 /* harmony import */ var _assets_images_Soustraction_8_2x_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../assets/images/Soustraction 8@2x.png */ "./resources/js/src/assets/images/Soustraction 8@2x.png");
 /* harmony import */ var _assets_images_Soustraction_9_2x_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../assets/images/Soustraction 9@2x.png */ "./resources/js/src/assets/images/Soustraction 9@2x.png");
 /* harmony import */ var _assets_images_Soustraction_11_2x_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../../assets/images/Soustraction 11@2x.png */ "./resources/js/src/assets/images/Soustraction 11@2x.png");
@@ -540,12 +540,9 @@ var Home = /*#__PURE__*/function (_Component) {
       return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
         className: "Home",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
-          className: "banner full-height-app d-flex flex-column text-white",
+          className: "banner full-height-app d-flex flex-column text-white bg-img",
           style: {
-            backgroundImage: 'linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("' + _assets_images_Policiers_a_ve_lo_au_de_file_a_Douala_png__WEBPACK_IMPORTED_MODULE_9__.default + '")',
-            backgroundRepeat: 'no-repeat',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center'
+            backgroundImage: 'linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("' + _assets_images_Policiers_a_ve_lo_au_de_file_a_Douala_png__WEBPACK_IMPORTED_MODULE_9__.default + '")'
           },
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
             className: "container-xxl flex-fill d-flex flex-column",
@@ -554,19 +551,13 @@ var Home = /*#__PURE__*/function (_Component) {
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
                 className: "col-md-7",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
-                  className: "px-4 py-5 px-xxl-5 txt-block position-relative",
+                  className: "px-4 py-5 px-xxl-5 d-flex align-items-stretch txt-block",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
-                    className: "position-absolute d-lg-none",
-                    style: {
-                      top: 48,
-                      left: 0
-                    },
+                    className: "position-relative my-0 my-md-4 my-xxl-5",
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("img", {
-                      src: _assets_images_Groupe_529_2x_png__WEBPACK_IMPORTED_MODULE_10__.default,
-                      alt: "Drapeau",
-                      style: {
-                        height: 80
-                      }
+                      src: _assets_images_Groupe_35_2x_png__WEBPACK_IMPORTED_MODULE_10__.default,
+                      className: "position-absolute h-100",
+                      alt: "Drapeau"
                     })
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
                     className: "px-md-4 py-md-3 py-xxl-4",
@@ -693,6 +684,52 @@ var Home = /*#__PURE__*/function (_Component) {
                 children: blogContent
               })
             })
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
+          className: "py-3 py-md-4 py-xxl-5 text-white text-center bg-img",
+          style: {
+            backgroundImage: 'linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("' + _assets_images_Policiers_a_ve_lo_au_de_file_a_Douala_png__WEBPACK_IMPORTED_MODULE_9__.default + '")'
+          },
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
+            className: "py-3 py-md-4 py-xxl-5 my-2 my-md-3 my-xxl-4 container-xxl",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
+              className: "d-flex flex-column align-items-center mb-3 mb-md-4",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
+                className: "text-40 text-md-60 text-xxl-80 text-700 text-montserrat pb-2 pb-md-3",
+                children: "CONCOURS DE POLICE"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
+                className: "position-relative bg-white rounded-pill",
+                style: {
+                  width: 115,
+                  height: 5
+                },
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
+                  className: "position-absolute bg-white border border-blue border-7 rounded-circle",
+                  style: {
+                    top: '50%',
+                    left: '50%',
+                    transform: 'translate(-50%,-50%)',
+                    width: 30,
+                    height: 30
+                  }
+                })
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
+              className: "text-14 text-md-17 text-xxl-20 pb-2 pb-md-3 mb-3 mb-md-4",
+              children: "La Police Camerounaise lance son concours pour le recrutement. Cliquez sur le bouton ci-dessous pour en savoir plus"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_15__.Link, {
+                to: "/",
+                className: "btn btn-white d-inline-flex align-items-center text-secondary rounded-pill py-1 py-md-2 py-xxl-3 pl-3 pl-md-4 pl-xxl-5 pr-2 pr-md-3 pr-xxl-4 text-14 text-md-17 text-xxl-20",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
+                  children: "Lire la suite"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("i", {
+                    className: "fad fa-chevron-circle-right text-blue text-18 text-md-24 text-xxl-30 ml-2 ml-md-3 ml-xxl-4 d-block"
+                  })
+                })]
+              })
+            })]
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_3__.default, {
           title: "Formulaires Administratifs",
@@ -852,17 +889,17 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".Frontend .Home .carousel-inner {\r\n    height: 100% !important;\r\n}\r\n\r\n.Frontend .Home #banner {\r\n    position: absolute;\r\n    margin: auto;\r\n    z-index: 10;\r\n    top: 50%;\r\n    left: 50%;\r\n    transform: translate(-50%, -60%) scale(1);\r\n    transform-origin: center;\r\n    padding: 0 12.5%;\r\n}\r\n\r\n.Frontend .Home .txt-block {\r\n    background-image: url(\"/images/Groupe 574@2x.png\");\r\n    background-size: 100% 100%;\r\n    background-repeat: no-repeat;\r\n    background-position: center;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Home .owl-item {\r\n    padding: 1rem 0;\r\n}\r\n\r\n.Frontend .Home .owl-item > div {\r\n    transform: scale(1);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Home .owl-item.center.active > div {\r\n    transform: scale(1.02);\r\n}\r\n\r\n@media screen and (max-width: 992px) {\r\n    .Frontend .Home .banner {\r\n        min-height: auto;\r\n    }\r\n\r\n    .Frontend .Home .txt-block {\r\n        background-image: unset;\r\n    }\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".Frontend .Home .carousel-inner {\r\n    height: 100% !important;\r\n}\r\n\r\n.Frontend .Home #banner {\r\n    position: absolute;\r\n    margin: auto;\r\n    z-index: 10;\r\n    top: 50%;\r\n    left: 50%;\r\n    transform: translate(-50%, -60%) scale(1);\r\n    transform-origin: center;\r\n    padding: 0 12.5%;\r\n}\r\n\r\n.Frontend .Home .txt-block img {\r\n    transform: translateX(-100%);\r\n}\r\n\r\n.Frontend .Home .owl-item {\r\n    padding: 1rem 0;\r\n}\r\n\r\n.Frontend .Home .owl-item > div {\r\n    transform: scale(1);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Home .owl-item.center.active > div {\r\n    transform: scale(1.02);\r\n}\r\n\r\n@media screen and (max-width: 992px) {\r\n    .Frontend .Home .banner {\r\n        min-height: auto;\r\n    }\r\n\r\n    .Frontend .Home .txt-block img {\r\n        transform: translateX(-200%);\r\n    }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
 /***/ }),
 
-/***/ "./resources/js/src/assets/images/Groupe 529@2x.png":
-/*!**********************************************************!*\
-  !*** ./resources/js/src/assets/images/Groupe 529@2x.png ***!
-  \**********************************************************/
+/***/ "./resources/js/src/assets/images/Groupe 35@2x.png":
+/*!*********************************************************!*\
+  !*** ./resources/js/src/assets/images/Groupe 35@2x.png ***!
+  \*********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -870,7 +907,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/Groupe 529@2x.png?e6f0dd2f0ccf52aa0831332db470cdbb");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/Groupe 35@2x.png?0a589b73b58ec0599b897bf6c0757930");
 
 /***/ }),
 

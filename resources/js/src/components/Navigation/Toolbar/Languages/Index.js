@@ -3,7 +3,8 @@ import { DropdownItem, DropdownMenu, DropdownToggle, UncontrolledDropdown } from
 
 export default ({ languages, language, set }) => {
     const dropdownItems = languages.map(l => <DropdownItem onClick={() => set(l.id)} key={JSON.stringify(l) + Math.random()} className="px-3 text-12 text-md-16 text-xxl-20 text-400 text-capitalize">
-        <span className={`flag-icon flag-icon-${l.flag.toLowerCase()}`} /> {l.abbr}
+        {/* <span className={`flag-icon flag-icon-${l.flag.toLowerCase()}`} /> */}
+        {l.name}
     </DropdownItem>);
 
     return <UncontrolledDropdown className="Languages">

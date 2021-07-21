@@ -8,6 +8,7 @@ import { Collapse, Input, InputGroup, InputGroupAddon, InputGroupText } from 're
 import Logo from '../../UI/Logo/Logo';
 
 import Languages from './Languages';
+import SocialNetworks from './SocialNetworks';
 
 import NavigationItems from '../NavigationItems/NavigationItems';
 
@@ -126,7 +127,7 @@ class Toolbar extends Component {
 
                 <div className="d-xl-none">
                     <Collapse isOpen={!this.state.navbar} navbar>
-                        <div className="fixed-top w-100 h-100 bg-black-85 d-flex flex-column justify-content-center align-items-center p-3">
+                        <div className="fixed-top w-100 h-100 bg-black-85 d-flex flex-column p-3">
                             <div className="position-absolute pt-3 pr-3" style={{ top: 0, right: 0, zIndex: 10 }}>
                                 <i className="fad fa-times text-25" style={{ cursor: 'pointer' }} onClick={this.toggleNavbar} />
                             </div>
@@ -140,6 +141,8 @@ class Toolbar extends Component {
 
                 <div id="progress-bar" />
             </div>
+
+            <SocialNetworks />
         </div >;
     }
 }

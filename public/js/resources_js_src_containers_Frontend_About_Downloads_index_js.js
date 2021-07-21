@@ -143,7 +143,7 @@ __webpack_require__.r(__webpack_exports__);
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
         className: "d-flex border-bottom pb-3 pb-md-4 mb-3 mb-md-4",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-          className: "title text-17 text-md-18 text-xxl-20 text-700 pr-3 pr-md-4 pr-xxl-5 flex-fill text-ellipsis-2",
+          className: "title text-17 text-md-18 text-xxl-20 text-left text-700 pr-3 pr-md-4 pr-xxl-5 flex-fill text-ellipsis-2",
           style: {
             height: 60
           },
