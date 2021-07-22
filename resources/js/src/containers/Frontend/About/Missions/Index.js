@@ -7,7 +7,7 @@ import Info from '../../../../components/UI/Police/Info';
 
 import Img from '../../../../assets/images/drc-police@2x.png';
 
-const Condition = ({ children }) => <div className="d-flex">
+const Li = ({ children }) => <div className="d-flex">
     <div><i className="fad fa-check-circle text-blue mr-3 text-15 text-md-20 text-xxl-25" /></div>
 
     <div>{children}</div>
@@ -48,10 +48,10 @@ class Missions extends Component {
                         </p>
 
                         <div className="py-3 py-md-4 py-xxl-5 my-2 my-md-3 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5">
-                            <Condition>La Sûreté Nationale a pour mission fondamentale d’assurer le respect et la protection des institutions, des libertés publiques, des personnes et des biens ;</Condition>
-                            <Condition>Elle assure le respect de l’exécution des lois et règlements ;</Condition>
-                            <Condition>Elle concourt à l’exercice de la Police administrative et de la Police judiciaire ;</Condition>
-                            <Condition>Elle concourt en outre à la Défense Nationale.</Condition>
+                            <Li>La Sûreté Nationale a pour mission fondamentale d’assurer le respect et la protection des institutions, des libertés publiques, des personnes et des biens ;</Li>
+                            <Li>Elle assure le respect de l’exécution des lois et règlements ;</Li>
+                            <Li>Elle concourt à l’exercice de la Police administrative et de la Police judiciaire ;</Li>
+                            <Li>Elle concourt en outre à la Défense Nationale.</Li>
                         </div>
 
                         <p>
@@ -59,13 +59,13 @@ class Missions extends Component {
                         </p>
 
                         <div className="py-3 py-md-4 py-xxl-5 my-2 my-md-3 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5">
-                            <Condition>De la sécurité intérieure et extérieure de l’Etat ;</Condition>
-                            <Condition>De la recherche, de la constatation des infractions aux lois pénales et de la conduite de leurs auteurs devant les juridictions répressives ;</Condition>
-                            <Condition>Du maintien de l’ordre et de la paix publics, de la protection, de la sécurité et de la salubrité publiques, plus particulièrement dans les agglomérations urbaines ;</Condition>
-                            <Condition>De la lutte contre la criminalité nationale, internationale et transnationale ;</Condition>
-                            <Condition>De la recherche du renseignement ;</Condition>
-                            <Condition>Des missions d’information, de sécurité, de protection et d’intervention comportant des contacts avec les populations, dans le cadre de la Défense Nationale ;</Condition>
-                            <Condition>De la sécurisation de la nationalité camerounaise.</Condition>
+                            <Li>De la sécurité intérieure et extérieure de l’Etat ;</Li>
+                            <Li>De la recherche, de la constatation des infractions aux lois pénales et de la conduite de leurs auteurs devant les juridictions répressives ;</Li>
+                            <Li>Du maintien de l’ordre et de la paix publics, de la protection, de la sécurité et de la salubrité publiques, plus particulièrement dans les agglomérations urbaines ;</Li>
+                            <Li>De la lutte contre la criminalité nationale, internationale et transnationale ;</Li>
+                            <Li>De la recherche du renseignement ;</Li>
+                            <Li>Des missions d’information, de sécurité, de protection et d’intervention comportant des contacts avec les populations, dans le cadre de la Défense Nationale ;</Li>
+                            <Li>De la sécurisation de la nationalité camerounaise.</Li>
                         </div>
                     </div>
 

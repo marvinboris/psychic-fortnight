@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router';
-import { Button, Input } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel2';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDoubleRight, faArrowAltCircleRight, faIdCard, faPassport } from '@fortawesome/free-solid-svg-icons';
+import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 
 import Block from '../../../components/UI/Police/Block';
 import Service from '../../../components/UI/Police/Service';

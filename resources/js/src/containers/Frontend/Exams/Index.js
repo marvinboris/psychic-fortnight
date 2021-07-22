@@ -17,8 +17,8 @@ import { convertDate, updateObject } from '../../../shared/utility';
 
 import './Exams.css';
 
-const Condition = ({ children }) => <div className="d-flex align-items-center">
-    <div className="text-10 text-md-13 text-xxl-16"><FontAwesomeIcon icon={faCheckDouble} className="text-green mr-3" />{children}</div>
+const Li = ({ children }) => <div className="d-flex align-items-center">
+    <div className="text-10 text-md-13 text-xxl-16"><i className="fad fa-check-double text-green mr-3" />{children}</div>
 </div>;
 
 class Exams extends Component {
@@ -92,12 +92,12 @@ class Exams extends Component {
                     <p className="text-12 text-md-15 text-xxl-18">Afin de poursuivre, veuillez consulter les conditions d’adhésion ci-dessous.</p>
 
                     <div className="pt-3 pt-md-4 pt-xxl-5 mt-2 mt-md-3 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5">
-                        <Condition>Nom complet, adresse, sexe, nom et lieu naissance</Condition>
-                        <Condition>Region et division d’origine</Condition>
-                        <Condition>Examination competitive choisie</Condition>
-                        <Condition>Centre d’examen</Condition>
-                        <Condition>Langue d’examination</Condition>
-                        <Condition>Numéro CNI</Condition>
+                        <Li>Nom complet, adresse, sexe, nom et lieu naissance</Li>
+                        <Li>Region et division d’origine</Li>
+                        <Li>Examination competitive choisie</Li>
+                        <Li>Centre d’examen</Li>
+                        <Li>Langue d’examination</Li>
+                        <Li>Numéro CNI</Li>
                     </div>
                 </div>
             </div>

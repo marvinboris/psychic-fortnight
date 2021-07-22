@@ -7,7 +7,7 @@ import Info from '../../../../components/UI/Police/Info';
 
 import Img from '../../../../assets/images/drc-police@2x.png';
 
-const Condition = ({ children }) => <div className="d-flex">
+const Li = ({ children }) => <div className="d-flex">
     <div><i className="fad fa-check-circle text-blue mr-3 text-15 text-md-20 text-xxl-25" /></div>
 
     <div>{children}</div>
@@ -110,13 +110,13 @@ class Actions extends Component {
                 </p>
 
                 <div className="py-3 py-md-4 py-xxl-5 my-2 my-md-3 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5">
-                    <Condition>Le renforcement de la couverture sécuritaire nationale par la création de nouvelles unités de Police dans les localités frontalières du Cameroun. Ainsi, 25 nouveaux postes-frontières ont été créés dans les Régions de l’Adamaoua, de l’Est, de l’Extrême-Nord, du Nord et du Sud. De même, plusieurs postes-frontières ont été érigés en unités de sécurité publique ;</Condition>
-                    <Condition>La mise en expérimentation d’un système de vidéo surveillance, pour mieux surveiller nos frontières (Garoua-Boulaï, Kousseri, Waza et Kye-Ossi) ; et veiller davantage sur les populations urbaines des villes de Yaoundé et Douala pour ne citer que celles-là ;</Condition>
-                    <Condition>La mise en place des numéros gratuits d’utilité publique pour : favoriser les dénonciations aux tracasseries policières ; donner les informations capitales ; renseigner utile ; appeler à l’aide. Ces numéros sont le 117, le 120 et le 1500 qui est directement supervisé par le Délégué Général en personne ;</Condition>
-                    <Condition>La création du Cours Supérieur de Sécurité Intérieure du Cameroun (CSSIC) en vue de renforcer les capacités des fonctionnaires de la Sûreté Nationale dans la maîtrise des défis sécuritaires contemporains ;</Condition>
-                    <Condition>L’ajustement technique de la carte nationale d’identité en vue d’une meilleure sécurisation de la nationalité camerounaise ;</Condition>
-                    <Condition>La politique de constitution des unités mixtes pour lutter contre certaines formes de criminalité internationale, avec la création par décret n° 2014/413 du 22 octobre 2014, des Cellules Aéroportuaires Anti-Trafics (CAAT) dans les aéroports internationaux du Cameroun ;</Condition>
-                    <Condition>Le renforcement de la coopération bilatérale avec les Etats limitrophes par la signature des accords de coopération policière.</Condition>
+                    <Li>Le renforcement de la couverture sécuritaire nationale par la création de nouvelles unités de Police dans les localités frontalières du Cameroun. Ainsi, 25 nouveaux postes-frontières ont été créés dans les Régions de l’Adamaoua, de l’Est, de l’Extrême-Nord, du Nord et du Sud. De même, plusieurs postes-frontières ont été érigés en unités de sécurité publique ;</Li>
+                    <Li>La mise en expérimentation d’un système de vidéo surveillance, pour mieux surveiller nos frontières (Garoua-Boulaï, Kousseri, Waza et Kye-Ossi) ; et veiller davantage sur les populations urbaines des villes de Yaoundé et Douala pour ne citer que celles-là ;</Li>
+                    <Li>La mise en place des numéros gratuits d’utilité publique pour : favoriser les dénonciations aux tracasseries policières ; donner les informations capitales ; renseigner utile ; appeler à l’aide. Ces numéros sont le 117, le 120 et le 1500 qui est directement supervisé par le Délégué Général en personne ;</Li>
+                    <Li>La création du Cours Supérieur de Sécurité Intérieure du Cameroun (CSSIC) en vue de renforcer les capacités des fonctionnaires de la Sûreté Nationale dans la maîtrise des défis sécuritaires contemporains ;</Li>
+                    <Li>L’ajustement technique de la carte nationale d’identité en vue d’une meilleure sécurisation de la nationalité camerounaise ;</Li>
+                    <Li>La politique de constitution des unités mixtes pour lutter contre certaines formes de criminalité internationale, avec la création par décret n° 2014/413 du 22 octobre 2014, des Cellules Aéroportuaires Anti-Trafics (CAAT) dans les aéroports internationaux du Cameroun ;</Li>
+                    <Li>Le renforcement de la coopération bilatérale avec les Etats limitrophes par la signature des accords de coopération policière.</Li>
                 </div>
 
                 <p>
@@ -124,18 +124,18 @@ class Actions extends Component {
                 </p>
 
                 <div className="py-3 py-md-4 py-xxl-5 my-2 my-md-3 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5">
-                    <Condition>Le renforcement des capacités opérationnelles par la dotation récente des moyens d’intervention avec l’acquisition des véhicules adéquats à toutes les unités du territoire national ;</Condition>
-                    <Condition>Le renforcement des capacités d’intervention du (GSO) Groupement Spécial d’Opérations par la dotation des « combinaisons Robocops de déminage » ;</Condition>
-                    <Condition>La dotation du matériel à la technologie de pointe de dernière génération à la Division des Transmissions pour les réseaux de Communication et de Télécommunication ;</Condition>
-                    <Condition>Le recrutement plus de 10.000 policiers. Un recrutement encadré par le mérite qui vise le rajeunissement et le renforcement considérable des effectifs de la Sûreté Nationale ;</Condition>
-                    <Condition>L’informatisation de ce processus est une grande première dans les concours administratifs. Cette informatisation vise à garantir l’égalité de chance pour tous ;</Condition>
-                    <Condition>L’extension des bases de données criminelles d’INTERPOL dans les postes-frontières afin de permettre le contrôle en temps réel par les agents de première ligne ;</Condition>
-                    <Condition>L’adhésion du Cameroun au programme INTERPOL de gestion des frontières afin de renforcer, par une formation appropriée et des opérations de police, les capacités des services nationaux chargés de l’application de la loi dans la sécurisation des frontières nationales ;</Condition>
-                    <Condition>L’acquisition des équipements sophistiqués de lutte contre le terrorisme et la criminalité ;</Condition>
-                    <Condition>L’effectivité du fonctionnement du système intelligent de vidéosurveillance qui est un outil moderne de surveillance en zone urbaine et frontalière et de facilitation des investigations criminelles ;</Condition>
-                    <Condition>Les hôtels de Police dont les travaux sont achevés pour certains et en cours pours d’autres, permettront d’améliorer considérablement le cadre et le confort de travail des fonctionnaires de Police ;</Condition>
-                    <Condition>La réhabilitation de plusieurs unités de Police qui se poursuit sur toute l’étendue du territoire national ;</Condition>
-                    <Condition>La mise à la disposition progressive des unités opérationnelles, des moyens roulants afin d’accroitre leur rendement.</Condition>
+                    <Li>Le renforcement des capacités opérationnelles par la dotation récente des moyens d’intervention avec l’acquisition des véhicules adéquats à toutes les unités du territoire national ;</Li>
+                    <Li>Le renforcement des capacités d’intervention du (GSO) Groupement Spécial d’Opérations par la dotation des « combinaisons Robocops de déminage » ;</Li>
+                    <Li>La dotation du matériel à la technologie de pointe de dernière génération à la Division des Transmissions pour les réseaux de Communication et de Télécommunication ;</Li>
+                    <Li>Le recrutement plus de 10.000 policiers. Un recrutement encadré par le mérite qui vise le rajeunissement et le renforcement considérable des effectifs de la Sûreté Nationale ;</Li>
+                    <Li>L’informatisation de ce processus est une grande première dans les concours administratifs. Cette informatisation vise à garantir l’égalité de chance pour tous ;</Li>
+                    <Li>L’extension des bases de données criminelles d’INTERPOL dans les postes-frontières afin de permettre le contrôle en temps réel par les agents de première ligne ;</Li>
+                    <Li>L’adhésion du Cameroun au programme INTERPOL de gestion des frontières afin de renforcer, par une formation appropriée et des opérations de police, les capacités des services nationaux chargés de l’application de la loi dans la sécurisation des frontières nationales ;</Li>
+                    <Li>L’acquisition des équipements sophistiqués de lutte contre le terrorisme et la criminalité ;</Li>
+                    <Li>L’effectivité du fonctionnement du système intelligent de vidéosurveillance qui est un outil moderne de surveillance en zone urbaine et frontalière et de facilitation des investigations criminelles ;</Li>
+                    <Li>Les hôtels de Police dont les travaux sont achevés pour certains et en cours pours d’autres, permettront d’améliorer considérablement le cadre et le confort de travail des fonctionnaires de Police ;</Li>
+                    <Li>La réhabilitation de plusieurs unités de Police qui se poursuit sur toute l’étendue du territoire national ;</Li>
+                    <Li>La mise à la disposition progressive des unités opérationnelles, des moyens roulants afin d’accroitre leur rendement.</Li>
                 </div>
 
                 <p>

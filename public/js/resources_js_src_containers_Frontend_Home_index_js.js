@@ -455,7 +455,6 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
-
 var Home = /*#__PURE__*/function (_Component) {
   _inherits(Home, _Component);
 

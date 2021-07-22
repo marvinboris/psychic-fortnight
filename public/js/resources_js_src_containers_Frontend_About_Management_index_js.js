@@ -1,4 +1,4 @@
-(self["webpackChunk"] = self["webpackChunk"] || []).push([["resources_js_src_containers_Frontend_Exams_index_js"],{
+(self["webpackChunk"] = self["webpackChunk"] || []).push([["resources_js_src_containers_Frontend_About_Management_index_js"],{
 
 /***/ "./resources/js/src/components/UI/Chevrons/index.js":
 /*!**********************************************************!*\
@@ -366,10 +366,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/src/containers/Frontend/Exams/index.js":
-/*!*************************************************************!*\
-  !*** ./resources/js/src/containers/Frontend/Exams/index.js ***!
-  \*************************************************************/
+/***/ "./resources/js/src/containers/Frontend/About/Management/index.js":
+/*!************************************************************************!*\
+  !*** ./resources/js/src/containers/Frontend/About/Management/index.js ***!
+  \************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -378,26 +378,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/esm/react-router.js");
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
-/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js");
-/* harmony import */ var react_owl_carousel2__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-owl-carousel2 */ "./node_modules/react-owl-carousel2/lib/OwlCarousel.js");
-/* harmony import */ var react_owl_carousel2__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_owl_carousel2__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Input.js");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Table.js");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/NavItem.js");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/NavLink.js");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/TabPane.js");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Nav.js");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/TabContent.js");
-/* harmony import */ var _components_UI_Chevrons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/UI/Chevrons */ "./resources/js/src/components/UI/Chevrons/index.js");
-/* harmony import */ var _components_UI_Police_Title__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/UI/Police/Title */ "./resources/js/src/components/UI/Police/Title/index.js");
-/* harmony import */ var _components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/UI/Police/Block */ "./resources/js/src/components/UI/Police/Block/index.js");
-/* harmony import */ var _components_UI_Police_Notice__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/UI/Police/Notice */ "./resources/js/src/components/UI/Police/Notice/index.js");
-/* harmony import */ var _components_UI_Police_Info__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../components/UI/Police/Info */ "./resources/js/src/components/UI/Police/Info/index.js");
-/* harmony import */ var _shared_utility__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../shared/utility */ "./resources/js/src/shared/utility.js");
-/* harmony import */ var _Exams_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Exams.css */ "./resources/js/src/containers/Frontend/Exams/Exams.css");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/esm/react-router.js");
+/* harmony import */ var react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-owl-carousel2 */ "./node_modules/react-owl-carousel2/lib/OwlCarousel.js");
+/* harmony import */ var react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/NavItem.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/NavLink.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/TabPane.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Nav.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/TabContent.js");
+/* harmony import */ var _components_UI_Chevrons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/UI/Chevrons */ "./resources/js/src/components/UI/Chevrons/index.js");
+/* harmony import */ var _components_UI_Police_Title__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/UI/Police/Title */ "./resources/js/src/components/UI/Police/Title/index.js");
+/* harmony import */ var _components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/UI/Police/Block */ "./resources/js/src/components/UI/Police/Block/index.js");
+/* harmony import */ var _components_UI_Police_Notice__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/UI/Police/Notice */ "./resources/js/src/components/UI/Police/Notice/index.js");
+/* harmony import */ var _components_UI_Police_Info__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../components/UI/Police/Info */ "./resources/js/src/components/UI/Police/Info/index.js");
+/* harmony import */ var _shared_utility__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../../shared/utility */ "./resources/js/src/shared/utility.js");
+/* harmony import */ var _Management_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Management.css */ "./resources/js/src/containers/Frontend/About/Management/Management.css");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
@@ -441,30 +437,28 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-
-
 var Li = function Li(_ref) {
   var children = _ref.children;
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("div", {
     className: "d-flex align-items-center",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)("div", {
       className: "text-10 text-md-13 text-xxl-16",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("i", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("i", {
         className: "fad fa-check-double text-green mr-3"
       }), children]
     })
   });
 };
 
-var Exams = /*#__PURE__*/function (_Component) {
-  _inherits(Exams, _Component);
+var Management = /*#__PURE__*/function (_Component) {
+  _inherits(Management, _Component);
 
-  var _super = _createSuper(Exams);
+  var _super = _createSuper(Management);
 
-  function Exams() {
+  function Management() {
     var _this;
 
-    _classCallCheck(this, Exams);
+    _classCallCheck(this, Management);
 
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
@@ -473,11 +467,7 @@ var Exams = /*#__PURE__*/function (_Component) {
     _this = _super.call.apply(_super, [this].concat(args));
 
     _defineProperty(_assertThisInitialized(_this), "state", {
-      noticesActiveTab: '1',
-      resultsActiveTab: '1',
-      show: 10,
-      search: '',
-      page: 1
+      noticesActiveTab: '1'
     });
 
     _defineProperty(_assertThisInitialized(_this), "noticesToggle", function (tab) {
@@ -486,397 +476,64 @@ var Exams = /*#__PURE__*/function (_Component) {
       });
     });
 
-    _defineProperty(_assertThisInitialized(_this), "resultsToggle", function (tab) {
-      return _this.setState({
-        resultsActiveTab: tab
-      });
-    });
-
     return _this;
   }
 
-  _createClass(Exams, [{
+  _createClass(Management, [{
     key: "render",
     value: function render() {
       var _this2 = this;
 
-      var _this$state = this.state,
-          noticesActiveTab = _this$state.noticesActiveTab,
-          resultsActiveTab = _this$state.resultsActiveTab,
-          show = _this$state.show,
-          search = _this$state.search,
-          page = _this$state.page;
+      var noticesActiveTab = this.state.noticesActiveTab;
 
-      var noticesTabContent = /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
+      var noticesTabContent = /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)("div", {
         className: "row",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("div", {
           className: "col-12 bg-lightblue-30 py-5",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-            className: "container-xxl d-sm-flex justify-content-between align-items-center text-right my-3",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-              className: "d-xxl-flex text-center align-items-center pb-3 pb-sm-0",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-                className: "d-flex align-items-center mr-4 mr-md-5 pr-4 pr-md-5 pb-3 pb-md-4 pb-xxl-0",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-                  className: "mr-2 mr-md-3 text-blue",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("i", {
-                    className: "fad fa-calendar-alt text-20 text-md-24 text-xxl-28"
-                  })
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-                  className: "text-500 text-secondary mr-3 mr-md-4 text-14 text-md-17 text-xxl-20",
-                  children: "Date de publication :"
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-                  className: "text-700 text-blue text-14 text-md-17 text-xxl-20",
-                  children: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_8__.convertDate)(new Date())
-                })]
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-                className: "d-flex align-items-center",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-                  className: "mr-2 mr-md-3 text-orange",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("i", {
-                    className: "fad fa-calendar-alt text-20 text-md-24 text-xxl-28"
-                  })
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-                  className: "text-500 text-secondary mr-3 mr-md-4 text-14 text-md-17 text-xxl-20",
-                  children: "D\xE9lai de publication :"
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-                  className: "text-700 text-orange text-14 text-md-17 text-xxl-20",
-                  children: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_8__.convertDate)(new Date())
-                })]
-              })]
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-              className: "d-inline-block d-xl-flex",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-                className: "mr-xl-5 pb-3 pb-md-4 pb-xl-0",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("a", {
-                  href: "#",
-                  className: "btn btn-orange py-2 py-md-3 pl-2 pl-md-3 pr-3 pr-md-4 pr-xxl-5 d-flex align-items-center",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-                    className: "text-darkblue mr-2 mr-md-3",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("i", {
-                      className: "fad fa-cloud-download-alt text-16 text-md-20 text-xxl-24"
-                    })
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-                    className: "text-500 text-14 text-md-17 text-xxl-20",
-                    children: "T\xE9l\xE9charger L'offre"
-                  })]
-                })
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("a", {
-                  href: "#",
-                  className: "btn btn-blue btn-block py-2 py-md-3 px-3 px-md-4 px-xxl-5 text-500 text-14 text-md-17 text-xxl-20",
-                  children: "Postuler"
-                })
-              })]
-            })]
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("div", {
+            className: "container-xxl text-right text-500 text-blue text-24 text-md-32 text-xxl-40 my-3",
+            children: "Missions"
           })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("div", {
           className: "col-12 pt-4 pt-md-5 text-secondary",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)("div", {
             className: "container-xxl",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("p", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("p", {
               className: "text-12 text-md-15 text-xxl-18",
-              children: "Pour en savoir d\u2019avantage sur l\u2019offre, nous vous  prions de t\xE9l\xE9charger le document ci-dessous"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("p", {
-              className: "text-12 text-md-15 text-xxl-18",
-              children: "Afin de poursuivre, veuillez consulter les conditions d\u2019adh\xE9sion ci-dessous."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
+              children: "Les Gardiens de la Paix sont charg\xE9s d\u2019assurer sous le commandement de leurs sup\xE9rieurs hi\xE9rarchiques :"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)("div", {
               className: "pt-3 pt-md-4 pt-xxl-5 mt-2 mt-md-3 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(Li, {
-                children: "Nom complet, adresse, sexe, nom et lieu naissance"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(Li, {
-                children: "Region et division d\u2019origine"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(Li, {
-                children: "Examination competitive choisie"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(Li, {
-                children: "Centre d\u2019examen"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(Li, {
-                children: "Langue d\u2019examination"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(Li, {
-                children: "Num\xE9ro CNI"
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(Li, {
+                children: "Le maintien de l\u2019ordre, de la paix, de la tranquillit\xE9 et de la salubrit\xE9 publics ;"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(Li, {
+                children: "La s\xE9curit\xE9 des personnes et des biens ;"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(Li, {
+                children: "La garde des points sensibles, des personnalit\xE9s et des \xE9difices publics ;"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(Li, {
+                children: "L\u2019information g\xE9n\xE9rale ;"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(Li, {
+                children: "L\u2019ex\xE9cution des t\xE2ches administratives et techniques courantes ;"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(Li, {
+                children: "L\u2019entretien des infrastructures et des mat\xE9riels de Service."
               })]
-            })]
-          })
-        })]
-      });
-
-      var fields = [{
-        name: 'NOMS ET PRENOMS',
-        key: 'name'
-      }, {
-        name: 'CONCOURS',
-        key: 'exam'
-      }, {
-        name: 'REGION',
-        key: 'region'
-      }, {
-        name: 'SPECIALITE CHOISIE',
-        key: 'subject'
-      }, {
-        name: 'STATUT',
-        key: 'status'
-      }];
-      var titles = fields.map(function (_ref2) {
-        var name = _ref2.name,
-            fixed = _ref2.fixed;
-        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("th", {
-          className: "align-middle text-nowrap",
-          style: fixed ? {
-            position: 'sticky',
-            right: 0
-          } : {},
-          children: name
-        }, name);
-      });
-      titles.unshift( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("th", {
-        className: "text-center align-middle",
-        children: "SL"
-      }, "#"));
-      var data = [{
-        name: 'JOHN ALPHA BLONDU',
-        exam: 'Elèves Inspecteur de Police',
-        region: 'Centre',
-        subject: "Musiciens",
-        status: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-          children: ["ADMIS", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_11__.faCheckCircle,
-            className: "ml-4 text-green"
-          })]
-        })
-      }, {
-        name: 'NKOMT PATICAA CHOU',
-        exam: 'Elèves Officiers de Police',
-        region: 'Centre',
-        subject: "Service Général",
-        status: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-          children: ["ADMIS", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_11__.faCheckCircle,
-            className: "ml-4 text-green"
-          })]
-        })
-      }, {
-        name: 'OLALABA GODOU CHA',
-        exam: 'Elèves Officiers de Police',
-        region: 'Littoral',
-        subject: "Musiciens",
-        status: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-          children: ["ADMIS", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_11__.faCheckCircle,
-            className: "ml-4 text-green"
-          })]
-        })
-      }, {
-        name: 'TOEMSA GASTA TAINOO',
-        exam: 'Elèves Inspecteur de Police',
-        region: 'Est',
-        subject: "Conducteurs Automobiles",
-        status: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-          children: ["ADMIS", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_11__.faCheckCircle,
-            className: "ml-4 text-green"
-          })]
-        })
-      }, {
-        name: 'JAFLO EJLANTE',
-        exam: 'Elèves Commissaires de Police',
-        region: 'Nord-Ouest',
-        subject: "Aide Soignants",
-        status: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-          children: ["ADMIS", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_11__.faCheckCircle,
-            className: "ml-4 text-green"
-          })]
-        })
-      }, {
-        name: 'AHALOAOA JAON',
-        exam: 'Elèves Commissaires de Police',
-        region: 'Littoral',
-        subject: "Aide Soignants",
-        status: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-          children: ["ADMIS", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_11__.faCheckCircle,
-            className: "ml-4 text-green"
-          })]
-        })
-      }, {
-        name: 'KIANOA ALA',
-        exam: 'Elèves Commissaires de Police',
-        region: 'Ouest',
-        subject: "Aide Soignants",
-        status: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-          children: ["ADMIS", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_11__.faCheckCircle,
-            className: "ml-4 text-green"
-          })]
-        })
-      }, {
-        name: 'KAHOBAO BONAA',
-        exam: 'Elèves Inspecteur de Police',
-        region: 'Nord-Ouest',
-        subject: "Conducteurs Automobiles",
-        status: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-          children: ["ADMIS", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_11__.faCheckCircle,
-            className: "ml-4 text-green"
-          })]
-        })
-      }, {
-        name: 'AFLIN ALINAA',
-        exam: 'Elèves Inspecteur de Police',
-        region: 'Nord-Ouest',
-        subject: "Musiciens",
-        status: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-          children: ["ADMIS", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_11__.faCheckCircle,
-            className: "ml-4 text-green"
-          })]
-        })
-      }, {
-        name: 'DOMAN AOLON',
-        exam: 'Elèves Inspecteur de Police',
-        region: 'Centre',
-        subject: "Musiciens",
-        status: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-          children: ["ADMIS", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_11__.faCheckCircle,
-            className: "ml-4 text-green"
-          })]
-        })
-      }];
-      var tableContent = data.map(function (item, index) {
-        var inside = [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("th", {
-          className: "text-center align-middle",
-          children: (show === 'All' ? 0 : (page - 1) * show) + index + 1
-        }, "primary".concat(index))];
-        fields.forEach(function (_ref3) {
-          var key = _ref3.key,
-              minWidth = _ref3.minWidth,
-              fixed = _ref3.fixed;
-          inside.push( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("td", {
-            className: "align-middle text-nowrap",
-            style: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_8__.updateObject)({
-              minWidth: minWidth,
-              borderColor: '#DEE2E6'
-            }, fixed ? {
-              position: 'sticky',
-              right: 0,
-              backgroundColor: '#F4F4F4'
-            } : {}),
-            children: item[key]
-          }, key));
-        });
-        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("tr", {
-          className: "align-middle",
-          children: inside
-        }, index + 1);
-      });
-
-      var resultsTabContent = /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-          className: "mb-3 mb-md-4 pb-2 pb-md-3",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-            className: "d-flex align-items-center justify-content-between",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-                className: "d-flex align-items-center text-secondary rounded-4",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-                  className: "border-right border-border-50",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-                    className: "px-2 px-md-3 py-1 py-md-2 text-300 h-100 rounded-left-4 bg-lightblue text-16 text-md-20 text-xxl-25",
-                    children: "Afficher"
-                  })
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, {
-                  type: "select",
-                  name: "show",
-                  className: "text-16 text-md-20 text-xxl-25 px-2 px-md-3 py-1 py-md-2 text-center rounded-left-0 rounded-right-4 h-100 d-block text-reset border border-2 border-lightblue bg-lightblue",
-                  style: {
-                    width: '6rem'
-                  },
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("option", {
-                    value: "10",
-                    children: "10"
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("option", {
-                    value: "25",
-                    children: "25"
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("option", {
-                    value: "50",
-                    children: "50"
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("option", {
-                    value: "100",
-                    children: "100"
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("option", {
-                    value: "All",
-                    children: "Tout"
-                  })]
-                })]
-              })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-              className: "d-flex align-items-center",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-                className: "d-none d-sm-block pr-sm-4 pr-xxl-5",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, {
-                  type: "text",
-                  name: "ref",
-                  placeholder: "ID Exam",
-                  className: "text-secondary text-16 text-md-20 text-xxl-25 rounded-10 border-0 bg-soft py-2 py-md-3 px-3 px-md-4 px-xxl-5"
-                })
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("a", {
-                  href: "#",
-                  className: "btn btn-orange py-1 py-md-2 py-xxl-3 pl-1 pl-md-2 pl-xxl-3 pr-3 pr-md-4 pr-xxl-5 d-flex align-items-center",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-                    className: "text-white mr-2 mr-md-3",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("i", {
-                      className: "fad fa-cloud-download-alt text-16 text-md-20 text-xxl-25"
-                    })
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-                    className: "text-500 text-16 text-md-20 text-xxl-25",
-                    children: "Exporter"
-                  })]
-                })
-              })]
-            })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-            className: "d-sm-none pt-3",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, {
-              type: "text",
-              name: "ref",
-              placeholder: "ID Exam",
-              className: "text-secondary text-16 text-md-20 text-xxl-25 rounded-10 border-0 bg-soft py-2 py-md-3 px-3 px-md-4 px-xxl-5"
-            })
-          })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-          className: "table-responsive scrollbar-blue",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, {
-            bordered: true,
-            hover: true,
-            className: "bg-lightblue-15 rounded-10 text-12 text-md-13 text-xxl-14",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("thead", {
-              className: "text-secondary",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("tr", {
-                children: titles
-              })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("tbody", {
-              className: "text-secondary",
-              children: tableContent
             })]
           })
         })]
       });
 
       var notices = [{
-        created_at: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_8__.convertDate)(new Date()),
-        title: "Pour le recrutement des \n                El\xE8ves Gardiens de la Paix"
+        created_at: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_7__.convertDate)(new Date()),
+        title: "Cadre des Gardiens \n                de la paix"
       }, {
-        created_at: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_8__.convertDate)(new Date()),
-        title: "Pour le recrutement des El\xE8ves \n                Inspecteurs de Police",
+        created_at: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_7__.convertDate)(new Date()),
+        title: "Cadre des Inspecteurs \n                de la Police",
         recent: true
       }, {
-        created_at: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_8__.convertDate)(new Date()),
-        title: "Pour le recrutement des \n                El\xE8ves Officiers de Police"
+        created_at: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_7__.convertDate)(new Date()),
+        title: "Cadre des Officiers \n                de Police"
       }, {
-        created_at: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_8__.convertDate)(new Date()),
-        title: "Pour le recrutement des \n                El\xE8ves Commissaires de Police"
+        created_at: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_7__.convertDate)(new Date()),
+        title: "Cadre des Commissaires \n                de Police"
       }];
       var infos = [{
         name: 'Service de renseignement',
@@ -893,107 +550,54 @@ var Exams = /*#__PURE__*/function (_Component) {
       }];
       var noticesNavItems = [{
         id: '1',
-        icon: "fad fa-music",
-        name: "Musiciens",
+        name: "Missions",
         content: noticesTabContent
       }, {
         id: '2',
-        icon: "fad fa-car",
-        name: "Conducteurs Automobiles",
+        name: "Conditions d’accès",
         content: noticesTabContent
       }, {
         id: '3',
-        icon: "fad fa-box-open",
-        name: "Service Général",
+        name: "Profil de carrière",
         content: noticesTabContent
-      }];
-      var resultsNavItems = [{
-        id: '1',
-        icon: "fad fa-music",
-        name: "Musiciens",
-        content: resultsTabContent
-      }, {
-        id: '2',
-        icon: "fad fa-car",
-        name: "Conducteurs Automobiles",
-        content: resultsTabContent
-      }, {
-        id: '3',
-        icon: "fad fa-box-open",
-        name: "Service Général",
-        content: resultsTabContent
-      }, {
-        id: '4',
-        icon: "fad fa-user-md",
-        name: "Aide Soignants",
-        content: resultsTabContent
-      }, {
-        id: '5',
-        icon: "fad fa-tools",
-        name: "Ingénieur Travaux électro-méta",
-        content: resultsTabContent
       }];
       var noticesContent = notices.map(function (notice) {
-        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_UI_Police_Notice__WEBPACK_IMPORTED_MODULE_6__.default, _objectSpread({}, notice), JSON.stringify(notice));
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_UI_Police_Notice__WEBPACK_IMPORTED_MODULE_5__.default, _objectSpread({}, notice), JSON.stringify(notice));
       });
       var infosContent = infos.map(function (info) {
-        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_UI_Police_Info__WEBPACK_IMPORTED_MODULE_7__.default, _objectSpread({}, info), JSON.stringify(info));
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_UI_Police_Info__WEBPACK_IMPORTED_MODULE_6__.default, _objectSpread({}, info), JSON.stringify(info));
       });
       var noticesNavItemsContent = noticesNavItems.map(function (navItem) {
-        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_14__.default, {
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)(reactstrap__WEBPACK_IMPORTED_MODULE_15__.default, {
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_10__.default, {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_11__.default, {
             className: "py-2 py-md-3 py-xxl-4 px-3 px-md-4 px-xxl-5 " + (noticesActiveTab === navItem.id ? "active" : ""),
             onClick: function onClick() {
               _this2.noticesToggle(navItem.id);
             },
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("i", {
-              className: navItem.icon + " icon text-18 text-md-23 text-xxl-28"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("span", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("span", {
               className: "text-truncate",
               children: navItem.name
-            })]
+            })
           })
         }, navItem.id);
       });
       var noticesTabPanesContent = noticesNavItems.map(function (navItem) {
-        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_16__.default, {
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, {
           tabId: navItem.id,
           children: navItem.content
         }, navItem.id + Math.random());
       });
-      var resultsNavItemsContent = resultsNavItems.map(function (navItem) {
-        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_14__.default, {
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)(reactstrap__WEBPACK_IMPORTED_MODULE_15__.default, {
-            className: "py-2 py-md-3 py-xxl-4 px-3 px-md-4 px-xxl-5 " + (resultsActiveTab === navItem.id ? "active" : ""),
-            onClick: function onClick() {
-              _this2.resultsToggle(navItem.id);
-            },
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("i", {
-              className: navItem.icon + " icon text-18 text-md-23 text-xxl-28"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("span", {
-              className: "text-truncate",
-              children: navItem.name
-            })]
-          })
-        }, navItem.id);
-      });
-      var resultsTabPanesContent = resultsNavItems.map(function (navItem) {
-        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_16__.default, {
-          tabId: navItem.id,
-          children: navItem.content
-        }, navItem.id + Math.random());
-      });
-      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-        className: "Exams",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_UI_Police_Title__WEBPACK_IMPORTED_MODULE_4__.default, {
-          children: "Concours"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_5__.default, {
+      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)("div", {
+        className: "Management",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_UI_Police_Title__WEBPACK_IMPORTED_MODULE_3__.default, {
+          children: "Cadres de la s\xFBret\xE9 nationale"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_4__.default, {
           color: "soft",
-          title: "Avis de concours",
-          subtitle: "Renseignez-vous sur les recentes publications concernant les concours",
+          title: "Cadres de la s\xFBret\xE9 nationale",
+          subtitle: "Tout ce que vous devez conna\xEEtre sur les cadres de la Suret\xE9 Nationale",
           fluid: true,
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)((react_owl_carousel2__WEBPACK_IMPORTED_MODULE_2___default()), {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("div", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)((react_owl_carousel2__WEBPACK_IMPORTED_MODULE_1___default()), {
               options: {
                 responsive: {
                   0: {
@@ -1028,65 +632,34 @@ var Exams = /*#__PURE__*/function (_Component) {
               },
               children: noticesContent
             })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)("div", {
             className: "mt-4",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("div", {
               className: "container-xxl",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)("div", {
                 className: "d-flex border-bottom align-items-center",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("div", {
                   id: "notices",
                   className: "scrollbar-hidden flex-fill",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_17__.default, {
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, {
                     tabs: true,
                     className: "border-0 flex-nowrap",
                     children: noticesNavItemsContent
                   })
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_UI_Chevrons__WEBPACK_IMPORTED_MODULE_3__.default, {
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_UI_Chevrons__WEBPACK_IMPORTED_MODULE_2__.default, {
                   id: "notices"
                 })]
               })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_18__.default, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_14__.default, {
               activeTab: noticesActiveTab,
               children: noticesTabPanesContent
             })]
           })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_5__.default, {
-          color: "transparent",
-          title: "R\xE9sultats de concours",
-          subtitle: "Consultez le statut de votre concours.",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-            className: "py-3 py-md-4 py-xxl-5 bg-lightblue-30 text-secondary text-center",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-              className: "my-2 my-md-3 my-xxl-4 text-16 text-md-20 text-xxl-25",
-              children: "Veuillez renseigner le champ ID Exam ci-dessous pour une v\xE9rification plus rapide"
-            })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-            className: "container-xxl",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-              className: "d-flex border-bottom align-items-center mb-5 mt-5 pt-3",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
-                id: "results",
-                className: "scrollbar-hidden flex-fill",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_17__.default, {
-                  tabs: true,
-                  className: "border-0 flex-nowrap",
-                  children: resultsNavItemsContent
-                })
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_UI_Chevrons__WEBPACK_IMPORTED_MODULE_3__.default, {
-                id: "results"
-              })]
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_18__.default, {
-              activeTab: resultsActiveTab,
-              className: "mt-5",
-              children: resultsTabPanesContent
-            })]
-          })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_5__.default, {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_4__.default, {
           color: "transparent",
           title: "Pour plus d'informations",
           subtitle: "En cas de besoin, veuillez contacter les diff\xE9rents services aux num\xE9ros ci-dessous",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("div", {
             className: "my-5 row",
             children: infosContent
           })
@@ -1095,10 +668,10 @@ var Exams = /*#__PURE__*/function (_Component) {
     }
   }]);
 
-  return Exams;
+  return Management;
 }(react__WEBPACK_IMPORTED_MODULE_0__.Component);
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_router__WEBPACK_IMPORTED_MODULE_19__.withRouter)(Exams));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_router__WEBPACK_IMPORTED_MODULE_15__.withRouter)(Management));
 
 /***/ }),
 
@@ -1174,10 +747,10 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".UI.Notice,\r\n.UI.Notice.recent {\r\n
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/containers/Frontend/Exams/Exams.css":
-/*!************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/containers/Frontend/Exams/Exams.css ***!
-  \************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/containers/Frontend/About/Management/Management.css":
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/containers/Frontend/About/Management/Management.css ***!
+  \****************************************************************************************************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1185,13 +758,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".Frontend .Exams .nav-link {\r\n    border-radius: 15px 15px 0 0;\r\n    color: var(--border);\r\n    cursor: pointer;\r\n    display: flex;\r\n    align-items: center;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Exams .nav-link .icon {\r\n    color: var(--blue);\r\n    margin-right: 0.5rem;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Exams .nav-link.active {\r\n    background-color: var(--blue);\r\n    color: white;\r\n}\r\n\r\n.Frontend .Exams .nav-link.active .icon {\r\n    color: white;\r\n}\r\n\r\n@media (min-width: 800px) {\r\n    .Frontend .Exams .nav-link .icon {\r\n        margin-right: 1rem;\r\n    }\r\n}\r\n\r\n@media (min-width: 1900px) {\r\n    .Frontend .Exams .nav-link .icon {\r\n        margin-right: 2rem;\r\n    }\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".Frontend .Management .nav-link {\r\n    border-radius: 15px 15px 0 0;\r\n    color: var(--border);\r\n    cursor: pointer;\r\n    display: flex;\r\n    align-items: center;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Management .nav-link .icon {\r\n    opacity: 0;\r\n    margin-right: 0;\r\n    width: 0;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.Frontend .Management .nav-link.active {\r\n    background-color: var(--blue);\r\n    color: white;\r\n}\r\n\r\n.Frontend .Management .nav-link.active .icon {\r\n    opacity: 1;\r\n    margin-right: 0.5rem;\r\n    width: auto;\r\n}\r\n\r\n@media (min-width: 800px) {\r\n    .Frontend .Management .nav-link.active .icon {\r\n        margin-right: 1rem;\r\n    }\r\n}\r\n\r\n@media (min-width: 1900px) {\r\n    .Frontend .Management .nav-link.active .icon {\r\n        margin-right: 2rem;\r\n    }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1596,87 +1169,6 @@ TabPane.defaultProps = defaultProps;
 
 /***/ }),
 
-/***/ "./node_modules/reactstrap/es/Table.js":
-/*!*********************************************!*\
-  !*** ./node_modules/reactstrap/es/Table.js ***!
-  \*********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./utils */ "./node_modules/reactstrap/es/utils.js");
-
-
-
-
-
-
-var propTypes = {
-  className: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().string),
-  cssModule: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().object),
-  size: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().string),
-  bordered: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().bool),
-  borderless: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().bool),
-  striped: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().bool),
-  dark: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().bool),
-  hover: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().bool),
-  responsive: prop_types__WEBPACK_IMPORTED_MODULE_3___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_3___default().bool), (prop_types__WEBPACK_IMPORTED_MODULE_3___default().string)]),
-  tag: _utils__WEBPACK_IMPORTED_MODULE_5__.tagPropType,
-  responsiveTag: _utils__WEBPACK_IMPORTED_MODULE_5__.tagPropType,
-  innerRef: prop_types__WEBPACK_IMPORTED_MODULE_3___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_3___default().func), (prop_types__WEBPACK_IMPORTED_MODULE_3___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_3___default().object)])
-};
-var defaultProps = {
-  tag: 'table',
-  responsiveTag: 'div'
-};
-
-var Table = function Table(props) {
-  var className = props.className,
-      cssModule = props.cssModule,
-      size = props.size,
-      bordered = props.bordered,
-      borderless = props.borderless,
-      striped = props.striped,
-      dark = props.dark,
-      hover = props.hover,
-      responsive = props.responsive,
-      Tag = props.tag,
-      ResponsiveTag = props.responsiveTag,
-      innerRef = props.innerRef,
-      attributes = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__.default)(props, ["className", "cssModule", "size", "bordered", "borderless", "striped", "dark", "hover", "responsive", "tag", "responsiveTag", "innerRef"]);
-
-  var classes = (0,_utils__WEBPACK_IMPORTED_MODULE_5__.mapToCssModules)(classnames__WEBPACK_IMPORTED_MODULE_4___default()(className, 'table', size ? 'table-' + size : false, bordered ? 'table-bordered' : false, borderless ? 'table-borderless' : false, striped ? 'table-striped' : false, dark ? 'table-dark' : false, hover ? 'table-hover' : false), cssModule);
-  var table = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(Tag, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({}, attributes, {
-    ref: innerRef,
-    className: classes
-  }));
-
-  if (responsive) {
-    var responsiveClassName = (0,_utils__WEBPACK_IMPORTED_MODULE_5__.mapToCssModules)(responsive === true ? 'table-responsive' : "table-responsive-" + responsive, cssModule);
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(ResponsiveTag, {
-      className: responsiveClassName
-    }, table);
-  }
-
-  return table;
-};
-
-Table.propTypes = propTypes;
-Table.defaultProps = defaultProps;
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Table);
-
-/***/ }),
-
 /***/ "./resources/js/src/components/UI/Chevrons/Chevrons.css":
 /*!**************************************************************!*\
   !*** ./resources/js/src/components/UI/Chevrons/Chevrons.css ***!
@@ -1767,10 +1259,10 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
-/***/ "./resources/js/src/containers/Frontend/Exams/Exams.css":
-/*!**************************************************************!*\
-  !*** ./resources/js/src/containers/Frontend/Exams/Exams.css ***!
-  \**************************************************************/
+/***/ "./resources/js/src/containers/Frontend/About/Management/Management.css":
+/*!******************************************************************************!*\
+  !*** ./resources/js/src/containers/Frontend/About/Management/Management.css ***!
+  \******************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1778,9 +1270,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Exams_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!../../../../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./Exams.css */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/containers/Frontend/Exams/Exams.css");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Management_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!../../../../../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./Management.css */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/src/containers/Frontend/About/Management/Management.css");
 
             
 
@@ -1789,11 +1281,11 @@ var options = {};
 options.insert = "head";
 options.singleton = false;
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Exams_css__WEBPACK_IMPORTED_MODULE_1__.default, options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Management_css__WEBPACK_IMPORTED_MODULE_1__.default, options);
 
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Exams_css__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_Management_css__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
 
 /***/ })
 

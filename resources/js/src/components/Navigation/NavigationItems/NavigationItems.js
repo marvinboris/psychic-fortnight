@@ -21,6 +21,7 @@ export default ({ light = false, font, toggleNavbar, selectItem, selectedItem })
 
         <div className="col-md-4">
             {dropdownItemAbout("Cadre de la DGSN", null, true, "/management", [
+                { link: '/', text: 'Cadres de la sûreté nationale' },
                 { link: '/guardians', text: 'Gardiens de la paix' },
                 { link: '/inspectors', text: 'Inspecteurs de la police' },
                 { link: '/officers', text: 'Officiers de la police' },

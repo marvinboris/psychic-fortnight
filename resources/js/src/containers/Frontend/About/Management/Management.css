@@ -1,0 +1,38 @@
+.Frontend .Management .nav-link {
+    border-radius: 15px 15px 0 0;
+    color: var(--border);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 0.25s;
+}
+
+.Frontend .Management .nav-link .icon {
+    opacity: 0;
+    margin-right: 0;
+    width: 0;
+    transition: all 0.25s;
+}
+
+.Frontend .Management .nav-link.active {
+    background-color: var(--blue);
+    color: white;
+}
+
+.Frontend .Management .nav-link.active .icon {
+    opacity: 1;
+    margin-right: 0.5rem;
+    width: auto;
+}
+
+@media (min-width: 800px) {
+    .Frontend .Management .nav-link.active .icon {
+        margin-right: 1rem;
+    }
+}
+
+@media (min-width: 1900px) {
+    .Frontend .Management .nav-link.active .icon {
+        margin-right: 2rem;
+    }
+}

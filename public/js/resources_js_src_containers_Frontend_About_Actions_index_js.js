@@ -269,7 +269,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
-var Condition = function Condition(_ref) {
+var Li = function Li(_ref) {
   var children = _ref.children;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
     className: "d-flex",
@@ -412,19 +412,19 @@ var Actions = /*#__PURE__*/function (_Component) {
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
             className: "py-3 py-md-4 py-xxl-5 my-2 my-md-3 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
               children: "Le renforcement de la couverture s\xE9curitaire nationale par la cr\xE9ation de nouvelles unit\xE9s de Police dans les localit\xE9s frontali\xE8res du Cameroun. Ainsi, 25 nouveaux postes-fronti\xE8res ont \xE9t\xE9 cr\xE9\xE9s dans les R\xE9gions de l\u2019Adamaoua, de l\u2019Est, de l\u2019Extr\xEAme-Nord, du Nord et du Sud. De m\xEAme, plusieurs postes-fronti\xE8res ont \xE9t\xE9 \xE9rig\xE9s en unit\xE9s de s\xE9curit\xE9 publique ;"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
               children: "La mise en exp\xE9rimentation d\u2019un syst\xE8me de vid\xE9o surveillance, pour mieux surveiller nos fronti\xE8res (Garoua-Boula\xEF, Kousseri, Waza et Kye-Ossi) ; et veiller davantage sur les populations urbaines des villes de Yaound\xE9 et Douala pour ne citer que celles-l\xE0 ;"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
               children: "La mise en place des num\xE9ros gratuits d\u2019utilit\xE9 publique pour : favoriser les d\xE9nonciations aux tracasseries polici\xE8res ; donner les informations capitales ; renseigner utile ; appeler \xE0 l\u2019aide. Ces num\xE9ros sont le 117, le 120 et le 1500 qui est directement supervis\xE9 par le D\xE9l\xE9gu\xE9 G\xE9n\xE9ral en personne ;"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
               children: "La cr\xE9ation du Cours Sup\xE9rieur de S\xE9curit\xE9 Int\xE9rieure du Cameroun (CSSIC) en vue de renforcer les capacit\xE9s des fonctionnaires de la S\xFBret\xE9 Nationale dans la ma\xEEtrise des d\xE9fis s\xE9curitaires contemporains ;"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
               children: "L\u2019ajustement technique de la carte nationale d\u2019identit\xE9 en vue d\u2019une meilleure s\xE9curisation de la nationalit\xE9 camerounaise ;"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
               children: "La politique de constitution des unit\xE9s mixtes pour lutter contre certaines formes de criminalit\xE9 internationale, avec la cr\xE9ation par d\xE9cret n\xB0 2014/413 du 22 octobre 2014, des Cellules A\xE9roportuaires Anti-Trafics (CAAT) dans les a\xE9roports internationaux du Cameroun ;"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
               children: "Le renforcement de la coop\xE9ration bilat\xE9rale avec les Etats limitrophes par la signature des accords de coop\xE9ration polici\xE8re."
             })]
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
@@ -434,29 +434,29 @@ var Actions = /*#__PURE__*/function (_Component) {
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
             className: "py-3 py-md-4 py-xxl-5 my-2 my-md-3 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
               children: "Le renforcement des capacit\xE9s op\xE9rationnelles par la dotation r\xE9cente des moyens d\u2019intervention avec l\u2019acquisition des v\xE9hicules ad\xE9quats \xE0 toutes les unit\xE9s du territoire national ;"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
               children: "Le renforcement des capacit\xE9s d\u2019intervention du (GSO) Groupement Sp\xE9cial d\u2019Op\xE9rations par la dotation des \xAB combinaisons Robocops de d\xE9minage \xBB ;"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
               children: "La dotation du mat\xE9riel \xE0 la technologie de pointe de derni\xE8re g\xE9n\xE9ration \xE0 la Division des Transmissions pour les r\xE9seaux de Communication et de T\xE9l\xE9communication ;"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
               children: "Le recrutement plus de 10.000 policiers. Un recrutement encadr\xE9 par le m\xE9rite qui vise le rajeunissement et le renforcement consid\xE9rable des effectifs de la S\xFBret\xE9 Nationale ;"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
               children: "L\u2019informatisation de ce processus est une grande premi\xE8re dans les concours administratifs. Cette informatisation vise \xE0 garantir l\u2019\xE9galit\xE9 de chance pour tous ;"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
               children: "L\u2019extension des bases de donn\xE9es criminelles d\u2019INTERPOL dans les postes-fronti\xE8res afin de permettre le contr\xF4le en temps r\xE9el par les agents de premi\xE8re ligne ;"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
               children: "L\u2019adh\xE9sion du Cameroun au programme INTERPOL de gestion des fronti\xE8res afin de renforcer, par une formation appropri\xE9e et des op\xE9rations de police, les capacit\xE9s des services nationaux charg\xE9s de l\u2019application de la loi dans la s\xE9curisation des fronti\xE8res nationales ;"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
               children: "L\u2019acquisition des \xE9quipements sophistiqu\xE9s de lutte contre le terrorisme et la criminalit\xE9 ;"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
               children: "L\u2019effectivit\xE9 du fonctionnement du syst\xE8me intelligent de vid\xE9osurveillance qui est un outil moderne de surveillance en zone urbaine et frontali\xE8re et de facilitation des investigations criminelles ;"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
               children: "Les h\xF4tels de Police dont les travaux sont achev\xE9s pour certains et en cours pours d\u2019autres, permettront d\u2019am\xE9liorer consid\xE9rablement le cadre et le confort de travail des fonctionnaires de Police ;"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
               children: "La r\xE9habilitation de plusieurs unit\xE9s de Police qui se poursuit sur toute l\u2019\xE9tendue du territoire national ;"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
               children: "La mise \xE0 la disposition progressive des unit\xE9s op\xE9rationnelles, des moyens roulants afin d\u2019accroitre leur rendement."
             })]
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {

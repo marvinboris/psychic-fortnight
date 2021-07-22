@@ -269,7 +269,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
-var Condition = function Condition(_ref) {
+var Li = function Li(_ref) {
   var children = _ref.children;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
     className: "d-flex",
@@ -332,13 +332,13 @@ var Missions = /*#__PURE__*/function (_Component) {
                 }), " portant organisation de la D\xE9l\xE9gation G\xE9n\xE9rale \xE0 la S\xFBret\xE9 Nationale de la mani\xE8re suivante :"]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
                 className: "py-3 py-md-4 py-xxl-5 my-2 my-md-3 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
                   children: "La S\xFBret\xE9 Nationale a pour mission fondamentale d\u2019assurer le respect et la protection des institutions, des libert\xE9s publiques, des personnes et des biens ;"
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
                   children: "Elle assure le respect de l\u2019ex\xE9cution des lois et r\xE8glements ;"
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
                   children: "Elle concourt \xE0 l\u2019exercice de la Police administrative et de la Police judiciaire ;"
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
                   children: "Elle concourt en outre \xE0 la D\xE9fense Nationale."
                 })]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("p", {
@@ -347,19 +347,19 @@ var Missions = /*#__PURE__*/function (_Component) {
                 }), " de ce m\xEAme D\xE9cret dispose que la S\xFBret\xE9 Nationale est charg\xE9e :"]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
                 className: "py-3 py-md-4 py-xxl-5 my-2 my-md-3 pl-3 pl-md-4 pl-xxl-5 ml-3 ml-md-4 ml-xxl-5",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
                   children: "De la s\xE9curit\xE9 int\xE9rieure et ext\xE9rieure de l\u2019Etat ;"
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
                   children: "De la recherche, de la constatation des infractions aux lois p\xE9nales et de la conduite de leurs auteurs devant les juridictions r\xE9pressives ;"
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
                   children: "Du maintien de l\u2019ordre et de la paix publics, de la protection, de la s\xE9curit\xE9 et de la salubrit\xE9 publiques, plus particuli\xE8rement dans les agglom\xE9rations urbaines ;"
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
                   children: "De la lutte contre la criminalit\xE9 nationale, internationale et transnationale ;"
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
                   children: "De la recherche du renseignement ;"
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
                   children: "Des missions d\u2019information, de s\xE9curit\xE9, de protection et d\u2019intervention comportant des contacts avec les populations, dans le cadre de la D\xE9fense Nationale ;"
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Condition, {
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Li, {
                   children: "De la s\xE9curisation de la nationalit\xE9 camerounaise."
                 })]
               })]

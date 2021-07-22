@@ -143,8 +143,10 @@ const asyncAdminVerify = asyncComponent(() => import('./containers/Auth/Admin/Ve
 // Frontend routes
 const asyncAboutOrganization = asyncComponent(() => import('./containers/Frontend/About/Organization'));
 const asyncAboutMedia = asyncComponent(() => import('./containers/Frontend/About/Media'));
+const asyncAboutManagement = asyncComponent(() => import('./containers/Frontend/About/Management'));
 const asyncAboutDownloads = asyncComponent(() => import('./containers/Frontend/About/Downloads'));
 const asyncAboutJobs = asyncComponent(() => import('./containers/Frontend/About/Jobs'));
+const asyncAboutUniforms = asyncComponent(() => import('./containers/Frontend/About/Uniforms'));
 const asyncAboutActions = asyncComponent(() => import('./containers/Frontend/About/Actions'));
 const asyncAboutMissions = asyncComponent(() => import('./containers/Frontend/About/Missions'));
 const asyncAboutGenesis = asyncComponent(() => import('./containers/Frontend/About/Genesis'));
@@ -197,8 +199,10 @@ class App extends Component {
                                 <Switch>
                                     <Route path="/about/organization" component={asyncAboutOrganization} />
                                     <Route path="/about/media" component={asyncAboutMedia} />
+                                    <Route path="/about/management" component={asyncAboutManagement} />
                                     <Route path="/about/downloads" component={asyncAboutDownloads} />
                                     <Route path="/about/jobs" component={asyncAboutJobs} />
+                                    <Route path="/about/uniforms" component={asyncAboutUniforms} />
                                     <Route path="/about/actions" component={asyncAboutActions} />
                                     <Route path="/about/missions" component={asyncAboutMissions} />
                                     <Route path="/about/genesis" component={asyncAboutGenesis} />
