@@ -241,8 +241,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _Service_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Service.css */ "./resources/js/src/components/UI/Police/Service/Service.css");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
 
 
 
@@ -250,11 +252,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (function (_ref) {
   var name = _ref.name,
       icon = _ref.icon,
-      description = _ref.description;
+      description = _ref.description,
+      to = _ref.to;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
     className: "UI Service col-xl-3 col-lg-6 px-0 px-md-3 pb-4 h-100 bg-white",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-      className: "block rounded-30 pb-5",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
+      to: to,
+      className: "block rounded-30 pb-5 text-decoration-none text-reset",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
         className: "h-100 pt-4 pb-md-4 text-center",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
@@ -574,19 +578,23 @@ var Services = /*#__PURE__*/function (_Component) {
       var services = [{
         name: 'Titres identitaires',
         icon: "fad fa-id-card",
-        description: "Check out our API integration \n                documentation here. Try it and\n                start using. Our API is very \n                secured.  "
+        description: "Check out our API integration \n                documentation here. Try it and\n                start using. Our API is very \n                secured.  ",
+        to: '/services/titles'
       }, {
         name: 'Vérifier un document',
         icon: "fad fa-file-check",
-        description: "Check out our API integration \n                documentation here. Try it and\n                start using. Our API is very \n                secured.  "
+        description: "Check out our API integration \n                documentation here. Try it and\n                start using. Our API is very \n                secured.  ",
+        to: '/services/document'
       }, {
         name: 'Solliciter un passeport',
         icon: "fad fa-passport",
-        description: "Check out our API integration \n                documentation here. Try it and\n                start using. Our API is very \n                secured.  "
+        description: "Check out our API integration \n                documentation here. Try it and\n                start using. Our API is very \n                secured.  ",
+        to: '/services/passport'
       }, {
         name: 'Solliciter un visa',
         icon: "fad fa-stamp",
-        description: "Check out our API integration \n                documentation here. Try it and\n                start using. Our API is very \n                secured.  "
+        description: "Check out our API integration \n                documentation here. Try it and\n                start using. Our API is very \n                secured.  ",
+        to: '/services/visa'
       }];
       var infos = [{
         name: 'Service de renseignement',
@@ -813,7 +821,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".UI.Service > div {\r\n    background-color: var(--lightblue-35);\r\n    border: 6px solid transparent;\r\n    box-shadow: 0 0 10px 0 transparent;\r\n    height: 100%;\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n    padding-top: 42px;\r\n    padding-left: calc(3rem - 6px);\r\n    padding-right: calc(3rem - 6px);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Service > div:hover,\r\n.owl-item.center.active .UI.Service > div {\r\n    background-color: white;\r\n    border: 6px solid var(--soft-45);\r\n    box-shadow: 0 0 20px 0 var(--black-10);\r\n    padding-top: 1rem;\r\n    margin-bottom: -20px;\r\n}\r\n\r\n.UI.Service .icon {\r\n    color: var(--blue);\r\n}\r\n\r\n.UI.Service > div:hover .icon,\r\n.owl-item.center.active .UI.Service > div .icon {\r\n    color: var(--nightblue);\r\n}\r\n\r\n.UI.Service .bubble {\r\n    width: 100px;\r\n    opacity: 0;\r\n    box-shadow: 0 0 0 15px var(--lightblue-15);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Service > div:hover .bubble,\r\n.owl-item.center.active .UI.Service > div .bubble {\r\n    width: 147px;\r\n    opacity: 1;\r\n}\r\n\r\n.UI.Service .bubble-wrapper {\r\n    margin-bottom: 3rem;\r\n}\r\n\r\n.UI.Service > div:hover .bubble-wrapper,\r\n.owl-item.center.active .UI.Service > div .bubble-wrapper {\r\n    margin-bottom: 2rem;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".UI.Service .block {\r\n    display: block;\r\n    background-color: var(--lightblue-35);\r\n    border: 6px solid transparent;\r\n    box-shadow: 0 0 10px 0 transparent;\r\n    height: 100%;\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n    padding-top: 42px;\r\n    padding-left: calc(3rem - 6px);\r\n    padding-right: calc(3rem - 6px);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Service .block:hover,\r\n.owl-item.center.active .UI.Service .block {\r\n    background-color: white;\r\n    border: 6px solid var(--soft-45);\r\n    box-shadow: 0 0 20px 0 var(--black-10);\r\n    padding-top: 1rem;\r\n    margin-bottom: -20px;\r\n}\r\n\r\n.UI.Service .icon {\r\n    color: var(--blue);\r\n}\r\n\r\n.UI.Service .block:hover .icon,\r\n.owl-item.center.active .UI.Service .block .icon {\r\n    color: var(--nightblue);\r\n}\r\n\r\n.UI.Service .bubble {\r\n    width: 100px;\r\n    opacity: 0;\r\n    box-shadow: 0 0 0 15px var(--lightblue-15);\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Service .block:hover .bubble,\r\n.owl-item.center.active .UI.Service .block .bubble {\r\n    width: 147px;\r\n    opacity: 1;\r\n}\r\n\r\n.UI.Service .bubble-wrapper {\r\n    margin-bottom: 3rem;\r\n    transition: all 0.25s;\r\n}\r\n\r\n.UI.Service .block:hover .bubble-wrapper,\r\n.owl-item.center.active .UI.Service .block .bubble-wrapper {\r\n    margin-bottom: 2rem;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

@@ -1,4 +1,5 @@
-.UI.Service > div {
+.UI.Service .block {
+    display: block;
     background-color: var(--lightblue-35);
     border: 6px solid transparent;
     box-shadow: 0 0 10px 0 transparent;
@@ -11,8 +12,8 @@
     transition: all 0.25s;
 }
 
-.UI.Service > div:hover,
-.owl-item.center.active .UI.Service > div {
+.UI.Service .block:hover,
+.owl-item.center.active .UI.Service .block {
     background-color: white;
     border: 6px solid var(--soft-45);
     box-shadow: 0 0 20px 0 var(--black-10);
@@ -24,8 +25,8 @@
     color: var(--blue);
 }
 
-.UI.Service > div:hover .icon,
-.owl-item.center.active .UI.Service > div .icon {
+.UI.Service .block:hover .icon,
+.owl-item.center.active .UI.Service .block .icon {
     color: var(--nightblue);
 }
 
@@ -36,17 +37,18 @@
     transition: all 0.25s;
 }
 
-.UI.Service > div:hover .bubble,
-.owl-item.center.active .UI.Service > div .bubble {
+.UI.Service .block:hover .bubble,
+.owl-item.center.active .UI.Service .block .bubble {
     width: 147px;
     opacity: 1;
 }
 
 .UI.Service .bubble-wrapper {
     margin-bottom: 3rem;
+    transition: all 0.25s;
 }
 
-.UI.Service > div:hover .bubble-wrapper,
-.owl-item.center.active .UI.Service > div .bubble-wrapper {
+.UI.Service .block:hover .bubble-wrapper,
+.owl-item.center.active .UI.Service .block .bubble-wrapper {
     margin-bottom: 2rem;
 }

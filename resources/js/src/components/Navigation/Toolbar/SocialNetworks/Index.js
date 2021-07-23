@@ -6,13 +6,13 @@ import './SocialNetworks.css';
 export default class SocialNetworks extends Component {
     render() {
         return <div className="SocialNetworks">
-            <div class="Bouton_reseaux">
-                <div class="blob-nav">
-                    <div class="wobble"></div>
+            <div className="Bouton_reseaux">
+                <div className="blob-nav">
+                    <div className="wobble"></div>
 
-                    <div class="wobble"></div>
+                    <div className="wobble"></div>
 
-                    <div id="toggle-nav" class="toggle" onClick={function () {
+                    <div id="toggle-nav" className="toggle" onClick={function () {
                         $('.Frontend .Toolbar .SocialNetworks .nav-item').toggleClass('slide-out');
                         $('.Frontend .Toolbar .SocialNetworks .hamburger-1').toggleClass('cross-right');
                         $('.Frontend .Toolbar .SocialNetworks .hamburger-2').toggleClass('cross-hide');
@@ -22,16 +22,16 @@ export default class SocialNetworks extends Component {
                             $('.Frontend .Toolbar .SocialNetworks .wobble').removeClass('ripple');
                         }, 1000);
                     }}>
-                        <span class="hamburger hamburger-1"></span>
-                        <span class="hamburger hamburger-2"></span>
-                        <span class="hamburger hamburger-3"></span>
+                        <span className="hamburger hamburger-1"></span>
+                        <span className="hamburger hamburger-2"></span>
+                        <span className="hamburger hamburger-3"></span>
                     </div>
 
                     <nav>
-                        <div class="nav-item"><i class="fas fa-phone-alt"></i></div>
-                        <div class="nav-item"><i class="fas fa-envelope"></i></div>
-                        <div class="nav-item"><i class="fa fa-facebook"></i></div>
-                        <div class="nav-item"><i class="fa fa-twitter"></i></div>
+                        <div className="nav-item"><i className="fas fa-phone-alt"></i></div>
+                        <div className="nav-item"><i className="fas fa-envelope"></i></div>
+                        <div className="nav-item"><i className="fa fa-facebook"></i></div>
+                        <div className="nav-item"><i className="fa fa-twitter"></i></div>
                     </nav>
                 </div>
             </div>

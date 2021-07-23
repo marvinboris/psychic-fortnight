@@ -95,7 +95,8 @@ class Services extends Component {
                 description: `Check out our API integration 
                 documentation here. Try it and
                 start using. Our API is very 
-                secured.  `
+                secured.  `,
+                to: '/services/titles'
             },
             {
                 name: 'Vérifier un document',
@@ -103,7 +104,8 @@ class Services extends Component {
                 description: `Check out our API integration 
                 documentation here. Try it and
                 start using. Our API is very 
-                secured.  `
+                secured.  `,
+                to: '/services/document'
             },
             {
                 name: 'Solliciter un passeport',
@@ -111,7 +113,8 @@ class Services extends Component {
                 description: `Check out our API integration 
                 documentation here. Try it and
                 start using. Our API is very 
-                secured.  `
+                secured.  `,
+                to: '/services/passport'
             },
             {
                 name: 'Solliciter un visa',
@@ -119,7 +122,8 @@ class Services extends Component {
                 description: `Check out our API integration 
                 documentation here. Try it and
                 start using. Our API is very 
-                secured.  `
+                secured.  `,
+                to: '/services/visa'
             },
         ];
         const infos = [

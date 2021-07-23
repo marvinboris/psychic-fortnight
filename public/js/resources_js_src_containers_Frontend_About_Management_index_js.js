@@ -491,7 +491,7 @@ var Management = /*#__PURE__*/function (_Component) {
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("div", {
           className: "col-12 bg-lightblue-30 py-5",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("div", {
-            className: "container-xxl text-right text-500 text-blue text-24 text-md-32 text-xxl-40 my-3",
+            className: "container-xxl text-left text-500 text-blue text-24 text-md-32 text-xxl-40 my-3",
             children: "Missions"
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("div", {

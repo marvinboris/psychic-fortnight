@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Service.css';
 
-export default ({ name, icon, description }) => <div className="UI Service col-xl-3 col-lg-6 px-0 px-md-3 pb-4 h-100 bg-white">
-    <div className="block rounded-30 pb-5">
+export default ({ name, icon, description, to }) => <div className="UI Service col-xl-3 col-lg-6 px-0 px-md-3 pb-4 h-100 bg-white">
+    <Link to={to} className="block rounded-30 pb-5 text-decoration-none text-reset">
         <div className="h-100 pt-4 pb-md-4 text-center">
             <div className="bubble-wrapper">
                 <div className="d-flex justify-content-center align-items-center position-relative">
@@ -19,5 +20,5 @@ export default ({ name, icon, description }) => <div className="UI Service col-x
 
             <div className="text-13 text-md-14 text-xxl-16">{description}</div>
         </div>
-    </div>
+    </Link>
 </div>;
