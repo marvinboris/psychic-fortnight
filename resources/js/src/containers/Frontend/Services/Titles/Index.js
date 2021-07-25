@@ -411,7 +411,7 @@ class Titles extends Component {
                                         <Li>une attestation de réfugiés délivrée par le Ministre des Relations Extérieures.</Li>
                                         <Li>Le renouvellement de la carte de réfugié est subordonné à la production, par l’étranger, des pièces suivantes :</Li>
 
-                                        <div className="ml-2 ml-md-3 ml-xxl-4">
+                                        <div className="ml-3 ml-md-4 ml-xxl-5">
                                             <Li>l’ancienne attestation de réfugié, un (01) mois au moins avant l’échéance de sa validité ;</Li>
                                             <Li>l’ancienne carte de réfugié, un (01) mois au moins avant l’échéance de sa validité.</Li>
                                         </div>

@@ -879,7 +879,7 @@ var Titles = /*#__PURE__*/function (_Component) {
                     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(Li, {
                       children: "Le renouvellement de la carte de r\xE9fugi\xE9 est subordonn\xE9 \xE0 la production, par l\u2019\xE9tranger, des pi\xE8ces suivantes :"
                     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-                      className: "ml-2 ml-md-3 ml-xxl-4",
+                      className: "ml-3 ml-md-4 ml-xxl-5",
                       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(Li, {
                         children: "l\u2019ancienne attestation de r\xE9fugi\xE9, un (01) mois au moins avant l\u2019\xE9ch\xE9ance de sa validit\xE9 ;"
                       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(Li, {
