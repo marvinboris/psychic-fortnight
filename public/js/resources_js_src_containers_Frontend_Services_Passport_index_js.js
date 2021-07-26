@@ -306,12 +306,14 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 var Li = function Li(_ref) {
-  var children = _ref.children;
+  var children = _ref.children,
+      _ref$check = _ref.check,
+      check = _ref$check === void 0 ? "fas fa-badge-check" : _ref$check;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
     className: "d-flex",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("i", {
-        className: "fad fa-badge-check text-darkgreen mr-3 text-15 text-md-20 text-xxl-25"
+        className: check + " text-darkgreen mr-3 text-15 text-md-20 text-xxl-25"
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
       children: children
@@ -364,6 +366,7 @@ var Passport = /*#__PURE__*/function (_Component) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
           className: "col-xl-4 col-md-6",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(Li, {
+            check: "fad fa-check-square",
             children: item
           })
         }, item + Math.random());
@@ -372,6 +375,7 @@ var Passport = /*#__PURE__*/function (_Component) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
           className: "col-xl-4 col-md-6",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(Li, {
+            check: "fad fa-check-square",
             children: item
           })
         }, item + Math.random());
@@ -380,6 +384,7 @@ var Passport = /*#__PURE__*/function (_Component) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
           className: "col-xl-4 col-md-6",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(Li, {
+            check: "fal fa-check-square",
             children: item
           })
         }, item + Math.random());
@@ -388,6 +393,7 @@ var Passport = /*#__PURE__*/function (_Component) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
           className: "col-xl-4 col-md-6",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(Li, {
+            check: "fal fa-check-square",
             children: item
           })
         }, item + Math.random());
@@ -396,6 +402,7 @@ var Passport = /*#__PURE__*/function (_Component) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
           className: "col-md-6",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(Li, {
+            check: "fad fa-check-square",
             children: item
           })
         }, item + Math.random());
@@ -404,6 +411,7 @@ var Passport = /*#__PURE__*/function (_Component) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
           className: "col-xl-4 col-md-6",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(Li, {
+            check: "fal fa-check-square",
             children: item
           })
         }, item + Math.random());
@@ -1017,11 +1025,11 @@ var Passport = /*#__PURE__*/function (_Component) {
       return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
         className: "Passport",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_UI_Police_Title__WEBPACK_IMPORTED_MODULE_2__.default, {
-          children: "Titres identitaires"
+          children: "Passeports Biom\xE9triques"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_UI_Police_Block__WEBPACK_IMPORTED_MODULE_3__.default, {
           color: "transparent",
-          title: "Solliciter un titre identitaire",
-          subtitle: "Veuillez choisir un titre identitaire afin de poursuivre",
+          title: "Demande de passeport",
+          subtitle: "Veuillez choisir un type de passeport afin de poursuivre",
           fluid: true,
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
             className: "row",

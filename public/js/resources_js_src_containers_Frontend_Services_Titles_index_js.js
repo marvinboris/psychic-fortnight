@@ -367,7 +367,7 @@ var Li = function Li(_ref) {
     className: "d-flex",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("i", {
-        className: "fad fa-badge-check text-darkgreen mr-3 text-15 text-md-20 text-xxl-25"
+        className: "fas fa-badge-check text-darkgreen mr-3 text-15 text-md-20 text-xxl-25"
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
       children: children

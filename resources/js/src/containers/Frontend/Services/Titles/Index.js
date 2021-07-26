@@ -16,7 +16,7 @@ import ImgCS from '../../../../assets/images/SEJOUR-1536x1039@2x.png';
 import ImgCRes from '../../../../assets/images/SEJOUR-1536x1039@2x.png';
 
 const Li = ({ children }) => <div className="d-flex">
-    <div><i className="fad fa-badge-check text-darkgreen mr-3 text-15 text-md-20 text-xxl-25" /></div>
+    <div><i className="fas fa-badge-check text-darkgreen mr-3 text-15 text-md-20 text-xxl-25" /></div>
 
     <div>{children}</div>
 </div>;

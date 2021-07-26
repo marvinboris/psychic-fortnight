@@ -14,8 +14,8 @@ import ImgGP from '../../../../assets/images/green-passport@2x.png';
 import ImgRP from '../../../../assets/images/red-passport@2x.png';
 import ImgBP from '../../../../assets/images/brown-passport@2x.png';
 
-const Li = ({ children }) => <div className="d-flex">
-    <div><i className="fad fa-badge-check text-darkgreen mr-3 text-15 text-md-20 text-xxl-25" /></div>
+const Li = ({ children, check = "fas fa-badge-check" }) => <div className="d-flex">
+    <div><i className={check + " text-darkgreen mr-3 text-15 text-md-20 text-xxl-25"} /></div>
 
     <div>{children}</div>
 </div>;
@@ -97,12 +97,12 @@ class Passport extends Component {
             "les Camerounais occupant dans les organisations sous régionales, les fonctions de Directeurs jusqu’au rang de Chef de Service, ainsi que leurs conjoints et enfants mineurs non émancipés.",
         ];
 
-        const pdBefsUpContent = pdBefsUp.map(item => <div className="col-xl-4 col-md-6" key={item + Math.random()}><Li>{item}</Li></div>)
-        const pdBefsDownContent = pdBefsDown.map(item => <div className="col-xl-4 col-md-6" key={item + Math.random()}><Li>{item}</Li></div>)
-        const pdOtherBefsUpContent = pdOtherBefsUp.map(item => <div className="col-xl-4 col-md-6" key={item + Math.random()}><Li>{item}</Li></div>)
-        const pdOtherBefsDownContent = pdOtherBefsDown.map(item => <div className="col-xl-4 col-md-6" key={item + Math.random()}><Li>{item}</Li></div>)
-        const psBefsContent = psBefs.map(item => <div className="col-md-6" key={item + Math.random()}><Li>{item}</Li></div>)
-        const psOtherBefsContent = psOtherBefs.map(item => <div className="col-xl-4 col-md-6" key={item + Math.random()}><Li>{item}</Li></div>)
+        const pdBefsUpContent = pdBefsUp.map(item => <div className="col-xl-4 col-md-6" key={item + Math.random()}><Li check="fad fa-check-square">{item}</Li></div>)
+        const pdBefsDownContent = pdBefsDown.map(item => <div className="col-xl-4 col-md-6" key={item + Math.random()}><Li check="fad fa-check-square">{item}</Li></div>)
+        const pdOtherBefsUpContent = pdOtherBefsUp.map(item => <div className="col-xl-4 col-md-6" key={item + Math.random()}><Li check="fal fa-check-square">{item}</Li></div>)
+        const pdOtherBefsDownContent = pdOtherBefsDown.map(item => <div className="col-xl-4 col-md-6" key={item + Math.random()}><Li check="fal fa-check-square">{item}</Li></div>)
+        const psBefsContent = psBefs.map(item => <div className="col-md-6" key={item + Math.random()}><Li check="fad fa-check-square">{item}</Li></div>)
+        const psOtherBefsContent = psOtherBefs.map(item => <div className="col-xl-4 col-md-6" key={item + Math.random()}><Li check="fal fa-check-square">{item}</Li></div>)
 
         const navItems = [
             {
@@ -560,11 +560,11 @@ class Passport extends Component {
 
 
         return <div className="Passport">
-            <Title>Titres identitaires</Title>
+            <Title>Passeports Biométriques</Title>
 
 
 
-            <Block color="transparent" title="Solliciter un titre identitaire" subtitle="Veuillez choisir un titre identitaire afin de poursuivre" fluid>
+            <Block color="transparent" title="Demande de passeport" subtitle="Veuillez choisir un type de passeport afin de poursuivre" fluid>
                 <div className="row">
                     <div className="col-12 bg-soft">
                         <div className="container-xxl d-flex align-items-center">
