@@ -112,7 +112,7 @@ class Passport extends Component {
                 content: <>
                     <div className="my-3 my-md-4 my-xxl-5 py-3 py-md-4 py-xxl-5">
                         <div className="container-xxl">
-                            <div className="row mb-2 mb-md-3 mb-xxl-4 pb-1 pb-md-2 pb-xxl-3">
+                            <div className="row justify-content-between mb-2 mb-md-3 mb-xxl-4 pb-1 pb-md-2 pb-xxl-3">
                                 <div className="col-md-8 col-xxl-9 text-secondary">
                                     <div>
                                         <div className="d-flex align-items-center">

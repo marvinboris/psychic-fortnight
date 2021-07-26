@@ -426,7 +426,7 @@ var Passport = /*#__PURE__*/function (_Component) {
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
               className: "container-xxl",
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-                className: "row mb-2 mb-md-3 mb-xxl-4 pb-1 pb-md-2 pb-xxl-3",
+                className: "row justify-content-between mb-2 mb-md-3 mb-xxl-4 pb-1 pb-md-2 pb-xxl-3",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
                   className: "col-md-8 col-xxl-9 text-secondary",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
